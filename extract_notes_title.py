@@ -18,8 +18,11 @@ soup = bs(html, "html.parser")
 table_titleinfo = soup.find("table", class_="share-table-1d")
 
 # Extract the title and author
-title = table_titleinfo.find("a").text
-author = table_titleinfo.find_all("td")[1].text
+book_title = table_titleinfo.find("a").text
+characters = '"?'
+for c in characters:
+    book_title = book_title.replace(c, "")
+book_author = table_titleinfo.find_all("td")[1].text
 
 # Extract the last edited date
 table_edits = soup.find("table", class_="share-table-2d")
@@ -35,4 +38,4 @@ date_latest_circulation_change = datetime.strptime(date_latest_circulation_chang
 last_edit_formatted_for_filename = max(date_latest_note, date_latest_circulation_change).strftime("%Y-%m-%d %H-%M")
 
 
-print(last_edit_formatted_for_filename + " " + title + " by " + author + " book notes (downloaded " + datetime.now().strftime("%Y-%m-%d %H-%M-%S") + ")")
+print(last_edit_formatted_for_filename + " " + book_title + " by " + book_author + " book notes (downloaded " + datetime.now().strftime("%Y-%m-%d %H-%M-%S") + ")")
