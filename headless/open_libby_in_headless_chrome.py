@@ -30,10 +30,11 @@ def open_timeline():
     driver.get("https://libbyapp.com/timeline/activities/all,all,all,2022-12")
     # driver.get("https://www.yahoo.com/")
     time.sleep(300)
-    filename = "webpage.html"
+    filename = "activities.html"
     save_file(filename, driver.page_source)
     # driver.get_screenshot_as_png()
     driver.save_screenshot("screenshot.png")
+    extract_journey_url_from_book().books
 
     """ Creates data for book
     book {str}: URL
@@ -42,8 +43,7 @@ def open_timeline():
     book_data {dict}: {url, book_type, title}
     """
 def open_book(book) -> None:
-    print(book.href, book.ariaLabel.slice(0, book.ariaLabel.indexOf(":")), book.firstChild.innerText)
-    return
+    return book
 
 open_timeline()
 
