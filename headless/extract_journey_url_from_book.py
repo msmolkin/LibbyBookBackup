@@ -9,7 +9,7 @@ with open("activities.html", "r") as f:
     soup = bs(f, "html.parser")
 
 all_books = soup(class_="title-plank-details")
-books = []
+books = {}  # uses dict to save each book once
 
 for book_html in all_books:
     book = {}
@@ -27,8 +27,7 @@ for book_html in all_books:
     # I could pull the ID from div[class="cover-box-clip"], img[data-cover-slug="63301"], but this easier
     book["id"] = book["url"][book["url"].rindex("/") + 1:]
 
-    books.append(book)
-    # books[book["id"]] = book
+    books[book["id"]] = book
 
 # pprint(books)
 # print(len(books))

@@ -10,12 +10,12 @@ chrome_options = Options()
 user_agent, profile_location = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36", "/Users/michael/Library/Application Support/Google/Chrome/LibbyProfile"
 chrome_options.arguments.extend([f"user-agent={user_agent}", f"user-data-dir={profile_location}"]) # , "--headless"])
 # chrome_options.add_argument("--headless")
-# chrome_options.add_argument("--incognito")
 driver = webdriver.Chrome(options=chrome_options)
 
 
 timeline_url = "https://libbyapp.com/timeline/activities"
-years = [2023, 2022] # replace with datetime.datetime.year and year-1
+years = [2023, 2022] # replace with datetime.datetime.year and year-1.
+# maybe even just use last 12 months, if that's how they store it
 months = [i + 1 for i in range(12)]
 
 def open_all_months():
@@ -30,11 +30,10 @@ def save_file(file_name: str, html: str):
 
 def open_timeline():
     driver.get("https://libbyapp.com/timeline/activities/all,all,all,2022-12")
-    # driver.get("https://www.yahoo.com/")
-    time.sleep(30)
+    time.sleep(3)
     filename = "activities.html"
     save_file(filename, driver.page_source)
-    # driver.save_screenshot("screenshot.png")
+
     print(extract_journey_url_from_book.books)
 
     """ Creates data for book
@@ -47,11 +46,6 @@ def open_book(book) -> object:
     return book
 
 open_timeline()
-
-# using JS to get the data for every book on the page: URL, is it a book or audiobook, book title
-# for (book of $$("a.title-plank-action.halo")) {
-#     console.log(book.href, book.ariaLabel.slice(0, book.ariaLabel.indexOf(":")), book.firstChild.innerText)
-# }
 
 # Note: if "activities/journey" not in URL, then there was a problem with this book
 # https://libbyapp.com/timeline/activities/journey/82669
