@@ -17,15 +17,18 @@ def read_activities_file_and_extract_books() -> list:
         soup = bs(f, "html.parser")
 
     books_on_this_page = soup(class_="title-plank-details")
+    print(len(books_on_this_page))
+    base = "https://libbyapp.com"
 
     for book_html in books_on_this_page:
         book = {}
 
-        base = "https://libbyapp.com"
         book["url"] = base + book_html.find("a", class_="title-plank-journey")["href"]
+        
+        book["id"] = book["url"][book["url"].rindex("/") + 1:]
 
         tpa_aria_label = book_html.find("a", class_="title-plank-action").attrs["aria-label"]
-        book["type"] = tpa_aria_label[:tpa_aria_label.index(":")]  # book.ariaLabel.slice(0, book.ariaLabel.indexOf(":"))
+        book["type"] = tpa_aria_label[:tpa_aria_label.index(":")]
         
         book["title"] = book_html("a")[0].find("span", class_ = "title-plank-title").text
         book["title"] = re.sub("&nbsp;|\xa0", " ", book["title"])
@@ -33,12 +36,8 @@ def read_activities_file_and_extract_books() -> list:
 
         book["author"] = book_html.find(class_="title-plank-author").text
 
-        # I could pull the ID a bit cleaner from img[data-cover-slug="{book_id}"], but this is easier to code:
-        book["id"] = book["url"][book["url"].rindex("/") + 1:]
-
         books[book["id"]] = book
-
-        return books
+    return books
 
 # pprint(books)
 # print(len(books))
