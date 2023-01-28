@@ -15,8 +15,7 @@ chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(options=chrome_options)
 
 
-timeline_url = "https://libbyapp.com/timeline/activities"
-
+timeline_base_url = "https://libbyapp.com/timeline/activities/"
 
 def create_all_months() -> list:
     today = datetime.today()
@@ -35,13 +34,16 @@ def save_file(file_name: str, html: str):
 def open_timeline():
     months = create_all_months()
     for year_month in months:
-        driver.get(f"https://libbyapp.com/timeline/activities/all,all,all,{year_month}")
+        timeline_url = f"{timeline_base_url}all,all,all,{year_month}"
+        driver.get(timeline_url)
         time.sleep(3)
         filename = "month_activities.html"
         save_file(filename, driver.page_source)
 
         extract_journey_url_from_book.read_activities_file_and_extract_books()
-        print(year_month, extract_journey_url_from_book.books)
+    print(extract_journey_url_from_book.books)
+    with open("all_books_activities.html", "w") as list_of_books:
+        list_of_books.write(extract_journey_url_from_book.books)
 
     """ Creates data for book
     book {str}: URL
