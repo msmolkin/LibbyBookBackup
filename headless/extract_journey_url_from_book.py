@@ -39,9 +39,11 @@ def read_activities_file_and_extract_books() -> list:
         books[book["id"]] = book
     return books
 
-# pprint(books)
-# print(len(books))
 
 if __name__ == "__main__":
     # test
     read_activities_file_and_extract_books()
+    from pprint import pprint
+
+    # pprint(books)
+    # print(len(books))
