@@ -48,30 +48,28 @@ def get_export_buttons_with_selenium() -> list:
     # section with the buttons to "Export Your Data" as CSV/HTML/JSON
     export_urls = {}
     for export_type in ("Table", "Spreadsheet", "Data"):
-        driver.get("https://libbyapp.com/timeline/activities/journey/1337141")
+        timeline_url = "https://libbyapp.com/timeline/activities/journey/1337141"
+        driver.get(timeline_url)
         try:
             actions_button = WebDriverWait(driver, 10).until(
                 EC.element_to_be_clickable((By.XPATH, "//button[@class='shelf-actions' and @type='button']"))
             )
             actions_button.click()
-            # time.sleep(3)
-            print("actions_button")
 
-            menu_button_export = WebDriverWait(driver, 3).until(
-                EC.presence_of_element_located((By.XPATH, "//span[@role='text' and text() = 'Export Reading Data']"))
+            menu_button_export = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, "//span[@role='text' and text() = 'Export Reading Data']"))
             )
             menu_button_export.click()
-            # time.sleep(3)
-            print("menu_button_export")
 
             export_type_button = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, f"//a[@class='halo' and @role='button']/span[@role='text' and text() = '{export_type}']"))
+                EC.element_to_be_clickable((By.XPATH, f"//a[@class='halo' and @role='button']/span[@role='text' and text() = '{export_type}']"))
             )
             export_type_button.click()
-            # time.sleep(3)
+            time.sleep(3)
             print("export_type_button")
 
             print(driver.current_url)
+            
             export_urls[export_type] = driver.current_url
             if export_type == "Spreadsheet":
                 export_urls["Spreadsheet"] = {
