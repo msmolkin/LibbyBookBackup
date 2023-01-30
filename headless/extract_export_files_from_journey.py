@@ -71,17 +71,16 @@ def get_export_buttons_with_selenium() -> list:
             print(driver.current_url)
             export_urls[export_type] = driver.current_url
             if export_type == "Spreadsheet":
-                continue
+                export_urls["Spreadsheet"] = {
+                    "Circulation": driver.find_element(By.LINK_TEXT, "Circulation").get_attribute("href"),
+                    "Reading Journey": driver.find_element(By.LINK_TEXT, "Reading Journey").get_attribute("href")
+                }
+                print(export_urls["Spreadsheet"])
+            else:
+                export_urls[export_type] = driver.current_url
         except:
-            driver.quit()
+            # driver.quit()
             exit()
-
-        try:
-            element = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.ID, "myDynamicElement"))
-            )
-        finally:
-            driver.quit()
     print(export_urls)
 
     # .click() # "//span[@role='text'][text()='Export Reading Data'").click()
