@@ -1,0 +1,794 @@
+<html class="data-libby-ribbon_charlie data-lang_en-US data-app-notices_0 data-footer_raise data-realm_timeline data-client_ready data-splash_hide data-network_unreachable data-sync_offline data-aide-lighting_dark data-aide-lighting-hues_invert data-scrollfocus_modal" lang="en-US" style="--c-h-library-1:202; --c-s-library-1:96%; --c-l-library-1:36%; --c-hsla-library-1:hsla(202,96%,36%,1); --c-h-library-1--contrast:0; --c-s-library-1--contrast:0%; --c-l-library-1--contrast:100%; --c-hsla-library-1--contrast:hsla(0,0%,100%,1); --c-h-library-2:0; --c-s-library-2:0%; --c-l-library-2:18%; --c-hsla-library-2:hsla(0,0%,18%,1); --c-h-library-2--contrast:0; --c-s-library-2--contrast:0%; --c-l-library-2--contrast:100%; --c-hsla-library-2--contrast:hsla(0,0%,100%,1); --c-h-library-3:202; --c-s-library-3:96%; --c-l-library-3:36%; --c-hsla-library-3:hsla(202,96%,36%,1); --c-h-library-3--contrast:0; --c-s-library-3--contrast:0%; --c-l-library-3--contrast:100%; --c-hsla-library-3--contrast:hsla(0,0%,100%,1); --c-h-library-4:0; --c-s-library-4:0%; --c-l-library-4:41%; --c-hsla-library-4:hsla(0,0%,41%,1); --c-h-library-4--contrast:0; --c-s-library-4--contrast:0%; --c-l-library-4--contrast:100%; --c-hsla-library-4--contrast:hsla(0,0%,100%,1);"><script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script><script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script><head><style data-merge-styles="true"></style>
+    <style data-merge-styles="true"></style><title>Libby - Leaders Eat Last</title>
+
+    <meta charset="utf-8">
+    <meta name="x-dewey-version" content="14.0.1">
+    <meta name="x-dewey-env" content="charlie">
+    <meta name="x-roster-root" content="https://libbyapp.com">
+    <meta name="x-sentry-uri" content="https://sentry-read.svc.overdrive.com">
+    <meta name="x-sage-uri" content="https://sage.svc.overdrive.com">
+    <meta name="x-playwright-uri" content="">
+    <meta name="x-vandal-uri" content="https://vandal.svc.overdrive.com">
+    <meta name="x-thunder-uri" content="https://thunder.api.overdrive.com">
+    <meta name="x-autocomplete-uri" content="https://autocomplete.api.overdrive.com">
+    <meta name="x-autocomplete-key" content="5cb45000b7f1451689d2a643dbbdbf47">
+    <meta name="x-ntc-api-uri" content="https://ntc.api.overdrive.com">
+    <meta name="x-ntc-site-uri" content="https://extras.overdrive.com">
+    <meta name="x-ntc-target-client" content="ntc-website">
+    <meta name="x-omc-faq-uri" content="https://help.libbyapp.com/en-us/switch-to-libby-faqs.htm">
+
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#000000">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <link rel="manifest" href="/dewey-14.0.1/inc/web-app-manifest.json">
+
+    <link rel="icon" href="/dewey-14.0.1/inc/images/libby-icon-android-192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/dewey-14.0.1/inc/images/libby-icon-ios-180.png" sizes="180x180">
+
+    <style type="text/css" id="SPARK-splash">
+      html {
+  font-size: 10px;
+}
+body {
+  background: #F7F7F7;
+}
+#SPARK-style-canary {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.resource-error body {
+  overflow: auto;
+}
+.resource-error .splash,
+.resource-error .arena {
+  display: none;
+}
+.resource-error-message {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 300px;
+  margin: auto;
+  color: #111;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco",Roboto,"Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+  -ms-content-zooming: none;
+  -ms-content-zoom-chaining: chained;
+  -ms-content-zoom-limit-min: 100%;
+  -ms-content-zoom-limit-max: 100%;
+  -ms-touch-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.resource-error-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: block;
+  width: 100%;
+  color: #FFF;
+  background-color: #A61C49;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 12px;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.25);
+  outline: none !important;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid transparent;
+  border-top-width: 0;
+  border-bottom-width: 3px;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer;
+}
+.resource-error-button:active {
+  border-width: 1px;
+  border-top-width: 2px;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.resource-error-message p {
+}
+.resource-error-message p a {
+  color: #A61C49;
+  text-decoration: underline;
+}
+.resource-error-reattempts {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  padding: 32px;
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #CCC;
+}
+.spinner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 64px;
+  height: 64px;
+}
+.spinner line {
+  opacity: 0.2;
+  animation: spinner-spoke 1440ms infinite;
+}
+.spinner line:nth-child(1) { animation-delay: 0; }
+.spinner line:nth-child(2) { animation-delay: 120ms; }
+.spinner line:nth-child(3) { animation-delay: 240ms; }
+.spinner line:nth-child(4) { animation-delay: 360ms; }
+.spinner line:nth-child(5) { animation-delay: 480ms; }
+.spinner line:nth-child(6) { animation-delay: 600ms; }
+.spinner line:nth-child(7) { animation-delay: 720ms; }
+.spinner line:nth-child(8) { animation-delay: 840ms; }
+.spinner line:nth-child(9) { animation-delay: 960ms; }
+.spinner line:nth-child(10) { animation-delay: 1080ms; }
+.spinner line:nth-child(11) { animation-delay: 1200ms; }
+.spinner line:nth-child(12) { animation-delay: 1320ms; }
+@keyframes spinner-spoke {
+  0% { opacity: 0.2; }
+  20% { opacity: 1; }
+  40% { opacity: 0.2; }
+}
+.splash {
+  z-index: 999999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.splash .wall {
+  width: 100%;
+  height: 100%;
+  border: 40vw solid #F7F7F7;
+  border-top-width: 40vh;
+  border-bottom-width: 40vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  opacity: 1;
+  transform: none;
+  transition: opacity 100ms, transform 500ms ease-in-out;
+  will-change: transform;
+}
+.splash .porthole {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  box-shadow: 0 0 0 500px #F7F7F7;
+}
+.splash .spinner {
+  width: 172px;
+  height: 172px;
+  opacity: 0.1;
+  transition: opacity 300ms linear 200ms;
+}
+.splash .cameo {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #631A35;
+  transition: opacity 300ms linear 200ms;
+}
+.splash .cameo .libby {
+  transform: translate3d(176px, 467px, 0);
+}
+
+.splash .cameo .book {
+  transform: translate3d(93px, 668px, 0);
+}
+
+.data-libby-ribbon_beta .splash .ribbon { fill: #FF6557; }
+.data-libby-ribbon_alpha .splash .ribbon { fill: #F9A61F; }
+.data-libby-ribbon_dev .splash .ribbon { fill: #FF00FF; }
+
+.data-splash_animate .splash {
+  pointer-events: none;
+}
+.data-splash_animate .splash .wall {
+  opacity: 0;
+  transform: scale(20);
+  transition: opacity 100ms linear 900ms, transform 500ms ease-in-out 500ms;
+}
+.data-splash_animate .splash .spinner {
+  opacity: 0;
+  transition: opacity 600ms;
+}
+.data-splash_animate .splash .cameo {
+  opacity: 0;
+  transition: opacity 200ms linear 300ms;
+}
+.data-splash_animate .splash .cameo .libby {
+  transform: translate3d(176px, 1200px, 0);
+  transition: transform 400ms ease-in-out;
+}
+.data-splash_animate .splash .cameo .book {
+  transform: translate3d(93px, 1000px, 0);
+  transition: transform 400ms ease-in-out;
+}
+.data-splash_hide .splash {
+  display: none;
+}
+
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background: #000;
+  }
+  .splash .wall {
+    border-color: #000;
+  }
+  .splash .porthole {
+    box-shadow: 0 0 0 500px #000;
+  }
+  .resource-error-message {
+    color: #DDD;
+  }
+  .resource-error-reattempts {
+    color: #555;
+  }
+}
+
+    </style>
+  <style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }
+[touch-action="auto"]{ -ms-touch-action: auto; touch-action: auto; }
+[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }
+[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }
+[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }
+</style></head>
+  <body>
+    <div class="splash" aria-hidden="true">
+      <div class="wall">
+        <div class="porthole"></div>
+      </div>
+      <svg class="spinner" version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-linecap="round" stroke-width="1">
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="32" x2="32" y1="12.875" y2="16.125"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="41.5625" x2="39.9375" y1="15.4372642" y2="18.2518467"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="48.5627358" x2="45.7481533" y1="22.4375" y2="24.0625"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="51.125" x2="47.875" y1="32" y2="32"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="48.5627358" x2="45.7481533" y1="41.5625" y2="39.9375"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="41.5625" x2="39.9375" y1="48.5627358" y2="45.7481533"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="32" x2="32" y1="51.125" y2="47.875"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="22.4375" x2="24.0625" y1="48.5627358" y2="45.7481533"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="15.4372642" x2="18.2518467" y1="41.5625" y2="39.9375"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="12.875" x2="16.125" y1="32" y2="32"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="15.4372642" x2="18.2518467" y1="22.4375" y2="24.0625"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="22.4375" x2="24.0625" y1="15.4372642" y2="18.2518467"></line>
+  </g>
+</svg>
+
+      <svg class="cameo color-fast" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <g class="mascot-symbol" fill="none" fill-rule="evenodd">
+    <path class="field" fill="#631A35" d="M0 0h1024v1024H0z"></path>
+    <g class="libby" transform="translate(176 467)">
+      <path class="bob" fill="#A61C49" d="M102.774084 639.955556C39.5954783 589.033715.35555556 512.592257.35555556 412.903215c0-195.085066 150.27313644-336.1476594 336.14765944-336.1476594 184.868093 0 335.141229 141.0508744 335.141229 336.1476594 0 99.692227-39.237715 176.132058-102.278916 227.052341H102.774084z"></path>
+      <circle class="face" cx="336" cy="410.4" r="301.511111" fill="#FFEEAA"></circle>
+      <path class="ribbon" fill="#29CFC3" d="M576.577778.8s-55.699561 27.2560909-67.854824 27.2560909C496.567691 28.0560909 440.044444.8 440.044444.8v71.3863555c51.510478 15.0494556 98.043397 42.9743705 136.533334 77.9469775V.8z"></path>
+      <path class="right-hair" fill="#A61C49" d="M496.541742 355.218377c39.715368-49.471221 70.43069-106.476743 89.661807-168.532407 53.113158 59.452395 85.440895 138.005419 85.440895 224.217245 0 34.454905-5.219868 67.708125-14.910713 99.010767L496.541742 355.218377z"></path>
+      <path class="left-hair" fill="#A61C49" d="M22.8771373 531.741118C8.33001652 494.240385.35555556 453.489716.35555556 410.903215c0-185.874523 150.27313644-336.1476594 336.14765944-336.1476594 93.250019 0 177.697928 38.2344884 238.497631 99.9865304-64.492686 208.969225-259.16976 360.81347-489.3119571 360.81347-21.2649447 0-42.2271022-1.296386-62.8117516-3.814438z"></path>
+      <path class="smile" fill="#631A35" d="M337.555882 636.444444c31.792688 0 65.508184-24.578903 57.307307-41.750517-4.353455-8.853154-28.279872 11.259499-57.307307 11.597366-27.640268-.213934-51.318608-18.607195-56.16116-11.597366-11.942657 16.785547 25.357338 41.750517 56.16116 41.750517z"></path>
+      <path class="eye-open" fill="#631A35" d="M425.65447 480.857942c-.805048-3.242227-1.232248-6.633347-1.232248-10.124089 0-23.159427 18.804041-41.933853 42-41.933853 23.19596 0 42 18.774426 42 41.933853 0 16.005671-8.981384 29.916931-22.186793 36.983912-4.536068-18.268423-21.06804-31.809765-40.767752-31.809765-7.165041 0-13.911031 1.791345-19.813207 4.949942z"></path>
+      <path class="eye-closed" fill="#631A35" d="M479.218455 507.8c-28.996325 0-61.544543-37.51438-57.892334-42.895687 3.65221-5.381307 35.455302 9.434772 56.044344 9.434772 22.350507 0 56.795615-14.754951 60.397283-9.600435 3.601668 5.154516-28.611334 43.06135-58.549293 43.06135z"></path>
+    </g>
+    <g class="book" transform="translate(93 668)">
+      <path class="pages-outline" fill="#631A35" d="M38 84.9926853c0-55.2249021 44.2136639-92.8910575 98.630414-83.50691691 0 0 194.385572 27.98979521 260.369586 65.51338631 10.794501.0792849 32.675832.0792849 44 0C507.613054 29.1825713 695.424934 1.78189528 695.424934 1.78189528 749.86644-7.48695642 794 29.7782087 794 84.9926853V568H38V84.9926853z"></path>
+      <path class="pages" fill="#FFFFFF" d="M38 70.3221573c0-34.419577 27.5598944-57.9623071 61.5137031-52.3210493 0 0 231.5022829 34.4097411 297.4862969 71.998892 10.794501-.0499917 32.675832-.0499917 44 0 66.613054-37.8816467 291.529368-71.8271166 291.529368-71.8271166C766.478661 12.5545551 794 35.9021463 794 70.3221573V568H38V70.3221573z"></path>
+      <path class="back-cover" fill="#29CFC3" d="M419 568V114L52 47C23.0931158 41.5448528.50042955 61.4594029 1 91L0 568h419z"></path>
+      <path class="front-cover" fill="#23B0A7" d="M419 568V113l367-67c29.291609-5.4519386 53 14.448269 53 44v478H419z"></path>
+      <path class="spine" fill="#26BFB5" d="M473 568V104H364v464z"></path>
+    </g>
+    <g class="mortarboard" transform="translate(93 78)" style="display: none">
+      <path class="cap" fill="#631A35" d="M416.858021 338.903543l-.000165.109935-.150396-.055281-.152288.055281.00031-.111144C202.88596 260.36502 195.757256 260.846282 98.7897782 260.846282l29.5175938-154.434944h581.429155l29.888885 154.434944c-98.187698 0-106.406014-.481267-322.767391 78.057261z"></path>
+      <path class="cap-board" fill="#A61C49" d="M422.163693-1.42020295L843.451928 110.605106 422.163447 213.120212-5.89578447 110.605168 422.163693-1.42020295z"></path>
+      <path class="cap-ribbon" fill="#29CFC3" d="M218.599265 277.184664c18.739202 4.457615 32.677299 21.318175 32.677299 41.452927v98.759801l-42.555492-17.053762-42.555491 17.053762v-98.759801c0-20.230499 14.118503-37.167786 32.984337-41.520814-8.567337-2.690294-14.783148-10.70706-14.783148-20.178448v-7.047494c0-9.929233 6.831278-18.259813 16.041626-20.530816l-.738613-75.069023 203.309038-61.3614972c1.912208-4.984801 9.030042-8.6870488 17.518402-8.6870488 9.954106 0 18.023502 5.0912258 18.023502 11.371571 0 6.280345-8.069396 11.371571-18.023502 11.371571-2.255885 0-4.41497-.261488-6.405268-.739044l-198.373537 59.871895.619652 62.97849c9.82218 1.807635 17.264778 10.429911 17.264778 20.793902v7.047494c0 9.552431-6.322638 17.62524-15.003583 20.246335z"></path>
+    </g>
+  </g>
+</svg>
+
+    </div>
+
+    <div class="runtime" aria-hidden="true">
+      
+
+      
+
+      <link rel="stylesheet" type="text/css" href="/dewey-14.0.1/css/main.css" onerror="SPARK.onResourceError(this)">
+      <style type="text/css" id="SPARK-display-area"></style>
+
+      <script type="text/javascript" id="SPARK-script-loading">
+        SPARK.locale = (function () {
+
+  var locale = {};
+
+  locale.available = ["en-US","de-DE","es-419","fr-CA","it-IT","ja-JP","ru-RU","sv-SE","zh-Hans-CN","zh-Hant-TW"];
+
+  var inferenceRanges = [
+    'zh-cmn',
+    'zh-cmn-Hans',
+    'zh-cmn-Hant',
+    'zh-cmn-CN',
+    'zh-cmn-SG',
+    'zh-cmn-HK',
+    'zh-cmn-TW',
+    'zh-cmn-MO',
+    'zh-cmn-Hans-CN',
+    'zh-cmn-Hans-SG',
+    'zh-cmn-Hant-HK',
+    'zh-cmn-Hant-TW',
+    'zh-cmn-Hant-MO'
+  ];
+  var inferenceRules = [];
+  for (var i = 0, ii = inferenceRanges.length; i < ii; ++i) {
+    var subtags = inferenceRanges[i].toUpperCase().split('-');
+    inferenceRules.push([
+      subtags.length - 2,
+      subtags.slice(0, -2),
+      subtags[subtags.length - 2],
+      subtags[subtags.length - 1]
+    ]);
+  }
+  inferenceRules.sort(function (a, b) { return a[0] - b[0]; });
+
+
+  var nautAndroidOverrides = function () {
+    var navTags = Array.prototype.slice.apply(window.navigator.languages || []);
+    if (navTags.length <= 1) {
+      return [];
+    } else if (navTags[navTags.length - 1] == 'en-US') {
+      navTags.pop();
+    }
+    var overrideTags = [];
+    for (var i = 0, ii = navTags.length; i < ii; ++i) {
+      if (!navTags[i].match('-')) {
+        overrideTags = navTags;
+        break;
+      }
+      overrideTags.push(navTags[i]);
+      var lang = navTags[i].replace(/-[^-]*$/, '');
+      if (
+        overrideTags.indexOf(lang) < 0 &&
+        (navTags[i+1] || '').replace(/-[^-]*$/, '') != lang
+      ) {
+        overrideTags.push(lang);
+      }
+    }
+    return overrideTags.slice(0, 16);
+  }
+
+
+  var prepareSubtags = function (tag, inferences) {
+    var subtags = tag.toUpperCase().split('-');
+    for (var i = 0, ii = inferenceRules.length; i < ii; ++i) {
+      var rule = inferenceRules[i];
+      var index = rule[0], prefix = rule[1], insert = rule[2], match = rule[3];
+      if (subtags[index] == match && subtags.slice(0,index).join('-') == prefix.join('-')) {
+        if (inferences) {
+          inferences[prefix] = inferences[prefix] || [];
+          inferences[prefix].push(prefix.concat([insert]));
+        }
+        subtags.splice(index, 0, insert);
+      }
+    }
+    return subtags;
+  }
+
+
+  var prepareRanges = function (ranges) {
+    var inferences = {};
+    var out = [];
+    for (var i = 0, ii = ranges.length; i < ii; ++i) {
+      var range = ranges[i];
+      if (range == '*') {
+        out.push(range);
+      } else {
+        var subtags = prepareSubtags(range, inferences);
+        out.push(expandRange(subtags, inferences));
+      }
+    }
+    return flatten(out, 1);
+  }
+
+
+  var expandRange = function (range, inferences) {
+    var out = [];
+    if (inferences[range]) {
+      for (var i = 0, ii = inferences[range].length; i < ii; ++i) {
+        out.push(expandRange(inferences[range][i], inferences));
+      }
+    }
+    return flatten(out, 1).concat([range]);
+  }
+
+
+  var flatten = function (arr, level) {
+    level = (typeof level == 'number') ? level : Infinity;
+    var out = [];
+    for (var i = 0, ii = arr.length; i < ii; ++i) {
+      if (level && arr[i] instanceof Array) {
+        out = out.concat(flatten(arr[i], level - 1));
+      } else {
+        out.push(arr[i]);
+      }
+    }
+    return out;
+  }
+
+
+  var compact = function (arr) {
+    var out = [];
+    for (var i = 0, ii = arr.length; i < ii; ++i) {
+      if (arr[i] && out.indexOf(arr[i]) < 0) { out.push(arr[i]); }
+    }
+    return out;
+  }
+
+
+  locale.negotiate = function (requestedRanges, availableRanges) {
+    if (!(requestedRanges instanceof Array)) { return []; }
+    if (typeof requestedRanges[0] != 'string') { return []; }
+
+    if (typeof availableRanges == 'undefined') {
+      availableRanges = locale.available;
+    }
+    var availableRules = [];
+    for (var i = 0, ii = availableRanges.length; i < ii; ++i) {
+      availableRules.push([
+        availableRanges[i],
+        prepareSubtags(availableRanges[i])
+      ]);
+    }
+
+    var ranges = prepareRanges(requestedRanges);
+
+    var combos = [];
+    for (var i = 0, ii = ranges.length; i < ii; ++i) {
+      var range = ranges[i];
+      for (var j = 0, jj = availableRules.length; j < jj; ++j) {
+        var tag = availableRules[j][0], subtags = availableRules[j][1];
+        var divergence = range.length;
+        if (range[0] != '*') {
+          for (var k = 0, kk = range.length; k < kk; ++k) {
+            if (range[k] != subtags[k]) { divergence = k; break; }
+          }
+        }
+        var precision = divergence / range.length;
+        if (precision > 0) {
+          combos.push([tag, precision, combos.length]);
+        }
+      }
+    }
+    combos.sort(function (a,b) {
+      return (b[1] == a[1]) ? (a[2] - b[2]) : (b[1] - a[1]);
+    });
+
+    var out = [];
+    for (var i = 0, ii = combos.length; i < ii; ++i) {
+      if (out.indexOf(combos[i][0]) < 0) {
+        out.push(combos[i][0]);
+      }
+    }
+    return out;
+  }
+
+
+  locale.determine = function () {
+    this.userOverrideTags = [(
+      window.localStorage &&
+      window.localStorage.getItem('SPARK:locale')
+    )];
+    if (navigator.userAgent.match(/Dewey.*Android/)) {
+      this.userOverrideTags.push.apply(this.userOverrideTags, nautAndroidOverrides());
+    }
+    this.userOverrideTags = compact(this.userOverrideTags);
+    this.userAgentTags = compact(flatten([
+      window.navigator.languages,
+      window.navigator.language,
+      window.navigator.browserLanguage
+    ]));
+    this.serverDefaultTag = 'en-US';
+    this.tag = (
+      this.negotiate(this.userOverrideTags)[0] ||
+      this.negotiate(this.userAgentTags)[0] ||
+      this.serverDefaultTag
+    );
+    this.acceptTags = compact(flatten([this.userOverrideTags, this.userAgentTags]));
+    this.isUserAgentDefault = (this.tag == this.negotiate(this.userAgentTags)[0]);
+    this.isEnglish = this.tag.match(/^en(-|$)/) ? true : false;
+  }
+
+
+  locale.determine();
+
+
+  return locale;
+
+})();
+
+        SPARK.loadJavaScript = function (src) {
+  var script = document.createElement('script');
+  script.setAttribute('type', 'text/javascript');
+  script.setAttribute('src', src);
+  script.async = false;
+  script.onerror = SPARK.onResourceError.bind(this);
+  document.getElementsByClassName('runtime')[0].appendChild(script);
+  return script;
+}
+
+
+if (
+  !window.Intl
+  || !window.Intl.PluralRules
+  || !window.Intl.ListFormat
+  || !window.Intl.RelativeTimeFormat
+) {
+  SPARK.loadJavaScript('/dewey-14.0.1/inc/polyfills/i18n/'+SPARK.locale.tag+'.js');
+}
+SPARK.loadJavaScript('/dewey-14.0.1/inc/str/'+SPARK.locale.tag+'.js');
+
+
+  SPARK.loadJavaScript('/dewey-14.0.1/src/main.js');
+
+      </script><script type="text/javascript" src="/dewey-14.0.1/inc/str/en-US.js"></script><script type="text/javascript" src="/dewey-14.0.1/src/main.js"></script>
+    </div>
+
+  
+
+<div class="chatterbox"><div class="chatterbox-target" data-access="spoken" role="region"><div class="chatterbox-waypoint" tabindex="-1" style="">You are at: Leaders Eat Last.</div><div class="chatterbox-modality" tabindex="-1" style="">You are in a popover.</div></div></div><div class="arena halos-attached" touch-action="none" style="touch-action: none;"><div class="arena-pitch halos-anchor" data-access="inert" aria-hidden="true"><div class="arena-accessibility bumper-n" aria-hidden="true"><div class="quick-nav" aria-hidden="true"><button class="quick-nav-button halo" type="button" role="button" aria-hidden="true" disabled="" tabindex="-1"><span aria-hidden="true" role="text">Navigation</span></button></div></div><div class="arena-surfaces arena-vert" aria-hidden="true"><div class="elastiguard bumper-n" style="--c-h-waypoint-raw:0; --c-s-waypoint-raw:0%; --c-l-waypoint-raw:0%; --c-hsla-waypoint-raw:hsla(0,0%,0%,1); --c-h-waypoint-raw--max-30:0; --c-s-waypoint-raw--max-30:0%; --c-l-waypoint-raw--max-30:0%; --c-hsla-waypoint-raw--max-30:hsla(0,0%,0%,1);" aria-hidden="true"><div class="elastiguard-skirt" aria-hidden="true"></div></div><section class="surface interview-surface" data-access="inert" aria-hidden="true"></section><section class="surface modal-surface" data-access="inert" aria-hidden="true"></section><div class="arena-perspective" aria-hidden="true"><div class="arena-cube" aria-hidden="true"><section class="surface search-surface" data-access="inert" aria-hidden="true"><div class="view-train" aria-hidden="true"><div class="view-train-cars" touch-action="none" aria-hidden="true" style="touch-action: none;"></div></div></section><section class="surface library-surface" data-access="inert" aria-hidden="true"><div class="view-train" aria-hidden="true"><div class="view-train-cars" touch-action="none" aria-hidden="true" style="touch-action: none;"></div></div></section><section class="surface shelf-surface" data-access="inert" aria-hidden="true"><div class="view-train" aria-hidden="true"><div class="view-train-cars" touch-action="none" aria-hidden="true" style="touch-action: none;"></div></div></section><section class="surface timeline-surface active show raise" aria-hidden="true"><div class="view-train is-immediate" aria-hidden="true"><div class="view-train-cars" touch-action="none" style="touch-action: none; transition-duration: 0ms;" aria-hidden="true"><div class="view-train-car" aria-hidden="true"><div class="journey-view scroller native-scrollable native-scrollable-y halos-anchor" touch-action="pan-y" style="touch-action: pan-y;" aria-hidden="true" tabindex="-1"><header class="app-header halos-anchor app-header-shelf" aria-hidden="true"><div class="app-header-roller" aria-hidden="true"><div class="app-header-nav" aria-hidden="true"><div class="app-header-sheen bumper-n bumper-e bumper-w" style="background-color: rgba(0, 0, 0, 0);" aria-hidden="true"></div><div class="app-header-bumper bumper-n bumper-e bumper-w" aria-hidden="true"><div class="app-header-controls pillar" aria-hidden="true"><div class="crumbs" aria-hidden="true"><button aria-label="Back to Timeline." class="crumb halo" role="button" data-halo-class="subtle" type="button" aria-hidden="true" disabled="" tabindex="-1"><div class="shibui-chevron data-bearing_w" aria-hidden="true"><svg class="shibui-chevron-image" viewBox="0 0 32 64" version="1.1" data-bearing="w" style="transition: all 200ms ease-in-out 0s; transform: rotate(0deg);" aria-hidden="true"><path class="shibui-chevron-path" d="M26,7 L6,30 C5,31 5,32 6,33 L26,57" style="transition: all 200ms ease-in-out 0s;"></path></svg></div><span class="crumb-name" aria-hidden="true">Timeline</span></button></div><button class="shelf-actions" role="button" type="button" data-halo-delegate="shelf-actions-pill-0002" aria-hidden="true" disabled="" tabindex="-1"><div class="shelf-actions-sync-status" aria-hidden="true"><div class="shibui-spinner shibui-spinner-small" aria-labelledby="aria-d829272e" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Loading…" data-access="inert" aria-hidden="true" style="display: none;"><div class="shibui-spinner-status" data-access="spoken" role="text" id="aria-d829272e" aria-hidden="true"><span aria-hidden="true" role="text">Shelf synchronization: Offline.</span></div><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic shibui-spinner-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-linecap="round" stroke-width="1">
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="32" x2="32" y1="15" y2="19"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="43.570177" x2="40.9990265" y1="19.2112" y2="22.2753778"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="49.7265396" x2="45.7873085" y1="29.8743328" y2="30.5689255"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="47.5884573" x2="44.1243557" y1="42" y2="40"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="38.1563626" x2="36.788282" y1="49.9144672" y2="46.1556967"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="25.8436374" x2="27.211718" y1="49.9144672" y2="46.1556967"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="16.4115427" x2="19.8756443" y1="42" y2="40"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="14.2734604" x2="18.2126915" y1="29.8743328" y2="30.5689255"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="20.429823" x2="23.0009735" y1="19.2112" y2="22.2753778"></line>
+  </g>
+</svg></div><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic shelf-actions-failure icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class="icon-solid" d="M32,1 C49.1208272,1 63,14.8791728 63,32 C63,49.1208272 49.1208272,63 32,63 C14.8791728,63 1,49.1208272 1,32 C1,14.8791728 14.8791728,1 32,1 Z M32,43.5 C30.6192881,43.5 29.5,44.6192881 29.5,46 C29.5,47.3807119 30.6192881,48.5 32,48.5 C33.3807119,48.5 34.5,47.3807119 34.5,46 C34.5,44.6192881 33.3807119,43.5 32,43.5 Z M32.1675321,18.0049385 L31.9275443,18.0008215 L31.8585304,18.0032854 C30.3144224,18.0768144 29.1097123,19.3439602 29.0939898,20.8701615 L29.097179,21.040758 L29.9048697,38.0022637 C29.9581252,39.1206289 30.8803676,40 32,40 C33.06874,40 33.9576268,39.1987548 34.082545,38.1532266 L34.0951303,38.0022637 L34.9024986,21.0475292 L34.9057502,20.909153 C34.9057502,19.3598536 33.6946505,18.0934217 32.1675321,18.0049385 L32.1675321,18.0049385 Z" fill="#000000"></path>
+  </g>
+</svg><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic shelf-actions-offline icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class="icon-solid" d="M32,1 C49.1208272,1 63,14.8791728 63,32 C63,49.1208272 49.1208272,63 32,63 C14.8791728,63 1,49.1208272 1,32 C1,14.8791728 14.8791728,1 32,1 Z M32,43.5 C30.6192881,43.5 29.5,44.6192881 29.5,46 C29.5,47.3807119 30.6192881,48.5 32,48.5 C33.3807119,48.5 34.5,47.3807119 34.5,46 C34.5,44.6192881 33.3807119,43.5 32,43.5 Z M19.5737881,36.2597645 C18.6126825,37.0474396 18.4720894,38.4651064 19.2597645,39.4262119 C20.0474396,40.3873175 21.4651064,40.5279106 22.4262119,39.7402355 C23.515201,38.8477533 24.6942127,38.1153853 25.9381564,37.5560423 L25.9209172,37.3756695 L25.9209172,37.3756695 L25.9093972,37.1925243 L25.7002845,32.8128235 C23.496319,33.5772219 21.4273759,34.7406545 19.5737881,36.2597645 Z M38.300102,32.8057738 L38.0906028,37.1925243 C38.0849198,37.3118688 38.0758326,37.430277 38.0634379,37.5476569 C39.3069397,38.1044333 40.4865178,38.8348031 41.5762981,39.7253108 C42.538538,40.5115997 43.9560007,40.3689631 44.7422895,39.4067232 C45.5285784,38.4444832 45.3859419,37.0270206 44.4237019,36.2407317 C42.5702832,34.7262212 40.5024007,33.5668541 38.300102,32.8057738 Z M32.1675321,18.0049385 L31.9275443,18.0008215 L31.8585304,18.0032854 C30.3144224,18.0768144 29.1097123,19.3439602 29.0939898,20.8701615 L29.097179,21.040758 L29.9048697,38.0022637 C29.9581252,39.1206289 30.8803676,40 32,40 C33.06874,40 33.9576268,39.1987548 34.082545,38.1532266 L34.0951303,38.0022637 L34.9024986,21.0475292 L34.9057502,20.909153 C34.9057502,19.3598536 33.6946505,18.0934217 32.1675321,18.0049385 L32.1675321,18.0049385 Z M38.790898,22.4923076 L38.572642,27.0637076 C42.6020585,28.07405 46.3442014,30.0019148 49.54477,32.7160436 C50.4925147,33.5197449 51.9123423,33.4029747 52.7160436,32.45523 C53.5197449,31.5074853 53.4029747,30.0876577 52.45523,29.2839564 C48.4979819,25.9281524 43.8222361,23.6019786 38.790898,22.4923076 Z M11.5514192,29.203713 C10.6005725,30.0037421 10.4783108,31.4231073 11.2783399,32.3739539 C12.078369,33.3248005 13.4977342,33.4470623 14.4485808,32.6470332 C17.6545909,29.949541 21.3980086,28.0378313 25.4258003,27.0420831 L25.2080994,22.4731608 C20.1842907,23.5662162 15.51198,25.8713523 11.5514192,29.203713 Z" fill="#000000"></path>
+  </g>
+</svg></div><div class="shelf-actions-pill shibui-button" id="shelf-actions-pill-0002" aria-describedby="aria-d829272e" aria-hidden="true"><span aria-hidden="true" role="text">Actions</span></div></button></div></div><button aria-label="Scroll to top." class="app-topper halo" type="button" data-access="inert" aria-hidden="true" role="button" disabled="" tabindex="-1"><div class="app-topper-bumper bumper-n bumper-e bumper-w" aria-hidden="true"><div class="app-topper-sheen" aria-hidden="true" style="background-color: rgb(0, 0, 0);"></div><div class="app-topper-content pillar" aria-hidden="true"><span class="app-topper-title" aria-hidden="true" style="visibility: hidden;">Leaders Eat Last</span></div></div></button></div></div><div class="shibui-halos" aria-hidden="true"><div class="shibui-halo hide" style="--c-h-halo-pill:0; --c-s-halo-pill:0%; --c-l-halo-pill:85%; --c-hsla-halo-pill:hsla(0,0%,85%,1); transform: translate3d(1006.5px, 16.8359px, 0px); width: 91px; height: 36px; border-radius: calc(19.9px);" aria-hidden="true"><div class="shibui-halo-ripple" style="width: 90.5px; height: 90.5px; transform: translateX(-16.3757px) translateY(-7.70699px);" aria-hidden="true"><div class="shibui-halo-scalar" aria-hidden="true"></div></div></div></div></header><div class="journey-view-content content" aria-hidden="true"><div class="journey-view-pillar pillar bumper-n bumper-s" aria-hidden="true"><div class="journey-view-tiles" aria-hidden="true"><div class="title-tile" aria-hidden="true"><div class="title-tile-shell" aria-hidden="true"><div class="title-tile-head" aria-hidden="true"><div class="title-tile-facts" aria-hidden="true"><div class="title-tile-extra" aria-hidden="true"></div><h3 class="title-tile-biblio" aria-hidden="true"><div class="title-tile-author" data-access="visual" aria-hidden="true"></div><a class="title-tile-action halo" href="#" aria-describedby="aria-310b4fb0" aria-hidden="true" disabled="" tabindex="-1"><span class="title-tile-title" aria-hidden="true"></span><span class="title-tile-action-description" data-access="spoken" role="text" id="aria-310b4fb0" aria-hidden="true"></span></a></h3></div><button class="title-tile-status halo" type="button" role="button" aria-hidden="true" disabled="" tabindex="-1"><div class="title-status data-action_scanning data-icon_scanning" aria-hidden="true"><svg version="1.1" viewBox="0 0 96 96" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic download-ring icon" data-download-progress="0" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class=" download-ring-circuit icon-solid icon-hollow" d="M48,19 C63.463973,19 76,31.536027 76,47 C76,62.463973 63.463973,75 48,75 C32.536027,75 20,62.463973 20,47 C20,31.5615698 32.4946481,19.0414211 47.9233955,19" fill="#000000" fill-opacity="0.1" stroke="#000000" stroke-linecap="round" stroke-width="3"></path>
+    <path class=" download-ring-retry icon-hollow" d="M58.5474935,55.4712205 C56.3810587,51.8975672 52.4545878,49.5095932 47.9703757,49.5095932 C43.5267446,49.5095932 39.6308055,51.8545417 37.4525065,55.3744909" stroke="#000000" stroke-linecap="round" stroke-width="3"></path>
+    <g class=" download-ring-complete icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3" transform="translate(39.650000, 41.416054)">
+      <path d="M11.4284414,-2.13891776 C11.4250296,0.0692304459 11.4233237,2.71890172 11.4233237,5.81009606 C11.4233237,8.9012904 11.4250296,11.9925736 11.4284414,15.0839455" transform="translate(11.425883, 6.472514) rotate(-317.000000) translate(-11.425883, -6.472514) "></path>
+      <path d="M2.83736926,7.08394552 C2.84430259,7.98141751 2.84776926,9.05834059 2.84776926,10.3147148 C2.84776926,11.5710889 2.84430259,12.8274992 2.83736926,14.0839455" transform="translate(2.842569, 10.583946) scale(-1, 1) rotate(-315.000000) translate(-2.842569, -10.583946) "></path>
+    </g>
+    <path class=" download-ring-stop icon-solid" d="M44.136,42.251 L44.2518521,42.3586529 L45.1600906,43.273881 L47.7636848,45.8793203 L51.3017146,42.3420045 C51.8877297,41.7569642 52.8374773,41.7577541 53.4227773,42.3440274 C53.9785662,42.9007433 54.0087312,43.791501 53.4976898,44.3829597 L53.4082517,44.4785639 L49.8830949,48.0027127 L53.4209428,51.5282634 C54.0088867,52.1127525 54.0117116,53.0625132 53.4276802,53.6500726 C52.8436291,54.2375579 51.8938772,54.2403712 51.3063614,53.6563269 L47.761141,50.1246667 L44.2303187,53.6560411 C43.6446977,54.2423577 42.6949503,54.2429219 42.1088162,53.6574836 C41.5522322,53.1015612 41.5207966,52.2108479 42.0309939,51.6186609 L42.1202939,51.5229325 L45.6402956,48.0027095 L42.1055585,44.455522 C41.5570561,43.9024357 41.5252893,43.0207664 42.0267908,42.4304505 L42.1299642,42.3196978 C42.6331998,41.8213084 43.4347932,41.760429 44.0193522,42.1622741 L44.136,42.251 Z" fill="#000000" fill-rule="nonzero"></path>
+    <g class=" download-ring-pause icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3" transform="translate(43.500000, 44.500000)">
+      <path d="M8.42504,0 C8.42365333,0.897471994 8.42296,1.97439507 8.42296,3.23076923 C8.42296,4.48714339 8.42365333,5.74355365 8.42504,7"></path>
+      <path d="M0.5148,0 C0.521733333,0.897471994 0.5252,1.97439507 0.5252,3.23076923 C0.5252,4.48714339 0.521733333,5.74355365 0.5148,7" transform="translate(0.520000, 3.500000) scale(-1, 1) translate(-0.520000, -3.500000) "></path>
+    </g>
+    <path class=" download-ring-start icon-solid" d="M47.896,37.984 L48.0310893,37.9790866 C48.7435625,37.9793826 49.3558927,38.5185139 49.4545741,39.2491125 L49.4669876,39.4553947 L49.4638312,53.4621103 L53.9048302,48.6582771 C54.3714037,48.1922426 55.1120405,48.1102902 55.6900604,48.4680987 L55.8103039,48.5502238 L55.96585,48.6888674 C56.4552499,49.1795705 56.5109507,49.9843822 56.0743909,50.5717251 L55.9295585,50.7373375 L54.7124034,52.0012127 L53.9478506,52.7851549 L53.2275062,53.5148022 L52.4904716,54.2505136 L51.7540414,54.9725129 L51.0807848,55.617543 L50.667315,56.0043309 L50.2806544,56.3578021 L49.7504994,56.82563 L49.4329155,57.0935244 L49.1411903,57.3286878 L48.8047001,57.5822326 L48.5001684,57.7881734 L48.4410371,57.8244466 L48.2532255,57.9290078 L48.183349,57.9622542 L48.0678751,58.0061601 C48.0356211,58.0158428 48.0101657,58.0206174 47.9931929,58.0206174 C47.9328697,58.0206174 47.775949,57.9589518 47.5518559,57.8234331 L47.3625665,57.7023266 L47.1586908,57.5595614 L46.9317589,57.3896618 L46.5480256,57.0830031 L46.1176468,56.7178789 L45.8049202,56.4420753 L45.4695645,56.1385915 L45.1128648,55.8085155 L44.5371004,55.262906 L43.6947185,54.4425078 L43.0069997,53.7577941 L42.2697227,53.0121521 L41.2094269,51.9232541 L40.0605913,50.7262373 C39.4883954,50.1540455 39.4883954,49.235913 40.0548138,48.6696177 C40.5648924,48.1596501 41.3699292,48.1039557 41.9574236,48.5404382 L42.1320863,48.6945609 L46.5639016,53.4610383 L46.5652597,39.4295178 L46.5720133,39.2889013 C46.6345704,38.6407835 47.1250161,38.1130019 47.7630404,38.0012344 L47.896,37.984 Z" fill="#000000" fill-rule="nonzero"></path>
+  </g>
+</svg><div class="title-status-backdrop" aria-hidden="true"><div class="library-colors" aria-hidden="true"></div></div><div class="title-status-icon" aria-hidden="true"><svg version="1.1" viewBox="0 0 96 96" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class=" title-status-field" d="M97,-1 L97,97 L-1,97 L-1,-1 L97,-1 Z M70,24 L26,24 L25.6771989,24.0056811 C23.320241,24.088771 21.1939065,25.0781715 19.636039,26.636039 C18.0073593,28.2647186 17,30.5147186 17,33 L17,33 L17,63 L17.0056811,63.3228011 C17.088771,65.679759 18.0781715,67.8060935 19.636039,69.363961 C21.2647186,70.9926407 23.5147186,72 26,72 L26,72 L70,72 L70.3228011,71.9943189 C72.679759,71.911229 74.8060935,70.9218285 76.363961,69.363961 C77.9926407,67.7352814 79,65.4852814 79,63 L79,63 L79,33 L78.9943189,32.6771989 C78.911229,30.320241 77.9218285,28.1939065 76.363961,26.636039 C74.7352814,25.0073593 72.4852814,24 70,24 L70,24 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2"></path>
+    <path class=" color-shadow icon-solid" d="M78,33 L78,63 C78,67.418278 74.418278,71 70,71 L26,71 C23.9711593,71 22.118713,70.2447657 20.7084602,69.0000962 L70,69 C73.2383969,69 75.8775718,66.4344251 75.9958615,63.2249383 L76,63 L76.0000962,27.7084602 C77.2447657,29.118713 78,30.9711593 78,33 Z" fill="#000000" fill-opacity="0.1" fill-rule="nonzero"></path>
+    <g class=" title-status-dots icon-solid" fill="#000000" transform="translate(34.152255, 46.380952)">
+      <ellipse cx="2.78514589" cy="2.61904762" rx="2.78514589" ry="2.61904762"></ellipse>
+      <ellipse cx="13.8477454" cy="2.61904762" rx="2.78514589" ry="2.61904762"></ellipse>
+      <ellipse cx="24.9103448" cy="2.61904762" rx="2.78514589" ry="2.61904762"></ellipse>
+    </g>
+    <g class=" title-status-dashes icon-solid" fill="#000000" transform="translate(32.500000, 47.500000)">
+      <rect height="3" rx="1.5" width="13" x="18" y="0"></rect>
+      <rect height="3" rx="1.5" width="13" x="0" y="0"></rect>
+    </g>
+    <g class=" title-status-retry" transform="translate(33.673218, 32.000000)">
+      <path d="M1.57715976,16.6682776 L6.09687414,19.6524373 C6.56552938,19.9618688 6.69460572,20.5926327 6.3851742,21.061288 C6.2981942,21.1930251 6.1817369,21.3027019 6.04502497,21.3816326 L1.84981149,23.8037402 C1.36345853,24.0845362 0.741561416,23.9178994 0.460765405,23.4315464 C0.381834738,23.2948345 0.335818139,23.141623 0.326359836,22.9840452 L0.00185894393,17.5777779 C-0.0317889886,17.0171948 0.395376368,16.5354754 0.955959471,16.5018275 C1.17558075,16.4886451 1.39355333,16.5470507 1.57715976,16.6682776 Z" fill="#D0021B"></path>
+      <path d="M27.0764036,15.7718648 L22.5566892,12.7877051 C22.088034,12.4782736 21.9589577,11.8475097 22.2683892,11.3788544 C22.3553692,11.2471172 22.4718265,11.1374405 22.6085384,11.0585098 L26.8037519,8.63640217 C27.2901048,8.35560616 27.912002,8.52224299 28.192798,9.00859594 C28.2717286,9.14530787 28.3177452,9.29851939 28.3272035,9.45609712 L28.6517044,14.8623644 C28.6853524,15.4229475 28.258187,15.904667 27.6976039,15.9383149 C27.4779826,15.9514972 27.26001,15.8930917 27.0764036,15.7718648 Z" fill="#D0021B"></path>
+      <g stroke="#D0021B" stroke-linecap="round" stroke-width="3" transform="translate(3.008059, 0.000000)">
+        <path d="M1.89888616,30.1011138 C8.63799042,30.1011138 14.1011138,24.6379904 14.1011138,17.8988862" transform="translate(8.000000, 24.000000) rotate(-293.000000) translate(-8.000000, -24.000000) "></path>
+        <path d="M20.5655335,1.89888616 C13.8264292,1.89888616 8.36330577,7.36200958 8.36330577,14.1011138" transform="translate(14.464420, 8.000000) rotate(-293.000000) translate(-14.464420, -8.000000) "></path>
+      </g>
+    </g>
+  </g>
+</svg></div><div class="title-status-badge" aria-hidden="true"></div></div></button></div><div class="title-tile-cover" data-access="visual" aria-hidden="true"><div class="cover-box" aria-hidden="true"><div class="cover-box-press" id="cover-box-press-0134" aria-hidden="true"><div class="cover-box-clip" aria-hidden="true"><img loading="lazy" aria-hidden="true"></div></div></div></div><div class="title-tile-actions" aria-hidden="true"><div class="title-tile-row" aria-hidden="true"></div><div class="title-tile-row" aria-hidden="true"></div><div class="title-tile-row" aria-hidden="true"></div><div class="title-tile-row" aria-hidden="true"></div></div></div><div class="title-tile-talker" aria-hidden="true"></div></div></div><div class="journey-statement" aria-hidden="true"></div><div class="block-strap" aria-hidden="true"><div class="block-strap-flex" aria-hidden="true"><h2 class="block-strap-heading" aria-hidden="true"><span class="block-strap-text" aria-hidden="true">At Your Libraries</span></h2><div class="block-strap-circle" aria-hidden="true"></div></div><div class="block-strap-line" aria-hidden="true"></div></div><div class="journey-view-availabilities" aria-hidden="true"></div><div class="block-strap" aria-hidden="true"><div class="block-strap-flex" aria-hidden="true"><h2 class="block-strap-heading" aria-hidden="true"><span class="block-strap-text" aria-hidden="true">Timeline for This Title</span></h2><div class="block-strap-circle" aria-hidden="true"></div></div><div class="block-strap-line" aria-hidden="true"></div></div><div class="journey-view-timelines" aria-hidden="true"></div></div></div></div></div></div></div></section></div></div><section class="surface open-surface" data-access="inert" aria-hidden="true"><div class="bifocal-frame" aria-hidden="true"></div></section></div><div class="app-footer bumper-e bumper-w data-now-vis_always data-surface_timeline" aria-hidden="true"><div class="app-footer-drawbridge" aria-hidden="true"><div class="app-footer-bars pillar" aria-hidden="true"><div class="app-footer-now-bar hide" aria-hidden="true"><div class="app-footer-now-bar-border" aria-hidden="true"></div><div class="reading-now" aria-hidden="true"><button aria-label="Now: Reading" class="reading-now-open-button halo" type="button" role="button" aria-describedby="aria-890cd3fb" aria-hidden="true" disabled="" tabindex="-1"><div class="reading-now-action-desc" id="aria-890cd3fb" aria-hidden="true"><span data-access="spoken" role="text" aria-hidden="true">Open this title.</span><span data-access="visual" aria-hidden="true"></span></div><div class="reading-now-cover" aria-hidden="true"><div class="cover-box" aria-hidden="true"><div class="cover-box-press" id="cover-box-press-0001" aria-hidden="true"><div class="cover-box-clip" aria-hidden="true"><img loading="lazy" aria-hidden="true"></div></div></div></div><div class="reading-now-biblio" aria-hidden="true"><div class="reading-now-biblio-status" aria-hidden="true"><span aria-hidden="true" role="text">Now: Reading</span></div><div class="reading-now-biblio-title" aria-hidden="true"></div></div></button><div class="reading-now-buttons" aria-hidden="true"><div class="circ-pill" aria-hidden="true"><div class="shibui-spinner shibui-spinner-small" aria-labelledby="aria-7ee71616" role="progressbar" aria-busy="true" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Loading…" aria-hidden="true"><div class="shibui-spinner-status" data-access="spoken" role="text" id="aria-7ee71616" aria-hidden="true"><span aria-hidden="true" role="text">Loading…</span></div><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic shibui-spinner-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-linecap="round" stroke-width="1">
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="32" x2="32" y1="15" y2="19"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="43.570177" x2="40.9990265" y1="19.2112" y2="22.2753778"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="49.7265396" x2="45.7873085" y1="29.8743328" y2="30.5689255"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="47.5884573" x2="44.1243557" y1="42" y2="40"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="38.1563626" x2="36.788282" y1="49.9144672" y2="46.1556967"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="25.8436374" x2="27.211718" y1="49.9144672" y2="46.1556967"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="16.4115427" x2="19.8756443" y1="42" y2="40"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="14.2734604" x2="18.2126915" y1="29.8743328" y2="30.5689255"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="4" x1="20.429823" x2="23.0009735" y1="19.2112" y2="22.2753778"></line>
+  </g>
+</svg></div><a class="circ-pill-link shibui-button halo" href="#" aria-hidden="true" disabled="" tabindex="-1"></a></div><div class="mini-player data-state_paused" aria-hidden="true"><button aria-label="Rewind 15 seconds" class="mini-player-jump-behind halo" type="button" role="button" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic mini-player-jump-behind-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(12.000000, 5.390000)">
+    <path class="icon-hollow" d="M2.73453854,16.5009401 C0.996433206,19.4654122 0,22.9173748 0,26.6020669 C0,37.6477619 8.954305,46.6020669 20,46.6020669 C31.045695,46.6020669 40,37.6477619 40,26.6020669 C40,15.5563719 31.045695,6.60206689 20,6.60206689" stroke="#000000" stroke-linecap="round" stroke-width="3"></path>
+    <path class="icon-solid" d="M23.6278191,2.65151308 L23.6278191,10.4653527 C23.6278191,11.9295715 22.4408352,13.1165554 20.9766164,13.1165554 C20.463699,13.1165554 19.9617941,12.9677706 19.5317418,12.6882366 L12.0008626,7.79316519 C11.3189388,7.3499147 11.1254558,6.43778069 11.5687063,5.75585687 C11.6809532,5.58316942 11.8281752,5.4359474 12.0008626,5.32370055 L19.5317418,0.428629105 C20.7594067,-0.369353095 22.4015181,-0.0210264247 23.1995003,1.2066385 C23.4790343,1.63669077 23.6278191,2.13859574 23.6278191,2.65151308 Z" fill="#000000"></path>
+  </g>
+</svg><span class="mini-player-jump-behind-text" aria-hidden="true">15</span></button><button class="mini-player-playback-toggle halo" type="button" role="button" aria-label="Play audiobook" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 96 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic mini-player-playback-toggle-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <rect class=" mini-player-rim icon-hollow" height="39.75" rx="19.875" stroke="#000000" stroke-linecap="round" stroke-width="3" width="64.5" x="15.75" y="12.125"></rect>
+    <g class=" mini-player-pause icon-solid" fill="#000000" transform="translate(39.937500, 23.750000)">
+      <path d="M0,1.56715543 C0,0.701639383 0.682236671,0 1.51078601,0 L4.86421399,0 C5.69859806,0 6.375,0.708984375 6.375,1.56715543 L6.375,14.9328446 C6.375,15.7983606 5.69276333,16.5 4.86421399,16.5 L1.51078601,16.5 C0.676401937,16.5 0,15.7910156 0,14.9328446 L0,1.56715543 Z"></path>
+      <path d="M9.75,1.56715543 C9.75,0.701639383 10.4322367,0 11.260786,0 L14.614214,0 C15.4485981,0 16.125,0.708984375 16.125,1.56715543 L16.125,14.9328446 C16.125,15.7983606 15.4427633,16.5 14.614214,16.5 L11.260786,16.5 C10.4264019,16.5 9.75,15.7910156 9.75,14.9328446 L9.75,1.56715543 Z"></path>
+    </g>
+    <path class=" mini-player-play icon-solid" d="M42,36.0692317 L42.0004125,27.9999546 C42.0006142,24.0557411 44.2184039,22.1238222 47.7661908,24.8034629 L54.6539294,29.5165828 C57.8806769,31.6870963 57.6955008,32.9752237 54.6113772,34.877207 L47.8295947,39.3585097 C44.317976,41.7219984 41.9997983,40.0142292 42,36.0692317 Z" fill="#000000"></path>
+  </g>
+</svg><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic mini-player-playback-spinner spinner icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-linecap="round" stroke-width="1">
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="32" x2="32" y1="12.875" y2="16.125"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="41.5625" x2="39.9375" y1="15.4372642" y2="18.2518467"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="48.5627358" x2="45.7481533" y1="22.4375" y2="24.0625"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="51.125" x2="47.875" y1="32" y2="32"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="48.5627358" x2="45.7481533" y1="41.5625" y2="39.9375"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="41.5625" x2="39.9375" y1="48.5627358" y2="45.7481533"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="32" x2="32" y1="51.125" y2="47.875"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="22.4375" x2="24.0625" y1="48.5627358" y2="45.7481533"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="15.4372642" x2="18.2518467" y1="41.5625" y2="39.9375"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="12.875" x2="16.125" y1="32" y2="32"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="15.4372642" x2="18.2518467" y1="22.4375" y2="24.0625"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3" x1="22.4375" x2="24.0625" y1="15.4372642" y2="18.2518467"></line>
+  </g>
+</svg></button><button aria-label="Advance 15 seconds" class="mini-player-jump-ahead halo" type="button" role="button" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic mini-player-jump-ahead-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(12.000000, 5.390000)">
+    <path class="icon-hollow" d="M2.73453854,16.5009401 C0.996433206,19.4654122 0,22.9173748 0,26.6020669 C0,37.6477619 8.954305,46.6020669 20,46.6020669 C31.045695,46.6020669 40,37.6477619 40,26.6020669 C40,15.5563719 31.045695,6.60206689 20,6.60206689" stroke="#000000" stroke-linecap="round" stroke-width="3"></path>
+    <path class="icon-solid" d="M23.6278191,2.65151308 L23.6278191,10.4653527 C23.6278191,11.9295715 22.4408352,13.1165554 20.9766164,13.1165554 C20.463699,13.1165554 19.9617941,12.9677706 19.5317418,12.6882366 L12.0008626,7.79316519 C11.3189388,7.3499147 11.1254558,6.43778069 11.5687063,5.75585687 C11.6809532,5.58316942 11.8281752,5.4359474 12.0008626,5.32370055 L19.5317418,0.428629105 C20.7594067,-0.369353095 22.4015181,-0.0210264247 23.1995003,1.2066385 C23.4790343,1.63669077 23.6278191,2.13859574 23.6278191,2.65151308 Z" fill="#000000"></path>
+  </g>
+</svg><span class="mini-player-jump-ahead-text" aria-hidden="true">15</span></button></div><button aria-label="Clear Reading Now" class="reading-now-button-dismiss halo" type="button" role="button" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic reading-now-icon-dismiss icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(12.000000, 12.000000)">
+    <circle class="icon-hollow" cx="20" cy="20" r="20" stroke="#000000" stroke-linecap="round" stroke-width="3"></circle>
+    <rect class="icon-solid" fill="#000000" fill-rule="nonzero" height="3" rx="1.5" transform="translate(20.000000, 20.000000) rotate(45.000000) translate(-20.000000, -20.000000) " width="18.75" x="10.625" y="18.5"></rect>
+    <rect class="icon-solid" fill="#000000" fill-rule="nonzero" height="3" rx="1.5" transform="translate(20.000000, 20.000000) scale(-1, 1) rotate(45.000000) translate(-20.000000, -20.000000) " width="18.75" x="10.625" y="18.5"></rect>
+  </g>
+</svg></button></div></div></div><nav class="app-footer-nav-bar" aria-hidden="true"><div class="app-footer-nav-bar-border" aria-hidden="true"></div><svg version="1.1" viewBox="0 0 450 40" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-footer-nav-bar-mantle icon" data-access="visual" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class="color-empty" d="M-10,49.5 L-10,38 L188.490021,38 C201.510746,31.3333333 213.847405,28 225.5,28 C237.152595,28 249.464685,31.3333333 262.436272,38 L460,38 L460,49.5" fill="#FFFFFF"></path>
+    <path class="icon-hollow" d="M0,38.5 L181.693141,38.5 C185.910183,38.5000012 190.079851,37.6109363 193.930124,35.8908071 C204.958995,30.9636024 215.482287,28.5 225.5,28.5 C235.509745,28.5 246.006136,30.9596851 256.989172,35.8790552 C260.846644,37.606842 265.02568,38.5 269.252421,38.5 L450,38.5 L450,38.5" stroke="#000000" stroke-linecap="square" stroke-width="3"></path>
+  </g>
+</svg><div class="app-footer-nav-bar-controls" role="tablist" aria-owns="footer-nav-search footer-nav-library footer-nav-menu footer-nav-shelf footer-nav-timeline" aria-hidden="true"><button class="app-footer-nav-bar-button-search halo" role="tab" data-halo-states="focus" id="footer-nav-search" type="button" aria-labelledby="aria-ceb1df04" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-footer-nav-bar-button-search-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <line class="icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="4" x1="45.0791566" x2="56" y1="45.351477" y2="55.1830386"></line>
+    <path class="color-primary" d="M29.2192118,10.3326199 C40.1011841,10.3326199 48.9227656,19.1542014 48.9227656,30.0361737 C48.9227656,40.918146 40.1011841,49.7397275 29.2192118,49.7397275 C18.3372395,49.7397275 9.51565799,40.918146 9.51565799,30.0361737 C9.51565799,19.1542014 18.3372395,10.3326199 29.2192118,10.3326199 Z" fill="#D6D6D6" fill-rule="nonzero"></path>
+    <path class="color-highlight" d="M29.2192118,10.4336639 C40.0453791,10.4336639 48.8217217,19.2100065 48.8217217,30.0361738 C48.8217217,40.8623411 40.0453791,49.6386838 29.2192118,49.6386838 C18.3930445,49.6386838 9.61670185,40.8623411 9.61670185,30.0361738 C9.61670185,19.2100065 18.3930445,10.4336639 29.2192118,10.4336639 Z M29.2192118,14.2461506 C20.4986228,14.2461506 13.4291886,21.3155848 13.4291886,30.0361738 C13.4291886,38.7567628 20.4986228,45.826197 29.2192118,45.826197 C37.9398008,45.826197 45.009235,38.7567628 45.009235,30.0361738 C45.009235,21.3155848 37.9398008,14.2461506 29.2192118,14.2461506 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+    <circle class="icon-hollow" cx="29.2192118" cy="30.0361732" r="21.2192118" stroke="#000000" stroke-linecap="round" stroke-width="3.8"></circle>
+  </g>
+</svg><span class="app-footer-nav-label" id="aria-ceb1df04" aria-hidden="true"><span aria-hidden="true" role="text">Search</span></span></button><button class="app-footer-nav-bar-button-library halo" role="tab" data-halo-states="focus" id="footer-nav-library" type="button" aria-labelledby="aria-dc49b0a2" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 128 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-footer-nav-bar-button-library-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class="color-shadow icon-solid" d="M76.2959332,34.139704 L95.6832885,28.0145196 C95.8131551,27.9689031 95.9564416,28.0343504 96.0033278,28.1607003 C96.0131569,28.187188 96.0181835,28.2151352 96.0181835,28.2432963 L96.1438575,42.8919912 C96.1438575,42.9850325 96.0893031,43.069922 96.0033278,43.110663 L76.4650567,51.4753865 C76.3409262,51.5342081 76.191287,51.4839897 76.1308282,51.3632206 C76.1142182,51.3300415 76.1055864,51.2936201 76.1055864,51.2567147 L76.1308282,34.368481 C76.1308282,34.265996 76.1968552,34.1745058 76.2959332,34.139704 Z" fill="#000000" fill-opacity="0.25" opacity="0.200000003"></path>
+    <path class="color-shadow icon-solid" d="M51.7817364,16.5598367 C50.5129711,18.1593403 48.0972294,18.294279 46.0553313,18.1944759 L45.5535253,18.1653463 L44.1943745,18.0619745 L43.8076821,18.0364235 C43.5632937,18.0227718 43.3468919,18.0168336 43.1655176,18.0243024 L42.9368284,18.0380831 L42.6707133,18.0621322 L42.2013668,18.1174587 L41.647812,18.1958888 L41.0100487,18.2974224 L39.7599801,18.5179865 L38.897661,18.6811297 L37.6169113,18.9345928 L35.8054532,19.3091807 L33.7600828,19.7479452 L31.9553696,20.145164 L28.0275536,20.0195465 L47.0834579,11.5135136 L52.3885155,12.6504564 L51.7817364,16.5598367 Z" fill="#000000" fill-opacity="0.25" opacity="0.35"></path>
+    <path class="color-shadow icon-solid" d="M51.7817364,16.5598367 C53.7961749,20.2278326 59.3149045,20.4312386 63.1711317,22.0701624 C64.9902211,22.8432883 68.6255369,25.1722452 74.0770792,29.0570331 L78.0876465,29.0570331 L59.759079,14.3264885 L52.3885155,12.6504564 L51.7817364,16.5598367 Z" fill="#000000" fill-opacity="0.25" opacity="0.35"></path>
+    <path class="color-primary" d="M105.464185,18.7646545 L80.1419907,26.8573685 L61.006444,11.5460091 L46.7629595,8.37502766 L80.3519478,3.78073883 L83.5829845,4.2365548 C83.732063,4.25758593 83.8744687,4.31200697 83.9995783,4.39575823 L105.464185,18.7646545 L105.464185,18.7646545 Z" fill="#DDDDDD"></path>
+    <path class="color-highlight" d="M79.8573448,6.74901358 C80.6765324,6.62563079 81.4406366,7.18969198 81.5640194,8.00887949 C81.6801443,8.77987951 81.1873224,9.502086 80.4459796,9.68724868 L80.3041534,9.715554 L61.9764463,12.3403846 L60.9069399,11.5135136 L55.316415,10.2576254 L79.8573448,6.74901358 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+    <g class="icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3.3" transform="translate(24.225540, 5.245506)">
+      <path d="M23.300219,4.42308306 C30.1846465,3.62853189 41.1584897,2.15432344 56.2217484,0.00045772919 C56.3513243,-0.0144969916 58.8636981,0.341715363 58.9892273,0.377155269 L80.9429867,14.9425265"></path>
+      <path d="M0,14.8996576 C15.1407572,8.09914377 22.7111359,4.69888684 22.7111359,4.69888684 C31.6473694,6.68691606 36.1154861,7.68093068 36.1154861,7.68093068 L55.6173553,23.276474 L81.0672567,15.0086218"></path>
+    </g>
+    <path class="icon-hollow" d="M74.5,57.2249069 L99.4278959,46.1578547 C99.7892219,45.9974395 100.022125,45.6392145 100.022125,45.2438798 L100.022125,28.75 L100.022125,28.75" stroke="#000000" stroke-linecap="round" stroke-width="3.4"></path>
+    <line class="color-secondary icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3.3" x1="30" x2="67.0446232" y1="44" y2="52.4673425"></line>
+    <line class="color-secondary icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3.3" x1="24.150849" x2="67.0446232" y1="51.25" y2="61.0542913"></line>
+    <line class="color-secondary icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3.1" x1="31.5" x2="31.5" y1="24.5" y2="35.5"></line>
+    <line class="color-secondary icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3.2" x1="43.5" x2="43.5" y1="27" y2="38"></line>
+    <line class="color-secondary icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3.3" x1="55.5" x2="55.5" y1="29.75" y2="40.75"></line>
+    <line class="color-secondary icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3.4" x1="67.5" x2="67.5" y1="32.3" y2="43.3"></line>
+  </g>
+</svg><span class="app-footer-nav-label" id="aria-dc49b0a2" aria-hidden="true"><span aria-hidden="true" role="text">Library</span></span></button><button class="app-footer-nav-bar-button-menu halo" role="tab" data-halo-states="focus" id="footer-nav-menu" type="button" aria-labelledby="aria-18af73ff" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-footer-nav-bar-icon-menu icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class=" color-field icon-solid" d="M32,0 L42.9446446,1.92983613 L52.5692035,7.48657782 L59.7128129,16 L63.5138481,26.4432583 L63.5138481,37.5567417 L59.7128129,48 L52.5692035,56.5134222 L42.9446446,62.0701639 L32,64 L21.0553554,62.0701639 L11.4307965,56.5134222 L4.28718708,48 L0.486151904,37.5567417 L0.486151904,26.4432583 L4.28718708,16 L11.4307965,7.48657782 L21.0553554,1.92983613 L32,0 Z M44.1194184,41.091062 L19.8425081,41.0917871 L19.6030898,41.1009092 C17.171573,41.3286345 15.3805816,43.2446877 15.3805816,45.591062 C15.3805816,48.0763434 17.3953002,50.091062 19.8805816,50.091062 L44.1194184,50.091062 L44.3962098,50.0812411 C46.828427,49.8534896 48.6194184,47.9374364 48.6194184,45.591062 C48.6194184,43.1057807 46.6046998,41.091062 44.1194184,41.091062 Z M50.1791276,27.5 L13.7827989,27.5007251 L13.5433806,27.5098472 C11.1118638,27.7375725 9.32087243,29.6536257 9.32087243,32 C9.32087243,34.4852814 11.3355911,36.5 13.8208724,36.5 L50.1791276,36.5 L50.455919,36.490179 C52.8881362,36.2624275 54.6791276,34.3463743 54.6791276,32 C54.6791276,29.5147186 52.6644089,27.5 50.1791276,27.5 Z M44.1194184,13.908938 L19.8805816,13.908938 L19.6037902,13.9187589 C17.171573,14.1465104 15.3805816,16.0625636 15.3805816,18.408938 C15.3805816,20.8942193 17.3953002,22.908938 19.8805816,22.908938 L44.1194184,22.908938 L44.3962098,22.899117 C46.828427,22.6713655 48.6194184,20.7553123 48.6194184,18.408938 C48.6194184,15.9236566 46.6046998,13.908938 44.1194184,13.908938 Z" fill="#000000" fill-opacity="0"></path>
+    <line class="icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3" x1="19.8805816" x2="44.1194184" y1="45.591062" y2="45.591062"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3" x1="13.8208724" x2="50.1791276" y1="32" y2="32"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3" x1="19.8805816" x2="44.1194184" y1="18.408938" y2="18.408938"></line>
+  </g>
+</svg><span class="app-footer-nav-label" id="aria-18af73ff" aria-hidden="true"><span aria-hidden="true" role="text">Menu</span></span></button><button class="app-footer-nav-bar-button-shelf halo" role="tab" data-halo-states="focus" id="footer-nav-shelf" type="button" aria-labelledby="aria-070fa8c3" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 128 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-footer-nav-bar-button-shelf-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class="icon-solid" d="M25.5137899,38.2394281 C25.9180966,37.4381944 26.8953802,37.1164216 27.6966139,37.5207283 C28.4533346,37.9025735 28.7823881,38.7954999 28.4760175,39.5685116 L28.4153137,39.7035522 C27.9499944,40.6256975 27.7821556,41.1495086 27.7821556,43.0392354 C27.7821556,44.5808555 28.1305501,46.1982547 28.8306924,47.8937042 L29.013058,48.3191939 L29.0391463,48.4679662 L55.075275,57.5441006 C55.4092766,57.6605293 55.7640085,57.7005304 56.110815,57.6631582 L56.3177185,57.6314425 L56.4990911,57.5880178 L102.387075,44.7028955 C103.25112,44.4602757 104.14825,44.9640409 104.39087,45.8280866 C104.604401,46.588539 104.239445,47.3824573 103.542989,47.7255491 L103.408579,47.7844774 L103.265679,47.8318818 L57.3776952,60.717004 C56.4553984,60.9759805 55.4842121,60.9945971 54.5537836,60.7732434 L54.2759674,60.6996385 L54.0054991,60.6129896 L27.7683061,51.4670359 C27.103801,51.2353978 26.5601435,50.7466516 26.2592403,50.110383 C25.1098852,47.6795121 24.5321556,45.3204202 24.5321556,43.0392354 C24.5321556,40.6268279 24.8002644,39.6534553 25.5137899,38.2394281 Z M102.511061,29.2877001 C103.373661,29.0399877 104.273746,29.5384522 104.521459,30.4010518 C104.739472,31.1602314 104.379205,31.9562886 103.684785,32.3034826 L103.550725,32.3632028 L103.408107,32.4114493 L57.1100093,45.7068568 C56.3166995,45.9346713 55.4789583,45.9454831 54.6809724,45.7404333 L54.416565,45.66409 L54.1609556,45.5735288 L52.6460336,44.9859395 C51.8093058,44.6613998 51.3940954,43.7200065 51.7186351,42.8832788 C52.0042646,42.1468691 52.7726838,41.7308991 53.535668,41.8744891 L53.6785446,41.9080279 L53.8212957,41.9558803 L55.3362177,42.5434696 C55.5224206,42.6156917 55.7213949,42.6462137 55.9158363,42.6345288 L56.060547,42.6178435 L56.2129635,42.5831077 L102.511061,29.2877001 Z M70.8041352,4.95422516 C72.7388188,4.3939482 74.7824554,4.34689636 76.7349052,4.81260575 L77.126199,4.9131762 L77.5118715,5.02667156 L77.8922676,5.15301871 L103.493679,14.1505234 C104.392478,14.4664026 104.865029,15.4510944 104.54915,16.3498941 C104.401624,16.7696632 104.098687,17.1135494 103.703306,17.3151886 L103.550827,17.3840059 L103.398916,17.4356284 L57.4560559,30.6609124 C56.4436764,30.9523397 55.3721994,30.9529668 54.3610953,30.6656606 L54.0869263,30.5801677 L53.8205437,30.4819334 L29.385,20.759 L29.2508117,20.9373127 C28.3919482,22.1276897 27.9001848,23.5668999 27.7906637,25.2294837 L27.7730511,25.5891614 L27.7671728,25.9556213 C27.7671728,28.0771814 28.2955556,30.0687676 29.3600577,31.9536896 L29.5801086,32.3292588 L29.7261989,32.6104579 L38.1557528,35.8797217 C38.8921625,36.1653513 39.3081324,36.9337705 39.1645425,37.6967547 L39.1310037,37.8396313 L39.0831513,37.9823824 C38.7975217,38.7187922 38.0291025,39.1347621 37.2661184,38.9911721 L37.1232417,38.9576333 L36.9804906,38.9097809 L27.621212,35.2563916 L27.3591231,34.8760094 C25.4696123,32.1336718 24.5171728,29.1465641 24.5171728,25.9556213 C24.5171728,22.5725487 25.7496972,19.2482779 27.8767636,17.6537688 C28.0127314,17.5030815 28.1745537,17.3777118 28.3578033,17.2821856 L28.499189,17.2162074 L28.6748413,17.1547075 L70.8041352,4.95422516 Z" fill="#000000" fill-rule="nonzero"></path>
+    <path class="color-primary" d="M98.321,15.645 L56.5915863,27.6578611 L56.3903837,27.7068579 C55.9178051,27.8013968 55.4263339,27.7575672 54.9758025,27.5783146 L33.467,19.02 L71.6734059,7.95589026 C73.3739593,7.46341651 75.1858483,7.5142327 76.8561264,8.10124469 L98.321,15.645 Z" fill="#D6D6D6" fill-rule="nonzero"></path>
+    <path class="color-highlight" d="M72.0133175,7.85980316 C72.8090522,7.62937364 73.6409227,8.08764405 73.8713522,8.88337876 C74.0882271,9.63230555 73.6950425,10.4132419 72.9846258,10.6946359 L72.8477766,10.7414135 L38.0059443,20.8301406 L33.467,19.02 L72.0133175,7.85980316 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+    <path class="color-shadow icon-solid" d="M57,48 L102,35.0059433 C101.673913,36.2561552 101.51087,37.466363 101.51087,38.6365667 C101.51087,39.8067705 101.673913,40.929896 102,42.0059433 L57,55 L57,48 Z" fill="#000000" fill-opacity="0.25" opacity="0.35"></path>
+    <path class="color-shadow icon-solid" d="M57,33 L102,20.0059433 C101.673913,21.2561552 101.51087,22.466363 101.51087,23.6365667 C101.51087,24.8067705 101.673913,25.929896 102,27.0059433 L57,40 L57,33 Z" fill="#000000" fill-opacity="0.25" opacity="0.35"></path>
+    <path class="color-secondary icon-solid" d="M48.636964,38.2430307 L48.636964,46.5168337 C48.636964,46.9683265 48.2709568,47.3343337 47.819464,47.3343337 C47.517687,47.3343337 47.2404539,47.1680809 47.0983182,46.9018726 L44.428538,41.9015968 L43.0448625,44.0493447 C42.7188349,44.5554064 42.0442932,44.7013528 41.5382316,44.3753252 C41.2267652,44.1746646 41.0385568,43.8295273 41.0385568,43.4590195 L41.0385568,35.0860985 C41.0385568,34.6672648 41.2785431,34.2854747 41.6559618,34.1038796 L43.5984476,33.1692518 C43.8826191,33.0325225 44.2120804,33.0255681 44.5017686,33.150184 L51.4345512,36.1324765 L49.2261437,37.274899 C48.8642327,37.4621177 48.636964,37.8355624 48.636964,38.2430307 Z" fill="#000000"></path>
+    <path d="M41.3023433,34.7480277 C41.4002234,34.4990233 41.6610593,34.362458 41.9145587,34.4125216 L42.0089444,34.4401886 L48.5356021,37.0057249 C48.8157321,37.11584 48.9535563,37.432196 48.8434412,37.712326 C48.7455611,37.9613303 48.4847252,38.0978957 48.2312259,38.047832 L48.1368401,38.020165 L41.6101824,35.4546288 C41.3300525,35.3445137 41.1922282,35.0281576 41.3023433,34.7480277 Z" fill="#FFFFFF" fill-rule="nonzero" opacity="0.345527286"></path>
+  </g>
+</svg><span class="app-footer-nav-label" id="aria-070fa8c3" aria-hidden="true"><span aria-hidden="true" role="text">Shelf</span></span></button><button class="app-footer-nav-bar-button-timeline halo" role="tab" data-halo-states="focus" id="footer-nav-timeline" type="button" aria-labelledby="aria-c0a85b1b" aria-selected="true" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-footer-nav-bar-button-timeline-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class="color-primary" d="M29.8527668,12.25 C24.9758145,12.25 22.0569658,12.8439152 19.4432364,14.2417529 C17.1860209,15.448925 15.448925,17.1860209 14.2417529,19.4432364 C12.8905098,21.9698415 12.2904876,24.7815636 12.2519875,29.3715373 L12.25,34.1472332 C12.25,39.0241855 12.8439152,41.9430342 14.2417529,44.5567636 C15.448925,46.8139791 17.1860209,48.551075 19.4432364,49.7582471 C21.9698415,51.1094902 24.7815636,51.7095124 29.3715373,51.7480125 L29.8527668,51.75 L34.1472332,51.75 C39.0241855,51.75 41.9430342,51.1560848 44.5567636,49.7582471 C46.8139791,48.551075 48.551075,46.8139791 49.7582471,44.5567636 C51.1094902,42.0301585 51.7095124,39.2184364 51.7480125,34.6284627 L51.75,34.1472332 L51.75,29.8527668 C51.75,24.9758145 51.1560848,22.0569658 49.7582471,19.4432364 C48.551075,17.1860209 46.8139791,15.448925 44.5567636,14.2417529 C42.0301585,12.8905098 39.2184364,12.2904876 34.6284627,12.2519875 L29.8527668,12.25 Z" fill="#D6D6D6" fill-rule="nonzero"></path>
+    <path class="color-highlight" d="M34.1472332,8.25 C39.7260726,8.25 43.2429907,9.00303139 46.443159,10.7145001 C49.3974485,12.2944714 51.7055286,14.6025515 53.2854999,17.556841 C54.9969686,20.7570093 55.75,24.2739274 55.75,29.8527668 L55.75,34.1472332 C55.75,39.7260726 54.9969686,43.2429907 53.2854999,46.443159 C51.7055286,49.3974485 49.3974485,51.7055286 46.443159,53.2854999 C43.2429907,54.9969686 39.7260726,55.75 34.1472332,55.75 L29.8527668,55.75 C24.2739274,55.75 20.7570093,54.9969686 17.556841,53.2854999 C14.6025515,51.7055286 12.2944714,49.3974485 10.7145001,46.443159 C9.00303139,43.2429907 8.25,39.7260726 8.25,34.1472332 L8.25,29.8527668 C8.25,24.2739274 9.00303139,20.7570093 10.7145001,17.556841 C12.2944714,14.6025515 14.6025515,12.2944714 17.556841,10.7145001 C20.7570093,9.00303139 24.2739274,8.25 29.8527668,8.25 L34.1472332,8.25 Z M29.8527668,12.25 C24.9758145,12.25 22.0569658,12.8439152 19.4432364,14.2417529 C17.1860209,15.448925 15.448925,17.1860209 14.2417529,19.4432364 C12.8905098,21.9698415 12.2904876,24.7815636 12.2519875,29.3715373 L12.25,34.1472332 C12.25,39.0241855 12.8439152,41.9430342 14.2417529,44.5567636 C15.448925,46.8139791 17.1860209,48.551075 19.4432364,49.7582471 C21.9698415,51.1094902 24.7815636,51.7095124 29.3715373,51.7480125 L29.8527668,51.75 L34.1472332,51.75 C39.0241855,51.75 41.9430342,51.1560848 44.5567636,49.7582471 C46.8139791,48.551075 48.551075,46.8139791 49.7582471,44.5567636 C51.1094902,42.0301585 51.7095124,39.2184364 51.7480125,34.6284627 L51.75,34.1472332 L51.75,29.8527668 C51.75,24.9758145 51.1560848,22.0569658 49.7582471,19.4432364 C48.551075,17.1860209 46.8139791,15.448925 44.5567636,14.2417529 C42.0301585,12.8905098 39.2184364,12.2904876 34.6284627,12.2519875 L29.8527668,12.25 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+    <path class="icon-hollow" d="M29.8527668,6.5 L34.1472332,6.5 C40.3191184,6.5 44.0091978,7.42825611 47.268457,9.17132704 C50.5277163,10.914398 53.085602,13.4722837 54.828673,16.731543 C56.5717439,19.9908022 57.5,23.6808816 57.5,29.8527668 L57.5,34.1472332 C57.5,40.3191184 56.5717439,44.0091978 54.828673,47.268457 C53.085602,50.5277163 50.5277163,53.085602 47.268457,54.828673 C44.0091978,56.5717439 40.3191184,57.5 34.1472332,57.5 L29.8527668,57.5 C23.6808816,57.5 19.9908022,56.5717439 16.731543,54.828673 C13.4722837,53.085602 10.914398,50.5277163 9.17132704,47.268457 C7.42825611,44.0091978 6.5,40.3191184 6.5,34.1472332 L6.5,29.8527668 C6.5,23.6808816 7.42825611,19.9908022 9.17132704,16.731543 C10.914398,13.4722837 13.4722837,10.914398 16.731543,9.17132704 C19.9908022,7.42825611 23.6808816,6.5 29.8527668,6.5 Z" stroke="#000000" stroke-linecap="round" stroke-width="3.5"></path>
+    <path class="icon-solid" d="M31.1425366,16.5 C30.2021063,16.5 29.5040434,21.8649998 29.0483479,32.5949995 L29.0483577,32.5949999 C29.0173471,33.3251887 29.3870963,34.0141488 30.0127299,34.3919315 C37.0399175,38.6352303 40.8228624,40.3464418 41.3615646,39.5255661 C41.9255956,38.6660945 39.277265,36.0982643 33.4165728,31.8220756 C32.8748882,21.6073585 32.1168761,16.5 31.1425366,16.5 Z" fill="#000000" fill-rule="nonzero"></path>
+  </g>
+</svg><span class="app-footer-nav-label" id="aria-c0a85b1b" aria-hidden="true"><span aria-hidden="true" role="text">Timeline</span></span></button></div></nav></div><div class="app-footer-bumper bumper-p-s" aria-hidden="true"></div></div><div class="pillar" aria-hidden="true"><div class="app-footer-menu-button bumper-p-s" data-access="visual" aria-hidden="true"><div class="app-footer-menu-button-grip" aria-hidden="true"><button class="app-footer-menu-button-orb halo is-notifying" data-halo-states="focus" aria-label="Navigation" type="button" role="button" touch-action="none" style="touch-action: none;" aria-hidden="true" disabled="" tabindex="-1"><div class="app-footer-menu-button-field" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="shibui-graphic app-footer-menu-button-mascot icon" aria-hidden="true">
+  <g class="mascot-symbol" fill="none" fill-rule="evenodd">
+    <path class="field" fill="#631A35" d="M0 0h1024v1024H0z"></path>
+    <g class="libby" transform="translate(176 140)">
+      <path class="bob" fill="#A61C49" d="M102.774084 639.955556C39.5954783 589.033715.35555556 512.592257.35555556 412.903215c0-195.085066 150.27313644-336.1476594 336.14765944-336.1476594 184.868093 0 335.141229 141.0508744 335.141229 336.1476594 0 99.692227-39.237715 176.132058-102.278916 227.052341H102.774084z"></path>
+      <circle class="face" cx="336" cy="410.4" r="301.511111" fill="#FFEEAA"></circle>
+      <path class="ribbon" fill="#29CFC3" d="M576.577778.8s-55.699561 27.2560909-67.854824 27.2560909C496.567691 28.0560909 440.044444.8 440.044444.8v71.3863555c51.510478 15.0494556 98.043397 42.9743705 136.533334 77.9469775V.8z"></path>
+      <path class="right-hair" fill="#A61C49" d="M496.541742 355.218377c39.715368-49.471221 70.43069-106.476743 89.661807-168.532407 53.113158 59.452395 85.440895 138.005419 85.440895 224.217245 0 34.454905-5.219868 67.708125-14.910713 99.010767L496.541742 355.218377z"></path>
+      <path class="left-hair" fill="#A61C49" d="M22.8771373 531.741118C8.33001652 494.240385.35555556 453.489716.35555556 410.903215c0-185.874523 150.27313644-336.1476594 336.14765944-336.1476594 93.250019 0 177.697928 38.2344884 238.497631 99.9865304-64.492686 208.969225-259.16976 360.81347-489.3119571 360.81347-21.2649447 0-42.2271022-1.296386-62.8117516-3.814438z"></path>
+      <path class="smile" fill="#631A35" d="M337.555882 636.444444c31.792688 0 65.508184-24.578903 57.307307-41.750517-4.353455-8.853154-28.279872 11.259499-57.307307 11.597366-27.640268-.213934-51.318608-18.607195-56.16116-11.597366-11.942657 16.785547 25.357338 41.750517 56.16116 41.750517z"></path>
+      <path class="eye-open" fill="#631A35" d="M425.65447 480.857942c-.805048-3.242227-1.232248-6.633347-1.232248-10.124089 0-23.159427 18.804041-41.933853 42-41.933853 23.19596 0 42 18.774426 42 41.933853 0 16.005671-8.981384 29.916931-22.186793 36.983912-4.536068-18.268423-21.06804-31.809765-40.767752-31.809765-7.165041 0-13.911031 1.791345-19.813207 4.949942z"></path>
+    </g>
+    <g class="book" transform="translate(93 741)">
+      <path class="pages-outline" fill="#631A35" d="M38 84.9926853c0-55.2249021 44.2136639-92.8910575 98.630414-83.50691691 0 0 194.385572 27.98979521 260.369586 65.51338631 10.794501.0792849 32.675832.0792849 44 0C507.613054 29.1825713 695.424934 1.78189528 695.424934 1.78189528 749.86644-7.48695642 794 29.7782087 794 84.9926853V568H38V84.9926853z"></path>
+      <path class="pages" fill="#FFFFFF" d="M38 70.3221573c0-34.419577 27.5598944-57.9623071 61.5137031-52.3210493 0 0 231.5022829 34.4097411 297.4862969 71.998892 10.794501-.0499917 32.675832-.0499917 44 0 66.613054-37.8816467 291.529368-71.8271166 291.529368-71.8271166C766.478661 12.5545551 794 35.9021463 794 70.3221573V568H38V70.3221573z"></path>
+      <path class="back-cover" fill="#29CFC3" d="M419 568V114L52 47C23.0931158 41.5448528.50042955 61.4594029 1 91L0 568h419z"></path>
+      <path class="front-cover" fill="#23B0A7" d="M419 568V113l367-67c29.291609-5.4519386 53 14.448269 53 44v478H419z"></path>
+      <path class="spine" fill="#26BFB5" d="M473 568V104H364v464z"></path>
+    </g>
+    <g class="mortarboard" transform="translate(93 151)" style="display: none">
+      <path class="cap" fill="#631A35" d="M416.858021 338.903543l-.000165.109935-.150396-.055281-.152288.055281.00031-.111144C202.88596 260.36502 195.757256 260.846282 98.7897782 260.846282l29.5175938-154.434944h581.429155l29.888885 154.434944c-98.187698 0-106.406014-.481267-322.767391 78.057261z"></path>
+      <path class="cap-board" fill="#A61C49" d="M422.163693-1.42020295L843.451928 110.605106 422.163447 213.120212-5.89578447 110.605168 422.163693-1.42020295z"></path>
+      <path class="cap-ribbon" fill="#29CFC3" d="M218.599265 277.184664c18.739202 4.457615 32.677299 21.318175 32.677299 41.452927v98.759801l-42.555492-17.053762-42.555491 17.053762v-98.759801c0-20.230499 14.118503-37.167786 32.984337-41.520814-8.567337-2.690294-14.783148-10.70706-14.783148-20.178448v-7.047494c0-9.929233 6.831278-18.259813 16.041626-20.530816l-.738613-75.069023 203.309038-61.3614972c1.912208-4.984801 9.030042-8.6870488 17.518402-8.6870488 9.954106 0 18.023502 5.0912258 18.023502 11.371571 0 6.280345-8.069396 11.371571-18.023502 11.371571-2.255885 0-4.41497-.261488-6.405268-.739044l-198.373537 59.871895.619652 62.97849c9.82218 1.807635 17.264778 10.429911 17.264778 20.793902v7.047494c0 9.552431-6.322638 17.62524-15.003583 20.246335z"></path>
+    </g>
+  </g>
+</svg><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-footer-menu-button-hamburger icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class=" color-field icon-solid" d="M32,0 L42.9446446,1.92983613 L52.5692035,7.48657782 L59.7128129,16 L63.5138481,26.4432583 L63.5138481,37.5567417 L59.7128129,48 L52.5692035,56.5134222 L42.9446446,62.0701639 L32,64 L21.0553554,62.0701639 L11.4307965,56.5134222 L4.28718708,48 L0.486151904,37.5567417 L0.486151904,26.4432583 L4.28718708,16 L11.4307965,7.48657782 L21.0553554,1.92983613 L32,0 Z M44.1194184,41.091062 L19.8425081,41.0917871 L19.6030898,41.1009092 C17.171573,41.3286345 15.3805816,43.2446877 15.3805816,45.591062 C15.3805816,48.0763434 17.3953002,50.091062 19.8805816,50.091062 L44.1194184,50.091062 L44.3962098,50.0812411 C46.828427,49.8534896 48.6194184,47.9374364 48.6194184,45.591062 C48.6194184,43.1057807 46.6046998,41.091062 44.1194184,41.091062 Z M50.1791276,27.5 L13.7827989,27.5007251 L13.5433806,27.5098472 C11.1118638,27.7375725 9.32087243,29.6536257 9.32087243,32 C9.32087243,34.4852814 11.3355911,36.5 13.8208724,36.5 L50.1791276,36.5 L50.455919,36.490179 C52.8881362,36.2624275 54.6791276,34.3463743 54.6791276,32 C54.6791276,29.5147186 52.6644089,27.5 50.1791276,27.5 Z M44.1194184,13.908938 L19.8805816,13.908938 L19.6037902,13.9187589 C17.171573,14.1465104 15.3805816,16.0625636 15.3805816,18.408938 C15.3805816,20.8942193 17.3953002,22.908938 19.8805816,22.908938 L44.1194184,22.908938 L44.3962098,22.899117 C46.828427,22.6713655 48.6194184,20.7553123 48.6194184,18.408938 C48.6194184,15.9236566 46.6046998,13.908938 44.1194184,13.908938 Z" fill="#000000" fill-opacity="0"></path>
+    <line class="icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3" x1="19.8805816" x2="44.1194184" y1="45.591062" y2="45.591062"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3" x1="13.8208724" x2="50.1791276" y1="32" y2="32"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-linecap="round" stroke-width="3" x1="19.8805816" x2="44.1194184" y1="18.408938" y2="18.408938"></line>
+  </g>
+</svg><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-footer-menu-button-spinner icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-linecap="round" stroke-width="1">
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="32" x2="32" y1="12.4444444" y2="17.4222222"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="44.5700688" x2="41.3704149" y1="17.0195753" y2="20.8327743"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="51.2584627" x2="46.3563086" y1="28.6042134" y2="29.4685955"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="48.9356079" x2="44.6247259" y1="41.7777778" y2="39.2888889"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="38.6883939" x2="36.9858936" y1="50.3762113" y2="45.6986302"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="25.3116061" x2="27.0141064" y1="50.3762113" y2="45.6986302"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="15.0643921" x2="19.3752741" y1="41.7777778" y2="39.2888889"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="12.7415373" x2="17.6436914" y1="28.6042134" y2="29.4685955"></line>
+    <line class="icon-hollow" stroke="#000000" stroke-width="3.2" x1="19.4299312" x2="22.6295851" y1="17.0195753" y2="20.8327743"></line>
+  </g>
+</svg></div></button><div class="app-footer-menu-button-badge" data-access="visual" aria-hidden="true" data-badge-color="plum"><div class="app-footer-menu-button-badge-count" aria-hidden="true"><span aria-hidden="true" role="text">12</span></div></div></div></div></div></div></div><div class="arena-overlay"><div class="arena-shades"></div><div class="arena-popovers"><div class="popover popover-prepare popover-animate popover-appear data-popover_below"><div class="popover-fixture arena-vert"><div class="popover-bounds popover-measured" style="top: 60.1641px; height: 231px; left: 902px; right: 15px; transform-origin: 149.75px 0px;"><div class="popover-arrow" style="left: 149.75px;"><div class="popover-arrow-tip" style="background-color: rgb(25, 25, 9);"></div></div><div class="popover-choices popover-scroller native-scrollable native-scrollable-y popover-content halos-anchor" touch-action="pan-y" style="touch-action: pan-y;"><button class="popover-back-button halo" role="button" type="button" aria-label="Export Your Data" aria-describedby="shibui-element-0001"><div><svg viewBox="0 0 32 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="shibui-graphic popover-back-icon icon">
+  <g stroke="#000000" stroke-width="4" stroke-linecap="round" fill="none" fill-rule="evenodd" class="icon-hollow">
+    <polyline points="27.627417 54.254834 5 31.627417 27.627417 9 27.627417 9"></polyline>
+  </g>
+</svg><span role="text">Export Your Data</span><span id="shibui-element-0001" data-access="spoken" role="text">Back to previous popover.</span></div></button><a href="#" class="halo" role="button"><span role="text">Table</span><span class="popover-choice-indicator"><span role="text">HTML</span></span></a><a href="#" class="halo" role="button"><span role="text">Spreadsheet</span><span class="popover-choice-indicator"><span role="text">CSV</span></span></a><a href="#" class="halo" role="button"><span role="text">Data</span><span class="popover-choice-indicator"><span role="text">JSON</span></span></a></div></div></div><button class="shibui-shield halo" role="button" type="button" data-halo-class="shield" data-halo-inset="-1" aria-label="Close popover."><div class="shibui-shield-grip" touch-action="pan-x pan-y" style="touch-action: pan-x pan-y;"></div></button></div></div><div class="cover-zoom hide"><div class="cover-zoom-scaler bumper-n bumper-s bumper-e bumper-w"><div class="cover-zoom-container"><div class="cover-3d-lining"><div class="cover-3d-shadow"></div><div class="cover-3d-frame"><div class="cover-3d-bounds"><div class="cover-3d-back"></div><div class="cover-3d-spine"></div><div class="cover-3d-leaves"></div><div class="cover-3d-front"></div></div></div></div></div></div></div><div class="arena-alerts"><div class="app-notices"><div class="app-notices-bumper bumper-n bumper-e bumper-w"><div class="app-notice-error app-notice dismissable" data-access="inert" aria-hidden="true"><div class="app-notice-error-info" aria-hidden="true"><button class="app-notice-error-expando halo" type="button" role="button" aria-labelledby="aria-65daaf00" aria-describedby="aria-b3e3a9f4" aria-hidden="true" disabled="" tabindex="-1"><span class="app-notice-error-label" id="aria-65daaf00" aria-hidden="true"></span><span class="app-notice-error-desc" data-access="spoken" role="text" aria-hidden="true" id="aria-b3e3a9f4"><span aria-hidden="true" role="text">Libby has encountered a problem. Tap for details.</span></span></button></div><button aria-label="Dismiss problem" class="app-notice-error-dismiss-button halo" type="button" role="button" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-notice-error-dismiss-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class="icon-solid" d="M32,6.5 C46.0832611,6.5 57.5,17.9167389 57.5,32 C57.5,46.0832611 46.0832611,57.5 32,57.5 C17.9167389,57.5 6.5,46.0832611 6.5,32 C6.5,17.9167389 17.9167389,6.5 32,6.5 Z M25.9142136,23.0857864 C25.133165,22.3047379 23.866835,22.3047379 23.0857864,23.0857864 C22.3047379,23.866835 22.3047379,25.133165 23.0857864,25.9142136 L23.0857864,25.9142136 L29.096,31.924 L23.0857864,37.9350288 L22.9689537,38.0622436 C22.3069014,38.848031 22.3458457,40.0235152 23.0857864,40.763456 L23.0857864,40.763456 L23.2130012,40.8802887 C23.9987886,41.542341 25.1742728,41.5033967 25.9142136,40.763456 L25.9142136,40.763456 L31.924,34.753 L37.9350288,40.763456 C38.7160774,41.5445046 39.9824074,41.5445046 40.763456,40.763456 C41.5445046,39.9824074 41.5445046,38.7160774 40.763456,37.9350288 L40.763456,37.9350288 L34.753,31.924 L40.763456,25.9142136 L40.8802887,25.7869988 C41.542341,25.0012114 41.5033967,23.8257272 40.763456,23.0857864 L40.763456,23.0857864 L40.6362412,22.9689537 C39.8504538,22.3069014 38.6749696,22.3458457 37.9350288,23.0857864 L37.9350288,23.0857864 L31.924,29.096 L25.9142136,23.0857864 Z" fill="#000000" fill-rule="nonzero"></path>
+  </g>
+</svg></button></div><div class="app-notice-update app-notice" data-access="inert" aria-hidden="true"><div class="app-notice-update-info" aria-hidden="true"><button class="app-notice-update-expando halo" type="button" role="button" aria-labelledby="aria-60e4b309" aria-describedby="aria-d73364cb" aria-hidden="true" disabled="" tabindex="-1"><span class="app-notice-update-label" id="aria-60e4b309" aria-hidden="true"><span aria-hidden="true" role="text">Updating…</span></span><span class="app-notice-update-desc" data-access="spoken" role="text" aria-hidden="true" id="aria-d73364cb"><span aria-hidden="true" role="text">The Libby app is updating. This screen will be reloaded shortly. Tap for details.</span></span></button><div class="app-notice-update-track" role="progressbar" aria-valuemin="0" aria-valuemax="1" aria-hidden="true"><div class="app-notice-update-progress" aria-hidden="true"></div></div></div><button aria-label="Pause update" class="app-notice-update-control-button halo" type="button" role="button" aria-hidden="true" disabled="" tabindex="-1"><svg version="1.1" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="shibui-graphic app-notice-update-control-icon icon" aria-hidden="true">
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path class="icon-solid" d="M32,6.5 C46.0832611,6.5 57.5,17.9167389 57.5,32 C57.5,46.0832611 46.0832611,57.5 32,57.5 C17.9167389,57.5 6.5,46.0832611 6.5,32 C6.5,17.9167389 17.9167389,6.5 32,6.5 Z M41.2537165,21.6075032 L35.5885587,21.6075032 C34.88992,21.6075032 34.3271237,22.1756118 34.3271237,22.8764093 L34.3271237,22.8764093 L34.3271237,41.1235907 C34.3271237,41.8365485 34.8918874,42.3924968 35.5885587,42.3924968 L35.5885587,42.3924968 L41.2537165,42.3924968 C41.9523552,42.3924968 42.5151515,41.8243882 42.5151515,41.1235907 L42.5151515,41.1235907 L42.5151515,22.8764093 C42.5151515,22.1634515 41.9503878,21.6075032 41.2537165,21.6075032 L41.2537165,21.6075032 Z M28.4114413,21.6075032 L22.7462835,21.6075032 C22.0476448,21.6075032 21.4848485,22.1756118 21.4848485,22.8764093 L21.4848485,22.8764093 L21.4848485,41.1235907 C21.4848485,41.8365485 22.0496122,42.3924968 22.7462835,42.3924968 L22.7462835,42.3924968 L28.4114413,42.3924968 C29.11008,42.3924968 29.6728763,41.8243882 29.6728763,41.1235907 L29.6728763,41.1235907 L29.6728763,22.8764093 C29.6728763,22.1634515 29.1081126,21.6075032 28.4114413,21.6075032 L28.4114413,21.6075032 Z" fill="#000000" fill-rule="nonzero"></path>
+  </g>
+</svg></button></div></div><div class="app-notices-silhouette"></div></div></div></div><div class="shibui-halos" data-access="visual" aria-hidden="true"><div class="shibui-halo hide" style="transform: translate3d(1px, 1px, 0px); width: 1116px; height: 1014px; border-radius: calc(3px);"><div class="shibui-halo-ripple" style="width: 1116px; height: 1116px; transform: translateX(476.374px) translateY(-480.789px);"><div class="shibui-halo-scalar"></div></div></div></div></div></body><editor-card style="position:absolute;top:0px;left:0px;z-index:auto;display: block !important"><div dir="ltr" style="all: initial;"><div style="color: initial; font: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-palette: initial; font-synthesis: initial; font-variation-settings: initial; forced-color-adjust: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation: initial; app-region: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; bottom: 0px; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: flex; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: column-reverse; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; left: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: 1em; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; math-depth: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; origin-trial-test-property: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: fixed; quotes: initial; r: initial; resize: initial; right: 0px; rotate: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scrollbar-gutter: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; top: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-highlight: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;"></div><div style="color: initial; font: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-palette: initial; font-synthesis: initial; font-variation-settings: initial; forced-color-adjust: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation: initial; app-region: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; math-depth: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; origin-trial-test-property: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: absolute; quotes: initial; r: initial; resize: initial; rotate: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scrollbar-gutter: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-highlight: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;"><link rel="stylesheet" href="chrome-extension://gpaiobkfhnonedkhhfjpmhdalgeoebfa/fonts/fabric-icons.css"><div style="all: initial;"></div></div></div></editor-card></html>
