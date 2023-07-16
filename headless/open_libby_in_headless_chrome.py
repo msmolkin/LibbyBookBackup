@@ -21,10 +21,9 @@ def create_all_months() -> list:
     today = datetime.today()
     res = []
     month_count = 0
-    while month_count < 12 + 1:
+    for month_count in range(12 + 1):
         date_month = today - relativedelta.relativedelta(months=month_count)
         res.append(date_month.strftime("%Y-%m"))
-        month_count += 1
     return res
 
 def save_file(file_name: str, html: str):
@@ -45,13 +44,14 @@ def open_timeline():
     with open("all_books_activities.html", "w") as list_of_books:
         list_of_books.write(extract_journey_url_from_book.books)
 
+
+def open_book(book) -> object:
     """ Creates data for book
     book {str}: URL
 
     Returns:
     book_data {dict}: {url, book_type, title}
     """
-def open_book(book) -> object:
     return book
 
 open_timeline()
