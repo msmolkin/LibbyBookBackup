@@ -4,52 +4,44 @@
 # Claude's version:
 # extract_export_files_from_journey.py
 
-import time
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait 
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 def extract_files(driver):
-  driver.get("https://libbyapp.com/timeline/activities/journey/1337141")
-  
-  # Click shelf actions button
-  actions_btn = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.CSS_SELECTOR, ".shelf-actions"))
-  )
-  actions_btn.click()
 
-  # Click export menu button
-  export_btn = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, "//span[text()='Export Reading Data']"))  
-  )
-  export_btn.click()
+  # Navigate to page 
+  driver.get("https://libbyapp.com/library/your-journey/5e9b3d0d-3b0e-4b0e-8b0e-3b0e4b0e8b0e")
 
-  # Extract HTML
-  html_btn = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, "//span[text()='Table']/.."))
-  )
-  html_url = html_btn.get_attribute("href")
-  print("HTML URL:", html_url)
+  while True:
 
-  # Extract CSV
-  csv_btn = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, "//span[text()='CSV']/.."))
-  )
-  csv_url = csv_btn.get_attribute("href")
-  print("CSV URL:", csv_url)  
+    # Click export button
+    export_btn = WebDriverWait(driver, 10).until(
+      EC.element_to_be_clickable((By.XPATH, "//span[text()='Export Reading Data']"))  
+    )
+    export_btn.click()
 
-  # Extract JSON
-  json_btn = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, "//span[text()='JSON']/.."))
-  )
-  json_url = json_btn.get_attribute("href")
-  print("JSON URL:", json_url)
+    # Get popover element
+    popover = WebDriverWait(driver, 10).until(
+      EC.presence_of_element_located((By.CSS_SELECTOR, ".popover-choices"))
+    )
 
-if __name__ == "__main__":
-  driver = webdriver.Chrome()
-  extract_files(driver)
-  driver.quit()
+    # Loop through each format
+    for fmt in ["HTML", "CSV", "JSON"]:
+
+      # Click button and get URL
+      btn = popover.find_element(By.XPATH, f"//span[text()='{fmt}']/..")
+      btn.click() 
+      url = driver.current_url  
+
+      print(f"{fmt} URL:", url)
+
+      # Navigate back
+      driver.back()
+
+    # Check for Done button 
+    if len(driver.find_elements(By.XPATH, "//span[text()='Done']")):
+      break
 
 # My version, riddled with errors:
 # import time
