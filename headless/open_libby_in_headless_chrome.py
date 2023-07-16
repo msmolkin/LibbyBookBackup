@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 
 import extract_journey_url_from_book
 
-timeline_base_url = "https://libbyapp.com/timeline/activities/"
+TIMELINE_BASE_URL = "https://libbyapp.com/timeline/activities/"
 
 def create_all_months() -> list:
     """ Creates a list of all months from today to 12 months ago
@@ -47,7 +47,7 @@ def open_timeline():
 
     months = create_all_months()
     for year_month in months:
-        timeline_url = f"{timeline_base_url}all,all,all,{year_month}"
+        timeline_url = f"{TIMELINE_BASE_URL}all,all,all,{year_month}"
         driver.get(timeline_url)
         time.sleep(3)
         filename = "month_activities.html"
