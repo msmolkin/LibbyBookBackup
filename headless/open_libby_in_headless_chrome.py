@@ -1,6 +1,7 @@
+import json
+import time
 from datetime import datetime
 from dateutil import relativedelta
-import time
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -41,8 +42,8 @@ def open_timeline():
 
         extract_journey_url_from_book.read_activities_file_and_extract_books()
     print(extract_journey_url_from_book.books)
-    with open("all_books_activities.html", "w") as list_of_books:
-        list_of_books.write(extract_journey_url_from_book.books)
+    with open("all_books_activities.json", "w") as list_of_books:
+        json.dump(extract_journey_url_from_book.books, list_of_books)
 
 
 def open_book(book) -> object:
