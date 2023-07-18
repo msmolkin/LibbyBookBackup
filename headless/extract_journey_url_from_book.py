@@ -4,7 +4,6 @@
 import re
 from bs4 import BeautifulSoup as bs
 
-books = {}  # uses dict to save each book once
 
 def read_activities_file_and_extract_books() -> list:
     """ Creates list of books that had records in the current month
@@ -13,11 +12,12 @@ def read_activities_file_and_extract_books() -> list:
     Returns:
         books {list}: the books recorded so far
     """
+    books = {}  # uses dict to save each book once
     with open("month_activities.html", "r") as f:
         soup = bs(f, "html.parser")
 
     books_on_this_page = soup(class_="title-plank-details")
-    print(len(books_on_this_page))
+    print(len(books_on_this_page)) # all books on the page
     base = "https://libbyapp.com"
 
     for book_html in books_on_this_page:
@@ -37,13 +37,41 @@ def read_activities_file_and_extract_books() -> list:
         book["author"] = book_html.find(class_="title-plank-author").text
 
         books[book["id"]] = book
+    print(len(books)) # all books recorded (excluding duplicates)
     return books
 
+def append_to_books_json(books: list) -> None:
+    """ Appends new books to books.json
+
+    Args:
+        books (list): the books recorded so far
+    """
+    import json
+    books_json = {}
+
+    try:
+        with open("books.json", "r") as f:
+            books_json = json.load(f)
+    except FileNotFoundError:
+        pass
+    
+    for book_id in books:
+        books_json[book_id] = books[book_id]
+    with open("books.json", "w") as f:
+        json.dump(books_json, f, indent=4)
 
 if __name__ == "__main__":
-    # test
-    read_activities_file_and_extract_books()
-    from pprint import pprint
+    # time how long it takes to extract books from a file
+    import time
+    start_time = time.time()
+    books = read_activities_file_and_extract_books()
+    print("--- %s seconds ---" % (time.time() - start_time))
+    # why is it so slow? 8 books per second
 
+    # the books dict is saved?/stored?/sorted?/recorded?/filed? by book id: {book id: {book data}}
+    # for book_id in books:
+    #     assert(book_id == books[book_id]["id"])
+    
+    # from pprint import pprint
     # pprint(books)
     # print(len(books))
