@@ -1,8 +1,11 @@
 
-# # Purpose: Extract the HTML, CSV, and JSON files from the "Journey" page of a book in the Libby app.
+# Purpose: Extract the HTML, CSV, and JSON files from the "Journey" page of a book in the Libby app.
 
 # Claude's version:
 # extract_export_files_from_journey.py
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,16 +13,25 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def extract_files(driver):
 
-  # Navigate to page 
-  driver.get("https://libbyapp.com/library/your-journey/5e9b3d0d-3b0e-4b0e-8b0e-3b0e4b0e8b0e")
+  # Navigate to page
+  driver.get("https://libbyapp.com/timeline/activities/journey/1337141")
 
   while True:
 
     # Click export button
-    export_btn = WebDriverWait(driver, 10).until(
-      EC.element_to_be_clickable((By.XPATH, "//span[text()='Export Reading Data']"))  
+    actions_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//button[@class='shelf-actions' and @type='button']"))
     )
-    export_btn.click()
+    actions_button.click()
+
+    menu_button_export = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//span[@role='text' and text() = 'Export Reading Data']"))
+    )
+    menu_button_export.click()
+
+    # export_type_button = WebDriverWait(driver, 10).until(
+    #     EC.element_to_be_clickable((By.XPATH, f"//a[@class='halo' and @role='button']/span[@role='text' and text() = '{export_type}']"))
+    # )
 
     # Get popover element
     popover = WebDriverWait(driver, 10).until(
@@ -27,14 +39,14 @@ def extract_files(driver):
     )
 
     # Loop through each format
-    for fmt in ["HTML", "CSV", "JSON"]:
+    for format in ["HTML", "CSV", "JSON"]:
 
       # Click button and get URL
-      btn = popover.find_element(By.XPATH, f"//span[text()='{fmt}']/..")
+      btn = popover.find_element(By.XPATH, f"//span[text()='{format}']/..")
       btn.click() 
       url = driver.current_url  
 
-      print(f"{fmt} URL:", url)
+      print(f"{format} URL:", url)
 
       # Navigate back
       driver.back()
@@ -42,6 +54,14 @@ def extract_files(driver):
     # Check for Done button 
     if len(driver.find_elements(By.XPATH, "//span[text()='Done']")):
       break
+
+if __name__ == "__main__":
+    chrome_options = Options()
+    user_agent, profile_location = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36", "/Users/michael/Library/Application Support/Google/Chrome/LibbyProfile"
+    chrome_options.arguments.extend([f"user-agent={user_agent}", f"user-data-dir={profile_location}"]) # , "--headless"])
+    # chrome_options.add_argument("--headless")
+    driver = webdriver.Chrome(options=chrome_options)
+    extract_files(driver)
 
 # My version, riddled with errors:
 # import time
