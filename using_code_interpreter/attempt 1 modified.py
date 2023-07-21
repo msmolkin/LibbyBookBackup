@@ -27,39 +27,39 @@ with open(json_file_path, 'w') as file:
     json.dump(data, file, indent=4)
 
 ############################################################################################################
-# # API endpoint
-# api_url = 'https://thunder.api.overdrive.com/v2/media/bulk?titleIds=' + ','.join(map(str, title_ids)) + '&x-client-id=dewey'
-
-# # Send request to API
-# response = requests.get(api_url, headers=headers)
-
-# # Save response to JSON file
-# if response.status_code == 200:
-#     with open('complete_books_information.json', 'w') as file:
-#         json.dump(response.json(), file, indent=4)
-
 # API endpoint
 api_url = 'https://thunder.api.overdrive.com/v2/media/bulk?titleIds=' + ','.join(map(str, title_ids)) + '&x-client-id=dewey'
 
 # Send request to API
 response = requests.get(api_url, headers=headers)
 
-# Check if the file exists
-if os.path.exists('complete_books_information.json'):
-    # If the file exists, open it and load the existing data
-    with open('complete_books_information.json', 'r') as file:
-        existing_data = json.load(file)
-else:
-    # If the file does not exist, initialize an empty dictionary
-    existing_data = {}
-
 # Save response to JSON file
 if response.status_code == 200:
-    # Merge the existing data with the new data
-    merged_data = {**existing_data, **response.json()}
-
     with open('complete_books_information.json', 'w') as file:
-        json.dump(merged_data, file, indent=4)
+        json.dump(response.json(), file, indent=4)
+
+# # API endpoint
+# api_url = 'https://thunder.api.overdrive.com/v2/media/bulk?titleIds=' + ','.join(map(str, title_ids)) + '&x-client-id=dewey'
+
+# # Send request to API
+# response = requests.get(api_url, headers=headers)
+
+# # Check if the file exists
+# if os.path.exists('complete_books_information.json'):
+#     # If the file exists, open it and load the existing data
+#     with open('complete_books_information.json', 'r') as file:
+#         existing_data = json.load(file)
+# else:
+#     # If the file does not exist, initialize an empty dictionary
+#     existing_data = {}
+
+# # Save response to JSON file
+# if response.status_code == 200:
+#     # Merge the existing data with the new data
+#     merged_data = {**existing_data, **response.json()}
+
+#     with open('complete_books_information.json', 'w') as file:
+#         json.dump(merged_data, file, indent=4)
 ############################################################################################################
 
 # Process each book
