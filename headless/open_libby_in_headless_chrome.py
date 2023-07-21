@@ -6,7 +6,7 @@ from dateutil import relativedelta
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-import extract_journey_url_from_book
+import get_book_urls_from_monthly_file
 
 TIMELINE_BASE_URL = "https://libbyapp.com/timeline/activities/"
 
@@ -40,9 +40,9 @@ def save_file(file_name: str, html: str):
 def open_timeline():
     """ Opens timeline and saves all months to file
 
-    Copilot: Opens timeline and saves all months to file. Then calls extract_journey_url_from_book.read_activities_file_and_extract_books() to extract all books from the HTML files.
+    Copilot: Opens timeline and saves all months to file. Then calls get_book_urls_from_monthly_file.read_activities_file_and_extract_books() to extract all books from the HTML files.
     
-    Text-davinci-003: Opens the timeline page for each month in the list created by create_all_months() and saves the page source to a file. It then calls the read_activities_file_and_extract_books() function from the extract_journey_url_from_book module to extract the journey urls from the page source and save them to a json file.
+    Text-davinci-003: Opens the timeline page for each month in the list created by create_all_months() and saves the page source to a file. It then calls the read_activities_file_and_extract_books() function from the get_book_urls_from_monthly_file module to extract the journey urls from the page source and save them to a json file.
     """
 
     months = create_all_months()
@@ -53,13 +53,13 @@ def open_timeline():
         filename = "month_activities.html"
         save_file(filename, driver.page_source)
 
-        extract_journey_url_from_book.read_activities_file_and_extract_books()
-    print(extract_journey_url_from_book.books)
+        get_book_urls_from_monthly_file.read_activities_file_and_extract_books()
+    print(get_book_urls_from_monthly_file.books)
     with open("all_books_activities.json", "w") as list_of_books:
-        json.dump(extract_journey_url_from_book.books, list_of_books)
+        json.dump(get_book_urls_from_monthly_file.books, list_of_books)
 
 
-# not used. see extract_journey_url_from_book.py
+# not used. see get_book_urls_from_monthly_file.py
 def open_book(book) -> object:
     """ Creates data for book
     book {str}: URL
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     # initialize webdriver for Chrome
 
     chrome_options = Options()
-    user_agent, profile_location = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36", "/Users/michael/Library/Application Support/Google/Chrome/LibbyProfile"
+    user_agent, profile_location = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36", "/Users/$USER/Library/Application Support/Google/Chrome/LibbyProfile"
     chrome_options.arguments.extend([f"user-agent={user_agent}", f"user-data-dir={profile_location}"]) # , "--headless"])
     # chrome_options.add_argument("--headless")
     driver = webdriver.Chrome(options=chrome_options)
