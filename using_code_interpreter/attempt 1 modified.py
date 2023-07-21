@@ -4,7 +4,9 @@ import os
 import re
 from bs4 import BeautifulSoup
 
-# TODO: in the future, make it so it only downloads the books past a certain date, specified in the last_updated_date.json file
+# TODO: in the future, make it so it only downloads books with circulation data after a certain date, specified in the last_updated_date.json file
+
+# Prepare: get the libby timeline data and save it to a JSON file
 
 # Path to your JSON file
 json_file_path = 'Export Data - Manual/libbytimeline-activities.json'
@@ -63,27 +65,29 @@ if response.status_code == 200:
 ############################################################################################################
 
 # Process each book
-for book in data['timeline']:
-    journey_url = book["reading_journey_url"]
+############################################################################################################
+# for book in data['timeline']:
+#     journey_url = book["reading_journey_url"]
 
-    # Get page content
-    page = requests.get(journey_url)
-    soup = BeautifulSoup(page.content, 'html.parser')
+#     # Get page content
+#     page = requests.get(journey_url)
+#     soup = BeautifulSoup(page.content, 'html.parser')
 
-    # Extract book_user_connection_id from page
-    match = re.search(r'"https://share\.libbyapp\.com/data/(.*)/libbyjourney-', str(soup))
-    if match:
-        book_user_connection_id = match.group(1)
+#     # Extract book_user_connection_id from page
+#     match = re.search(r'"https://share\.libbyapp\.com/data/(.*)/libbyjourney-', str(soup))
+#     if match:
+#         book_user_connection_id = match.group(1)
 
-        # Generate lower_case_title
-        title = book["title"]["title"]
-        lower_case_title = re.sub(r'[^a-zA-Z0-9 ]', '', title).lower().replace(' ', '-')
+#         # Generate lower_case_title
+#         title = book["title"]["title"]
+#         lower_case_title = re.sub(r'[^a-zA-Z0-9 ]', '', title).lower().replace(' ', '-')
 
-        # Construct download URL
-        download_url = "https://share.libbyapp.com/data/" + book_user_connection_id + "/libbyjourney-" + str(id) + "-" + lower_case_title + ".json"
+#         # Construct download URL
+#         download_url = "https://share.libbyapp.com/data/" + book_user_connection_id + "/libbyjourney-" + str(id) + "-" + lower_case_title + ".json"
 
-        # Download and save file
-        response = requests.get(download_url)
-        if response.status_code == 200:
-            with open('libbyjourney-' + str(id) + '-' + lower_case_title + '.json', 'w') as file:
-                json.dump(response.json(), file, indent=4)
+#         # Download and save file
+#         response = requests.get(download_url)
+#         if response.status_code == 200:
+#             with open('libbyjourney-' + str(id) + '-' + lower_case_title + '.json', 'w') as file:
+#                 json.dump(response.json(), file, indent=4)
+############################################################################################################
