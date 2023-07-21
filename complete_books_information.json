@@ -1080,6 +1080,254 @@
         "reserveId": "e4206ffa-ad0a-4225-9b17-41230f80004c"
     },
     {
+        "firstCreatorId": 538943,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 5,
+        "popularity": 0,
+        "subjects": [
+            {
+                "name": "Classic Literature",
+                "id": "10"
+            },
+            {
+                "name": "Fiction",
+                "id": "26"
+            },
+            {
+                "name": "Short Stories",
+                "id": "82"
+            }
+        ],
+        "bisacCodes": [
+            "FIC004000",
+            "FIC029000"
+        ],
+        "bisac": [
+            {
+                "description": "Fiction / Classics",
+                "code": "FIC004000"
+            },
+            {
+                "description": "Fiction / Short Stories (single author)",
+                "code": "FIC029000"
+            }
+        ],
+        "levels": [
+            {
+                "id": "lexile",
+                "name": "Lexile Score",
+                "value": "1030"
+            },
+            {
+                "value": "6-8",
+                "id": "reading-level",
+                "name": "Reading Level",
+                "high": "800",
+                "low": "600"
+            }
+        ],
+        "creators": [
+            {
+                "id": 538943,
+                "sortName": "Aesop",
+                "role": "Author",
+                "name": "Aesop"
+            },
+            {
+                "id": 35512,
+                "sortName": "Vernon Jones, V. S.",
+                "role": "Translator",
+                "name": "V. S. Vernon Jones"
+            },
+            {
+                "id": 248978,
+                "sortName": "Chesterton, G. K.",
+                "role": "Author of introduction, etc.",
+                "name": "G. K. Chesterton"
+            },
+            {
+                "id": 1753132,
+                "sortName": "Stauff, Will",
+                "role": "Narrator",
+                "name": "Will Stauff"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "imprint": {
+            "name": "William J. Stauff",
+            "id": "135452"
+        },
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 6
+        },
+        "publisher": {
+            "name": "Blackstone Publishing",
+            "id": "121637"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=faeb3bc2-2833-4a83-af90-c4596c71766e&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "Audiobook",
+            "id": "audiobook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 231,
+                        "green": 237,
+                        "red": 242
+                    },
+                    "hex": "#F2EDE7"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/0887-1/FAE/B3B/C2/{FAEB3BC2-2833-4A83-AF90-C4596C71766E}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 229,
+                        "green": 238,
+                        "red": 242
+                    },
+                    "hex": "#F2EEE5"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/0887-1/FAE/B3B/C2/{FAEB3BC2-2833-4A83-AF90-C4596C71766E}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 229,
+                        "green": 238,
+                        "red": 242
+                    },
+                    "hex": "#F2EEE5"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/0887-1/{FAEB3BC2-2833-4A83-AF90-C4596C71766E}Img100.jpg"
+            }
+        },
+        "formats": [
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781094125572",
+                        "type": "ISBN"
+                    },
+                    {
+                        "value": "9781094125589",
+                        "type": "PublisherCatalogNumber"
+                    },
+                    {
+                        "value": "9781094125565",
+                        "type": "LibraryISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://samples.overdrive.com/?crid=faeb3bc2-2833-4a83-af90-c4596c71766e&.epub-sample.overdrive.com"
+                },
+                "id": "audiobook-overdrive",
+                "name": "OverDrive Listen audiobook",
+                "onSaleDateUtc": "2020-04-14T04:00:00Z",
+                "fileSize": 86370637,
+                "fulfillmentType": "bifocal",
+                "isbn": "9781094125565",
+                "duration": "02:59:56"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781094125572",
+                        "type": "ISBN"
+                    },
+                    {
+                        "value": "9781094125589",
+                        "type": "PublisherCatalogNumber"
+                    },
+                    {
+                        "value": "9781094125565",
+                        "type": "LibraryISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://excerpts.cdn.overdrive.com/FormatType-425/0887-1/5416927-Aesop'sFables.mp3"
+                },
+                "id": "audiobook-mp3",
+                "name": "MP3 audiobook",
+                "partCount": 3,
+                "onSaleDateUtc": "2020-04-14T04:00:00Z",
+                "fileSize": 86378460,
+                "fulfillmentType": "odm",
+                "isbn": "9781094125565",
+                "duration": "02:59:56"
+            }
+        ],
+        "publisherAccount": {
+            "name": "Blackstone Audio, Inc.",
+            "id": "1956"
+        },
+        "id": "5416927",
+        "firstCreatorName": "Aesop",
+        "firstCreatorSortName": "Aesop",
+        "title": "Aesop's Fables",
+        "sortTitle": "Aesops Fables A New Translation by V S Vernon Jones with an Introduction by G K Chesterton",
+        "starRating": 3.5,
+        "starRatingCount": 2,
+        "edition": "Unabridged",
+        "publishDate": "2020-04-14T04:00:00Z",
+        "publishDateText": "04/14/2020",
+        "estimatedReleaseDate": "2020-04-14T04:00:00Z",
+        "isBundleChild": false,
+        "description": "<p>Aesop's Fables refers to a collection of fables credited to Aesop (620&#8211;560 BC), a slave and storyteller who lived in Ancient Greece. His fables are some of the most well known in the world and remain a popular choice for the moral education of children today. Many stories included in Aesop's Fables, such as \"The Fox and the Grapes\" (from which the idiom \"sour grapes\" was derived), \"The Tortoise and the Hare,\" \"The North Wind and the Sun,\" and \"The Boy Who Cried Wolf,\" are well-known throughout the world.</p>",
+        "fullDescription": "<p>Aesop's Fables refers to a collection of fables credited to Aesop (620&#8211;560 BC), a slave and storyteller who lived in Ancient Greece. His fables are some of the most well known in the world and remain a popular choice for the moral education of children today. Many stories included in Aesop's Fables, such as \"The Fox and the Grapes\" (from which the idiom \"sour grapes\" was derived), \"The Tortoise and the Hare,\" \"The North Wind and the Sun,\" and \"The Boy Who Cried Wolf,\" are well-known throughout the world.</p>",
+        "shortDescription": "<p>Aesop's Fables refers to a collection of fables credited to Aesop (620&#8211;560 BC), a slave and storyteller who lived in Ancient Greece. His fables are some of the most well known in the world and remain a popular choice for the moral education of children today. Many stories included in Aesop's Fables, such as \"The Fox and the Grapes\" (from which the idiom \"sour grapes\" was derived), \"The Tortoise and the Hare,\" \"The North Wind and the Sun,\" and \"The Boy Who Cried Wolf,\" are well-known throughout the world.</p>",
+        "subtitle": "A New Translation by V. S. Vernon Jones with an Introduction by G. K. Chesterton",
+        "reserveId": "faeb3bc2-2833-4a83-af90-c4596c71766e"
+    },
+    {
         "firstCreatorId": 69652,
         "youngAdultEligible": false,
         "juvenileEligible": false,
@@ -3693,6 +3941,243 @@
         "shortDescription": "<P><B>In a <I>Winners Take All</I> meets <I>This Town</I> narrative, a <I>New York Times</I> bestselling author tells the story of the creation of a massive tax break, in which political and economic elites attend to the care and feeding of the super-rich, and inequality compounds.</B></P><P>David Wessel&#39;s incredible tale of how Washington works-and why the rich keep getting richer-starts when a Silicon Valley entrepreneur develops an idea intended as a way to help poor people that will save rich people money on their taxes. He organizes and pays for an effective lobbying effort that pushes his idea into law with little scrutiny or fine-tuning by congressional or Treasury tax experts-and few safeguards against abuse. With an unbeatable pair of high-profile sponsors, bumper-sticker simplicity and deft political marketing, the Opportunity Zone became an unnoticed part of the 2017 Trump tax bill.</P><P>The gold rush followed immediately thereafter.</P><P>David Wessel follows the...",
         "subtitle": "How Washington Works in the New Gilded Age",
         "reserveId": "212f7ecf-905a-4007-a7cb-8384fe6e96dc"
+    },
+    {
+        "firstCreatorId": 368444,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 15,
+        "popularity": 0,
+        "subjects": [
+            {
+                "name": "Computer Technology",
+                "id": "13"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "COM000000"
+        ],
+        "bisac": [
+            {
+                "description": "Computers / General",
+                "code": "COM000000"
+            }
+        ],
+        "levels": [],
+        "creators": [
+            {
+                "id": 368444,
+                "sortName": "Krug, Steve",
+                "role": "Author",
+                "name": "Steve Krug"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "imprint": {
+            "name": "New Riders",
+            "id": "1520"
+        },
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 0
+        },
+        "publisher": {
+            "name": "Pearson Education",
+            "id": "782"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/don-t-make-me-4f3733?.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "eBook",
+            "id": "ebook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 36,
+                        "green": 23,
+                        "red": 121
+                    },
+                    "hex": "#791724"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/0447-1/{4F37335E-5E06-4B93-A361-68FA7EF3B122}IMG150.JPG"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 39,
+                        "green": 18,
+                        "red": 117
+                    },
+                    "hex": "#751227"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/0447-1/{4F37335E-5E06-4B93-A361-68FA7EF3B122}IMG400.JPG"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 25,
+                        "green": 20,
+                        "red": 59
+                    },
+                    "hex": "#3B1419"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/0447-1/{4F37335E-5E06-4B93-A361-68FA7EF3B122}IMG100.JPG"
+            }
+        },
+        "formats": [
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "B00HJUBRPG",
+                        "type": "ASIN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kindle",
+                "name": "Kindle Book",
+                "onSaleDateUtc": "2013-12-23T05:00:00Z",
+                "fulfillmentType": "kindle"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9780133597264",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://samples.overdrive.com/don-t-make-me-4f3733?.epub-sample.overdrive.com"
+                },
+                "id": "ebook-overdrive",
+                "name": "OverDrive Read",
+                "onSaleDateUtc": "2013-12-23T05:00:00Z",
+                "fileSize": 32558472,
+                "fulfillmentType": "bifocal",
+                "isbn": "9780133597264"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9780133597264",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-epub-adobe",
+                "name": "EPUB eBook",
+                "onSaleDateUtc": "2013-12-23T05:00:00Z",
+                "fileSize": 31883254,
+                "fulfillmentType": "epub",
+                "isbn": "9780133597264"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9780133597257",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-pdf-adobe",
+                "name": "PDF eBook",
+                "onSaleDateUtc": "2013-12-23T05:00:00Z",
+                "fileSize": 8432303,
+                "fulfillmentType": "pdf",
+                "isbn": "9780133597257"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "f98586b1-a776-3651-a9a8-17aedaeddf61",
+                        "type": "KoboBookID"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kobo",
+                "name": "Kobo eBook",
+                "onSaleDateUtc": "2013-12-23T05:00:00Z",
+                "fulfillmentType": "kobo"
+            }
+        ],
+        "publisherAccount": {
+            "name": "Pearson Education",
+            "id": "659"
+        },
+        "id": "1515283",
+        "firstCreatorName": "Steve Krug",
+        "firstCreatorSortName": "Krug, Steve",
+        "title": "Don't Make Me Think, Revisited",
+        "sortTitle": "Dont Make Me Think Revisited A Common Sense Approach to Web Usability",
+        "starRating": 3.7,
+        "starRatingCount": 10,
+        "edition": "3",
+        "publishDate": "2013-12-23T05:00:00Z",
+        "publishDateText": "12/23/2013",
+        "estimatedReleaseDate": "2013-12-23T05:00:00Z",
+        "isBundleChild": false,
+        "tableOfContents": "<li>Chapter 1. Don't make me think! </li> <li>Chapter 2. How we really use the Web </li> <li>Chapter 3. Billboard Design 101 </li> <li>Chapter 4. Animal, Vegetable, or Mineral? </li> <li>Chapter 5. Omit needless words </li> <li>Chapter 6. Street signs and Breadcrumbs </li> <li>Chapter 7. The Big Bang Theory of Web Design </li> <li>Chapter 8. \"The Farmer and the Cowman Should Be Friends\" </li> <li>Chapter 9. Usability testing on 10 cents a day </li> <li>Chapter 10. Mobile: It's not just a city in Alabama anymore </li> <li>Chapter 11. Usability as common courtesy </li> <li>Chapter 12. Accessibility and you </li> <li>Chapter 13. Guide for the perplexed </li>",
+        "description": "Since <i> Don't Make Me Think </i>was first published in 2000, hundreds of thousands of Web designers and developers have relied on usability guru Steve Krug's guide to help them understand the principles of intuitive navigation and information design. Witty, commonsensical, and eminently practical, it's one of the best-loved and most recommended books on the subject. <br> <br>Now Steve returns with fresh perspective to reexamine the principles that made <i> Don't Make Me Think</i> a classic\u2013with updated examples and a new chapter on mobile usability. And it's still short, profusely illustrated...and best of all\u2013fun to read. <br> <br>If you've read it before, you'll rediscover what made <i>Don't Make Me Think</i> so essential to Web designers and developers around the world. If you've never read it, you'll see why so many people have said it should be required reading for anyone working on Web sites. <br> <br> <br>\"After reading it over a couple of hours and putting its ideas to work for the past five years, I can say it has done more to improve my abilities as a Web designer than any other book.\" <br>\u2013Jeffrey Zeldman, author of Designing with Web Standards <p>&nbsp;</p>",
+        "fullDescription": "Since <i> Don't Make Me Think </i>was first published in 2000, hundreds of thousands of Web designers and developers have relied on usability guru Steve Krug's guide to help them understand the principles of intuitive navigation and information design. Witty, commonsensical, and eminently practical, it's one of the best-loved and most recommended books on the subject. <br> <br>Now Steve returns with fresh perspective to reexamine the principles that made <i> Don't Make Me Think</i> a classic\u2013with updated examples and a new chapter on mobile usability. And it's still short, profusely illustrated...and best of all\u2013fun to read. <br> <br>If you've read it before, you'll rediscover what made <i>Don't Make Me Think</i> so essential to Web designers and developers around the world. If you've never read it, you'll see why so many people have said it should be required reading for anyone working on Web sites. <br> <br> <br>\"After reading it over a couple of hours and putting its ideas to work for the past five years, I can say it has done more to improve my abilities as a Web designer than any other book.\" <br>\u2013Jeffrey Zeldman, author of Designing with Web Standards <p>&nbsp;</p>",
+        "shortDescription": "Since <i> Don't Make Me Think </i>was first published in 2000, hundreds of thousands of Web designers and developers have relied on usability guru Steve Krug's guide to help them understand the principles of intuitive navigation and information design. Witty, commonsensical, and eminently practical, it's one of the best-loved and most recommended books on the subject. <br> <br>Now Steve returns with fresh perspective to reexamine the principles that made <i> Don't Make Me Think</i> a classic\u2013with updated examples and a new chapter on mobile usability. And it's still short, profusely illustrated...and best of all\u2013fun to read. <br> <br>If you've read it before, you'll rediscover what made <i>Don't Make Me Think</i> so essential to Web designers and developers around the world. If you've never read it, you'll see why so many people have said it should be required reading for anyone working on Web sites. <br> <br> <br>\"After reading it over a couple of hours and putting its ideas to...",
+        "subtitle": "A Common Sense Approach to Web Usability",
+        "reserveId": "4f37335e-5e06-4b93-a361-68fa7ef3b122"
     },
     {
         "firstCreatorId": 259848,
@@ -15634,252 +16119,6 @@
         "reserveId": "641bda53-55ef-4042-9299-93e21fa49797"
     },
     {
-        "firstCreatorId": 1012684,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 32,
-        "popularity": 0,
-        "subjects": [
-            {
-                "name": "Business",
-                "id": "8"
-            },
-            {
-                "name": "Finance",
-                "id": "27"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "BUS050050",
-            "BUS064000",
-            "BUS064030"
-        ],
-        "bisac": [
-            {
-                "description": "Business & Economics / Personal Finance / Taxation",
-                "code": "BUS050050"
-            },
-            {
-                "description": "Business & Economics / Taxation / General",
-                "code": "BUS064000"
-            },
-            {
-                "description": "Business & Economics / Taxation / Small Business",
-                "code": "BUS064030"
-            }
-        ],
-        "levels": [],
-        "creators": [
-            {
-                "id": 1012684,
-                "sortName": "Kamoroff, Bernard B.",
-                "role": "Author",
-                "name": "Bernard B. Kamoroff"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 2,
-            "premium": 0
-        },
-        "publisher": {
-            "name": "Lyons Press",
-            "id": "83105"
-        },
-        "keywords": [],
-        "sample": {
-            "href": "https://samples.overdrive.com/?crid=0d5eac7f-de86-4ad1-bc37-819d30950c88&.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 151,
-                        "green": 115,
-                        "red": 21
-                    },
-                    "hex": "#157397"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/1873-1/0D5/EAC/7F/{0D5EAC7F-DE86-4AD1-BC37-819D30950C88}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 148,
-                        "green": 115,
-                        "red": 22
-                    },
-                    "hex": "#167394"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/1873-1/0D5/EAC/7F/{0D5EAC7F-DE86-4AD1-BC37-819D30950C88}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 153,
-                        "green": 115,
-                        "red": 19
-                    },
-                    "hex": "#137399"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/1873-1/{0D5EAC7F-DE86-4AD1-BC37-819D30950C88}Img100.jpg"
-            }
-        },
-        "formats": [
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "B077PPZL5P",
-                        "type": "ASIN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kindle",
-                "name": "Kindle Book",
-                "onSaleDateUtc": "2018-02-01T05:00:00Z",
-                "fulfillmentType": "kindle"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9781493032198",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://samples.overdrive.com/?crid=0d5eac7f-de86-4ad1-bc37-819d30950c88&.epub-sample.overdrive.com"
-                },
-                "id": "ebook-overdrive",
-                "name": "OverDrive Read",
-                "onSaleDateUtc": "2018-02-01T05:00:00Z",
-                "fileSize": 4402776,
-                "fulfillmentType": "bifocal",
-                "isbn": "9781493032198"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9781493032198",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-epub-adobe",
-                "name": "EPUB eBook",
-                "onSaleDateUtc": "2018-02-01T05:00:00Z",
-                "fileSize": 4402776,
-                "fulfillmentType": "epub",
-                "isbn": "9781493032198"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9781493032198",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-pdf-adobe",
-                "name": "PDF eBook",
-                "onSaleDateUtc": "2018-02-01T05:00:00Z",
-                "fileSize": 3209497,
-                "fulfillmentType": "pdf",
-                "isbn": "9781493032198"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "035dfdfd-d4fe-35bb-b7d0-b41a30b00b3f",
-                        "type": "KoboBookID"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kobo",
-                "name": "Kobo eBook",
-                "onSaleDateUtc": "2018-02-01T05:00:00Z",
-                "fulfillmentType": "kobo"
-            }
-        ],
-        "publisherAccount": {
-            "name": "Rowman and Littlefield Publishing Group",
-            "id": "4954"
-        },
-        "id": "3679732",
-        "firstCreatorName": "Bernard B. Kamoroff",
-        "firstCreatorSortName": "Kamoroff, Bernard B.",
-        "title": "475 Tax Deductions for Businesses and Self-Employed Individuals",
-        "sortTitle": "475 Tax Deductions for Businesses and SelfEmployed Individuals An AtoZ Guide to Hundreds of Tax WriteOffs",
-        "starRating": 4.5,
-        "starRatingCount": 2,
-        "edition": "12",
-        "publishDate": "2018-02-01T05:00:00Z",
-        "publishDateText": "02/01/2018",
-        "estimatedReleaseDate": "2018-02-01T05:00:00Z",
-        "isBundleChild": false,
-        "description": "Are you paying more taxes than you have to? The IRS is certainly not going to tell you about a deduction you failed to take, and your accountant is not likely to take the time to ask you about every deduction you're entitled to. As former IRS Commissioner Mark Everson admitted, \"If you don't claim it, you don't get it. That's money down the drain for millions of Americans.\" This invaluable book, updated to reflect changes in tax law, not only lists the individual items that are deductible&#8212;from Internet domain name costs to theft losses&#8212;but also explains where to list them on your income tax form. \"Tax law isn't easy,\" the author explains, \"but this book is.\" The twelfth edition will be completely updated to include new changes in tax law, a chapter on home-based businesses, and include a special \"jump out\" highlights in the A-to-Z listings for any deduction that has special rules for home-based businesses.",
-        "fullDescription": "Are you paying more taxes than you have to? The IRS is certainly not going to tell you about a deduction you failed to take, and your accountant is not likely to take the time to ask you about every deduction you're entitled to. As former IRS Commissioner Mark Everson admitted, \"If you don't claim it, you don't get it. That's money down the drain for millions of Americans.\" This invaluable book, updated to reflect changes in tax law, not only lists the individual items that are deductible&#8212;from Internet domain name costs to theft losses&#8212;but also explains where to list them on your income tax form. \"Tax law isn't easy,\" the author explains, \"but this book is.\" The twelfth edition will be completely updated to include new changes in tax law, a chapter on home-based businesses, and include a special \"jump out\" highlights in the A-to-Z listings for any deduction that has special rules for home-based businesses.",
-        "shortDescription": "Are you paying more taxes than you have to? The IRS is certainly not going to tell you about a deduction you failed to take, and your accountant is not likely to take the time to ask you about every deduction you're entitled to. As former IRS Commissioner Mark Everson admitted, \"If you don't claim it, you don't get it. That's money down the drain for millions of Americans.\" This invaluable book, updated to reflect changes in tax law, not only lists the individual items that are deductible&#8212;from Internet domain name costs to theft losses&#8212;but also explains where to list them on your income tax form. \"Tax law isn't easy,\" the author explains, \"but this book is.\" The twelfth edition will be completely updated to include new changes in tax law, a chapter on home-based businesses, and include a special \"jump out\" highlights in the A-to-Z listings for any deduction that has special rules for home-based businesses.",
-        "subtitle": "An A-to-Z Guide to Hundreds of Tax Write-Offs",
-        "reserveId": "0d5eac7f-de86-4ad1-bc37-819d30950c88"
-    },
-    {
         "firstCreatorId": 1246686,
         "youngAdultEligible": false,
         "juvenileEligible": false,
@@ -18242,6 +18481,246 @@
         "isPublicPerformanceAllowed": false,
         "isPublicDomain": false,
         "isBundledChild": false,
+        "unitsSold": 15,
+        "popularity": 0,
+        "subjects": [
+            {
+                "name": "Classic Literature",
+                "id": "10"
+            },
+            {
+                "name": "Fiction",
+                "id": "26"
+            }
+        ],
+        "bisacCodes": [
+            "FIC004000"
+        ],
+        "bisac": [
+            {
+                "description": "Fiction / Classics",
+                "code": "FIC004000"
+            }
+        ],
+        "levels": [],
+        "creators": [
+            {
+                "id": 756653,
+                "sortName": "\u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432, \u0410. \u0421.",
+                "role": "Author",
+                "name": "\u0410. \u0421. \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Russian",
+                "id": "ru"
+            }
+        ],
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 0
+        },
+        "publisher": {
+            "name": "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \"\u041f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\"",
+            "id": "98740"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/805d09?.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "eBook",
+            "id": "ebook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 78,
+                        "green": 124,
+                        "red": 125
+                    },
+                    "hex": "#7D7C4E"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/2617-1/805/D09/6C/{805D096C-3886-407A-A69C-E8254A960A44}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 112,
+                        "green": 166,
+                        "red": 166
+                    },
+                    "hex": "#A6A670"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/2617-1/805/D09/6C/{805D096C-3886-407A-A69C-E8254A960A44}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 107,
+                        "green": 162,
+                        "red": 165
+                    },
+                    "hex": "#A5A26B"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/2617-1/{805D096C-3886-407A-A69C-E8254A960A44}Img100.jpg"
+            }
+        },
+        "formats": [
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "B019HLUZ70",
+                        "type": "ASIN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kindle",
+                "name": "Kindle Book",
+                "onSaleDateUtc": "2015-04-22T04:00:00Z",
+                "fulfillmentType": "kindle"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9785392031306",
+                        "type": "ISBN"
+                    },
+                    {
+                        "value": "2584",
+                        "type": "PublisherCatalogNumber"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://samples.overdrive.com/805d09?.epub-sample.overdrive.com"
+                },
+                "id": "ebook-overdrive",
+                "name": "OverDrive Read",
+                "onSaleDateUtc": "2015-04-22T04:00:00Z",
+                "fileSize": 722292,
+                "fulfillmentType": "bifocal",
+                "isbn": "9785392031306"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9785392031306",
+                        "type": "ISBN"
+                    },
+                    {
+                        "value": "2584",
+                        "type": "PublisherCatalogNumber"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-epub-adobe",
+                "name": "EPUB eBook",
+                "onSaleDateUtc": "2015-04-22T04:00:00Z",
+                "fileSize": 722292,
+                "fulfillmentType": "epub",
+                "isbn": "9785392031306"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9785392031306",
+                        "type": "ISBN"
+                    },
+                    {
+                        "value": "2584",
+                        "type": "PublisherCatalogNumber"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-epub-open",
+                "name": "Open EPUB eBook",
+                "onSaleDateUtc": "2015-04-22T04:00:00Z",
+                "fileSize": 722926,
+                "fulfillmentType": "epub",
+                "isbn": "9785392031306"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "d9e70e24-b4f0-3861-becb-b57fed053181",
+                        "type": "KoboBookID"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kobo",
+                "name": "Kobo eBook",
+                "onSaleDateUtc": "2015-04-22T04:00:00Z",
+                "fulfillmentType": "kobo"
+            }
+        ],
+        "publisherAccount": {
+            "name": "Prospekt publishing house",
+            "id": "6744"
+        },
+        "id": "2194068",
+        "firstCreatorName": "\u0410. \u0421. \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432",
+        "firstCreatorSortName": "\u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432, \u0410. \u0421.",
+        "title": "\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430",
+        "sortTitle": "\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430",
+        "publishDate": "2015-03-17T04:00:00Z",
+        "publishDateText": "03/17/2015",
+        "estimatedReleaseDate": "2015-04-22T04:00:00Z",
+        "isBundleChild": false,
+        "description": "<p>\u041a\u043e\u043c\u0435\u0434\u0438\u0438 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u0430 \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432\u0430 \u00ab\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430\u00bb \u0435\u0449\u0435 \u041f\u0443\u0448\u043a\u0438\u043d \u043f\u0440\u0435\u0434\u0440\u0435\u043a\u0430\u043b \u0434\u043e\u043b\u0433\u0443\u044e \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u0443\u044e \u0436\u0438\u0437\u043d\u044c, \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u044f, \u0447\u0442\u043e \u043e\u043d\u0430 \u043d\u0435\u043f\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u00ab\u0440\u0430\u0441\u0442\u0430\u0449\u0435\u043d\u0430 \u043d\u0430 \u0446\u0438\u0442\u0430\u0442\u044b\u00bb. \u0412\u0440\u0435\u043c\u044f \u043f\u043e\u043a\u0430\u0437\u0430\u043b\u043e, \u0447\u0442\u043e \u0435\u0433\u043e \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0441\u0431\u044b\u043b\u043e\u0441\u044c. \u041d\u043e\u0432\u0430\u0442\u043e\u0440\u0441\u043a\u043e\u0435 \u0434\u043b\u044f \u0441\u0432\u043e\u0435\u0439 \u044d\u043f\u043e\u0445\u0438, \u044d\u0442\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043d\u044b\u043d\u0435 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0435\u043e\u0442\u044a\u0435\u043c\u043b\u0435\u043c\u0443\u044e \u0447\u0430\u0441\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u043b\u0435\u0434\u0438\u044f \u0438 \u0447\u0430\u0441\u0442\u043e \u0441\u0442\u0430\u0432\u0438\u0442\u0441\u044f \u043d\u0430 \u0441\u0446\u0435\u043d\u0435. \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0430\u044f \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0443\u044e \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u044d\u043f\u043e\u0445\u0443, \u0430\u0432\u0442\u043e\u0440 \u0432 \u0442\u043e \u0436\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u0442\u0440\u0430\u0433\u0438\u0432\u0430\u0435\u0442 \u0440\u044f\u0434 \u00ab\u0432\u0435\u0447\u043d\u044b\u0445 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432\u00bb, \u0447\u0442\u043e \u0438 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u043a\u043e\u043c\u0435\u0434\u0438\u0438 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u044e\u044e \u043b\u044e\u0431\u043e\u0432\u044c \u0441\u0440\u0435\u0434\u0438 \u0447\u0438\u0442\u0430\u0442\u0435\u043b\u0435\u0439, \u0430 \u044f\u0440\u043a\u0438\u0439 \u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0441\u0434\u0435\u043b\u0430\u043b \u0435\u0435 \u043a\u043b\u0430\u0434\u0435\u0437\u0435\u043c \u043a\u0440\u044b\u043b\u0430\u0442\u044b\u0445 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0439.",
+        "fullDescription": "<p>\u041a\u043e\u043c\u0435\u0434\u0438\u0438 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u0430 \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432\u0430 \u00ab\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430\u00bb \u0435\u0449\u0435 \u041f\u0443\u0448\u043a\u0438\u043d \u043f\u0440\u0435\u0434\u0440\u0435\u043a\u0430\u043b \u0434\u043e\u043b\u0433\u0443\u044e \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u0443\u044e \u0436\u0438\u0437\u043d\u044c, \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u044f, \u0447\u0442\u043e \u043e\u043d\u0430 \u043d\u0435\u043f\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u00ab\u0440\u0430\u0441\u0442\u0430\u0449\u0435\u043d\u0430 \u043d\u0430 \u0446\u0438\u0442\u0430\u0442\u044b\u00bb. \u0412\u0440\u0435\u043c\u044f \u043f\u043e\u043a\u0430\u0437\u0430\u043b\u043e, \u0447\u0442\u043e \u0435\u0433\u043e \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0441\u0431\u044b\u043b\u043e\u0441\u044c. \u041d\u043e\u0432\u0430\u0442\u043e\u0440\u0441\u043a\u043e\u0435 \u0434\u043b\u044f \u0441\u0432\u043e\u0435\u0439 \u044d\u043f\u043e\u0445\u0438, \u044d\u0442\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043d\u044b\u043d\u0435 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0435\u043e\u0442\u044a\u0435\u043c\u043b\u0435\u043c\u0443\u044e \u0447\u0430\u0441\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u043b\u0435\u0434\u0438\u044f \u0438 \u0447\u0430\u0441\u0442\u043e \u0441\u0442\u0430\u0432\u0438\u0442\u0441\u044f \u043d\u0430 \u0441\u0446\u0435\u043d\u0435. \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0430\u044f \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0443\u044e \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u044d\u043f\u043e\u0445\u0443, \u0430\u0432\u0442\u043e\u0440 \u0432 \u0442\u043e \u0436\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u0442\u0440\u0430\u0433\u0438\u0432\u0430\u0435\u0442 \u0440\u044f\u0434 \u00ab\u0432\u0435\u0447\u043d\u044b\u0445 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432\u00bb, \u0447\u0442\u043e \u0438 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u043a\u043e\u043c\u0435\u0434\u0438\u0438 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u044e\u044e \u043b\u044e\u0431\u043e\u0432\u044c \u0441\u0440\u0435\u0434\u0438 \u0447\u0438\u0442\u0430\u0442\u0435\u043b\u0435\u0439, \u0430 \u044f\u0440\u043a\u0438\u0439 \u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0441\u0434\u0435\u043b\u0430\u043b \u0435\u0435 \u043a\u043b\u0430\u0434\u0435\u0437\u0435\u043c \u043a\u0440\u044b\u043b\u0430\u0442\u044b\u0445 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0439.",
+        "shortDescription": "<p>\u041a\u043e\u043c\u0435\u0434\u0438\u0438 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u0430 \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432\u0430 \u00ab\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430\u00bb \u0435\u0449\u0435 \u041f\u0443\u0448\u043a\u0438\u043d \u043f\u0440\u0435\u0434\u0440\u0435\u043a\u0430\u043b \u0434\u043e\u043b\u0433\u0443\u044e \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u0443\u044e \u0436\u0438\u0437\u043d\u044c, \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u044f, \u0447\u0442\u043e \u043e\u043d\u0430 \u043d\u0435\u043f\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u00ab\u0440\u0430\u0441\u0442\u0430\u0449\u0435\u043d\u0430 \u043d\u0430 \u0446\u0438\u0442\u0430\u0442\u044b\u00bb. \u0412\u0440\u0435\u043c\u044f \u043f\u043e\u043a\u0430\u0437\u0430\u043b\u043e, \u0447\u0442\u043e \u0435\u0433\u043e \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0441\u0431\u044b\u043b\u043e\u0441\u044c. \u041d\u043e\u0432\u0430\u0442\u043e\u0440\u0441\u043a\u043e\u0435 \u0434\u043b\u044f \u0441\u0432\u043e\u0435\u0439 \u044d\u043f\u043e\u0445\u0438, \u044d\u0442\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043d\u044b\u043d\u0435 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0435\u043e\u0442\u044a\u0435\u043c\u043b\u0435\u043c\u0443\u044e \u0447\u0430\u0441\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u043b\u0435\u0434\u0438\u044f \u0438 \u0447\u0430\u0441\u0442\u043e \u0441\u0442\u0430\u0432\u0438\u0442\u0441\u044f \u043d\u0430 \u0441\u0446\u0435\u043d\u0435. \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0430\u044f \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0443\u044e \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u044d\u043f\u043e\u0445\u0443, \u0430\u0432\u0442\u043e\u0440 \u0432 \u0442\u043e \u0436\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u0442\u0440\u0430\u0433\u0438\u0432\u0430\u0435\u0442 \u0440\u044f\u0434 \u00ab\u0432\u0435\u0447\u043d\u044b\u0445 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432\u00bb, \u0447\u0442\u043e \u0438 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u043a\u043e\u043c\u0435\u0434\u0438\u0438 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u044e\u044e \u043b\u044e\u0431\u043e\u0432\u044c \u0441\u0440\u0435\u0434\u0438 \u0447\u0438\u0442\u0430\u0442\u0435\u043b\u0435\u0439, \u0430 \u044f\u0440\u043a\u0438\u0439 \u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0441\u0434\u0435\u043b\u0430\u043b \u0435\u0435 \u043a\u043b\u0430\u0434\u0435\u0437\u0435\u043c \u043a\u0440\u044b\u043b\u0430\u0442\u044b\u0445 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0439.",
+        "reserveId": "805d096c-3886-407a-a69c-e8254a960a44"
+    },
+    {
+        "firstCreatorId": 756653,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
         "unitsSold": 16,
         "popularity": 3,
         "subjects": [
@@ -20007,6 +20486,262 @@
         "shortDescription": "<i>Moneyball</i> is a quest for something as elusive as the Holy Grail, something that money apparently can't buy: the secret of success in baseball. The logical places to look would be the giant offices of major league teams and the dugouts. But the real jackpot is a cache of numbers collected over the years by a strange brotherhood of amateur baseball enthusiasts: software engineers, statisticians, Wall Street analysts, lawyers, and physics professors.<br>In a narrative full of fabulous characters and brilliant excursions into the unexpected, Lewis shows us how and why the new baseball knowledge works. He also sets up a sly and hilarious morality tale: Big Money, like Goliath, is always supposed to win . . . how can we not cheer for David?",
         "subtitle": "The Art of Winning an Unfair Game",
         "reserveId": "ad2e51ec-2a05-4595-bef0-bb421543e147"
+    },
+    {
+        "firstCreatorId": 67127,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 15,
+        "popularity": 5,
+        "subjects": [
+            {
+                "name": "Business",
+                "id": "8"
+            },
+            {
+                "name": "Management",
+                "id": "101"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "BUS000000"
+        ],
+        "bisac": [
+            {
+                "description": "Business & Economics / General",
+                "code": "BUS000000"
+            }
+        ],
+        "levels": [
+            {
+                "id": "lexile",
+                "name": "Lexile Score",
+                "value": "1780"
+            },
+            {
+                "value": "12",
+                "id": "reading-level",
+                "name": "Reading Level",
+                "high": "1200",
+                "low": "1200"
+            }
+        ],
+        "creators": [
+            {
+                "id": 67127,
+                "sortName": "Smith, Adam",
+                "role": "Author",
+                "name": "Adam Smith"
+            },
+            {
+                "id": 600420,
+                "sortName": "Skinner, Andrew",
+                "role": "Editor",
+                "name": "Andrew Skinner"
+            },
+            {
+                "id": 600420,
+                "sortName": "Skinner, Andrew",
+                "role": "Author of introduction, etc.",
+                "name": "Andrew Skinner"
+            },
+            {
+                "id": 600420,
+                "sortName": "Skinner, Andrew",
+                "role": "Annotator",
+                "name": "Andrew Skinner"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "imprint": {
+            "name": "Penguin",
+            "id": "155000"
+        },
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 0
+        },
+        "publisher": {
+            "name": "Penguin Books Ltd",
+            "id": "307913"
+        },
+        "keywords": [
+            "Political economy"
+        ],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "eBook",
+            "id": "ebook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 92,
+                        "green": 152,
+                        "red": 141
+                    },
+                    "hex": "#8D985C"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/0290-1/FD2/591/FE/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 118,
+                        "green": 175,
+                        "red": 166
+                    },
+                    "hex": "#A6AF76"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/0290-1/FD2/591/FE/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 126,
+                        "green": 198,
+                        "red": 185
+                    },
+                    "hex": "#B9C67E"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/0290-1/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img100.jpg"
+            }
+        },
+        "formats": [
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "B002XHNNS4",
+                        "type": "ASIN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kindle",
+                "name": "Kindle Book",
+                "onSaleDateUtc": "1999-10-07T04:00:00Z",
+                "fulfillmentType": "kindle"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9780141909288",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://samples.overdrive.com/?crid=FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7&.epub-sample.overdrive.com"
+                },
+                "id": "ebook-overdrive",
+                "name": "OverDrive Read",
+                "onSaleDateUtc": "1999-10-07T04:00:00Z",
+                "fulfillmentType": "bifocal",
+                "isbn": "9780141909288"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9780141909288",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://excerpts.cdn.overdrive.com/FormatType-410/0290-1/FD2/591/FE/WealthofNations9780141909288.epub"
+                },
+                "id": "ebook-epub-adobe",
+                "name": "EPUB eBook",
+                "onSaleDateUtc": "1999-10-07T04:00:00Z",
+                "fileSize": 675047,
+                "fulfillmentType": "epub",
+                "isbn": "9780141909288"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "fbfb1023-1923-4e71-b3e7-cd7894ea16d1",
+                        "type": "KoboBookID"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kobo",
+                "name": "Kobo eBook",
+                "onSaleDateUtc": "1999-10-07T04:00:00Z",
+                "fulfillmentType": "kobo"
+            }
+        ],
+        "publisherAccount": {
+            "name": "Penguin Random House UK ",
+            "id": "315"
+        },
+        "id": "189644",
+        "firstCreatorName": "Adam Smith",
+        "firstCreatorSortName": "Smith, Adam",
+        "title": "The Wealth of Nations",
+        "sortTitle": "Wealth of Nations Books IVV",
+        "starRating": 3.7,
+        "starRatingCount": 3,
+        "publishDate": "1999-10-07T04:00:00Z",
+        "publishDateText": "10/07/1999",
+        "estimatedReleaseDate": "1999-10-07T04:00:00Z",
+        "isBundleChild": false,
+        "description": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
+        "fullDescription": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
+        "shortDescription": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
+        "subtitle": "Books IV-V",
+        "reserveId": "fd2591fe-ca5d-4dd0-af3e-6ae5e1df43d7"
     },
     {
         "firstCreatorId": 363057,
@@ -25954,6 +26689,238 @@
         "reserveId": "cea83554-7001-438d-a853-1df8ee1b3b22"
     },
     {
+        "firstCreatorId": 564292,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 12,
+        "popularity": 0,
+        "subjects": [
+            {
+                "name": "Business",
+                "id": "8"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "BUS074000"
+        ],
+        "bisac": [
+            {
+                "description": "BUSINESS & ECONOMICS / Nonprofit Organizations & Charities / General",
+                "code": "BUS074000"
+            }
+        ],
+        "levels": [],
+        "creators": [
+            {
+                "id": 564292,
+                "sortName": "Hopkins, Bruce R.",
+                "role": "Author",
+                "name": "Bruce R. Hopkins"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 0
+        },
+        "publisher": {
+            "name": "Wiley",
+            "id": "13302"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=306a88b0-ef45-4b57-bd24-bc4611bde6d6&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "eBook",
+            "id": "ebook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 0,
+                        "green": 0,
+                        "red": 1
+                    },
+                    "hex": "#010000"
+                },
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/0128-1/306/A88/B0/{306A88B0-EF45-4B57-BD24-BC4611BDE6D6}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 22,
+                        "green": 22,
+                        "red": 22
+                    },
+                    "hex": "#161616"
+                },
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/0128-1/306/A88/B0/{306A88B0-EF45-4B57-BD24-BC4611BDE6D6}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 32,
+                        "green": 31,
+                        "red": 35
+                    },
+                    "hex": "#231F20"
+                },
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/0128-1/{306A88B0-EF45-4B57-BD24-BC4611BDE6D6}Img100.jpg"
+            }
+        },
+        "formats": [
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "B07R4Q58QL",
+                        "type": "ASIN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kindle",
+                "name": "Kindle Book",
+                "onSaleDateUtc": "2019-03-26T04:00:00Z",
+                "fulfillmentType": "kindle"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781119538011",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://samples.overdrive.com/?crid=306a88b0-ef45-4b57-bd24-bc4611bde6d6&.epub-sample.overdrive.com"
+                },
+                "id": "ebook-overdrive",
+                "name": "OverDrive Read",
+                "onSaleDateUtc": "2019-03-26T04:00:00Z",
+                "fulfillmentType": "bifocal",
+                "isbn": "9781119538011"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781119538011",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-epub-adobe",
+                "name": "EPUB eBook",
+                "onSaleDateUtc": "2019-03-26T04:00:00Z",
+                "fileSize": 1659674,
+                "fulfillmentType": "epub",
+                "isbn": "9781119538011"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781119538028",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-pdf-adobe",
+                "name": "PDF eBook",
+                "onSaleDateUtc": "2019-03-26T04:00:00Z",
+                "fileSize": 4543888,
+                "fulfillmentType": "pdf",
+                "isbn": "9781119538028"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "fd870826-a54c-3afd-b096-6d02404d9859",
+                        "type": "KoboBookID"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kobo",
+                "name": "Kobo eBook",
+                "onSaleDateUtc": "2019-03-26T04:00:00Z",
+                "fulfillmentType": "kobo"
+            }
+        ],
+        "publisherAccount": {
+            "name": "Wiley",
+            "id": "234"
+        },
+        "detailedSeries": {
+            "rank": 60,
+            "seriesId": 1323838,
+            "seriesName": "Wiley Nonprofit Authority"
+        },
+        "id": "4281139",
+        "firstCreatorName": "Bruce R. Hopkins",
+        "firstCreatorSortName": "Hopkins, Bruce R.",
+        "title": "The Law of Tax-Exempt Organizations",
+        "sortTitle": "Law of TaxExempt Organizations",
+        "edition": "12",
+        "publishDate": "2019-04-02T04:00:00Z",
+        "publishDateText": "04/02/2019",
+        "estimatedReleaseDate": "2019-03-26T04:00:00Z",
+        "isBundleChild": false,
+        "tableOfContents": "<p>About the Authors xxiii</p> <p>Preface xxv</p> <p>About the Online Resources xxxi</p> <p>Book Citations xxxiii</p> <p><b>Part One: Introduction to The Law of Tax-Exempt Organizations</b></p> <p>1 Definition of and Rationales for Tax-Exempt Organizations 3</p> <p>2 Overview of Nonprofit Sector and Tax-Exempt Organizations 21</p> <p><b>Part Two: Fundamentals of The Law of Tax-Exempt Organizations</b></p> <p>3 Tax Exemption: Source and Recognition 33</p> <p>4 Organizational, Operational, and Related Tests and Doctrines 39</p> <p>5 Nonprofit Governance 87</p> <p><b>Part Three: Tax-Exempt Charitable Organizations</b></p> <p>6 Concept of <i>Charitable </i>109</p> <p>7 Charitable Organizations 139</p> <p>8 Educational Organizations 207</p> <p>9 Scientific Organizations 229</p> <p>10 Religious Organizations 237</p> <p>11 Other Types of Charitable Organizations 271</p> <p>12 Public Charities and Private Foundations 285</p> <p><b>Part Four: Other Tax-Exempt Organizations</b></p> <p>13 Social Welfare Organizations 325</p> <p>14 Business Leagues and Similar Organizations 337</p> <p>15 Social Clubs 363</p> <p>16 Labor, Agricultural, and Horticultural Organizations 379</p> <p>17 Political Organizations 389</p> <p>18 Employee Benefit Funds 403<br />19 Other Categories of Tax-Exempt Organizations 417</p> <p><b>Part Five: Principal Exempt Organization Laws</b></p> <p>20 Private Inurement and Private Benefit Doctrines 473</p> <p>21 Intermediate Sanctions 521</p> <p>22 Legislative Activities by Tax-Exempt Organizations 549</p> <p>23 Political Campaign Activities by Tax-Exempt Organizations 577</p> <p>24 Unrelated Business: Basic Rules 601</p> <p>25 Unrelated Business: Modifications, Exceptions, Special Rules, and Taxation 675</p> <p><b>Part Six: Acquisition and Maintenance of Tax Exemption</b></p> <p>26 Exemption Recognition and Notice Processes 707</p> <p>27 Administrative and Litigation Procedures 741</p> <p>28 Operational Requirements 771</p> <p><b>Part Seven: Interorganizational Structures and Operational Forms</b></p> <p>29 Tax-Exempt Organizations and Exempt Subsidiaries 815</p> <p>30 Tax-Exempt Organizations and For-Profit Subsidiaries 827</p> <p>31 Tax-Exempt Organizations and Joint Ventures 843</p> <p>32 Tax-Exempt Organizations: Other Operations and Restructuring 857</p> <p>Index 873</p>",
+        "description": "<p><b>Tax-exempt law explained, for lawyers and nonlawyers alike</b></p> <p><i>The Law of Tax-Exempt Organizations</i> has, for decades, been the definitive single-volume source of legal information for nonprofit lawyers and managers alike. Author Bruce R. Hopkins is widely recognized as the leading authority on the subject; in this thoroughly revised <i>Twelfth Edition</i>, he provides all the updates you need to stay current on the latest changes to tax code, regulatory, and case law developments. Annual supplements available with the book will ensure that you don't miss any important updates.</p> <p>Making solid decisions about the future of any tax-exempt organization requires a firm and up-to-date understanding of the relevant tax and other law. This reference provides guidance on the latest developments in eligibility for tax exemption, the private inurement and private benefit doctrines, nonprofit governance, lobbying, political campaign activity, public charities, private foundations, donor-advised funds, unrelated business activities, reporting, disclosure requirements, and more.</p> <li>Understand the tax code, regulations, and case law pertaining to all categories of tax-exempt organizations</li> <li>Access the nonprofit law standard reference guide, written by the leading legal expert on tax-exempt organizations</li> <li>Prepare yourself to make well-founded strategic decisions about the current and future actions of your organization</li> <li>Review annual supplements that provide plain-English information on changes for each tax year</li> <p>Written in a practical format that's accessible to lawyers and non-lawyers alike, <i>The Law of Tax-Exempt Organizations, Twelfth Edition</i>, is a trustworthy resource for anyone involved in advising or managing charitable organizations, social welfare entities, associations, clubs, or any other type of tax-exempt entity.</p>",
+        "fullDescription": "<p><b>Tax-exempt law explained, for lawyers and nonlawyers alike</b></p> <p><i>The Law of Tax-Exempt Organizations</i> has, for decades, been the definitive single-volume source of legal information for nonprofit lawyers and managers alike. Author Bruce R. Hopkins is widely recognized as the leading authority on the subject; in this thoroughly revised <i>Twelfth Edition</i>, he provides all the updates you need to stay current on the latest changes to tax code, regulatory, and case law developments. Annual supplements available with the book will ensure that you don't miss any important updates.</p> <p>Making solid decisions about the future of any tax-exempt organization requires a firm and up-to-date understanding of the relevant tax and other law. This reference provides guidance on the latest developments in eligibility for tax exemption, the private inurement and private benefit doctrines, nonprofit governance, lobbying, political campaign activity, public charities, private foundations, donor-advised funds, unrelated business activities, reporting, disclosure requirements, and more.</p> <li>Understand the tax code, regulations, and case law pertaining to all categories of tax-exempt organizations</li> <li>Access the nonprofit law standard reference guide, written by the leading legal expert on tax-exempt organizations</li> <li>Prepare yourself to make well-founded strategic decisions about the current and future actions of your organization</li> <li>Review annual supplements that provide plain-English information on changes for each tax year</li> <p>Written in a practical format that's accessible to lawyers and non-lawyers alike, <i>The Law of Tax-Exempt Organizations, Twelfth Edition</i>, is a trustworthy resource for anyone involved in advising or managing charitable organizations, social welfare entities, associations, clubs, or any other type of tax-exempt entity.</p>",
+        "shortDescription": "<p><b>Tax-exempt law explained, for lawyers and nonlawyers alike</b></p> <p><i>The Law of Tax-Exempt Organizations</i> has, for decades, been the definitive single-volume source of legal information for nonprofit lawyers and managers alike. Author Bruce R. Hopkins is widely recognized as the leading authority on the subject; in this thoroughly revised <i>Twelfth Edition</i>, he provides all the updates you need to stay current on the latest changes to tax code, regulatory, and case law developments. Annual supplements available with the book will ensure that you don't miss any important updates.</p> <p>Making solid decisions about the future of any tax-exempt organization requires a firm and up-to-date understanding of the relevant tax and other law. This reference provides guidance on the latest developments in eligibility for tax exemption, the private inurement and private benefit doctrines, nonprofit governance, lobbying, political campaign activity, public charities, private...",
+        "series": "Wiley Nonprofit Authority",
+        "reserveId": "306a88b0-ef45-4b57-bd24-bc4611bde6d6"
+    },
+    {
         "firstCreatorId": 1308696,
         "youngAdultEligible": false,
         "juvenileEligible": false,
@@ -27257,6 +28224,160 @@
         "shortDescription": "<b>#1 <i>New York Times </i>bestseller<br>&ldquo;Essential reading for anyone interested in understanding and treating traumatic stress and the scope of its impact on society.&rdquo; &mdash;Alexander McFarlane, Director of the Centre for Traumatic Stress Studies<br>A pioneering researcher transforms our understanding of trauma and offers a bold new paradigm for healing in this&#160;<b><b><b><i>New York Times</i>&#160;bestseller</b></b></b></b><br>&#160;<br>Trauma is a fact of life. Veterans and their families deal with the painful aftermath of combat; one in five Americans has been molested; one in four grew up with alcoholics; one in three couples have engaged in physical violence. Dr. Bessel van der Kolk, one of the world&rsquo;s foremost experts on trauma, has spent over three decades working with survivors. In&#160;<i>The Body Keeps the Score</i>, he uses recent scientific advances to show how trauma literally reshapes both body and brain, compromising sufferers&rsquo;...",
         "subtitle": "Brain, Mind, and Body in the Healing of Trauma",
         "reserveId": "5e64e89a-354c-46f3-94f0-a98d5651d2b3"
+    },
+    {
+        "firstCreatorId": 143796,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 5,
+        "popularity": 6,
+        "subjects": [
+            {
+                "name": "Reference",
+                "id": "73"
+            },
+            {
+                "name": "Self-Improvement",
+                "id": "81"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "REF000000",
+            "SEL000000"
+        ],
+        "bisac": [
+            {
+                "description": "Reference / General",
+                "code": "REF000000"
+            },
+            {
+                "description": "Self-Help / General",
+                "code": "SEL000000"
+            }
+        ],
+        "levels": [],
+        "creators": [
+            {
+                "id": 143796,
+                "sortName": "Post, Peggy",
+                "role": "Author",
+                "name": "Peggy Post"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "imprint": {
+            "name": "HarperCollins e-books",
+            "id": "391"
+        },
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 1,
+            "premium": 1
+        },
+        "publisher": {
+            "name": "HarperCollins",
+            "id": "582"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=C70FD0C9-EF7A-482B-8695-441C44CF4362&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "eBook",
+            "id": "ebook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 254
+                    },
+                    "hex": "#FEFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/0293-1/C70/FD0/C9/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 254
+                    },
+                    "hex": "#FEFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/0293-1/C70/FD0/C9/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 254
+                    },
+                    "hex": "#FEFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/0293-1/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img100.jpg"
+            }
+        },
+        "formats": [],
+        "publisherAccount": {
+            "name": "HarperCollins Publishers Inc.",
+            "id": "436"
+        },
+        "id": "211206",
+        "firstCreatorName": "Peggy Post",
+        "firstCreatorSortName": "Post, Peggy",
+        "title": "Excuse Me, But I Was Next...",
+        "sortTitle": "Excuse Me But I Was Next How to Handle the Top 100 Manners Dilemmas",
+        "starRating": 5,
+        "starRatingCount": 1,
+        "publishDate": "2009-10-06T04:00:00Z",
+        "publishDateText": "10/06/2009",
+        "estimatedReleaseDate": "2008-12-30T05:00:00Z",
+        "isBundleChild": false,
+        "description": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next...,\"</i> Peggy Post distills the essence of etiquette for today's world into the perfect portable book.",
+        "fullDescription": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next...,\"</i> Peggy Post distills the essence of etiquette for today's world into the perfect portable book.",
+        "shortDescription": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next</i>...",
+        "subtitle": "How to Handle the Top 100 Manners Dilemmas",
+        "reserveId": "c70fd0c9-ef7a-482b-8695-441c44cf4362"
     },
     {
         "firstCreatorId": 499842,
@@ -42170,7 +43291,7 @@
         "reserveId": "3099e8b4-fb18-4f0c-af52-0529ae70c037"
     },
     {
-        "firstCreatorId": 67127,
+        "firstCreatorId": 1012684,
         "youngAdultEligible": false,
         "juvenileEligible": false,
         "visitorEligible": false,
@@ -42178,894 +43299,7 @@
         "isPublicPerformanceAllowed": false,
         "isPublicDomain": false,
         "isBundledChild": false,
-        "unitsSold": 15,
-        "popularity": 5,
-        "subjects": [
-            {
-                "name": "Business",
-                "id": "8"
-            },
-            {
-                "name": "Management",
-                "id": "101"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "BUS000000"
-        ],
-        "bisac": [
-            {
-                "description": "Business & Economics / General",
-                "code": "BUS000000"
-            }
-        ],
-        "levels": [
-            {
-                "id": "lexile",
-                "name": "Lexile Score",
-                "value": "1780"
-            },
-            {
-                "value": "12",
-                "id": "reading-level",
-                "name": "Reading Level",
-                "high": "1200",
-                "low": "1200"
-            }
-        ],
-        "creators": [
-            {
-                "id": 67127,
-                "sortName": "Smith, Adam",
-                "role": "Author",
-                "name": "Adam Smith"
-            },
-            {
-                "id": 600420,
-                "sortName": "Skinner, Andrew",
-                "role": "Editor",
-                "name": "Andrew Skinner"
-            },
-            {
-                "id": 600420,
-                "sortName": "Skinner, Andrew",
-                "role": "Author of introduction, etc.",
-                "name": "Andrew Skinner"
-            },
-            {
-                "id": 600420,
-                "sortName": "Skinner, Andrew",
-                "role": "Annotator",
-                "name": "Andrew Skinner"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "imprint": {
-            "name": "Penguin",
-            "id": "155000"
-        },
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 0,
-            "premium": 0
-        },
-        "publisher": {
-            "name": "Penguin Books Ltd",
-            "id": "307913"
-        },
-        "keywords": [
-            "Political economy"
-        ],
-        "sample": {
-            "href": "https://samples.overdrive.com/?crid=FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7&.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 92,
-                        "green": 152,
-                        "red": 141
-                    },
-                    "hex": "#8D985C"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/0290-1/FD2/591/FE/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 118,
-                        "green": 175,
-                        "red": 166
-                    },
-                    "hex": "#A6AF76"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/0290-1/FD2/591/FE/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 126,
-                        "green": 198,
-                        "red": 185
-                    },
-                    "hex": "#B9C67E"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/0290-1/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img100.jpg"
-            }
-        },
-        "formats": [
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "B002XHNNS4",
-                        "type": "ASIN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kindle",
-                "name": "Kindle Book",
-                "onSaleDateUtc": "1999-10-07T04:00:00Z",
-                "fulfillmentType": "kindle"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780141909288",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://samples.overdrive.com/?crid=FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7&.epub-sample.overdrive.com"
-                },
-                "id": "ebook-overdrive",
-                "name": "OverDrive Read",
-                "onSaleDateUtc": "1999-10-07T04:00:00Z",
-                "fulfillmentType": "bifocal",
-                "isbn": "9780141909288"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780141909288",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://excerpts.cdn.overdrive.com/FormatType-410/0290-1/FD2/591/FE/WealthofNations9780141909288.epub"
-                },
-                "id": "ebook-epub-adobe",
-                "name": "EPUB eBook",
-                "onSaleDateUtc": "1999-10-07T04:00:00Z",
-                "fileSize": 675047,
-                "fulfillmentType": "epub",
-                "isbn": "9780141909288"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "fbfb1023-1923-4e71-b3e7-cd7894ea16d1",
-                        "type": "KoboBookID"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kobo",
-                "name": "Kobo eBook",
-                "onSaleDateUtc": "1999-10-07T04:00:00Z",
-                "fulfillmentType": "kobo"
-            }
-        ],
-        "publisherAccount": {
-            "name": "Penguin Random House UK ",
-            "id": "315"
-        },
-        "id": "189644",
-        "firstCreatorName": "Adam Smith",
-        "firstCreatorSortName": "Smith, Adam",
-        "title": "The Wealth of Nations",
-        "sortTitle": "Wealth of Nations Books IVV",
-        "starRating": 3.7,
-        "starRatingCount": 3,
-        "publishDate": "1999-10-07T04:00:00Z",
-        "publishDateText": "10/07/1999",
-        "estimatedReleaseDate": "1999-10-07T04:00:00Z",
-        "isBundleChild": false,
-        "description": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
-        "fullDescription": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
-        "shortDescription": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
-        "subtitle": "Books IV-V",
-        "reserveId": "fd2591fe-ca5d-4dd0-af3e-6ae5e1df43d7"
-    },
-    {
-        "firstCreatorId": 143796,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 5,
-        "popularity": 6,
-        "subjects": [
-            {
-                "name": "Reference",
-                "id": "73"
-            },
-            {
-                "name": "Self-Improvement",
-                "id": "81"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "REF000000",
-            "SEL000000"
-        ],
-        "bisac": [
-            {
-                "description": "Reference / General",
-                "code": "REF000000"
-            },
-            {
-                "description": "Self-Help / General",
-                "code": "SEL000000"
-            }
-        ],
-        "levels": [],
-        "creators": [
-            {
-                "id": 143796,
-                "sortName": "Post, Peggy",
-                "role": "Author",
-                "name": "Peggy Post"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "imprint": {
-            "name": "HarperCollins e-books",
-            "id": "391"
-        },
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 1,
-            "premium": 1
-        },
-        "publisher": {
-            "name": "HarperCollins",
-            "id": "582"
-        },
-        "keywords": [],
-        "sample": {
-            "href": "https://samples.overdrive.com/?crid=C70FD0C9-EF7A-482B-8695-441C44CF4362&.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 254
-                    },
-                    "hex": "#FEFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/0293-1/C70/FD0/C9/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 254
-                    },
-                    "hex": "#FEFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/0293-1/C70/FD0/C9/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 254
-                    },
-                    "hex": "#FEFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/0293-1/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img100.jpg"
-            }
-        },
-        "formats": [],
-        "publisherAccount": {
-            "name": "HarperCollins Publishers Inc.",
-            "id": "436"
-        },
-        "id": "211206",
-        "firstCreatorName": "Peggy Post",
-        "firstCreatorSortName": "Post, Peggy",
-        "title": "Excuse Me, But I Was Next...",
-        "sortTitle": "Excuse Me But I Was Next How to Handle the Top 100 Manners Dilemmas",
-        "starRating": 5,
-        "starRatingCount": 1,
-        "publishDate": "2009-10-06T04:00:00Z",
-        "publishDateText": "10/06/2009",
-        "estimatedReleaseDate": "2008-12-30T05:00:00Z",
-        "isBundleChild": false,
-        "description": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next...,\"</i> Peggy Post distills the essence of etiquette for today's world into the perfect portable book.",
-        "fullDescription": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next...,\"</i> Peggy Post distills the essence of etiquette for today's world into the perfect portable book.",
-        "shortDescription": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next</i>...",
-        "subtitle": "How to Handle the Top 100 Manners Dilemmas",
-        "reserveId": "c70fd0c9-ef7a-482b-8695-441c44cf4362"
-    },
-    {
-        "firstCreatorId": 368444,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 15,
-        "popularity": 0,
-        "subjects": [
-            {
-                "name": "Computer Technology",
-                "id": "13"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "COM000000"
-        ],
-        "bisac": [
-            {
-                "description": "Computers / General",
-                "code": "COM000000"
-            }
-        ],
-        "levels": [],
-        "creators": [
-            {
-                "id": 368444,
-                "sortName": "Krug, Steve",
-                "role": "Author",
-                "name": "Steve Krug"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "imprint": {
-            "name": "New Riders",
-            "id": "1520"
-        },
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 0,
-            "premium": 0
-        },
-        "publisher": {
-            "name": "Pearson Education",
-            "id": "782"
-        },
-        "keywords": [],
-        "sample": {
-            "href": "https://samples.overdrive.com/don-t-make-me-4f3733?.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 36,
-                        "green": 23,
-                        "red": 121
-                    },
-                    "hex": "#791724"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/0447-1/{4F37335E-5E06-4B93-A361-68FA7EF3B122}IMG150.JPG"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 39,
-                        "green": 18,
-                        "red": 117
-                    },
-                    "hex": "#751227"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/0447-1/{4F37335E-5E06-4B93-A361-68FA7EF3B122}IMG400.JPG"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 25,
-                        "green": 20,
-                        "red": 59
-                    },
-                    "hex": "#3B1419"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/0447-1/{4F37335E-5E06-4B93-A361-68FA7EF3B122}IMG100.JPG"
-            }
-        },
-        "formats": [
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "B00HJUBRPG",
-                        "type": "ASIN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kindle",
-                "name": "Kindle Book",
-                "onSaleDateUtc": "2013-12-23T05:00:00Z",
-                "fulfillmentType": "kindle"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780133597264",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://samples.overdrive.com/don-t-make-me-4f3733?.epub-sample.overdrive.com"
-                },
-                "id": "ebook-overdrive",
-                "name": "OverDrive Read",
-                "onSaleDateUtc": "2013-12-23T05:00:00Z",
-                "fileSize": 32558472,
-                "fulfillmentType": "bifocal",
-                "isbn": "9780133597264"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780133597264",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-epub-adobe",
-                "name": "EPUB eBook",
-                "onSaleDateUtc": "2013-12-23T05:00:00Z",
-                "fileSize": 31883254,
-                "fulfillmentType": "epub",
-                "isbn": "9780133597264"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780133597257",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-pdf-adobe",
-                "name": "PDF eBook",
-                "onSaleDateUtc": "2013-12-23T05:00:00Z",
-                "fileSize": 8432303,
-                "fulfillmentType": "pdf",
-                "isbn": "9780133597257"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "f98586b1-a776-3651-a9a8-17aedaeddf61",
-                        "type": "KoboBookID"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kobo",
-                "name": "Kobo eBook",
-                "onSaleDateUtc": "2013-12-23T05:00:00Z",
-                "fulfillmentType": "kobo"
-            }
-        ],
-        "publisherAccount": {
-            "name": "Pearson Education",
-            "id": "659"
-        },
-        "id": "1515283",
-        "firstCreatorName": "Steve Krug",
-        "firstCreatorSortName": "Krug, Steve",
-        "title": "Don't Make Me Think, Revisited",
-        "sortTitle": "Dont Make Me Think Revisited A Common Sense Approach to Web Usability",
-        "starRating": 3.7,
-        "starRatingCount": 10,
-        "edition": "3",
-        "publishDate": "2013-12-23T05:00:00Z",
-        "publishDateText": "12/23/2013",
-        "estimatedReleaseDate": "2013-12-23T05:00:00Z",
-        "isBundleChild": false,
-        "tableOfContents": "<li>Chapter 1. Don't make me think! </li> <li>Chapter 2. How we really use the Web </li> <li>Chapter 3. Billboard Design 101 </li> <li>Chapter 4. Animal, Vegetable, or Mineral? </li> <li>Chapter 5. Omit needless words </li> <li>Chapter 6. Street signs and Breadcrumbs </li> <li>Chapter 7. The Big Bang Theory of Web Design </li> <li>Chapter 8. \"The Farmer and the Cowman Should Be Friends\" </li> <li>Chapter 9. Usability testing on 10 cents a day </li> <li>Chapter 10. Mobile: It's not just a city in Alabama anymore </li> <li>Chapter 11. Usability as common courtesy </li> <li>Chapter 12. Accessibility and you </li> <li>Chapter 13. Guide for the perplexed </li>",
-        "description": "Since <i> Don't Make Me Think </i>was first published in 2000, hundreds of thousands of Web designers and developers have relied on usability guru Steve Krug's guide to help them understand the principles of intuitive navigation and information design. Witty, commonsensical, and eminently practical, it's one of the best-loved and most recommended books on the subject. <br> <br>Now Steve returns with fresh perspective to reexamine the principles that made <i> Don't Make Me Think</i> a classic\u2013with updated examples and a new chapter on mobile usability. And it's still short, profusely illustrated...and best of all\u2013fun to read. <br> <br>If you've read it before, you'll rediscover what made <i>Don't Make Me Think</i> so essential to Web designers and developers around the world. If you've never read it, you'll see why so many people have said it should be required reading for anyone working on Web sites. <br> <br> <br>\"After reading it over a couple of hours and putting its ideas to work for the past five years, I can say it has done more to improve my abilities as a Web designer than any other book.\" <br>\u2013Jeffrey Zeldman, author of Designing with Web Standards <p>&nbsp;</p>",
-        "fullDescription": "Since <i> Don't Make Me Think </i>was first published in 2000, hundreds of thousands of Web designers and developers have relied on usability guru Steve Krug's guide to help them understand the principles of intuitive navigation and information design. Witty, commonsensical, and eminently practical, it's one of the best-loved and most recommended books on the subject. <br> <br>Now Steve returns with fresh perspective to reexamine the principles that made <i> Don't Make Me Think</i> a classic\u2013with updated examples and a new chapter on mobile usability. And it's still short, profusely illustrated...and best of all\u2013fun to read. <br> <br>If you've read it before, you'll rediscover what made <i>Don't Make Me Think</i> so essential to Web designers and developers around the world. If you've never read it, you'll see why so many people have said it should be required reading for anyone working on Web sites. <br> <br> <br>\"After reading it over a couple of hours and putting its ideas to work for the past five years, I can say it has done more to improve my abilities as a Web designer than any other book.\" <br>\u2013Jeffrey Zeldman, author of Designing with Web Standards <p>&nbsp;</p>",
-        "shortDescription": "Since <i> Don't Make Me Think </i>was first published in 2000, hundreds of thousands of Web designers and developers have relied on usability guru Steve Krug's guide to help them understand the principles of intuitive navigation and information design. Witty, commonsensical, and eminently practical, it's one of the best-loved and most recommended books on the subject. <br> <br>Now Steve returns with fresh perspective to reexamine the principles that made <i> Don't Make Me Think</i> a classic\u2013with updated examples and a new chapter on mobile usability. And it's still short, profusely illustrated...and best of all\u2013fun to read. <br> <br>If you've read it before, you'll rediscover what made <i>Don't Make Me Think</i> so essential to Web designers and developers around the world. If you've never read it, you'll see why so many people have said it should be required reading for anyone working on Web sites. <br> <br> <br>\"After reading it over a couple of hours and putting its ideas to...",
-        "subtitle": "A Common Sense Approach to Web Usability",
-        "reserveId": "4f37335e-5e06-4b93-a361-68fa7ef3b122"
-    },
-    {
-        "firstCreatorId": 756653,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 15,
-        "popularity": 0,
-        "subjects": [
-            {
-                "name": "Classic Literature",
-                "id": "10"
-            },
-            {
-                "name": "Fiction",
-                "id": "26"
-            }
-        ],
-        "bisacCodes": [
-            "FIC004000"
-        ],
-        "bisac": [
-            {
-                "description": "Fiction / Classics",
-                "code": "FIC004000"
-            }
-        ],
-        "levels": [],
-        "creators": [
-            {
-                "id": 756653,
-                "sortName": "\u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432, \u0410. \u0421.",
-                "role": "Author",
-                "name": "\u0410. \u0421. \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432"
-            }
-        ],
-        "languages": [
-            {
-                "name": "Russian",
-                "id": "ru"
-            }
-        ],
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 0,
-            "premium": 0
-        },
-        "publisher": {
-            "name": "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \"\u041f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\"",
-            "id": "98740"
-        },
-        "keywords": [],
-        "sample": {
-            "href": "https://samples.overdrive.com/805d09?.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 78,
-                        "green": 124,
-                        "red": 125
-                    },
-                    "hex": "#7D7C4E"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/2617-1/805/D09/6C/{805D096C-3886-407A-A69C-E8254A960A44}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 112,
-                        "green": 166,
-                        "red": 166
-                    },
-                    "hex": "#A6A670"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/2617-1/805/D09/6C/{805D096C-3886-407A-A69C-E8254A960A44}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 107,
-                        "green": 162,
-                        "red": 165
-                    },
-                    "hex": "#A5A26B"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/2617-1/{805D096C-3886-407A-A69C-E8254A960A44}Img100.jpg"
-            }
-        },
-        "formats": [
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "B019HLUZ70",
-                        "type": "ASIN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kindle",
-                "name": "Kindle Book",
-                "onSaleDateUtc": "2015-04-22T04:00:00Z",
-                "fulfillmentType": "kindle"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9785392031306",
-                        "type": "ISBN"
-                    },
-                    {
-                        "value": "2584",
-                        "type": "PublisherCatalogNumber"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://samples.overdrive.com/805d09?.epub-sample.overdrive.com"
-                },
-                "id": "ebook-overdrive",
-                "name": "OverDrive Read",
-                "onSaleDateUtc": "2015-04-22T04:00:00Z",
-                "fileSize": 722292,
-                "fulfillmentType": "bifocal",
-                "isbn": "9785392031306"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9785392031306",
-                        "type": "ISBN"
-                    },
-                    {
-                        "value": "2584",
-                        "type": "PublisherCatalogNumber"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-epub-adobe",
-                "name": "EPUB eBook",
-                "onSaleDateUtc": "2015-04-22T04:00:00Z",
-                "fileSize": 722292,
-                "fulfillmentType": "epub",
-                "isbn": "9785392031306"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9785392031306",
-                        "type": "ISBN"
-                    },
-                    {
-                        "value": "2584",
-                        "type": "PublisherCatalogNumber"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-epub-open",
-                "name": "Open EPUB eBook",
-                "onSaleDateUtc": "2015-04-22T04:00:00Z",
-                "fileSize": 722926,
-                "fulfillmentType": "epub",
-                "isbn": "9785392031306"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "d9e70e24-b4f0-3861-becb-b57fed053181",
-                        "type": "KoboBookID"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kobo",
-                "name": "Kobo eBook",
-                "onSaleDateUtc": "2015-04-22T04:00:00Z",
-                "fulfillmentType": "kobo"
-            }
-        ],
-        "publisherAccount": {
-            "name": "Prospekt publishing house",
-            "id": "6744"
-        },
-        "id": "2194068",
-        "firstCreatorName": "\u0410. \u0421. \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432",
-        "firstCreatorSortName": "\u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432, \u0410. \u0421.",
-        "title": "\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430",
-        "sortTitle": "\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430",
-        "publishDate": "2015-03-17T04:00:00Z",
-        "publishDateText": "03/17/2015",
-        "estimatedReleaseDate": "2015-04-22T04:00:00Z",
-        "isBundleChild": false,
-        "description": "<p>\u041a\u043e\u043c\u0435\u0434\u0438\u0438 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u0430 \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432\u0430 \u00ab\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430\u00bb \u0435\u0449\u0435 \u041f\u0443\u0448\u043a\u0438\u043d \u043f\u0440\u0435\u0434\u0440\u0435\u043a\u0430\u043b \u0434\u043e\u043b\u0433\u0443\u044e \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u0443\u044e \u0436\u0438\u0437\u043d\u044c, \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u044f, \u0447\u0442\u043e \u043e\u043d\u0430 \u043d\u0435\u043f\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u00ab\u0440\u0430\u0441\u0442\u0430\u0449\u0435\u043d\u0430 \u043d\u0430 \u0446\u0438\u0442\u0430\u0442\u044b\u00bb. \u0412\u0440\u0435\u043c\u044f \u043f\u043e\u043a\u0430\u0437\u0430\u043b\u043e, \u0447\u0442\u043e \u0435\u0433\u043e \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0441\u0431\u044b\u043b\u043e\u0441\u044c. \u041d\u043e\u0432\u0430\u0442\u043e\u0440\u0441\u043a\u043e\u0435 \u0434\u043b\u044f \u0441\u0432\u043e\u0435\u0439 \u044d\u043f\u043e\u0445\u0438, \u044d\u0442\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043d\u044b\u043d\u0435 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0435\u043e\u0442\u044a\u0435\u043c\u043b\u0435\u043c\u0443\u044e \u0447\u0430\u0441\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u043b\u0435\u0434\u0438\u044f \u0438 \u0447\u0430\u0441\u0442\u043e \u0441\u0442\u0430\u0432\u0438\u0442\u0441\u044f \u043d\u0430 \u0441\u0446\u0435\u043d\u0435. \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0430\u044f \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0443\u044e \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u044d\u043f\u043e\u0445\u0443, \u0430\u0432\u0442\u043e\u0440 \u0432 \u0442\u043e \u0436\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u0442\u0440\u0430\u0433\u0438\u0432\u0430\u0435\u0442 \u0440\u044f\u0434 \u00ab\u0432\u0435\u0447\u043d\u044b\u0445 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432\u00bb, \u0447\u0442\u043e \u0438 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u043a\u043e\u043c\u0435\u0434\u0438\u0438 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u044e\u044e \u043b\u044e\u0431\u043e\u0432\u044c \u0441\u0440\u0435\u0434\u0438 \u0447\u0438\u0442\u0430\u0442\u0435\u043b\u0435\u0439, \u0430 \u044f\u0440\u043a\u0438\u0439 \u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0441\u0434\u0435\u043b\u0430\u043b \u0435\u0435 \u043a\u043b\u0430\u0434\u0435\u0437\u0435\u043c \u043a\u0440\u044b\u043b\u0430\u0442\u044b\u0445 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0439.",
-        "fullDescription": "<p>\u041a\u043e\u043c\u0435\u0434\u0438\u0438 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u0430 \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432\u0430 \u00ab\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430\u00bb \u0435\u0449\u0435 \u041f\u0443\u0448\u043a\u0438\u043d \u043f\u0440\u0435\u0434\u0440\u0435\u043a\u0430\u043b \u0434\u043e\u043b\u0433\u0443\u044e \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u0443\u044e \u0436\u0438\u0437\u043d\u044c, \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u044f, \u0447\u0442\u043e \u043e\u043d\u0430 \u043d\u0435\u043f\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u00ab\u0440\u0430\u0441\u0442\u0430\u0449\u0435\u043d\u0430 \u043d\u0430 \u0446\u0438\u0442\u0430\u0442\u044b\u00bb. \u0412\u0440\u0435\u043c\u044f \u043f\u043e\u043a\u0430\u0437\u0430\u043b\u043e, \u0447\u0442\u043e \u0435\u0433\u043e \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0441\u0431\u044b\u043b\u043e\u0441\u044c. \u041d\u043e\u0432\u0430\u0442\u043e\u0440\u0441\u043a\u043e\u0435 \u0434\u043b\u044f \u0441\u0432\u043e\u0435\u0439 \u044d\u043f\u043e\u0445\u0438, \u044d\u0442\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043d\u044b\u043d\u0435 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0435\u043e\u0442\u044a\u0435\u043c\u043b\u0435\u043c\u0443\u044e \u0447\u0430\u0441\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u043b\u0435\u0434\u0438\u044f \u0438 \u0447\u0430\u0441\u0442\u043e \u0441\u0442\u0430\u0432\u0438\u0442\u0441\u044f \u043d\u0430 \u0441\u0446\u0435\u043d\u0435. \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0430\u044f \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0443\u044e \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u044d\u043f\u043e\u0445\u0443, \u0430\u0432\u0442\u043e\u0440 \u0432 \u0442\u043e \u0436\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u0442\u0440\u0430\u0433\u0438\u0432\u0430\u0435\u0442 \u0440\u044f\u0434 \u00ab\u0432\u0435\u0447\u043d\u044b\u0445 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432\u00bb, \u0447\u0442\u043e \u0438 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u043a\u043e\u043c\u0435\u0434\u0438\u0438 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u044e\u044e \u043b\u044e\u0431\u043e\u0432\u044c \u0441\u0440\u0435\u0434\u0438 \u0447\u0438\u0442\u0430\u0442\u0435\u043b\u0435\u0439, \u0430 \u044f\u0440\u043a\u0438\u0439 \u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0441\u0434\u0435\u043b\u0430\u043b \u0435\u0435 \u043a\u043b\u0430\u0434\u0435\u0437\u0435\u043c \u043a\u0440\u044b\u043b\u0430\u0442\u044b\u0445 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0439.",
-        "shortDescription": "<p>\u041a\u043e\u043c\u0435\u0434\u0438\u0438 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u0430 \u0413\u0440\u0438\u0431\u043e\u0435\u0434\u043e\u0432\u0430 \u00ab\u0413\u043e\u0440\u0435 \u043e\u0442 \u0443\u043c\u0430\u00bb \u0435\u0449\u0435 \u041f\u0443\u0448\u043a\u0438\u043d \u043f\u0440\u0435\u0434\u0440\u0435\u043a\u0430\u043b \u0434\u043e\u043b\u0433\u0443\u044e \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u0443\u044e \u0436\u0438\u0437\u043d\u044c, \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u044f, \u0447\u0442\u043e \u043e\u043d\u0430 \u043d\u0435\u043f\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u00ab\u0440\u0430\u0441\u0442\u0430\u0449\u0435\u043d\u0430 \u043d\u0430 \u0446\u0438\u0442\u0430\u0442\u044b\u00bb. \u0412\u0440\u0435\u043c\u044f \u043f\u043e\u043a\u0430\u0437\u0430\u043b\u043e, \u0447\u0442\u043e \u0435\u0433\u043e \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0441\u0431\u044b\u043b\u043e\u0441\u044c. \u041d\u043e\u0432\u0430\u0442\u043e\u0440\u0441\u043a\u043e\u0435 \u0434\u043b\u044f \u0441\u0432\u043e\u0435\u0439 \u044d\u043f\u043e\u0445\u0438, \u044d\u0442\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043d\u044b\u043d\u0435 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0435\u043e\u0442\u044a\u0435\u043c\u043b\u0435\u043c\u0443\u044e \u0447\u0430\u0441\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u043b\u0435\u0434\u0438\u044f \u0438 \u0447\u0430\u0441\u0442\u043e \u0441\u0442\u0430\u0432\u0438\u0442\u0441\u044f \u043d\u0430 \u0441\u0446\u0435\u043d\u0435. \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0430\u044f \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0443\u044e \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u044d\u043f\u043e\u0445\u0443, \u0430\u0432\u0442\u043e\u0440 \u0432 \u0442\u043e \u0436\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u0442\u0440\u0430\u0433\u0438\u0432\u0430\u0435\u0442 \u0440\u044f\u0434 \u00ab\u0432\u0435\u0447\u043d\u044b\u0445 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432\u00bb, \u0447\u0442\u043e \u0438 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u043a\u043e\u043c\u0435\u0434\u0438\u0438 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u044e\u044e \u043b\u044e\u0431\u043e\u0432\u044c \u0441\u0440\u0435\u0434\u0438 \u0447\u0438\u0442\u0430\u0442\u0435\u043b\u0435\u0439, \u0430 \u044f\u0440\u043a\u0438\u0439 \u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0441\u0434\u0435\u043b\u0430\u043b \u0435\u0435 \u043a\u043b\u0430\u0434\u0435\u0437\u0435\u043c \u043a\u0440\u044b\u043b\u0430\u0442\u044b\u0445 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0439.",
-        "reserveId": "805d096c-3886-407a-a69c-e8254a960a44"
-    },
-    {
-        "firstCreatorId": 564292,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 12,
+        "unitsSold": 32,
         "popularity": 0,
         "subjects": [
             {
@@ -43073,26 +43307,40 @@
                 "id": "8"
             },
             {
+                "name": "Finance",
+                "id": "27"
+            },
+            {
                 "name": "Nonfiction",
                 "id": "111"
             }
         ],
         "bisacCodes": [
-            "BUS074000"
+            "BUS050050",
+            "BUS064000",
+            "BUS064030"
         ],
         "bisac": [
             {
-                "description": "BUSINESS & ECONOMICS / Nonprofit Organizations & Charities / General",
-                "code": "BUS074000"
+                "description": "Business & Economics / Personal Finance / Taxation",
+                "code": "BUS050050"
+            },
+            {
+                "description": "Business & Economics / Taxation / General",
+                "code": "BUS064000"
+            },
+            {
+                "description": "Business & Economics / Taxation / Small Business",
+                "code": "BUS064030"
             }
         ],
         "levels": [],
         "creators": [
             {
-                "id": 564292,
-                "sortName": "Hopkins, Bruce R.",
+                "id": 1012684,
+                "sortName": "Kamoroff, Bernard B.",
                 "role": "Author",
-                "name": "Bruce R. Hopkins"
+                "name": "Bernard B. Kamoroff"
             }
         ],
         "languages": [
@@ -43112,16 +43360,16 @@
             }
         },
         "reviewCounts": {
-            "publisherSupplier": 0,
+            "publisherSupplier": 2,
             "premium": 0
         },
         "publisher": {
-            "name": "Wiley",
-            "id": "13302"
+            "name": "Lyons Press",
+            "id": "83105"
         },
         "keywords": [],
         "sample": {
-            "href": "https://samples.overdrive.com/?crid=306a88b0-ef45-4b57-bd24-bc4611bde6d6&.epub-sample.overdrive.com"
+            "href": "https://samples.overdrive.com/?crid=0d5eac7f-de86-4ad1-bc37-819d30950c88&.epub-sample.overdrive.com"
         },
         "bundledContentChildrenTitleIds": [],
         "constraints": {
@@ -43135,41 +43383,44 @@
             "cover150Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 0,
-                        "green": 0,
-                        "red": 1
+                        "blue": 151,
+                        "green": 115,
+                        "red": 21
                     },
-                    "hex": "#010000"
+                    "hex": "#157397"
                 },
+                "isPlaceholderImage": false,
                 "width": 150,
                 "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/0128-1/306/A88/B0/{306A88B0-EF45-4B57-BD24-BC4611BDE6D6}Img150.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-150/1873-1/0D5/EAC/7F/{0D5EAC7F-DE86-4AD1-BC37-819D30950C88}Img150.jpg"
             },
             "cover300Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 22,
-                        "green": 22,
+                        "blue": 148,
+                        "green": 115,
                         "red": 22
                     },
-                    "hex": "#161616"
+                    "hex": "#167394"
                 },
+                "isPlaceholderImage": false,
                 "width": 300,
                 "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/0128-1/306/A88/B0/{306A88B0-EF45-4B57-BD24-BC4611BDE6D6}Img400.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-400/1873-1/0D5/EAC/7F/{0D5EAC7F-DE86-4AD1-BC37-819D30950C88}Img400.jpg"
             },
             "cover510Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 32,
-                        "green": 31,
-                        "red": 35
+                        "blue": 153,
+                        "green": 115,
+                        "red": 19
                     },
-                    "hex": "#231F20"
+                    "hex": "#137399"
                 },
+                "isPlaceholderImage": false,
                 "width": 510,
                 "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/0128-1/{306A88B0-EF45-4B57-BD24-BC4611BDE6D6}Img100.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-100/1873-1/{0D5EAC7F-DE86-4AD1-BC37-819D30950C88}Img100.jpg"
             }
         },
         "formats": [
@@ -43178,7 +43429,7 @@
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "B07R4Q58QL",
+                        "value": "B077PPZL5P",
                         "type": "ASIN"
                     }
                 ],
@@ -43186,7 +43437,7 @@
                 "bundledContent": [],
                 "id": "ebook-kindle",
                 "name": "Kindle Book",
-                "onSaleDateUtc": "2019-03-26T04:00:00Z",
+                "onSaleDateUtc": "2018-02-01T05:00:00Z",
                 "fulfillmentType": "kindle"
             },
             {
@@ -43194,27 +43445,28 @@
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "9781119538011",
+                        "value": "9781493032198",
                         "type": "ISBN"
                     }
                 ],
                 "rights": [],
                 "bundledContent": [],
                 "sample": {
-                    "href": "https://samples.overdrive.com/?crid=306a88b0-ef45-4b57-bd24-bc4611bde6d6&.epub-sample.overdrive.com"
+                    "href": "https://samples.overdrive.com/?crid=0d5eac7f-de86-4ad1-bc37-819d30950c88&.epub-sample.overdrive.com"
                 },
                 "id": "ebook-overdrive",
                 "name": "OverDrive Read",
-                "onSaleDateUtc": "2019-03-26T04:00:00Z",
+                "onSaleDateUtc": "2018-02-01T05:00:00Z",
+                "fileSize": 4402776,
                 "fulfillmentType": "bifocal",
-                "isbn": "9781119538011"
+                "isbn": "9781493032198"
             },
             {
                 "isBundleParent": false,
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "9781119538011",
+                        "value": "9781493032198",
                         "type": "ISBN"
                     }
                 ],
@@ -43222,17 +43474,17 @@
                 "bundledContent": [],
                 "id": "ebook-epub-adobe",
                 "name": "EPUB eBook",
-                "onSaleDateUtc": "2019-03-26T04:00:00Z",
-                "fileSize": 1659674,
+                "onSaleDateUtc": "2018-02-01T05:00:00Z",
+                "fileSize": 4402776,
                 "fulfillmentType": "epub",
-                "isbn": "9781119538011"
+                "isbn": "9781493032198"
             },
             {
                 "isBundleParent": false,
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "9781119538028",
+                        "value": "9781493032198",
                         "type": "ISBN"
                     }
                 ],
@@ -43240,17 +43492,17 @@
                 "bundledContent": [],
                 "id": "ebook-pdf-adobe",
                 "name": "PDF eBook",
-                "onSaleDateUtc": "2019-03-26T04:00:00Z",
-                "fileSize": 4543888,
+                "onSaleDateUtc": "2018-02-01T05:00:00Z",
+                "fileSize": 3209497,
                 "fulfillmentType": "pdf",
-                "isbn": "9781119538028"
+                "isbn": "9781493032198"
             },
             {
                 "isBundleParent": false,
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "fd870826-a54c-3afd-b096-6d02404d9859",
+                        "value": "035dfdfd-d4fe-35bb-b7d0-b41a30b00b3f",
                         "type": "KoboBookID"
                     }
                 ],
@@ -43258,282 +43510,30 @@
                 "bundledContent": [],
                 "id": "ebook-kobo",
                 "name": "Kobo eBook",
-                "onSaleDateUtc": "2019-03-26T04:00:00Z",
+                "onSaleDateUtc": "2018-02-01T05:00:00Z",
                 "fulfillmentType": "kobo"
             }
         ],
         "publisherAccount": {
-            "name": "Wiley",
-            "id": "234"
+            "name": "Rowman and Littlefield Publishing Group",
+            "id": "4954"
         },
-        "detailedSeries": {
-            "rank": 60,
-            "seriesId": 1323838,
-            "seriesName": "Wiley Nonprofit Authority"
-        },
-        "id": "4281139",
-        "firstCreatorName": "Bruce R. Hopkins",
-        "firstCreatorSortName": "Hopkins, Bruce R.",
-        "title": "The Law of Tax-Exempt Organizations",
-        "sortTitle": "Law of TaxExempt Organizations",
-        "edition": "12",
-        "publishDate": "2019-04-02T04:00:00Z",
-        "publishDateText": "04/02/2019",
-        "estimatedReleaseDate": "2019-03-26T04:00:00Z",
-        "isBundleChild": false,
-        "tableOfContents": "<p>About the Authors xxiii</p> <p>Preface xxv</p> <p>About the Online Resources xxxi</p> <p>Book Citations xxxiii</p> <p><b>Part One: Introduction to The Law of Tax-Exempt Organizations</b></p> <p>1 Definition of and Rationales for Tax-Exempt Organizations 3</p> <p>2 Overview of Nonprofit Sector and Tax-Exempt Organizations 21</p> <p><b>Part Two: Fundamentals of The Law of Tax-Exempt Organizations</b></p> <p>3 Tax Exemption: Source and Recognition 33</p> <p>4 Organizational, Operational, and Related Tests and Doctrines 39</p> <p>5 Nonprofit Governance 87</p> <p><b>Part Three: Tax-Exempt Charitable Organizations</b></p> <p>6 Concept of <i>Charitable </i>109</p> <p>7 Charitable Organizations 139</p> <p>8 Educational Organizations 207</p> <p>9 Scientific Organizations 229</p> <p>10 Religious Organizations 237</p> <p>11 Other Types of Charitable Organizations 271</p> <p>12 Public Charities and Private Foundations 285</p> <p><b>Part Four: Other Tax-Exempt Organizations</b></p> <p>13 Social Welfare Organizations 325</p> <p>14 Business Leagues and Similar Organizations 337</p> <p>15 Social Clubs 363</p> <p>16 Labor, Agricultural, and Horticultural Organizations 379</p> <p>17 Political Organizations 389</p> <p>18 Employee Benefit Funds 403<br />19 Other Categories of Tax-Exempt Organizations 417</p> <p><b>Part Five: Principal Exempt Organization Laws</b></p> <p>20 Private Inurement and Private Benefit Doctrines 473</p> <p>21 Intermediate Sanctions 521</p> <p>22 Legislative Activities by Tax-Exempt Organizations 549</p> <p>23 Political Campaign Activities by Tax-Exempt Organizations 577</p> <p>24 Unrelated Business: Basic Rules 601</p> <p>25 Unrelated Business: Modifications, Exceptions, Special Rules, and Taxation 675</p> <p><b>Part Six: Acquisition and Maintenance of Tax Exemption</b></p> <p>26 Exemption Recognition and Notice Processes 707</p> <p>27 Administrative and Litigation Procedures 741</p> <p>28 Operational Requirements 771</p> <p><b>Part Seven: Interorganizational Structures and Operational Forms</b></p> <p>29 Tax-Exempt Organizations and Exempt Subsidiaries 815</p> <p>30 Tax-Exempt Organizations and For-Profit Subsidiaries 827</p> <p>31 Tax-Exempt Organizations and Joint Ventures 843</p> <p>32 Tax-Exempt Organizations: Other Operations and Restructuring 857</p> <p>Index 873</p>",
-        "description": "<p><b>Tax-exempt law explained, for lawyers and nonlawyers alike</b></p> <p><i>The Law of Tax-Exempt Organizations</i> has, for decades, been the definitive single-volume source of legal information for nonprofit lawyers and managers alike. Author Bruce R. Hopkins is widely recognized as the leading authority on the subject; in this thoroughly revised <i>Twelfth Edition</i>, he provides all the updates you need to stay current on the latest changes to tax code, regulatory, and case law developments. Annual supplements available with the book will ensure that you don't miss any important updates.</p> <p>Making solid decisions about the future of any tax-exempt organization requires a firm and up-to-date understanding of the relevant tax and other law. This reference provides guidance on the latest developments in eligibility for tax exemption, the private inurement and private benefit doctrines, nonprofit governance, lobbying, political campaign activity, public charities, private foundations, donor-advised funds, unrelated business activities, reporting, disclosure requirements, and more.</p> <li>Understand the tax code, regulations, and case law pertaining to all categories of tax-exempt organizations</li> <li>Access the nonprofit law standard reference guide, written by the leading legal expert on tax-exempt organizations</li> <li>Prepare yourself to make well-founded strategic decisions about the current and future actions of your organization</li> <li>Review annual supplements that provide plain-English information on changes for each tax year</li> <p>Written in a practical format that's accessible to lawyers and non-lawyers alike, <i>The Law of Tax-Exempt Organizations, Twelfth Edition</i>, is a trustworthy resource for anyone involved in advising or managing charitable organizations, social welfare entities, associations, clubs, or any other type of tax-exempt entity.</p>",
-        "fullDescription": "<p><b>Tax-exempt law explained, for lawyers and nonlawyers alike</b></p> <p><i>The Law of Tax-Exempt Organizations</i> has, for decades, been the definitive single-volume source of legal information for nonprofit lawyers and managers alike. Author Bruce R. Hopkins is widely recognized as the leading authority on the subject; in this thoroughly revised <i>Twelfth Edition</i>, he provides all the updates you need to stay current on the latest changes to tax code, regulatory, and case law developments. Annual supplements available with the book will ensure that you don't miss any important updates.</p> <p>Making solid decisions about the future of any tax-exempt organization requires a firm and up-to-date understanding of the relevant tax and other law. This reference provides guidance on the latest developments in eligibility for tax exemption, the private inurement and private benefit doctrines, nonprofit governance, lobbying, political campaign activity, public charities, private foundations, donor-advised funds, unrelated business activities, reporting, disclosure requirements, and more.</p> <li>Understand the tax code, regulations, and case law pertaining to all categories of tax-exempt organizations</li> <li>Access the nonprofit law standard reference guide, written by the leading legal expert on tax-exempt organizations</li> <li>Prepare yourself to make well-founded strategic decisions about the current and future actions of your organization</li> <li>Review annual supplements that provide plain-English information on changes for each tax year</li> <p>Written in a practical format that's accessible to lawyers and non-lawyers alike, <i>The Law of Tax-Exempt Organizations, Twelfth Edition</i>, is a trustworthy resource for anyone involved in advising or managing charitable organizations, social welfare entities, associations, clubs, or any other type of tax-exempt entity.</p>",
-        "shortDescription": "<p><b>Tax-exempt law explained, for lawyers and nonlawyers alike</b></p> <p><i>The Law of Tax-Exempt Organizations</i> has, for decades, been the definitive single-volume source of legal information for nonprofit lawyers and managers alike. Author Bruce R. Hopkins is widely recognized as the leading authority on the subject; in this thoroughly revised <i>Twelfth Edition</i>, he provides all the updates you need to stay current on the latest changes to tax code, regulatory, and case law developments. Annual supplements available with the book will ensure that you don't miss any important updates.</p> <p>Making solid decisions about the future of any tax-exempt organization requires a firm and up-to-date understanding of the relevant tax and other law. This reference provides guidance on the latest developments in eligibility for tax exemption, the private inurement and private benefit doctrines, nonprofit governance, lobbying, political campaign activity, public charities, private...",
-        "series": "Wiley Nonprofit Authority",
-        "reserveId": "306a88b0-ef45-4b57-bd24-bc4611bde6d6"
-    },
-    {
-        "firstCreatorId": 538943,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 5,
-        "popularity": 0,
-        "subjects": [
-            {
-                "name": "Classic Literature",
-                "id": "10"
-            },
-            {
-                "name": "Fiction",
-                "id": "26"
-            },
-            {
-                "name": "Short Stories",
-                "id": "82"
-            }
-        ],
-        "bisacCodes": [
-            "FIC004000",
-            "FIC029000"
-        ],
-        "bisac": [
-            {
-                "description": "Fiction / Classics",
-                "code": "FIC004000"
-            },
-            {
-                "description": "Fiction / Short Stories (single author)",
-                "code": "FIC029000"
-            }
-        ],
-        "levels": [
-            {
-                "id": "lexile",
-                "name": "Lexile Score",
-                "value": "1030"
-            },
-            {
-                "value": "6-8",
-                "id": "reading-level",
-                "name": "Reading Level",
-                "high": "800",
-                "low": "600"
-            }
-        ],
-        "creators": [
-            {
-                "id": 538943,
-                "sortName": "Aesop",
-                "role": "Author",
-                "name": "Aesop"
-            },
-            {
-                "id": 35512,
-                "sortName": "Vernon Jones, V. S.",
-                "role": "Translator",
-                "name": "V. S. Vernon Jones"
-            },
-            {
-                "id": 248978,
-                "sortName": "Chesterton, G. K.",
-                "role": "Author of introduction, etc.",
-                "name": "G. K. Chesterton"
-            },
-            {
-                "id": 1753132,
-                "sortName": "Stauff, Will",
-                "role": "Narrator",
-                "name": "Will Stauff"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "imprint": {
-            "name": "William J. Stauff",
-            "id": "135452"
-        },
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 0,
-            "premium": 6
-        },
-        "publisher": {
-            "name": "Blackstone Publishing",
-            "id": "121637"
-        },
-        "keywords": [],
-        "sample": {
-            "href": "https://samples.overdrive.com/?crid=faeb3bc2-2833-4a83-af90-c4596c71766e&.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "Audiobook",
-            "id": "audiobook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 231,
-                        "green": 237,
-                        "red": 242
-                    },
-                    "hex": "#F2EDE7"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/0887-1/FAE/B3B/C2/{FAEB3BC2-2833-4A83-AF90-C4596C71766E}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 229,
-                        "green": 238,
-                        "red": 242
-                    },
-                    "hex": "#F2EEE5"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/0887-1/FAE/B3B/C2/{FAEB3BC2-2833-4A83-AF90-C4596C71766E}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 229,
-                        "green": 238,
-                        "red": 242
-                    },
-                    "hex": "#F2EEE5"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/0887-1/{FAEB3BC2-2833-4A83-AF90-C4596C71766E}Img100.jpg"
-            }
-        },
-        "formats": [
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9781094125572",
-                        "type": "ISBN"
-                    },
-                    {
-                        "value": "9781094125589",
-                        "type": "PublisherCatalogNumber"
-                    },
-                    {
-                        "value": "9781094125565",
-                        "type": "LibraryISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://samples.overdrive.com/?crid=faeb3bc2-2833-4a83-af90-c4596c71766e&.epub-sample.overdrive.com"
-                },
-                "id": "audiobook-overdrive",
-                "name": "OverDrive Listen audiobook",
-                "onSaleDateUtc": "2020-04-14T04:00:00Z",
-                "fileSize": 86370637,
-                "fulfillmentType": "bifocal",
-                "isbn": "9781094125565",
-                "duration": "02:59:56"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9781094125572",
-                        "type": "ISBN"
-                    },
-                    {
-                        "value": "9781094125589",
-                        "type": "PublisherCatalogNumber"
-                    },
-                    {
-                        "value": "9781094125565",
-                        "type": "LibraryISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://excerpts.cdn.overdrive.com/FormatType-425/0887-1/5416927-Aesop'sFables.mp3"
-                },
-                "id": "audiobook-mp3",
-                "name": "MP3 audiobook",
-                "partCount": 3,
-                "onSaleDateUtc": "2020-04-14T04:00:00Z",
-                "fileSize": 86378460,
-                "fulfillmentType": "odm",
-                "isbn": "9781094125565",
-                "duration": "02:59:56"
-            }
-        ],
-        "publisherAccount": {
-            "name": "Blackstone Audio, Inc.",
-            "id": "1956"
-        },
-        "id": "5416927",
-        "firstCreatorName": "Aesop",
-        "firstCreatorSortName": "Aesop",
-        "title": "Aesop's Fables",
-        "sortTitle": "Aesops Fables A New Translation by V S Vernon Jones with an Introduction by G K Chesterton",
-        "starRating": 3.5,
+        "id": "3679732",
+        "firstCreatorName": "Bernard B. Kamoroff",
+        "firstCreatorSortName": "Kamoroff, Bernard B.",
+        "title": "475 Tax Deductions for Businesses and Self-Employed Individuals",
+        "sortTitle": "475 Tax Deductions for Businesses and SelfEmployed Individuals An AtoZ Guide to Hundreds of Tax WriteOffs",
+        "starRating": 4.5,
         "starRatingCount": 2,
-        "edition": "Unabridged",
-        "publishDate": "2020-04-14T04:00:00Z",
-        "publishDateText": "04/14/2020",
-        "estimatedReleaseDate": "2020-04-14T04:00:00Z",
+        "edition": "12",
+        "publishDate": "2018-02-01T05:00:00Z",
+        "publishDateText": "02/01/2018",
+        "estimatedReleaseDate": "2018-02-01T05:00:00Z",
         "isBundleChild": false,
-        "description": "<p>Aesop's Fables refers to a collection of fables credited to Aesop (620&#8211;560 BC), a slave and storyteller who lived in Ancient Greece. His fables are some of the most well known in the world and remain a popular choice for the moral education of children today. Many stories included in Aesop's Fables, such as \"The Fox and the Grapes\" (from which the idiom \"sour grapes\" was derived), \"The Tortoise and the Hare,\" \"The North Wind and the Sun,\" and \"The Boy Who Cried Wolf,\" are well-known throughout the world.</p>",
-        "fullDescription": "<p>Aesop's Fables refers to a collection of fables credited to Aesop (620&#8211;560 BC), a slave and storyteller who lived in Ancient Greece. His fables are some of the most well known in the world and remain a popular choice for the moral education of children today. Many stories included in Aesop's Fables, such as \"The Fox and the Grapes\" (from which the idiom \"sour grapes\" was derived), \"The Tortoise and the Hare,\" \"The North Wind and the Sun,\" and \"The Boy Who Cried Wolf,\" are well-known throughout the world.</p>",
-        "shortDescription": "<p>Aesop's Fables refers to a collection of fables credited to Aesop (620&#8211;560 BC), a slave and storyteller who lived in Ancient Greece. His fables are some of the most well known in the world and remain a popular choice for the moral education of children today. Many stories included in Aesop's Fables, such as \"The Fox and the Grapes\" (from which the idiom \"sour grapes\" was derived), \"The Tortoise and the Hare,\" \"The North Wind and the Sun,\" and \"The Boy Who Cried Wolf,\" are well-known throughout the world.</p>",
-        "subtitle": "A New Translation by V. S. Vernon Jones with an Introduction by G. K. Chesterton",
-        "reserveId": "faeb3bc2-2833-4a83-af90-c4596c71766e"
+        "description": "Are you paying more taxes than you have to? The IRS is certainly not going to tell you about a deduction you failed to take, and your accountant is not likely to take the time to ask you about every deduction you're entitled to. As former IRS Commissioner Mark Everson admitted, \"If you don't claim it, you don't get it. That's money down the drain for millions of Americans.\" This invaluable book, updated to reflect changes in tax law, not only lists the individual items that are deductible&#8212;from Internet domain name costs to theft losses&#8212;but also explains where to list them on your income tax form. \"Tax law isn't easy,\" the author explains, \"but this book is.\" The twelfth edition will be completely updated to include new changes in tax law, a chapter on home-based businesses, and include a special \"jump out\" highlights in the A-to-Z listings for any deduction that has special rules for home-based businesses.",
+        "fullDescription": "Are you paying more taxes than you have to? The IRS is certainly not going to tell you about a deduction you failed to take, and your accountant is not likely to take the time to ask you about every deduction you're entitled to. As former IRS Commissioner Mark Everson admitted, \"If you don't claim it, you don't get it. That's money down the drain for millions of Americans.\" This invaluable book, updated to reflect changes in tax law, not only lists the individual items that are deductible&#8212;from Internet domain name costs to theft losses&#8212;but also explains where to list them on your income tax form. \"Tax law isn't easy,\" the author explains, \"but this book is.\" The twelfth edition will be completely updated to include new changes in tax law, a chapter on home-based businesses, and include a special \"jump out\" highlights in the A-to-Z listings for any deduction that has special rules for home-based businesses.",
+        "shortDescription": "Are you paying more taxes than you have to? The IRS is certainly not going to tell you about a deduction you failed to take, and your accountant is not likely to take the time to ask you about every deduction you're entitled to. As former IRS Commissioner Mark Everson admitted, \"If you don't claim it, you don't get it. That's money down the drain for millions of Americans.\" This invaluable book, updated to reflect changes in tax law, not only lists the individual items that are deductible&#8212;from Internet domain name costs to theft losses&#8212;but also explains where to list them on your income tax form. \"Tax law isn't easy,\" the author explains, \"but this book is.\" The twelfth edition will be completely updated to include new changes in tax law, a chapter on home-based businesses, and include a special \"jump out\" highlights in the A-to-Z listings for any deduction that has special rules for home-based businesses.",
+        "subtitle": "An A-to-Z Guide to Hundreds of Tax Write-Offs",
+        "reserveId": "0d5eac7f-de86-4ad1-bc37-819d30950c88"
     }
 ]
