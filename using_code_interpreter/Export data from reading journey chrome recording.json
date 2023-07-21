@@ -1,0 +1,93 @@
+{
+    "title": "Export data from reading journey",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1065,
+            "height": 1087,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://libbyapp.com/library/sfpl/similar-3390606/page-1/3390606/journey/3390606",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://libbyapp.com/library/sfpl/similar-3390606/page-1/3390606/journey/3390606",
+                    "title": "Libby - Loading…"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#shelf-actions-pill-0001 > span"
+                ],
+                [
+                    "xpath///*[@id=\"shelf-actions-pill-0001\"]/span"
+                ],
+                [
+                    "pierce/#shelf-actions-pill-0001 > span"
+                ],
+                [
+                    "text/Actions"
+                ]
+            ],
+            "offsetY": 11.1640625,
+            "offsetX": 23.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Export Reading Data",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "a:nth-of-type(2) > span"
+                ],
+                [
+                    "xpath//html/body/div[4]/div[2]/div[2]/div/div/div/div[2]/a[2]/span"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) > span"
+                ],
+                [
+                    "text/Export Reading"
+                ]
+            ],
+            "offsetY": 20.8359375,
+            "offsetX": 109
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(3) > span:nth-of-type(1)"
+                ],
+                [
+                    "xpath//html/body/div[4]/div[2]/div[2]/div/div/div/div[2]/a[3]/span[1]"
+                ],
+                [
+                    "pierce/a:nth-of-type(3) > span:nth-of-type(1)"
+                ]
+            ],
+            "offsetY": 13.3359375,
+            "offsetX": 85,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://share.libbyapp.com/data/af8be122-9136-4f8e-882a-8ac348cfc64c/libbyjourney-3390606-resilient.json",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
