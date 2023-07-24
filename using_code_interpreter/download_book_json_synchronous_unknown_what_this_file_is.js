@@ -1,8 +1,7 @@
 const puppeteer = require('puppeteer');
-const fs = require('fs');
 
 // Load the JSON data file
-const data = require('../Export Data - Manual/libbytimeline-activities.json');
+// const data = require('../Export Data - Manual/libbytimeline-activities.json');
 
 // Start Puppeteer
 (async () => {
@@ -26,18 +25,26 @@ const data = require('../Export Data - Manual/libbytimeline-activities.json');
     });    
 
     // Visit each book's reading journey URL and export the data
-    for (let book of data.timeline) {
+    // for (let book of data.timeline) {
     
-        const journeyUrl = book.reading_journey_url;
+    const journeyUrl = process.argv[2];
+// const journeyUrl = book.reading_journey_url;
 
-        await page.goto(journeyUrl, {waitUntil: 'networkidle0'});
+    await page.goto(journeyUrl, {waitUntil: 'networkidle0'});
 
-        for (let selector of ['#shelf-actions-pill-0001 > span', 'a:nth-of-type(2) > span', 'a:nth-of-type(3) > span:nth-of-type(1)']) {
-            await page.waitForSelector(selector);
-            await page.hover(selector);
-            await page.click(selector);
-        }
+    for (let selector of ['#shelf-actions-pill-0001 > span', 'a:nth-of-type(2) > span', 'a:nth-of-type(3) > span:nth-of-type(1)']) {
+        await page.waitForSelector(selector);
+        await page.hover(selector);
+        await page.click(selector);
     }
+
+        // The JSON file should now be downloaded to your default download location
+    // }
+
+    // Fetch the JSON data from the page
+    // const data = await page.evaluate(() => {
+    //     return JSON.stringify(jsonData);
+    // });
     const jsonData = await page.content();
 
 
