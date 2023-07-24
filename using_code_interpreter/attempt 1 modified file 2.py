@@ -25,7 +25,7 @@ def save_json(data, folder="books"):
     
     print(f"Saved to {path}")
 
-script_path = 'download_book_json.js'
+script_path = 'download_book_json_synchronous.js'
 journey_url = 'https://libbyapp.com/library/sfpl/similar-3390606/page-1/3390606/journey/3390606' # example
 
 json_file_path = 'Export Data - Manual/libbytimeline-activities.json'
