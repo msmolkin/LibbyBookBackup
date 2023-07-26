@@ -16,10 +16,17 @@ async function saveJson(data, folder = "books") {
         const response = await fetch(data);
         data = await response.json();
     }
+
+    // if data is a Reading Journey json file, read it
+    if (data instanceof File) {
+        data = await data.text();
+        data = JSON.parse(data);
+    }
+
     const timestamp = Math.max(...data.circulation.map(item => item.timestamp));
     const date1 = format(new Date(timestamp), 'yyyy-MM-dd HH-mm');
     const current_date = format(new Date(), 'yyyy-MM-dd HH-mm');
-    const title = data.readingJourney.title.text;
+    const title = data.readingJourney.title.text.replace(/[/\\?%*:|"<>]/g, ''); // remove illegal characters from the title so it can be used as a filename
     const author = data.readingJourney.author;
 
     const filename = `Book ${date1} ${title} by ${author} book notes (downloaded ${current_date}).json`;
@@ -97,8 +104,7 @@ async function saveJson(data, folder = "books") {
         await page.waitForNavigation({ waitUntil: 'networkidle0' });
         const url = await page.evaluate(() => document.URL);
 
-        let readingJourneyJsonUrl;  // Create a global variable to store the URL
-
+        let readingJourneyJsonUrl;  // URL of the JSON file containing the circulation, and bookmarks and notes
 
         if (url.includes('libbyjourney')) {
             readingJourneyJsonUrl = url;
