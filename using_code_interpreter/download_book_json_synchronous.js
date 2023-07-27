@@ -28,8 +28,9 @@ async function saveJson(data, folder = "books") {
     const current_date = format(new Date(), 'yyyy-MM-dd HH-mm');
     const title = data.readingJourney.title.text.replace(/[/\\?%*:|"<>]/g, ''); // remove illegal characters from the title so it can be used as a filename
     const author = data.readingJourney.author;
+    const format = data.readingJourney.cover.format;
 
-    const filename = `Book ${date1} ${title} by ${author} book notes (downloaded ${current_date}).json`;
+    const filename = `Book ${date1} ${title} by ${author} ${format} notes (downloaded ${current_date}).json`;
     const path = `${folder}/${filename}`;
 
     if (!fs.existsSync(folder)) {
