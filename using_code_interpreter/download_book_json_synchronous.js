@@ -3,7 +3,7 @@ const fs = require('fs');
 const { format } = require('date-fns');
 
 // Load the JSON data file
-const timelineJson = require('../Export Data - Manual/libbytimeline-activities.json');
+const timelineJson = require('../libbytimeline-activities.json');
 
 async function saveJson(data, folder = "books") {
     if (!data) {
