@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 # Prepare: get the libby timeline data and save it to a JSON file
 
 # Path to your JSON file
-json_file_path = 'Export Data - Manual/libbytimeline-activities.json'
+json_file_path = 'libbytimeline-activities.json'
 # Headers for requests
 headers = {'x-client-id': 'dewey'}
 
