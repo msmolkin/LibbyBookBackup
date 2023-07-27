@@ -14,7 +14,7 @@ for filename in os.listdir(directory):
         filepath = os.path.join(directory, filename)
         book_title = " ".join(filepath.split(" ")[3:filepath.split(" ").index("by")])
 
-        print(f"Reading book {book_title} ({len(file_contents) + 1} / {num_files})")
+        print(f"Opening book {book_title} ({len(file_contents) + 1} / {num_files})")
 
         try:
             with open(filepath, 'r') as f:

@@ -5,6 +5,7 @@ const { format } = require('date-fns');
 // Load the JSON data file
 const timelineJson = require('../libbytimeline-activities.json');
 
+const logEachBook = false; // set to true to log each book as it is saved
 async function saveJson(data, folder = "books") {
     if (!data) {
         console.error("No data to save");
@@ -38,6 +39,10 @@ async function saveJson(data, folder = "books") {
     }
 
     fs.writeFileSync(path, JSON.stringify(data, null, 2));
+
+    if (logEachBook) {
+        console.log(`Saved ${title}`);
+    }
 }
 // rename this file to ..._async.js
 
