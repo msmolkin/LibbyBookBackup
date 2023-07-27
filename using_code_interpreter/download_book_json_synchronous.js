@@ -12,13 +12,13 @@ async function saveJson(data, folder = "books") {
     }
 
     // if data is a URL, fetch it
-    if (typeof data === "string") {
+    else if (typeof data === "string") {
         const response = await fetch(data);
         data = await response.json();
     }
 
     // if data is a Reading Journey json file, read it
-    if (data instanceof File) {
+    else if (data instanceof File) {
         data = await data.text();
         data = JSON.parse(data);
     }
@@ -28,9 +28,9 @@ async function saveJson(data, folder = "books") {
     const current_date = format(new Date(), 'yyyy-MM-dd HH-mm');
     const title = data.readingJourney.title.text.replace(/[/\\?%*:|"<>]/g, ''); // remove illegal characters from the title so it can be used as a filename
     const author = data.readingJourney.author;
-    const format = data.readingJourney.cover.format;
+    const bookFormat = data.readingJourney.cover.format;
 
-    const filename = `Book ${date1} ${title} by ${author} ${format} notes (downloaded ${current_date}).json`;
+    const filename = `Book ${date1} ${title} by ${author} ${bookFormat} notes (downloaded ${current_date}).json`;
     const path = `${folder}/${filename}`;
 
     if (!fs.existsSync(folder)) {
