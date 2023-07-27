@@ -44,7 +44,7 @@ async function saveJson(data, folder = "books") {
 // Start Puppeteer
 (async () => {
     const browser = await puppeteer.launch({
-        headless: false,  // Change to true if Puppeteer can run in headless mode and generate the JSON files
+        headless: true,
         defaultViewport: null,
         userDataDir: '/Users/michael/Library/Application Support/Google/Chrome/LibbyProfile',
         args: ['--disable-blink-features=AutomationControlled'] // hide the fact that this is an automated browser
