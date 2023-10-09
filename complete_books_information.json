@@ -9905,262 +9905,6 @@
         "reserveId": "ad2e51ec-2a05-4595-bef0-bb421543e147"
     },
     {
-        "firstCreatorId": 67127,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 15,
-        "popularity": 5,
-        "subjects": [
-            {
-                "name": "Business",
-                "id": "8"
-            },
-            {
-                "name": "Management",
-                "id": "101"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "BUS000000"
-        ],
-        "bisac": [
-            {
-                "description": "Business & Economics / General",
-                "code": "BUS000000"
-            }
-        ],
-        "levels": [
-            {
-                "id": "lexile",
-                "name": "Lexile Score",
-                "value": "1780"
-            },
-            {
-                "value": "12",
-                "id": "reading-level",
-                "name": "Reading Level",
-                "high": "1200",
-                "low": "1200"
-            }
-        ],
-        "creators": [
-            {
-                "id": 67127,
-                "sortName": "Smith, Adam",
-                "role": "Author",
-                "name": "Adam Smith"
-            },
-            {
-                "id": 600420,
-                "sortName": "Skinner, Andrew",
-                "role": "Editor",
-                "name": "Andrew Skinner"
-            },
-            {
-                "id": 600420,
-                "sortName": "Skinner, Andrew",
-                "role": "Author of introduction, etc.",
-                "name": "Andrew Skinner"
-            },
-            {
-                "id": 600420,
-                "sortName": "Skinner, Andrew",
-                "role": "Annotator",
-                "name": "Andrew Skinner"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "imprint": {
-            "name": "Penguin",
-            "id": "155000"
-        },
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 0,
-            "premium": 0
-        },
-        "publisher": {
-            "name": "Penguin Books Ltd",
-            "id": "307913"
-        },
-        "keywords": [
-            "Political economy"
-        ],
-        "sample": {
-            "href": "https://samples.overdrive.com/?crid=FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7&.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 92,
-                        "green": 152,
-                        "red": 141
-                    },
-                    "hex": "#8D985C"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/0290-1/FD2/591/FE/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 118,
-                        "green": 175,
-                        "red": 166
-                    },
-                    "hex": "#A6AF76"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/0290-1/FD2/591/FE/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 126,
-                        "green": 198,
-                        "red": 185
-                    },
-                    "hex": "#B9C67E"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/0290-1/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img100.jpg"
-            }
-        },
-        "formats": [
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "B002XHNNS4",
-                        "type": "ASIN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kindle",
-                "name": "Kindle Book",
-                "onSaleDateUtc": "1999-10-07T04:00:00Z",
-                "fulfillmentType": "kindle"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780141909288",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://samples.overdrive.com/?crid=FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7&.epub-sample.overdrive.com"
-                },
-                "id": "ebook-overdrive",
-                "name": "OverDrive Read",
-                "onSaleDateUtc": "1999-10-07T04:00:00Z",
-                "fulfillmentType": "bifocal",
-                "isbn": "9780141909288"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780141909288",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://excerpts.cdn.overdrive.com/FormatType-410/0290-1/FD2/591/FE/WealthofNations9780141909288.epub"
-                },
-                "id": "ebook-epub-adobe",
-                "name": "EPUB eBook",
-                "onSaleDateUtc": "1999-10-07T04:00:00Z",
-                "fileSize": 675047,
-                "fulfillmentType": "epub",
-                "isbn": "9780141909288"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "fbfb1023-1923-4e71-b3e7-cd7894ea16d1",
-                        "type": "KoboBookID"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kobo",
-                "name": "Kobo eBook",
-                "onSaleDateUtc": "1999-10-07T04:00:00Z",
-                "fulfillmentType": "kobo"
-            }
-        ],
-        "publisherAccount": {
-            "name": "Penguin Random House UK ",
-            "id": "315"
-        },
-        "id": "189644",
-        "firstCreatorName": "Adam Smith",
-        "firstCreatorSortName": "Smith, Adam",
-        "title": "The Wealth of Nations",
-        "sortTitle": "Wealth of Nations Books IVV",
-        "starRating": 3.7,
-        "starRatingCount": 3,
-        "publishDate": "1999-10-07T04:00:00Z",
-        "publishDateText": "10/07/1999",
-        "estimatedReleaseDate": "1999-10-07T04:00:00Z",
-        "isBundleChild": false,
-        "description": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
-        "fullDescription": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
-        "shortDescription": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
-        "subtitle": "Books IV-V",
-        "reserveId": "fd2591fe-ca5d-4dd0-af3e-6ae5e1df43d7"
-    },
-    {
         "firstCreatorId": 363057,
         "youngAdultEligible": false,
         "juvenileEligible": false,
@@ -13253,377 +12997,6 @@
         "reserveId": "8649ebe8-8457-4dba-b75d-d530a38d45b7"
     },
     {
-        "firstCreatorId": 459113,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 22,
-        "popularity": 32,
-        "subjects": [
-            {
-                "name": "Religion & Spirituality",
-                "id": "74"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "REL040070",
-            "REL040090",
-            "REL064000"
-        ],
-        "bisac": [
-            {
-                "description": "Religion / Judaism / Orthodox",
-                "code": "REL040070"
-            },
-            {
-                "description": "Religion / Judaism / Theology",
-                "code": "REL040090"
-            },
-            {
-                "description": "Religion / Judaism / Talmud",
-                "code": "REL064000"
-            }
-        ],
-        "levels": [
-            {
-                "id": "lexile",
-                "name": "Lexile Score",
-                "value": "1400"
-            },
-            {
-                "value": "12",
-                "id": "reading-level",
-                "name": "Reading Level",
-                "high": "1200",
-                "low": "1200"
-            }
-        ],
-        "creators": [
-            {
-                "id": 459113,
-                "sortName": "Steinsaltz, Adin",
-                "role": "Author",
-                "name": "Adin Steinsaltz"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 0,
-            "premium": 0
-        },
-        "publisher": {
-            "name": "Basic Books",
-            "id": "131388"
-        },
-        "keywords": [],
-        "sample": {
-            "href": "https://samples.overdrive.com/essential-talmud?.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 235,
-                        "green": 253,
-                        "red": 254
-                    },
-                    "hex": "#FEFDEB"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/6968-1/A26/20E/08/{A2620E08-F6EE-40A4-972C-0A1959DE75E5}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 232,
-                        "green": 253,
-                        "red": 255
-                    },
-                    "hex": "#FFFDE8"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/6968-1/A26/20E/08/{A2620E08-F6EE-40A4-972C-0A1959DE75E5}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 234,
-                        "green": 253,
-                        "red": 255
-                    },
-                    "hex": "#FFFDEA"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/6968-1/{A2620E08-F6EE-40A4-972C-0A1959DE75E5}Img100.jpg"
-            }
-        },
-        "formats": [
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "B00ADO767S",
-                        "type": "ASIN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kindle",
-                "name": "Kindle Book",
-                "onSaleDateUtc": "2009-03-17T04:00:00Z",
-                "fulfillmentType": "kindle"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780786735419",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "sample": {
-                    "href": "https://samples.overdrive.com/essential-talmud?.epub-sample.overdrive.com"
-                },
-                "id": "ebook-overdrive",
-                "name": "OverDrive Read",
-                "onSaleDateUtc": "2009-03-17T04:00:00Z",
-                "fulfillmentType": "bifocal",
-                "isbn": "9780786735419"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9780786735419",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-epub-adobe",
-                "name": "EPUB eBook",
-                "onSaleDateUtc": "2009-03-17T04:00:00Z",
-                "fileSize": 2934078,
-                "fulfillmentType": "epub",
-                "isbn": "9780786735419"
-            }
-        ],
-        "publisherAccount": {
-            "name": "Hachette Digital, Inc.",
-            "id": "17"
-        },
-        "id": "1177769",
-        "firstCreatorName": "Adin Steinsaltz",
-        "firstCreatorSortName": "Steinsaltz, Adin",
-        "title": "The Essential Talmud",
-        "sortTitle": "Essential Talmud",
-        "starRating": 3,
-        "starRatingCount": 2,
-        "publishDate": "2009-03-17T04:00:00Z",
-        "publishDateText": "03/17/2009",
-        "estimatedReleaseDate": "2009-03-17T04:00:00Z",
-        "isBundleChild": false,
-        "description": "<B>A masterful introduction to the to the great repository of Jewish wisdom, the Talmud</B><BR /> In <I>The Essential Talmud</I>, the renowned Israeli scholar and teacher Rabbi Adin Steinsaltz succinctly describes the history, structure, and methodology of the sacred text by which the Jewish people have lived and survived through the ages. Rabbi Steinsaltz summarizes the Talmud&#39;s main principles, demonstrates its contemporary relevance, and captures the spirit of this unique and paradoxical text as a human expression of divine law. This expanded edition features a historical overview of life in the times of the Talmud and an in-depth look at the content and appearance of the original Talmudic page. As Rabbi Solomon S. Bernards of the B&#39;Nai B&#39;rith Anti-Defamation League puts it, &quot;this book is indispensable to those, Jews and Christians alike, who would like to gain an insight into what it is that moves the contemporary Jew.&quot;",
-        "fullDescription": "<B>A masterful introduction to the to the great repository of Jewish wisdom, the Talmud</B><BR /> In <I>The Essential Talmud</I>, the renowned Israeli scholar and teacher Rabbi Adin Steinsaltz succinctly describes the history, structure, and methodology of the sacred text by which the Jewish people have lived and survived through the ages. Rabbi Steinsaltz summarizes the Talmud&#39;s main principles, demonstrates its contemporary relevance, and captures the spirit of this unique and paradoxical text as a human expression of divine law. This expanded edition features a historical overview of life in the times of the Talmud and an in-depth look at the content and appearance of the original Talmudic page. As Rabbi Solomon S. Bernards of the B&#39;Nai B&#39;rith Anti-Defamation League puts it, &quot;this book is indispensable to those, Jews and Christians alike, who would like to gain an insight into what it is that moves the contemporary Jew.&quot;",
-        "shortDescription": "<B>A masterful introduction to the to the great repository of Jewish wisdom, the Talmud</B><BR /> In <I>The Essential Talmud</I>, the renowned Israeli scholar and teacher Rabbi Adin Steinsaltz succinctly describes the history, structure, and methodology of the sacred text by which the Jewish people have lived and survived through the ages. Rabbi Steinsaltz summarizes the Talmud&#39;s main principles, demonstrates its contemporary relevance, and captures the spirit of this unique and paradoxical text as a human expression of divine law. This expanded edition features a historical overview of life in the times of the Talmud and an in-depth look at the content and appearance of the original Talmudic page. As Rabbi Solomon S. Bernards of the B&#39;Nai B&#39;rith Anti-Defamation League puts it, &quot;this book is indispensable to those, Jews and Christians alike, who would like to gain an insight into what it is that moves the contemporary Jew.&quot;",
-        "reserveId": "a2620e08-f6ee-40a4-972c-0a1959de75e5"
-    },
-    {
-        "firstCreatorId": 151768,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 12,
-        "popularity": 8,
-        "subjects": [
-            {
-                "name": "Business",
-                "id": "8"
-            },
-            {
-                "name": "Careers",
-                "id": "108"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "REF000000"
-        ],
-        "bisac": [
-            {
-                "description": "Reference / General",
-                "code": "REF000000"
-            }
-        ],
-        "levels": [],
-        "creators": [
-            {
-                "id": 151768,
-                "sortName": "Dolan, Simon",
-                "role": "Author",
-                "name": "Simon Dolan"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "imprint": {
-            "name": "Matador",
-            "id": "3272"
-        },
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 0,
-            "premium": 0
-        },
-        "publisher": {
-            "name": "Troubador Publishing Ltd",
-            "id": "2715"
-        },
-        "keywords": [
-            "Guidance",
-            "self-help",
-            "Finance"
-        ],
-        "sample": {
-            "href": "https://samples.overdrive.com/?crid=E4206FFA-AD0A-4225-9B17-41230F80004C&.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 254
-                    },
-                    "hex": "#FEFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/1818-1/E42/06F/FA/{E4206FFA-AD0A-4225-9B17-41230F80004C}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 255
-                    },
-                    "hex": "#FFFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/1818-1/E42/06F/FA/{E4206FFA-AD0A-4225-9B17-41230F80004C}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 255
-                    },
-                    "hex": "#FFFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/1818-1/{E4206FFA-AD0A-4225-9B17-41230F80004C}Img100.jpg"
-            }
-        },
-        "formats": [],
-        "publisherAccount": {
-            "name": "Troubador Publishing Ltd",
-            "id": "4687"
-        },
-        "id": "569106",
-        "firstCreatorName": "Simon Dolan",
-        "firstCreatorSortName": "Dolan, Simon",
-        "title": "How to Make Millions Without a Degree",
-        "sortTitle": "How to Make Millions Without a Degree And How to Get By Even if You Have One",
-        "starRating": 3,
-        "starRatingCount": 2,
-        "publishDate": "2011-01-01T05:00:00Z",
-        "publishDateText": "01/01/2011",
-        "estimatedReleaseDate": "2011-04-22T04:00:00Z",
-        "isBundleChild": false,
-        "description": "<p>Written by one of the UK's most successful entrepreneurs, Simon Dolan, who made headlines in 2010 for becoming the UK's first Twitter Dragon, How To Make Millions Without a Degree plots Simon's own journey to building a 65million empire and is a practical guide for how you could do the same...without a degree!",
-        "fullDescription": "<p>Written by one of the UK's most successful entrepreneurs, Simon Dolan, who made headlines in 2010 for becoming the UK's first Twitter Dragon, How To Make Millions Without a Degree plots Simon's own journey to building a 65million empire and is a practical guide for how you could do the same...without a degree!",
-        "shortDescription": "<p>Written by one of the UK's most successful entrepreneurs, Simon Dolan, who made headlines in 2010 for becoming the UK's first Twitter Dragon, How To Make Millions Without a Degree plots Simon's own journey to building a 65million empire and is a practical guide for how you could do the same...without a degree!",
-        "subtitle": "And How to Get By Even if You Have One",
-        "reserveId": "e4206ffa-ad0a-4225-9b17-41230f80004c"
-    },
-    {
         "firstCreatorId": 538943,
         "youngAdultEligible": false,
         "juvenileEligible": false,
@@ -14094,218 +13467,6 @@
         "shortDescription": "<b>The inspirational bestseller that ignited a movement and asked us to find our WHY</b><br>Discover the book that is captivating millions on TikTok and that served as the basis for one of the most popular TED Talks of all time&mdash;with more than 56 million views and counting. Over a decade ago, Simon Sinek started a movement that inspired millions to demand purpose at work, to ask what was the WHY of their&#160;organization.&#160;Since then, millions have been touched by the power of his ideas, and these ideas remain as relevant and timely as ever.<br>&#160;<br>START WITH WHY&#160;asks (and answers)&#160;the questions: why are some people and organizations more innovative, more influential, and more profitable than others? Why do some command greater loyalty from customers and employees alike? Even among the successful, why are so few able to repeat their success over and over?<br>&#160;<br>People like Martin Luther King Jr., Steve Jobs, and the Wright Brothers had little in...",
         "subtitle": "How Great Leaders Inspire Everyone to Take Action",
         "reserveId": "22e4c222-0b2e-4515-ba99-99a83e043507"
-    },
-    {
-        "firstCreatorId": 3014823,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 0,
-        "popularity": 0,
-        "subjects": [
-            {
-                "name": "Business",
-                "id": "8"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "BUS074020",
-            "BUS074030",
-            "BUS074040"
-        ],
-        "bisac": [
-            {
-                "description": "Business & Economics / Nonprofit Organizations & Charities / Fundraising & Grants",
-                "code": "BUS074020"
-            },
-            {
-                "description": "Business & Economics / Nonprofit Organizations & Charities / Management & Leadership",
-                "code": "BUS074030"
-            },
-            {
-                "description": "Business & Economics / Nonprofit Organizations & Charities / Marketing & Communications",
-                "code": "BUS074040"
-            }
-        ],
-        "levels": [],
-        "creators": [
-            {
-                "id": 3014823,
-                "sortName": "Bilich, Ted",
-                "role": "Author",
-                "name": "Ted Bilich"
-            },
-            {
-                "id": 59013,
-                "sortName": "Pabon, Tim Andres",
-                "role": "Narrator",
-                "name": "Tim Andres Pabon"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 0,
-            "premium": 0
-        },
-        "publisher": {
-            "name": "G&D Media",
-            "id": "206285"
-        },
-        "keywords": [],
-        "sample": {
-            "href": "https://samples.overdrive.com/?crid=b6b4cc0b-ee9a-4525-bacc-e42be6d63d5d&.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [
-            9632507
-        ],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "Audiobook",
-            "id": "audiobook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 255
-                    },
-                    "hex": "#FFFFFF"
-                },
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/6852-1/{B6B4CC0B-EE9A-4525-BACC-E42BE6D63D5D}IMG150.JPG"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 255
-                    },
-                    "hex": "#FFFFFF"
-                },
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/6852-1/{B6B4CC0B-EE9A-4525-BACC-E42BE6D63D5D}IMG400.JPG"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 255
-                    },
-                    "hex": "#FFFFFF"
-                },
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/6852-1/{B6B4CC0B-EE9A-4525-BACC-E42BE6D63D5D}IMG100.JPG"
-            }
-        },
-        "formats": [
-            {
-                "isBundleParent": true,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9781722552084",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [
-                    {
-                        "titleId": 9632507
-                    },
-                    {
-                        "titleId": 9632507
-                    }
-                ],
-                "sample": {
-                    "href": "https://samples.overdrive.com/?crid=b6b4cc0b-ee9a-4525-bacc-e42be6d63d5d&.epub-sample.overdrive.com"
-                },
-                "id": "audiobook-overdrive",
-                "name": "OverDrive Listen audiobook",
-                "onSaleDateUtc": "2023-03-07T05:00:00Z",
-                "fileSize": 143339727,
-                "fulfillmentType": "bifocal",
-                "isbn": "9781722552084",
-                "duration": "04:58:37"
-            },
-            {
-                "isBundleParent": true,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "9781722552084",
-                        "type": "ISBN"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [
-                    {
-                        "titleId": 9632507
-                    },
-                    {
-                        "titleId": 9632507
-                    }
-                ],
-                "id": "audiobook-mp3",
-                "name": "MP3 audiobook",
-                "partCount": 5,
-                "onSaleDateUtc": "2023-03-07T05:00:00Z",
-                "fileSize": 143349940,
-                "fulfillmentType": "odm",
-                "isbn": "9781722552084",
-                "duration": "05:00:34"
-            }
-        ],
-        "publisherAccount": {
-            "name": "Lightning Source Inc",
-            "id": "36087"
-        },
-        "id": "9613478",
-        "firstCreatorName": "Ted Bilich",
-        "firstCreatorSortName": "Bilich, Ted",
-        "title": "Manage Your Nonprofit for Resilience",
-        "sortTitle": "Manage Your Nonprofit for Resilience Use Lean Risk Management To Improve Performance and Increase Employee Engagement",
-        "edition": "Unabridged",
-        "publishDate": "2023-03-07T05:00:00Z",
-        "publishDateText": "03/07/2023",
-        "estimatedReleaseDate": "2023-03-07T05:00:00Z",
-        "isBundleChild": false,
-        "description": "<p>",
-        "fullDescription": "<p>",
-        "shortDescription": "<p>",
-        "subtitle": "Use Lean Risk Management To Improve Performance and Increase Employee Engagement",
-        "reserveId": "b6b4cc0b-ee9a-4525-bacc-e42be6d63d5d"
     },
     {
         "firstCreatorId": 89789,
@@ -16259,6 +15420,232 @@
         "shortDescription": "<p><B>THE <I>BUSINESSWEEK</I>, <I>USA TODAY</I>, AND <I>WALL STREET JOURNAL </I>BUSINESS BESTSELLER!</B><p><b>The bestselling guide to buying stocks, from the founder of <i>Investor's Business Daily</i> now completely revised and updated</b><p>When it was first published, <i>How to Make Money in Stocks </i>hit the investing world like a jolt, providing readers with the first in-depth explanation of William J. O'Neil's innovative CAN SLIM investing method. Five years later, O'Neil, founder for the industry icon <i>Investor's Business Daily, </i>revised his classic text and provided readers with a newer glimpse on how the average investor can make money in the equities market.<p>This third edition of <i>How to Make Money in Stocks </i>has been revised and updated with new chapters designed to help investors increase their performance.",
         "subtitle": "A Winning System in Good Times or Bad",
         "reserveId": "95ff8e28-c8b3-43a7-a36e-c3a3a6b6056b"
+    },
+    {
+        "firstCreatorId": 627856,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 74,
+        "popularity": 0,
+        "subjects": [
+            {
+                "name": "Business",
+                "id": "8"
+            },
+            {
+                "name": "Politics",
+                "id": "67"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "BUS064010",
+            "BUS068000",
+            "POL024000"
+        ],
+        "bisac": [
+            {
+                "description": "Business & Economics / Taxation / Corporate",
+                "code": "BUS064010"
+            },
+            {
+                "description": "Business & Economics / Development / Economic Development",
+                "code": "BUS068000"
+            },
+            {
+                "description": "Political Science / Public Policy / Economic Policy",
+                "code": "POL024000"
+            }
+        ],
+        "levels": [],
+        "creators": [
+            {
+                "id": 627856,
+                "sortName": "Wessel, David",
+                "role": "Author",
+                "name": "David Wessel"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 3
+        },
+        "publisher": {
+            "name": "PublicAffairs",
+            "id": "131389"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=212f7ecf-905a-4007-a7cb-8384fe6e96dc&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "eBook",
+            "id": "ebook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 0,
+                        "green": 0,
+                        "red": 0
+                    },
+                    "hex": "#000000"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/0017-1/212/F7E/CF/{212F7ECF-905A-4007-A7CB-8384FE6E96DC}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 0,
+                        "green": 0,
+                        "red": 0
+                    },
+                    "hex": "#000000"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/0017-1/212/F7E/CF/{212F7ECF-905A-4007-A7CB-8384FE6E96DC}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 0,
+                        "green": 0,
+                        "red": 0
+                    },
+                    "hex": "#000000"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/0017-1/{212F7ECF-905A-4007-A7CB-8384FE6E96DC}Img100.jpg"
+            }
+        },
+        "formats": [
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "B08W4ZTVQH",
+                        "type": "ASIN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kindle",
+                "name": "Kindle Book",
+                "onSaleDateUtc": "2021-10-05T04:00:00Z",
+                "fulfillmentType": "kindle"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781541757202",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://samples.overdrive.com/?crid=212f7ecf-905a-4007-a7cb-8384fe6e96dc&.epub-sample.overdrive.com"
+                },
+                "id": "ebook-overdrive",
+                "name": "OverDrive Read",
+                "onSaleDateUtc": "2021-10-05T04:00:00Z",
+                "fulfillmentType": "bifocal",
+                "isbn": "9781541757202"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781541757202",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-epub-adobe",
+                "name": "EPUB eBook",
+                "onSaleDateUtc": "2021-10-05T04:00:00Z",
+                "fileSize": 1493774,
+                "fulfillmentType": "epub",
+                "isbn": "9781541757202"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "a5f774b2-b5de-3f95-b5e6-5a0ce2dcfd5a",
+                        "type": "KoboBookID"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kobo",
+                "name": "Kobo eBook",
+                "onSaleDateUtc": "2021-10-05T04:00:00Z",
+                "fulfillmentType": "kobo"
+            }
+        ],
+        "publisherAccount": {
+            "name": "Hachette Digital, Inc.",
+            "id": "17"
+        },
+        "id": "6057227",
+        "firstCreatorName": "David Wessel",
+        "firstCreatorSortName": "Wessel, David",
+        "title": "Only the Rich Can Play",
+        "sortTitle": "Only the Rich Can Play How Washington Works in the New Gilded Age",
+        "starRating": 4.3,
+        "starRatingCount": 4,
+        "publishDate": "2021-10-05T04:00:00Z",
+        "publishDateText": "10/05/2021",
+        "estimatedReleaseDate": "2021-10-05T04:00:00Z",
+        "isBundleChild": false,
+        "description": "<P><B>In a <I>Winners Take All</I> meets <I>This Town</I> narrative, a <I>New York Times</I> bestselling author tells the story of the creation of a massive tax break, in which political and economic elites attend to the care and feeding of the super-rich, and inequality compounds.</B></P><P>David Wessel&#39;s incredible tale of how Washington works-and why the rich keep getting richer-starts when a Silicon Valley entrepreneur develops an idea intended as a way to help poor people that will save rich people money on their taxes. He organizes and pays for an effective lobbying effort that pushes his idea into law with little scrutiny or fine-tuning by congressional or Treasury tax experts-and few safeguards against abuse. With an unbeatable pair of high-profile sponsors, bumper-sticker simplicity and deft political marketing, the Opportunity Zone became an unnoticed part of the 2017 Trump tax bill.</P><P>The gold rush followed immediately thereafter.</P><P>David Wessel follows the money to see who profited from this plan that was supposed to spur development of blighted areas and help people out of poverty: the Las Vegas strip, the Portland (Oregon) Ritz-Carlton, the Mall of America, and self-storage facilities-lucrative areas where the one percent can park money profitably and avoid capital gains taxes. And the best part: unlike other provisions for eliminating capital gains taxes (inheritance, for example) you don&#39;t have to die to take advantage of this one.</P><P>Wessel provides vivid portraits of the proselytizers, political influencers, motivational speakers, consultants, real estate dealmakers, and individual money-seekers looking to take advantage of this twenty-first century bonanza. He looks at places for which Opportunity Zones were supposedly designed (Baltimore, for example) and how little money they&#39;ve drawn. And he finds a couple of places (Erie, PA) where zones are actually doing what they were supposed to, a lesson on how a better designed program might have helped more left-behind places. But what Wessel reveals is the gritty reality: The dark underbelly of a system tilted in favor of the few, with the many left out in the cold</P>",
+        "fullDescription": "<P><B>In a <I>Winners Take All</I> meets <I>This Town</I> narrative, a <I>New York Times</I> bestselling author tells the story of the creation of a massive tax break, in which political and economic elites attend to the care and feeding of the super-rich, and inequality compounds.</B></P><P>David Wessel&#39;s incredible tale of how Washington works-and why the rich keep getting richer-starts when a Silicon Valley entrepreneur develops an idea intended as a way to help poor people that will save rich people money on their taxes. He organizes and pays for an effective lobbying effort that pushes his idea into law with little scrutiny or fine-tuning by congressional or Treasury tax experts-and few safeguards against abuse. With an unbeatable pair of high-profile sponsors, bumper-sticker simplicity and deft political marketing, the Opportunity Zone became an unnoticed part of the 2017 Trump tax bill.</P><P>The gold rush followed immediately thereafter.</P><P>David Wessel follows the money to see who profited from this plan that was supposed to spur development of blighted areas and help people out of poverty: the Las Vegas strip, the Portland (Oregon) Ritz-Carlton, the Mall of America, and self-storage facilities-lucrative areas where the one percent can park money profitably and avoid capital gains taxes. And the best part: unlike other provisions for eliminating capital gains taxes (inheritance, for example) you don&#39;t have to die to take advantage of this one.</P><P>Wessel provides vivid portraits of the proselytizers, political influencers, motivational speakers, consultants, real estate dealmakers, and individual money-seekers looking to take advantage of this twenty-first century bonanza. He looks at places for which Opportunity Zones were supposedly designed (Baltimore, for example) and how little money they&#39;ve drawn. And he finds a couple of places (Erie, PA) where zones are actually doing what they were supposed to, a lesson on how a better designed program might have helped more left-behind places. But what Wessel reveals is the gritty reality: The dark underbelly of a system tilted in favor of the few, with the many left out in the cold</P>",
+        "shortDescription": "<P><B>In a <I>Winners Take All</I> meets <I>This Town</I> narrative, a <I>New York Times</I> bestselling author tells the story of the creation of a massive tax break, in which political and economic elites attend to the care and feeding of the super-rich, and inequality compounds.</B></P><P>David Wessel&#39;s incredible tale of how Washington works-and why the rich keep getting richer-starts when a Silicon Valley entrepreneur develops an idea intended as a way to help poor people that will save rich people money on their taxes. He organizes and pays for an effective lobbying effort that pushes his idea into law with little scrutiny or fine-tuning by congressional or Treasury tax experts-and few safeguards against abuse. With an unbeatable pair of high-profile sponsors, bumper-sticker simplicity and deft political marketing, the Opportunity Zone became an unnoticed part of the 2017 Trump tax bill.</P><P>The gold rush followed immediately thereafter.</P><P>David Wessel follows the...",
+        "subtitle": "How Washington Works in the New Gilded Age",
+        "reserveId": "212f7ecf-905a-4007-a7cb-8384fe6e96dc"
     },
     {
         "firstCreatorId": 368444,
@@ -28251,6 +27638,160 @@
         "reserveId": "5e64e89a-354c-46f3-94f0-a98d5651d2b3"
     },
     {
+        "firstCreatorId": 143796,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 5,
+        "popularity": 6,
+        "subjects": [
+            {
+                "name": "Reference",
+                "id": "73"
+            },
+            {
+                "name": "Self-Improvement",
+                "id": "81"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "REF000000",
+            "SEL000000"
+        ],
+        "bisac": [
+            {
+                "description": "Reference / General",
+                "code": "REF000000"
+            },
+            {
+                "description": "Self-Help / General",
+                "code": "SEL000000"
+            }
+        ],
+        "levels": [],
+        "creators": [
+            {
+                "id": 143796,
+                "sortName": "Post, Peggy",
+                "role": "Author",
+                "name": "Peggy Post"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "imprint": {
+            "name": "HarperCollins e-books",
+            "id": "391"
+        },
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 1,
+            "premium": 1
+        },
+        "publisher": {
+            "name": "HarperCollins",
+            "id": "582"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=C70FD0C9-EF7A-482B-8695-441C44CF4362&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "eBook",
+            "id": "ebook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 254
+                    },
+                    "hex": "#FEFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/0293-1/C70/FD0/C9/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 254
+                    },
+                    "hex": "#FEFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/0293-1/C70/FD0/C9/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 254
+                    },
+                    "hex": "#FEFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/0293-1/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img100.jpg"
+            }
+        },
+        "formats": [],
+        "publisherAccount": {
+            "name": "HarperCollins Publishers Inc.",
+            "id": "436"
+        },
+        "id": "211206",
+        "firstCreatorName": "Peggy Post",
+        "firstCreatorSortName": "Post, Peggy",
+        "title": "Excuse Me, But I Was Next...",
+        "sortTitle": "Excuse Me But I Was Next How to Handle the Top 100 Manners Dilemmas",
+        "starRating": 5,
+        "starRatingCount": 1,
+        "publishDate": "2009-10-06T04:00:00Z",
+        "publishDateText": "10/06/2009",
+        "estimatedReleaseDate": "2008-12-30T05:00:00Z",
+        "isBundleChild": false,
+        "description": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next...,\"</i> Peggy Post distills the essence of etiquette for today's world into the perfect portable book.",
+        "fullDescription": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next...,\"</i> Peggy Post distills the essence of etiquette for today's world into the perfect portable book.",
+        "shortDescription": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next</i>...",
+        "subtitle": "How to Handle the Top 100 Manners Dilemmas",
+        "reserveId": "c70fd0c9-ef7a-482b-8695-441c44cf4362"
+    },
+    {
         "firstCreatorId": 499842,
         "youngAdultEligible": false,
         "juvenileEligible": false,
@@ -31728,7 +31269,7 @@
         "sortTitle": "Business Adventures Twelve Classic Tales from the World of Wall Street",
         "starRating": 3.6,
         "starRatingCount": 150,
-        "publishDate": "2014-08-12T00:00:00Z",
+        "publishDate": "2014-08-12T04:00:00Z",
         "publishDateText": "08/12/2014",
         "estimatedReleaseDate": "2014-07-08T04:00:00Z",
         "isBundleChild": false,
@@ -40278,6 +39819,238 @@
         "reserveId": "d9065abe-a818-48e6-abe1-0f91127395d3"
     },
     {
+        "firstCreatorId": 966172,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 74,
+        "popularity": 839,
+        "subjects": [
+            {
+                "name": "Biography & Autobiography",
+                "id": "7"
+            },
+            {
+                "name": "Business",
+                "id": "8"
+            },
+            {
+                "name": "True Crime",
+                "id": "92"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "BIO003000",
+            "BUS077000",
+            "TRU005000"
+        ],
+        "bisac": [
+            {
+                "description": "Biography & Autobiography / Business",
+                "code": "BIO003000"
+            },
+            {
+                "description": "Business & Economics / Corporate & Business History",
+                "code": "BUS077000"
+            },
+            {
+                "description": "True Crime / White Collar Crime",
+                "code": "TRU005000"
+            }
+        ],
+        "levels": [],
+        "creators": [
+            {
+                "id": 966172,
+                "sortName": "Vaughan, Liam",
+                "role": "Author",
+                "name": "Liam Vaughan"
+            },
+            {
+                "id": 966172,
+                "sortName": "Vaughan, Liam",
+                "role": "Narrator",
+                "name": "Liam Vaughan"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "imprint": {
+            "name": "Random House Audio",
+            "id": "61758"
+        },
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 0
+        },
+        "publisher": {
+            "name": "Books on Tape",
+            "id": "1686"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=67b37bb4-efb7-4e7d-8505-11779f09d8d9&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "Audiobook",
+            "id": "audiobook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 1,
+                        "green": 241,
+                        "red": 255
+                    },
+                    "hex": "#FFF101"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/1191-1/67B/37B/B4/{67B37BB4-EFB7-4E7D-8505-11779F09D8D9}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 0,
+                        "green": 241,
+                        "red": 255
+                    },
+                    "hex": "#FFF100"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/1191-1/67B/37B/B4/{67B37BB4-EFB7-4E7D-8505-11779F09D8D9}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 0,
+                        "green": 241,
+                        "red": 255
+                    },
+                    "hex": "#FFF100"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/1191-1/{67B37BB4-EFB7-4E7D-8505-11779F09D8D9}Img100.jpg"
+            }
+        },
+        "formats": [
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9780593169292",
+                        "type": "ISBN"
+                    },
+                    {
+                        "value": "penguinrandomhouse_audio#9780593169292",
+                        "type": "8"
+                    },
+                    {
+                        "value": "9780593169308",
+                        "type": "LibraryISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://samples.overdrive.com/?crid=67b37bb4-efb7-4e7d-8505-11779f09d8d9&.epub-sample.overdrive.com"
+                },
+                "id": "audiobook-overdrive",
+                "name": "OverDrive Listen audiobook",
+                "onSaleDateUtc": "2020-05-12T04:00:00Z",
+                "fileSize": 224485879,
+                "fulfillmentType": "bifocal",
+                "isbn": "9780593169308",
+                "duration": "07:47:40"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9780593169292",
+                        "type": "ISBN"
+                    },
+                    {
+                        "value": "penguinrandomhouse_audio#9780593169292",
+                        "type": "8"
+                    },
+                    {
+                        "value": "9780593169308",
+                        "type": "LibraryISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://excerpts.cdn.overdrive.com/FormatType-425/1191-1/4896625-FlashCrash.mp3"
+                },
+                "id": "audiobook-mp3",
+                "name": "MP3 audiobook",
+                "partCount": 7,
+                "onSaleDateUtc": "2020-05-12T04:00:00Z",
+                "fileSize": 224510236,
+                "fulfillmentType": "odm",
+                "isbn": "9780593169308",
+                "duration": "07:51:41"
+            }
+        ],
+        "publisherAccount": {
+            "name": "Books on Tape",
+            "id": "2792"
+        },
+        "id": "4896625",
+        "firstCreatorName": "Liam Vaughan",
+        "firstCreatorSortName": "Vaughan, Liam",
+        "title": "Flash Crash",
+        "sortTitle": "Flash Crash A Trading Savant a Global Manhunt and the Most Mysterious Market Crash in History",
+        "starRating": 3.9,
+        "starRatingCount": 27,
+        "edition": "Unabridged",
+        "publishDate": "2020-05-12T04:00:00Z",
+        "publishDateText": "05/12/2020",
+        "estimatedReleaseDate": "2020-05-12T04:00:00Z",
+        "isBundleChild": false,
+        "description": "<b><b>\"[An] extraordinary tale\"&mdash;<i>Wall Street Journal</i></b><br><b>\"Compelling [and] engaging\"&mdash;<i>Financial Times</i></b><br>\"Magnificently detailed yet pacy...Think&#160;<i>Trading Places&#160;</i>meets&#160;<i>Wall Street\"&mdash;Sunday Times </i>(UK)<br></b><br><b>The riveting story of a trading prodigy who amassed $70 million from his childhood bedroom&mdash;until the US government accused him of helping trigger an unprecedented market collapse</b><br>On May 6, 2010, financial markets around the world tumbled simultaneously and without warning. In the span of five minutes, a trillion dollars of valuation was lost. The Flash Crash, as it became known, represented what was then the fastest drop in market history. When share values rebounded less than half an hour later, experts around the globe were left perplexed. <i>What had they just witnessed?</i><br>Navinder Singh Sarao hardly seemed like a man who would shake the world's financial markets to their core. Raised in a working-class neighborhood in West London, Nav was a preternaturally gifted trader who played the markets like a computer game. By the age of thirty, he had left behind London's \"trading arcades,\" working instead out of his childhood home. For years the money poured in. But when lightning-fast electronic traders infiltrated markets and started eating into his profits, Nav built a system of his own to fight back. It worked&mdash;until 2015, when the FBI arrived at his door. Depending on whom you ask, Sarao was a scourge, a symbol of a financial system run horribly amok, or a folk hero who took on the tyranny of Wall Street and the high-frequency traders.<br>A real-life financial thriller, <i>Flash Crash</i> uncovers the remarkable, behind-the-scenes narrative of a mystifying market crash, a globe-spanning investigation into international fraud, and a man at the center of them both.",
+        "fullDescription": "<b><b>\"[An] extraordinary tale\"&mdash;<i>Wall Street Journal</i></b><br><b>\"Compelling [and] engaging\"&mdash;<i>Financial Times</i></b><br>\"Magnificently detailed yet pacy...Think&#160;<i>Trading Places&#160;</i>meets&#160;<i>Wall Street\"&mdash;Sunday Times </i>(UK)<br></b><br><b>The riveting story of a trading prodigy who amassed $70 million from his childhood bedroom&mdash;until the US government accused him of helping trigger an unprecedented market collapse</b><br>On May 6, 2010, financial markets around the world tumbled simultaneously and without warning. In the span of five minutes, a trillion dollars of valuation was lost. The Flash Crash, as it became known, represented what was then the fastest drop in market history. When share values rebounded less than half an hour later, experts around the globe were left perplexed. <i>What had they just witnessed?</i><br>Navinder Singh Sarao hardly seemed like a man who would shake the world's financial markets to their core. Raised in a working-class neighborhood in West London, Nav was a preternaturally gifted trader who played the markets like a computer game. By the age of thirty, he had left behind London's \"trading arcades,\" working instead out of his childhood home. For years the money poured in. But when lightning-fast electronic traders infiltrated markets and started eating into his profits, Nav built a system of his own to fight back. It worked&mdash;until 2015, when the FBI arrived at his door. Depending on whom you ask, Sarao was a scourge, a symbol of a financial system run horribly amok, or a folk hero who took on the tyranny of Wall Street and the high-frequency traders.<br>A real-life financial thriller, <i>Flash Crash</i> uncovers the remarkable, behind-the-scenes narrative of a mystifying market crash, a globe-spanning investigation into international fraud, and a man at the center of them both.",
+        "shortDescription": "<b><b>\"[An] extraordinary tale\"&mdash;<i>Wall Street Journal</i></b><br><b>\"Compelling [and] engaging\"&mdash;<i>Financial Times</i></b><br>\"Magnificently detailed yet pacy...Think&#160;<i>Trading Places&#160;</i>meets&#160;<i>Wall Street\"&mdash;Sunday Times </i>(UK)<br></b><br><b>The riveting story of a trading prodigy who amassed $70 million from his childhood bedroom&mdash;until the US government accused him of helping trigger an unprecedented market collapse</b><br>On May 6, 2010, financial markets around the world tumbled simultaneously and without warning. In the span of five minutes, a trillion dollars of valuation was lost. The Flash Crash, as it became known, represented what was then the fastest drop in market history. When share values rebounded less than half an hour later, experts around the globe were left perplexed. <i>What had they just witnessed?</i><br>Navinder Singh Sarao hardly seemed like a man who would shake the world's financial markets to their core. Raised...",
+        "subtitle": "A Trading Savant, a Global Manhunt, and the Most Mysterious Market Crash in History",
+        "reserveId": "67b37bb4-efb7-4e7d-8505-11779f09d8d9"
+    },
+    {
         "firstCreatorId": 648218,
         "youngAdultEligible": false,
         "juvenileEligible": false,
@@ -42933,7 +42706,7 @@
         "reserveId": "3099e8b4-fb18-4f0c-af52-0529ae70c037"
     },
     {
-        "firstCreatorId": 143796,
+        "firstCreatorId": 67127,
         "youngAdultEligible": false,
         "juvenileEligible": false,
         "visitorEligible": false,
@@ -42941,174 +42714,16 @@
         "isPublicPerformanceAllowed": false,
         "isPublicDomain": false,
         "isBundledChild": false,
-        "unitsSold": 5,
-        "popularity": 6,
+        "unitsSold": 15,
+        "popularity": 5,
         "subjects": [
-            {
-                "name": "Reference",
-                "id": "73"
-            },
-            {
-                "name": "Self-Improvement",
-                "id": "81"
-            },
-            {
-                "name": "Nonfiction",
-                "id": "111"
-            }
-        ],
-        "bisacCodes": [
-            "REF000000",
-            "SEL000000"
-        ],
-        "bisac": [
-            {
-                "description": "Reference / General",
-                "code": "REF000000"
-            },
-            {
-                "description": "Self-Help / General",
-                "code": "SEL000000"
-            }
-        ],
-        "levels": [],
-        "creators": [
-            {
-                "id": 143796,
-                "sortName": "Post, Peggy",
-                "role": "Author",
-                "name": "Peggy Post"
-            }
-        ],
-        "languages": [
-            {
-                "name": "English",
-                "id": "en"
-            }
-        ],
-        "imprint": {
-            "name": "HarperCollins e-books",
-            "id": "391"
-        },
-        "ratings": {
-            "maturityLevel": {
-                "name": "General content",
-                "id": "generalcontent"
-            },
-            "naughtyScore": {
-                "name": "General content",
-                "id": "GeneralContent"
-            }
-        },
-        "reviewCounts": {
-            "publisherSupplier": 1,
-            "premium": 1
-        },
-        "publisher": {
-            "name": "HarperCollins",
-            "id": "582"
-        },
-        "keywords": [],
-        "sample": {
-            "href": "https://samples.overdrive.com/?crid=C70FD0C9-EF7A-482B-8695-441C44CF4362&.epub-sample.overdrive.com"
-        },
-        "bundledContentChildrenTitleIds": [],
-        "constraints": {
-            "isDisneyEulaRequired": false
-        },
-        "type": {
-            "name": "eBook",
-            "id": "ebook"
-        },
-        "covers": {
-            "cover150Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 254
-                    },
-                    "hex": "#FEFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 150,
-                "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/0293-1/C70/FD0/C9/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img150.jpg"
-            },
-            "cover300Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 254
-                    },
-                    "hex": "#FEFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 300,
-                "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/0293-1/C70/FD0/C9/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img400.jpg"
-            },
-            "cover510Wide": {
-                "primaryColor": {
-                    "rgb": {
-                        "blue": 255,
-                        "green": 255,
-                        "red": 254
-                    },
-                    "hex": "#FEFFFF"
-                },
-                "isPlaceholderImage": false,
-                "width": 510,
-                "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/0293-1/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img100.jpg"
-            }
-        },
-        "formats": [],
-        "publisherAccount": {
-            "name": "HarperCollins Publishers Inc.",
-            "id": "436"
-        },
-        "id": "211206",
-        "firstCreatorName": "Peggy Post",
-        "firstCreatorSortName": "Post, Peggy",
-        "title": "Excuse Me, But I Was Next...",
-        "sortTitle": "Excuse Me But I Was Next How to Handle the Top 100 Manners Dilemmas",
-        "starRating": 5,
-        "starRatingCount": 1,
-        "publishDate": "2009-10-06T04:00:00Z",
-        "publishDateText": "10/06/2009",
-        "estimatedReleaseDate": "2008-12-30T05:00:00Z",
-        "isBundleChild": false,
-        "description": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next...,\"</i> Peggy Post distills the essence of etiquette for today's world into the perfect portable book.",
-        "fullDescription": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next...,\"</i> Peggy Post distills the essence of etiquette for today's world into the perfect portable book.",
-        "shortDescription": "<p>Have you ever been annoyed by cell phone yakkers, line cutters, or movie chatterers?  Been confused about who pays at a restaurant?  Received a gift you hated?  Fumed over how to respond to a nosy question? America's etiquette expert Peggy Post comes to the rescue in this concise, readable handbook devoted to the top 100 etiquette issues everyone wonders about. You'll learn how to politely say \"no\" to difficult requests, how to introduce someone if you've forgotten his or her name, how to perform damage control for e-mail bloopers, and countless other strategies for handling life's awkward moments.<p>Additional highlights include:<p>Ten Conversational Blunders...Five Introduction Goofs...Top Dinner-Table Manners Goofs...Tipping Guidelines...A Family Gathering Survival Guide...How to Spot a Dud on the First Date...Playdate Etiquette...How to Be a Welcome Houseguest...How to Simplify Gift Giving...Dispelling Wedding Myths...and much more.<p>In <i>\"Excuse Me, But I Was Next</i>...",
-        "subtitle": "How to Handle the Top 100 Manners Dilemmas",
-        "reserveId": "c70fd0c9-ef7a-482b-8695-441c44cf4362"
-    },
-    {
-        "firstCreatorId": 966172,
-        "youngAdultEligible": false,
-        "juvenileEligible": false,
-        "visitorEligible": false,
-        "isPreReleaseTitle": false,
-        "isPublicPerformanceAllowed": false,
-        "isPublicDomain": false,
-        "isBundledChild": false,
-        "unitsSold": 74,
-        "popularity": 839,
-        "subjects": [
-            {
-                "name": "Biography & Autobiography",
-                "id": "7"
-            },
             {
                 "name": "Business",
                 "id": "8"
             },
             {
-                "name": "True Crime",
-                "id": "92"
+                "name": "Management",
+                "id": "101"
             },
             {
                 "name": "Nonfiction",
@@ -43116,37 +42731,52 @@
             }
         ],
         "bisacCodes": [
-            "BIO003000",
-            "BUS077000",
-            "TRU005000"
+            "BUS000000"
         ],
         "bisac": [
             {
-                "description": "Biography & Autobiography / Business",
-                "code": "BIO003000"
-            },
-            {
-                "description": "Business & Economics / Corporate & Business History",
-                "code": "BUS077000"
-            },
-            {
-                "description": "True Crime / White Collar Crime",
-                "code": "TRU005000"
+                "description": "Business & Economics / General",
+                "code": "BUS000000"
             }
         ],
-        "levels": [],
-        "creators": [
+        "levels": [
             {
-                "id": 966172,
-                "sortName": "Vaughan, Liam",
-                "role": "Author",
-                "name": "Liam Vaughan"
+                "id": "lexile",
+                "name": "Lexile Score",
+                "value": "1780"
             },
             {
-                "id": 966172,
-                "sortName": "Vaughan, Liam",
-                "role": "Narrator",
-                "name": "Liam Vaughan"
+                "value": "12",
+                "id": "reading-level",
+                "name": "Reading Level",
+                "high": "1200",
+                "low": "1200"
+            }
+        ],
+        "creators": [
+            {
+                "id": 67127,
+                "sortName": "Smith, Adam",
+                "role": "Author",
+                "name": "Adam Smith"
+            },
+            {
+                "id": 600420,
+                "sortName": "Skinner, Andrew",
+                "role": "Editor",
+                "name": "Andrew Skinner"
+            },
+            {
+                "id": 600420,
+                "sortName": "Skinner, Andrew",
+                "role": "Author of introduction, etc.",
+                "name": "Andrew Skinner"
+            },
+            {
+                "id": 600420,
+                "sortName": "Skinner, Andrew",
+                "role": "Annotator",
+                "name": "Andrew Skinner"
             }
         ],
         "languages": [
@@ -43156,8 +42786,8 @@
             }
         ],
         "imprint": {
-            "name": "Random House Audio",
-            "id": "61758"
+            "name": "Penguin",
+            "id": "155000"
         },
         "ratings": {
             "maturityLevel": {
@@ -43174,63 +42804,65 @@
             "premium": 0
         },
         "publisher": {
-            "name": "Books on Tape",
-            "id": "1686"
+            "name": "Penguin Books Ltd",
+            "id": "307913"
         },
-        "keywords": [],
+        "keywords": [
+            "Political economy"
+        ],
         "sample": {
-            "href": "https://samples.overdrive.com/?crid=67b37bb4-efb7-4e7d-8505-11779f09d8d9&.epub-sample.overdrive.com"
+            "href": "https://samples.overdrive.com/?crid=FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7&.epub-sample.overdrive.com"
         },
         "bundledContentChildrenTitleIds": [],
         "constraints": {
             "isDisneyEulaRequired": false
         },
         "type": {
-            "name": "Audiobook",
-            "id": "audiobook"
+            "name": "eBook",
+            "id": "ebook"
         },
         "covers": {
             "cover150Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 1,
-                        "green": 241,
-                        "red": 255
+                        "blue": 92,
+                        "green": 152,
+                        "red": 141
                     },
-                    "hex": "#FFF101"
+                    "hex": "#8D985C"
                 },
                 "isPlaceholderImage": false,
                 "width": 150,
                 "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/1191-1/67B/37B/B4/{67B37BB4-EFB7-4E7D-8505-11779F09D8D9}Img150.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-150/0290-1/FD2/591/FE/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img150.jpg"
             },
             "cover300Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 0,
-                        "green": 241,
-                        "red": 255
+                        "blue": 118,
+                        "green": 175,
+                        "red": 166
                     },
-                    "hex": "#FFF100"
+                    "hex": "#A6AF76"
                 },
                 "isPlaceholderImage": false,
                 "width": 300,
                 "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/1191-1/67B/37B/B4/{67B37BB4-EFB7-4E7D-8505-11779F09D8D9}Img400.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-400/0290-1/FD2/591/FE/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img400.jpg"
             },
             "cover510Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 0,
-                        "green": 241,
-                        "red": 255
+                        "blue": 126,
+                        "green": 198,
+                        "red": 185
                     },
-                    "hex": "#FFF100"
+                    "hex": "#B9C67E"
                 },
                 "isPlaceholderImage": false,
                 "width": 510,
                 "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/1191-1/{67B37BB4-EFB7-4E7D-8505-11779F09D8D9}Img100.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-100/0290-1/{FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7}Img100.jpg"
             }
         },
         "formats": [
@@ -43239,87 +42871,98 @@
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "9780593169292",
-                        "type": "ISBN"
-                    },
-                    {
-                        "value": "penguinrandomhouse_audio#9780593169292",
-                        "type": "8"
-                    },
-                    {
-                        "value": "9780593169308",
-                        "type": "LibraryISBN"
+                        "value": "B002XHNNS4",
+                        "type": "ASIN"
                     }
                 ],
                 "rights": [],
                 "bundledContent": [],
-                "sample": {
-                    "href": "https://samples.overdrive.com/?crid=67b37bb4-efb7-4e7d-8505-11779f09d8d9&.epub-sample.overdrive.com"
-                },
-                "id": "audiobook-overdrive",
-                "name": "OverDrive Listen audiobook",
-                "onSaleDateUtc": "2020-05-12T04:00:00Z",
-                "fileSize": 224485879,
-                "fulfillmentType": "bifocal",
-                "isbn": "9780593169308",
-                "duration": "07:47:40"
+                "id": "ebook-kindle",
+                "name": "Kindle Book",
+                "onSaleDateUtc": "1999-10-07T04:00:00Z",
+                "fulfillmentType": "kindle"
             },
             {
                 "isBundleParent": false,
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "9780593169292",
+                        "value": "9780141909288",
                         "type": "ISBN"
-                    },
-                    {
-                        "value": "penguinrandomhouse_audio#9780593169292",
-                        "type": "8"
-                    },
-                    {
-                        "value": "9780593169308",
-                        "type": "LibraryISBN"
                     }
                 ],
                 "rights": [],
                 "bundledContent": [],
                 "sample": {
-                    "href": "https://excerpts.cdn.overdrive.com/FormatType-425/1191-1/4896625-FlashCrash.mp3"
+                    "href": "https://samples.overdrive.com/?crid=FD2591FE-CA5D-4DD0-AF3E-6AE5E1DF43D7&.epub-sample.overdrive.com"
                 },
-                "id": "audiobook-mp3",
-                "name": "MP3 audiobook",
-                "partCount": 7,
-                "onSaleDateUtc": "2020-05-12T04:00:00Z",
-                "fileSize": 224510236,
-                "fulfillmentType": "odm",
-                "isbn": "9780593169308",
-                "duration": "07:51:41"
+                "id": "ebook-overdrive",
+                "name": "OverDrive Read",
+                "onSaleDateUtc": "1999-10-07T04:00:00Z",
+                "fulfillmentType": "bifocal",
+                "isbn": "9780141909288"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9780141909288",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "sample": {
+                    "href": "https://excerpts.cdn.overdrive.com/FormatType-410/0290-1/FD2/591/FE/WealthofNations9780141909288.epub"
+                },
+                "id": "ebook-epub-adobe",
+                "name": "EPUB eBook",
+                "onSaleDateUtc": "1999-10-07T04:00:00Z",
+                "fileSize": 675047,
+                "fulfillmentType": "epub",
+                "isbn": "9780141909288"
+            },
+            {
+                "isBundleParent": false,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "fbfb1023-1923-4e71-b3e7-cd7894ea16d1",
+                        "type": "KoboBookID"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [],
+                "id": "ebook-kobo",
+                "name": "Kobo eBook",
+                "onSaleDateUtc": "1999-10-07T04:00:00Z",
+                "fulfillmentType": "kobo"
             }
         ],
         "publisherAccount": {
-            "name": "Books on Tape",
-            "id": "2792"
+            "name": "Penguin Random House UK ",
+            "id": "315"
         },
-        "id": "4896625",
-        "firstCreatorName": "Liam Vaughan",
-        "firstCreatorSortName": "Vaughan, Liam",
-        "title": "Flash Crash",
-        "sortTitle": "Flash Crash A Trading Savant a Global Manhunt and the Most Mysterious Market Crash in History",
-        "starRating": 3.9,
-        "starRatingCount": 27,
-        "edition": "Unabridged",
-        "publishDate": "2020-05-12T04:00:00Z",
-        "publishDateText": "05/12/2020",
-        "estimatedReleaseDate": "2020-05-12T04:00:00Z",
+        "id": "189644",
+        "firstCreatorName": "Adam Smith",
+        "firstCreatorSortName": "Smith, Adam",
+        "title": "The Wealth of Nations",
+        "sortTitle": "Wealth of Nations Books IVV",
+        "starRating": 3.7,
+        "starRatingCount": 3,
+        "publishDate": "1999-10-07T04:00:00Z",
+        "publishDateText": "10/07/1999",
+        "estimatedReleaseDate": "1999-10-07T04:00:00Z",
         "isBundleChild": false,
-        "description": "<b><b>\"[An] extraordinary tale\"&mdash;<i>Wall Street Journal</i></b><br><b>\"Compelling [and] engaging\"&mdash;<i>Financial Times</i></b><br>\"Magnificently detailed yet pacy...Think&#160;<i>Trading Places&#160;</i>meets&#160;<i>Wall Street\"&mdash;Sunday Times </i>(UK)<br></b><br><b>The riveting story of a trading prodigy who amassed $70 million from his childhood bedroom&mdash;until the US government accused him of helping trigger an unprecedented market collapse</b><br>On May 6, 2010, financial markets around the world tumbled simultaneously and without warning. In the span of five minutes, a trillion dollars of valuation was lost. The Flash Crash, as it became known, represented what was then the fastest drop in market history. When share values rebounded less than half an hour later, experts around the globe were left perplexed. <i>What had they just witnessed?</i><br>Navinder Singh Sarao hardly seemed like a man who would shake the world's financial markets to their core. Raised in a working-class neighborhood in West London, Nav was a preternaturally gifted trader who played the markets like a computer game. By the age of thirty, he had left behind London's \"trading arcades,\" working instead out of his childhood home. For years the money poured in. But when lightning-fast electronic traders infiltrated markets and started eating into his profits, Nav built a system of his own to fight back. It worked&mdash;until 2015, when the FBI arrived at his door. Depending on whom you ask, Sarao was a scourge, a symbol of a financial system run horribly amok, or a folk hero who took on the tyranny of Wall Street and the high-frequency traders.<br>A real-life financial thriller, <i>Flash Crash</i> uncovers the remarkable, behind-the-scenes narrative of a mystifying market crash, a globe-spanning investigation into international fraud, and a man at the center of them both.",
-        "fullDescription": "<b><b>\"[An] extraordinary tale\"&mdash;<i>Wall Street Journal</i></b><br><b>\"Compelling [and] engaging\"&mdash;<i>Financial Times</i></b><br>\"Magnificently detailed yet pacy...Think&#160;<i>Trading Places&#160;</i>meets&#160;<i>Wall Street\"&mdash;Sunday Times </i>(UK)<br></b><br><b>The riveting story of a trading prodigy who amassed $70 million from his childhood bedroom&mdash;until the US government accused him of helping trigger an unprecedented market collapse</b><br>On May 6, 2010, financial markets around the world tumbled simultaneously and without warning. In the span of five minutes, a trillion dollars of valuation was lost. The Flash Crash, as it became known, represented what was then the fastest drop in market history. When share values rebounded less than half an hour later, experts around the globe were left perplexed. <i>What had they just witnessed?</i><br>Navinder Singh Sarao hardly seemed like a man who would shake the world's financial markets to their core. Raised in a working-class neighborhood in West London, Nav was a preternaturally gifted trader who played the markets like a computer game. By the age of thirty, he had left behind London's \"trading arcades,\" working instead out of his childhood home. For years the money poured in. But when lightning-fast electronic traders infiltrated markets and started eating into his profits, Nav built a system of his own to fight back. It worked&mdash;until 2015, when the FBI arrived at his door. Depending on whom you ask, Sarao was a scourge, a symbol of a financial system run horribly amok, or a folk hero who took on the tyranny of Wall Street and the high-frequency traders.<br>A real-life financial thriller, <i>Flash Crash</i> uncovers the remarkable, behind-the-scenes narrative of a mystifying market crash, a globe-spanning investigation into international fraud, and a man at the center of them both.",
-        "shortDescription": "<b><b>\"[An] extraordinary tale\"&mdash;<i>Wall Street Journal</i></b><br><b>\"Compelling [and] engaging\"&mdash;<i>Financial Times</i></b><br>\"Magnificently detailed yet pacy...Think&#160;<i>Trading Places&#160;</i>meets&#160;<i>Wall Street\"&mdash;Sunday Times </i>(UK)<br></b><br><b>The riveting story of a trading prodigy who amassed $70 million from his childhood bedroom&mdash;until the US government accused him of helping trigger an unprecedented market collapse</b><br>On May 6, 2010, financial markets around the world tumbled simultaneously and without warning. In the span of five minutes, a trillion dollars of valuation was lost. The Flash Crash, as it became known, represented what was then the fastest drop in market history. When share values rebounded less than half an hour later, experts around the globe were left perplexed. <i>What had they just witnessed?</i><br>Navinder Singh Sarao hardly seemed like a man who would shake the world's financial markets to their core. Raised...",
-        "subtitle": "A Trading Savant, a Global Manhunt, and the Most Mysterious Market Crash in History",
-        "reserveId": "67b37bb4-efb7-4e7d-8505-11779f09d8d9"
+        "description": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
+        "fullDescription": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
+        "shortDescription": "Smith's THE WEALTH OF NATIONS was the first comprehensive treatment of political economy. Originally delivered in the form of lectures at Glasgow, the book's publication in 1776 co-incided with America's Declaration of Independence. These volumes include Smith's assessment of the mercantile system, his advocacy of the freedom of commerce and industry, and his famous prophecy that \"America will be one of the foremost nations of the world\".",
+        "subtitle": "Books IV-V",
+        "reserveId": "fd2591fe-ca5d-4dd0-af3e-6ae5e1df43d7"
     },
     {
-        "firstCreatorId": 627856,
+        "firstCreatorId": 151768,
         "youngAdultEligible": false,
         "juvenileEligible": false,
         "visitorEligible": false,
@@ -43327,16 +42970,16 @@
         "isPublicPerformanceAllowed": false,
         "isPublicDomain": false,
         "isBundledChild": false,
-        "unitsSold": 74,
-        "popularity": 0,
+        "unitsSold": 12,
+        "popularity": 8,
         "subjects": [
             {
                 "name": "Business",
                 "id": "8"
             },
             {
-                "name": "Politics",
-                "id": "67"
+                "name": "Careers",
+                "id": "108"
             },
             {
                 "name": "Nonfiction",
@@ -43344,31 +42987,193 @@
             }
         ],
         "bisacCodes": [
-            "BUS064010",
-            "BUS068000",
-            "POL024000"
+            "REF000000"
         ],
         "bisac": [
             {
-                "description": "Business & Economics / Taxation / Corporate",
-                "code": "BUS064010"
-            },
-            {
-                "description": "Business & Economics / Development / Economic Development",
-                "code": "BUS068000"
-            },
-            {
-                "description": "Political Science / Public Policy / Economic Policy",
-                "code": "POL024000"
+                "description": "Reference / General",
+                "code": "REF000000"
             }
         ],
         "levels": [],
         "creators": [
             {
-                "id": 627856,
-                "sortName": "Wessel, David",
+                "id": 151768,
+                "sortName": "Dolan, Simon",
                 "role": "Author",
-                "name": "David Wessel"
+                "name": "Simon Dolan"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "imprint": {
+            "name": "Matador",
+            "id": "3272"
+        },
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 0
+        },
+        "publisher": {
+            "name": "Troubador Publishing Ltd",
+            "id": "2715"
+        },
+        "keywords": [
+            "Guidance",
+            "self-help",
+            "Finance"
+        ],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=E4206FFA-AD0A-4225-9B17-41230F80004C&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "eBook",
+            "id": "ebook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 254
+                    },
+                    "hex": "#FEFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/1818-1/E42/06F/FA/{E4206FFA-AD0A-4225-9B17-41230F80004C}Img150.jpg"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 255
+                    },
+                    "hex": "#FFFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/1818-1/E42/06F/FA/{E4206FFA-AD0A-4225-9B17-41230F80004C}Img400.jpg"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 255
+                    },
+                    "hex": "#FFFFFF"
+                },
+                "isPlaceholderImage": false,
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/1818-1/{E4206FFA-AD0A-4225-9B17-41230F80004C}Img100.jpg"
+            }
+        },
+        "formats": [],
+        "publisherAccount": {
+            "name": "Troubador Publishing Ltd",
+            "id": "4687"
+        },
+        "id": "569106",
+        "firstCreatorName": "Simon Dolan",
+        "firstCreatorSortName": "Dolan, Simon",
+        "title": "How to Make Millions Without a Degree",
+        "sortTitle": "How to Make Millions Without a Degree And How to Get By Even if You Have One",
+        "starRating": 3,
+        "starRatingCount": 2,
+        "publishDate": "2011-01-01T05:00:00Z",
+        "publishDateText": "01/01/2011",
+        "estimatedReleaseDate": "2011-04-22T04:00:00Z",
+        "isBundleChild": false,
+        "description": "<p>Written by one of the UK's most successful entrepreneurs, Simon Dolan, who made headlines in 2010 for becoming the UK's first Twitter Dragon, How To Make Millions Without a Degree plots Simon's own journey to building a 65million empire and is a practical guide for how you could do the same...without a degree!",
+        "fullDescription": "<p>Written by one of the UK's most successful entrepreneurs, Simon Dolan, who made headlines in 2010 for becoming the UK's first Twitter Dragon, How To Make Millions Without a Degree plots Simon's own journey to building a 65million empire and is a practical guide for how you could do the same...without a degree!",
+        "shortDescription": "<p>Written by one of the UK's most successful entrepreneurs, Simon Dolan, who made headlines in 2010 for becoming the UK's first Twitter Dragon, How To Make Millions Without a Degree plots Simon's own journey to building a 65million empire and is a practical guide for how you could do the same...without a degree!",
+        "subtitle": "And How to Get By Even if You Have One",
+        "reserveId": "e4206ffa-ad0a-4225-9b17-41230f80004c"
+    },
+    {
+        "firstCreatorId": 459113,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 22,
+        "popularity": 32,
+        "subjects": [
+            {
+                "name": "Religion & Spirituality",
+                "id": "74"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "REL040070",
+            "REL040090",
+            "REL064000"
+        ],
+        "bisac": [
+            {
+                "description": "Religion / Judaism / Orthodox",
+                "code": "REL040070"
+            },
+            {
+                "description": "Religion / Judaism / Theology",
+                "code": "REL040090"
+            },
+            {
+                "description": "Religion / Judaism / Talmud",
+                "code": "REL064000"
+            }
+        ],
+        "levels": [
+            {
+                "id": "lexile",
+                "name": "Lexile Score",
+                "value": "1400"
+            },
+            {
+                "value": "12",
+                "id": "reading-level",
+                "name": "Reading Level",
+                "high": "1200",
+                "low": "1200"
+            }
+        ],
+        "creators": [
+            {
+                "id": 459113,
+                "sortName": "Steinsaltz, Adin",
+                "role": "Author",
+                "name": "Adin Steinsaltz"
             }
         ],
         "languages": [
@@ -43389,15 +43194,15 @@
         },
         "reviewCounts": {
             "publisherSupplier": 0,
-            "premium": 3
+            "premium": 0
         },
         "publisher": {
-            "name": "PublicAffairs",
-            "id": "131389"
+            "name": "Basic Books",
+            "id": "131388"
         },
         "keywords": [],
         "sample": {
-            "href": "https://samples.overdrive.com/?crid=212f7ecf-905a-4007-a7cb-8384fe6e96dc&.epub-sample.overdrive.com"
+            "href": "https://samples.overdrive.com/essential-talmud?.epub-sample.overdrive.com"
         },
         "bundledContentChildrenTitleIds": [],
         "constraints": {
@@ -43411,44 +43216,44 @@
             "cover150Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 0,
-                        "green": 0,
-                        "red": 0
+                        "blue": 235,
+                        "green": 253,
+                        "red": 254
                     },
-                    "hex": "#000000"
+                    "hex": "#FEFDEB"
                 },
                 "isPlaceholderImage": false,
                 "width": 150,
                 "height": 200,
-                "href": "https://img1.od-cdn.com/ImageType-150/0017-1/212/F7E/CF/{212F7ECF-905A-4007-A7CB-8384FE6E96DC}Img150.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-150/6968-1/A26/20E/08/{A2620E08-F6EE-40A4-972C-0A1959DE75E5}Img150.jpg"
             },
             "cover300Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 0,
-                        "green": 0,
-                        "red": 0
+                        "blue": 232,
+                        "green": 253,
+                        "red": 255
                     },
-                    "hex": "#000000"
+                    "hex": "#FFFDE8"
                 },
                 "isPlaceholderImage": false,
                 "width": 300,
                 "height": 400,
-                "href": "https://img1.od-cdn.com/ImageType-400/0017-1/212/F7E/CF/{212F7ECF-905A-4007-A7CB-8384FE6E96DC}Img400.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-400/6968-1/A26/20E/08/{A2620E08-F6EE-40A4-972C-0A1959DE75E5}Img400.jpg"
             },
             "cover510Wide": {
                 "primaryColor": {
                     "rgb": {
-                        "blue": 0,
-                        "green": 0,
-                        "red": 0
+                        "blue": 234,
+                        "green": 253,
+                        "red": 255
                     },
-                    "hex": "#000000"
+                    "hex": "#FFFDEA"
                 },
                 "isPlaceholderImage": false,
                 "width": 510,
                 "height": 680,
-                "href": "https://img1.od-cdn.com/ImageType-100/0017-1/{212F7ECF-905A-4007-A7CB-8384FE6E96DC}Img100.jpg"
+                "href": "https://img1.od-cdn.com/ImageType-100/6968-1/{A2620E08-F6EE-40A4-972C-0A1959DE75E5}Img100.jpg"
             }
         },
         "formats": [
@@ -43457,7 +43262,7 @@
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "B08W4ZTVQH",
+                        "value": "B00ADO767S",
                         "type": "ASIN"
                     }
                 ],
@@ -43465,7 +43270,7 @@
                 "bundledContent": [],
                 "id": "ebook-kindle",
                 "name": "Kindle Book",
-                "onSaleDateUtc": "2021-10-05T04:00:00Z",
+                "onSaleDateUtc": "2009-03-17T04:00:00Z",
                 "fulfillmentType": "kindle"
             },
             {
@@ -43473,27 +43278,27 @@
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "9781541757202",
+                        "value": "9780786735419",
                         "type": "ISBN"
                     }
                 ],
                 "rights": [],
                 "bundledContent": [],
                 "sample": {
-                    "href": "https://samples.overdrive.com/?crid=212f7ecf-905a-4007-a7cb-8384fe6e96dc&.epub-sample.overdrive.com"
+                    "href": "https://samples.overdrive.com/essential-talmud?.epub-sample.overdrive.com"
                 },
                 "id": "ebook-overdrive",
                 "name": "OverDrive Read",
-                "onSaleDateUtc": "2021-10-05T04:00:00Z",
+                "onSaleDateUtc": "2009-03-17T04:00:00Z",
                 "fulfillmentType": "bifocal",
-                "isbn": "9781541757202"
+                "isbn": "9780786735419"
             },
             {
                 "isBundleParent": false,
                 "hasAudioSynchronizedText": false,
                 "identifiers": [
                     {
-                        "value": "9781541757202",
+                        "value": "9780786735419",
                         "type": "ISBN"
                     }
                 ],
@@ -43501,47 +43306,242 @@
                 "bundledContent": [],
                 "id": "ebook-epub-adobe",
                 "name": "EPUB eBook",
-                "onSaleDateUtc": "2021-10-05T04:00:00Z",
-                "fileSize": 1493774,
+                "onSaleDateUtc": "2009-03-17T04:00:00Z",
+                "fileSize": 2934078,
                 "fulfillmentType": "epub",
-                "isbn": "9781541757202"
-            },
-            {
-                "isBundleParent": false,
-                "hasAudioSynchronizedText": false,
-                "identifiers": [
-                    {
-                        "value": "a5f774b2-b5de-3f95-b5e6-5a0ce2dcfd5a",
-                        "type": "KoboBookID"
-                    }
-                ],
-                "rights": [],
-                "bundledContent": [],
-                "id": "ebook-kobo",
-                "name": "Kobo eBook",
-                "onSaleDateUtc": "2021-10-05T04:00:00Z",
-                "fulfillmentType": "kobo"
+                "isbn": "9780786735419"
             }
         ],
         "publisherAccount": {
             "name": "Hachette Digital, Inc.",
             "id": "17"
         },
-        "id": "6057227",
-        "firstCreatorName": "David Wessel",
-        "firstCreatorSortName": "Wessel, David",
-        "title": "Only the Rich Can Play",
-        "sortTitle": "Only the Rich Can Play How Washington Works in the New Gilded Age",
-        "starRating": 4.3,
-        "starRatingCount": 4,
-        "publishDate": "2021-10-05T04:00:00Z",
-        "publishDateText": "10/05/2021",
-        "estimatedReleaseDate": "2021-10-05T04:00:00Z",
+        "id": "1177769",
+        "firstCreatorName": "Adin Steinsaltz",
+        "firstCreatorSortName": "Steinsaltz, Adin",
+        "title": "The Essential Talmud",
+        "sortTitle": "Essential Talmud",
+        "starRating": 3,
+        "starRatingCount": 2,
+        "publishDate": "2009-03-17T04:00:00Z",
+        "publishDateText": "03/17/2009",
+        "estimatedReleaseDate": "2009-03-17T04:00:00Z",
         "isBundleChild": false,
-        "description": "<P><B>In a <I>Winners Take All</I> meets <I>This Town</I> narrative, a <I>New York Times</I> bestselling author tells the story of the creation of a massive tax break, in which political and economic elites attend to the care and feeding of the super-rich, and inequality compounds.</B></P><P>David Wessel&#39;s incredible tale of how Washington works-and why the rich keep getting richer-starts when a Silicon Valley entrepreneur develops an idea intended as a way to help poor people that will save rich people money on their taxes. He organizes and pays for an effective lobbying effort that pushes his idea into law with little scrutiny or fine-tuning by congressional or Treasury tax experts-and few safeguards against abuse. With an unbeatable pair of high-profile sponsors, bumper-sticker simplicity and deft political marketing, the Opportunity Zone became an unnoticed part of the 2017 Trump tax bill.</P><P>The gold rush followed immediately thereafter.</P><P>David Wessel follows the money to see who profited from this plan that was supposed to spur development of blighted areas and help people out of poverty: the Las Vegas strip, the Portland (Oregon) Ritz-Carlton, the Mall of America, and self-storage facilities-lucrative areas where the one percent can park money profitably and avoid capital gains taxes. And the best part: unlike other provisions for eliminating capital gains taxes (inheritance, for example) you don&#39;t have to die to take advantage of this one.</P><P>Wessel provides vivid portraits of the proselytizers, political influencers, motivational speakers, consultants, real estate dealmakers, and individual money-seekers looking to take advantage of this twenty-first century bonanza. He looks at places for which Opportunity Zones were supposedly designed (Baltimore, for example) and how little money they&#39;ve drawn. And he finds a couple of places (Erie, PA) where zones are actually doing what they were supposed to, a lesson on how a better designed program might have helped more left-behind places. But what Wessel reveals is the gritty reality: The dark underbelly of a system tilted in favor of the few, with the many left out in the cold</P>",
-        "fullDescription": "<P><B>In a <I>Winners Take All</I> meets <I>This Town</I> narrative, a <I>New York Times</I> bestselling author tells the story of the creation of a massive tax break, in which political and economic elites attend to the care and feeding of the super-rich, and inequality compounds.</B></P><P>David Wessel&#39;s incredible tale of how Washington works-and why the rich keep getting richer-starts when a Silicon Valley entrepreneur develops an idea intended as a way to help poor people that will save rich people money on their taxes. He organizes and pays for an effective lobbying effort that pushes his idea into law with little scrutiny or fine-tuning by congressional or Treasury tax experts-and few safeguards against abuse. With an unbeatable pair of high-profile sponsors, bumper-sticker simplicity and deft political marketing, the Opportunity Zone became an unnoticed part of the 2017 Trump tax bill.</P><P>The gold rush followed immediately thereafter.</P><P>David Wessel follows the money to see who profited from this plan that was supposed to spur development of blighted areas and help people out of poverty: the Las Vegas strip, the Portland (Oregon) Ritz-Carlton, the Mall of America, and self-storage facilities-lucrative areas where the one percent can park money profitably and avoid capital gains taxes. And the best part: unlike other provisions for eliminating capital gains taxes (inheritance, for example) you don&#39;t have to die to take advantage of this one.</P><P>Wessel provides vivid portraits of the proselytizers, political influencers, motivational speakers, consultants, real estate dealmakers, and individual money-seekers looking to take advantage of this twenty-first century bonanza. He looks at places for which Opportunity Zones were supposedly designed (Baltimore, for example) and how little money they&#39;ve drawn. And he finds a couple of places (Erie, PA) where zones are actually doing what they were supposed to, a lesson on how a better designed program might have helped more left-behind places. But what Wessel reveals is the gritty reality: The dark underbelly of a system tilted in favor of the few, with the many left out in the cold</P>",
-        "shortDescription": "<P><B>In a <I>Winners Take All</I> meets <I>This Town</I> narrative, a <I>New York Times</I> bestselling author tells the story of the creation of a massive tax break, in which political and economic elites attend to the care and feeding of the super-rich, and inequality compounds.</B></P><P>David Wessel&#39;s incredible tale of how Washington works-and why the rich keep getting richer-starts when a Silicon Valley entrepreneur develops an idea intended as a way to help poor people that will save rich people money on their taxes. He organizes and pays for an effective lobbying effort that pushes his idea into law with little scrutiny or fine-tuning by congressional or Treasury tax experts-and few safeguards against abuse. With an unbeatable pair of high-profile sponsors, bumper-sticker simplicity and deft political marketing, the Opportunity Zone became an unnoticed part of the 2017 Trump tax bill.</P><P>The gold rush followed immediately thereafter.</P><P>David Wessel follows the...",
-        "subtitle": "How Washington Works in the New Gilded Age",
-        "reserveId": "212f7ecf-905a-4007-a7cb-8384fe6e96dc"
+        "description": "<B>A masterful introduction to the to the great repository of Jewish wisdom, the Talmud</B><BR /> In <I>The Essential Talmud</I>, the renowned Israeli scholar and teacher Rabbi Adin Steinsaltz succinctly describes the history, structure, and methodology of the sacred text by which the Jewish people have lived and survived through the ages. Rabbi Steinsaltz summarizes the Talmud&#39;s main principles, demonstrates its contemporary relevance, and captures the spirit of this unique and paradoxical text as a human expression of divine law. This expanded edition features a historical overview of life in the times of the Talmud and an in-depth look at the content and appearance of the original Talmudic page. As Rabbi Solomon S. Bernards of the B&#39;Nai B&#39;rith Anti-Defamation League puts it, &quot;this book is indispensable to those, Jews and Christians alike, who would like to gain an insight into what it is that moves the contemporary Jew.&quot;",
+        "fullDescription": "<B>A masterful introduction to the to the great repository of Jewish wisdom, the Talmud</B><BR /> In <I>The Essential Talmud</I>, the renowned Israeli scholar and teacher Rabbi Adin Steinsaltz succinctly describes the history, structure, and methodology of the sacred text by which the Jewish people have lived and survived through the ages. Rabbi Steinsaltz summarizes the Talmud&#39;s main principles, demonstrates its contemporary relevance, and captures the spirit of this unique and paradoxical text as a human expression of divine law. This expanded edition features a historical overview of life in the times of the Talmud and an in-depth look at the content and appearance of the original Talmudic page. As Rabbi Solomon S. Bernards of the B&#39;Nai B&#39;rith Anti-Defamation League puts it, &quot;this book is indispensable to those, Jews and Christians alike, who would like to gain an insight into what it is that moves the contemporary Jew.&quot;",
+        "shortDescription": "<B>A masterful introduction to the to the great repository of Jewish wisdom, the Talmud</B><BR /> In <I>The Essential Talmud</I>, the renowned Israeli scholar and teacher Rabbi Adin Steinsaltz succinctly describes the history, structure, and methodology of the sacred text by which the Jewish people have lived and survived through the ages. Rabbi Steinsaltz summarizes the Talmud&#39;s main principles, demonstrates its contemporary relevance, and captures the spirit of this unique and paradoxical text as a human expression of divine law. This expanded edition features a historical overview of life in the times of the Talmud and an in-depth look at the content and appearance of the original Talmudic page. As Rabbi Solomon S. Bernards of the B&#39;Nai B&#39;rith Anti-Defamation League puts it, &quot;this book is indispensable to those, Jews and Christians alike, who would like to gain an insight into what it is that moves the contemporary Jew.&quot;",
+        "reserveId": "a2620e08-f6ee-40a4-972c-0a1959de75e5"
+    },
+    {
+        "firstCreatorId": 3014823,
+        "youngAdultEligible": false,
+        "juvenileEligible": false,
+        "visitorEligible": false,
+        "isPreReleaseTitle": false,
+        "isPublicPerformanceAllowed": false,
+        "isPublicDomain": false,
+        "isBundledChild": false,
+        "unitsSold": 0,
+        "popularity": 0,
+        "subjects": [
+            {
+                "name": "Business",
+                "id": "8"
+            },
+            {
+                "name": "Nonfiction",
+                "id": "111"
+            }
+        ],
+        "bisacCodes": [
+            "BUS074020",
+            "BUS074030",
+            "BUS074040"
+        ],
+        "bisac": [
+            {
+                "description": "Business & Economics / Nonprofit Organizations & Charities / Fundraising & Grants",
+                "code": "BUS074020"
+            },
+            {
+                "description": "Business & Economics / Nonprofit Organizations & Charities / Management & Leadership",
+                "code": "BUS074030"
+            },
+            {
+                "description": "Business & Economics / Nonprofit Organizations & Charities / Marketing & Communications",
+                "code": "BUS074040"
+            }
+        ],
+        "levels": [],
+        "creators": [
+            {
+                "id": 3014823,
+                "sortName": "Bilich, Ted",
+                "role": "Author",
+                "name": "Ted Bilich"
+            },
+            {
+                "id": 59013,
+                "sortName": "Pabon, Tim Andres",
+                "role": "Narrator",
+                "name": "Tim Andres Pabon"
+            }
+        ],
+        "languages": [
+            {
+                "name": "English",
+                "id": "en"
+            }
+        ],
+        "ratings": {
+            "maturityLevel": {
+                "name": "General content",
+                "id": "generalcontent"
+            },
+            "naughtyScore": {
+                "name": "General content",
+                "id": "GeneralContent"
+            }
+        },
+        "reviewCounts": {
+            "publisherSupplier": 0,
+            "premium": 0
+        },
+        "publisher": {
+            "name": "G&D Media",
+            "id": "206285"
+        },
+        "keywords": [],
+        "sample": {
+            "href": "https://samples.overdrive.com/?crid=b6b4cc0b-ee9a-4525-bacc-e42be6d63d5d&.epub-sample.overdrive.com"
+        },
+        "bundledContentChildrenTitleIds": [
+            9632507
+        ],
+        "constraints": {
+            "isDisneyEulaRequired": false
+        },
+        "type": {
+            "name": "Audiobook",
+            "id": "audiobook"
+        },
+        "covers": {
+            "cover150Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 255
+                    },
+                    "hex": "#FFFFFF"
+                },
+                "width": 150,
+                "height": 200,
+                "href": "https://img1.od-cdn.com/ImageType-150/6852-1/{B6B4CC0B-EE9A-4525-BACC-E42BE6D63D5D}IMG150.JPG"
+            },
+            "cover300Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 255
+                    },
+                    "hex": "#FFFFFF"
+                },
+                "width": 300,
+                "height": 400,
+                "href": "https://img1.od-cdn.com/ImageType-400/6852-1/{B6B4CC0B-EE9A-4525-BACC-E42BE6D63D5D}IMG400.JPG"
+            },
+            "cover510Wide": {
+                "primaryColor": {
+                    "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 255
+                    },
+                    "hex": "#FFFFFF"
+                },
+                "width": 510,
+                "height": 680,
+                "href": "https://img1.od-cdn.com/ImageType-100/6852-1/{B6B4CC0B-EE9A-4525-BACC-E42BE6D63D5D}IMG100.JPG"
+            }
+        },
+        "formats": [
+            {
+                "isBundleParent": true,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781722552084",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [
+                    {
+                        "titleId": 9632507
+                    },
+                    {
+                        "titleId": 9632507
+                    }
+                ],
+                "sample": {
+                    "href": "https://samples.overdrive.com/?crid=b6b4cc0b-ee9a-4525-bacc-e42be6d63d5d&.epub-sample.overdrive.com"
+                },
+                "id": "audiobook-overdrive",
+                "name": "OverDrive Listen audiobook",
+                "onSaleDateUtc": "2023-03-07T05:00:00Z",
+                "fileSize": 143339727,
+                "fulfillmentType": "bifocal",
+                "isbn": "9781722552084",
+                "duration": "04:58:37"
+            },
+            {
+                "isBundleParent": true,
+                "hasAudioSynchronizedText": false,
+                "identifiers": [
+                    {
+                        "value": "9781722552084",
+                        "type": "ISBN"
+                    }
+                ],
+                "rights": [],
+                "bundledContent": [
+                    {
+                        "titleId": 9632507
+                    },
+                    {
+                        "titleId": 9632507
+                    }
+                ],
+                "id": "audiobook-mp3",
+                "name": "MP3 audiobook",
+                "partCount": 5,
+                "onSaleDateUtc": "2023-03-07T05:00:00Z",
+                "fileSize": 143349940,
+                "fulfillmentType": "odm",
+                "isbn": "9781722552084",
+                "duration": "05:00:34"
+            }
+        ],
+        "publisherAccount": {
+            "name": "Lightning Source Inc",
+            "id": "36087"
+        },
+        "id": "9613478",
+        "firstCreatorName": "Ted Bilich",
+        "firstCreatorSortName": "Bilich, Ted",
+        "title": "Manage Your Nonprofit for Resilience",
+        "sortTitle": "Manage Your Nonprofit for Resilience Use Lean Risk Management To Improve Performance and Increase Employee Engagement",
+        "edition": "Unabridged",
+        "publishDate": "2023-03-07T05:00:00Z",
+        "publishDateText": "03/07/2023",
+        "estimatedReleaseDate": "2023-03-07T05:00:00Z",
+        "isBundleChild": false,
+        "description": "<p>",
+        "fullDescription": "<p>",
+        "shortDescription": "<p>",
+        "subtitle": "Use Lean Risk Management To Improve Performance and Increase Employee Engagement",
+        "reserveId": "b6b4cc0b-ee9a-4525-bacc-e42be6d63d5d"
     }
 ]
