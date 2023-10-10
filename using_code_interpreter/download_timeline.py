@@ -2,11 +2,13 @@ import requests
 import json
 import os
 import re
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
+from export_timeline import export_timeline
 
 # TODO: in the future, make it so it only downloads books with circulation data after a certain date, specified in the last_updated_date.json file
 
 # Prepare: get the libby timeline data and save it to a JSON file
+export_timeline()
 
 # Path to your JSON file
 json_file_path = 'libbytimeline-activities.json'
@@ -26,7 +28,7 @@ for book in data['timeline']:
 
 # Save modified JSON file
 with open(json_file_path, 'w') as file:
-    json.dump(data, file, indent=4)
+    json.dump(data, file, indent=2)
 
 ############################################################################################################
 # API endpoint

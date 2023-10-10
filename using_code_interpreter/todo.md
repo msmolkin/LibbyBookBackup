@@ -1,11 +1,10 @@
 Remaining:
-Make sure the node.js file works
-Rename `attempt 1 modified` files to `download_timeline.py`
-Create a readme.md file that says to run the files in order:
-    1. `download_timeline.py` and
-    2. `download_book_json.py`
-    3. `remove_duplicate_files.py`
+Replace the `download_book_json_synchronous.js` file with an asynchronous version. This will allow for the book journey jsons to be downloaded simultaneously. This will be (much?) faster than the current synchronous version.
 
+Automate running the python/node files:
+`download_timeline.py`, `download_book_json_synchronous.js`, and `remove_duplicate_files.py` should be run in that order. I'll probably do it with a bash script. Maybe os.subprocess.
+
+---
 
 Need to deal with the errors that sometimes pop up: it accidentally opens the book share page (click actions -> button 3) instead of the book journey json (click actions -> button 2 -> button 3).
 
