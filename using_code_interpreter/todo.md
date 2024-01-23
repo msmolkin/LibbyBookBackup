@@ -27,3 +27,16 @@ Uncaught TimeoutError TimeoutError: Navigation timeout of 30000 ms exceeded
     at listOnTimeout (node:internal/timers:573:17)
     at processTimers (node:internal/timers:514:7)
 Process exited with code 1
+
+---
+
+2024-01-23
+
+Before running for the first time (or, if you have to reinstall the headless browser):
+1. Set up Libby in this headless browser.
+    1. Open the export_timeline.py file and set it to pause at line 20.
+    2. Run the file. It will open a browser window. On the main page > "Get Help" > "Reset app" > "Yes, I have a library card" > Follow the instructions to set the code from your phone.
+    3. Actions > Synchronize Shelf
+    4. Actions > Export Timeline can be done manually or left to the script.
+
+`using_code_interpreter/export_timeline.py:export_timeline():save_path` is hardcoded to my path. Should be changed to a relative path.
