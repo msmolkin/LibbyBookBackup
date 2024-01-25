@@ -16,6 +16,7 @@ for filename in os.listdir(directory):
 
         print(f"Opening book {book_title} ({len(file_contents) + 1} / {num_files})")
 
+        # Open the file and read the contents
         try:
             with open(filepath, 'r') as f:
                 file_content = json.load(f)

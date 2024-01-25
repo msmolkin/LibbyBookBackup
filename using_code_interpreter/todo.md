@@ -40,3 +40,13 @@ Before running for the first time (or, if you have to reinstall the headless bro
     4. Actions > Export Timeline can be done manually or left to the script.
 
 `using_code_interpreter/export_timeline.py:export_timeline():save_path` is hardcoded to my path. Should be changed to a relative path.
+
+---
+
+2024-01-24
+
+Copilot: I'm going to try to make the puppeteer script asynchronous. I'm not sure how to do this, but I'll try to figure it out.
+
+Also: I should make a failsafe. When I get the TimeoutError from above, I should delete the books up to and including the last one that successfully finished from the timeline (libbytimeline-activities.json file)). Then, I should have it run the script again. (This will allow me to run the script overnight without worrying about it failing.)
+Alternatively, I can make a list of the books that finished, and then run the script again but have it check if the book is in the list of books that finished. If it is, then it will skip it. This might be faster than deleting the books from the timeline.
+Thought: this is a common problem in programming interviews. If you have a list of success and a list of fail, how do you only run on the failures? Copilot: I think the answer is to use a hash table. I'll try to implement this.
