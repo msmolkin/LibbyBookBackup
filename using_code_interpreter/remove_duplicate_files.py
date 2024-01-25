@@ -1,5 +1,4 @@
 import os
-import json
 import hashlib
 import re
 from collections import defaultdict
