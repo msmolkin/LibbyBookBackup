@@ -5,6 +5,78 @@ const { format } = require('date-fns');
 // Load the JSON data file
 const timelineJson = require('../libbytimeline-activities.json');
 
+// Load the list of book IDs that have already been downloaded
+let downloadedBooksFile = '../downloaded_books.txt';
+let downloadedBooksList = readBookIdsFromFile(downloadedBooksFile);
+
+// Function to read book IDs from a file
+function readBookIdsFromFile(file) {
+    try {
+        // if the file is over 8 hours old, delete it
+        if (fs.existsSync(file)) {
+            const stats = fs.statSync(file);
+            const lastModified = new Date(stats.mtime);
+            const now = new Date();
+            const hours = Math.abs(now - lastModified) / 36e5;
+            if (hours > 8) {
+                fs.unlinkSync(file);
+            }
+        }
+
+        // if the file doesn't exist, create it
+        if (!fs.existsSync(file)) {
+            fs.writeFileSync(file, '');
+        }
+
+        // read the file
+        const data = fs.readFileSync(file, 'utf8');
+        const bookIds = data.trim().split('\n');
+        return bookIds;
+    } catch (err) {
+        console.error('Error reading book IDs:', err);
+        return [];
+    }
+}
+
+// Function to save book IDs to a file (synchronous version)
+function saveBookIdsToFile(file, bookIds) {
+    try {
+        const data = bookIds.join('\n');
+        fs.writeFileSync(file, data);
+    } catch (err) {
+        console.error('Error saving book IDs:', err);
+    }
+}
+
+// Function to save book IDs to a file (Async version)
+/*
+const { promisify } = require('util');
+const writeFileAsync = promisify(fs.writeFile);
+
+let writeQueue = Promise.resolve();
+
+function saveBookIdsToFile(file, bookIds) {
+    writeQueue = writeQueue.then(() => {
+        return writeFileAsync(file, bookIds.join('\n') + '\n');
+    }).then(() => {
+        console.log('Book IDs saved to', file);
+    }).catch((err) => {
+        console.error('Error saving book IDs:', err);
+    });
+}
+*/
+
+/**
+ * Save a JSON file to disk
+ * 
+ * @param {string|object} data - The JSON data to save. If a string, it is assumed to be a URL to fetch. If an object, it is assumed to be the JSON data itself.
+ * @param {string} folder - The folder to save the file in. Defaults to "books".
+ * @returns {Promise<void>}
+ * 
+ * @example
+ * // Save a JSON file from a URL
+ * await saveJson('https://cdn.libbyapp.com/reading-journey/reading-journey-0001.json');
+ */
 const logEachBook = true; // set to true to log each book as it is saved
 async function saveJson(data, folder = "books") {
     if (!data) {
@@ -40,6 +112,10 @@ async function saveJson(data, folder = "books") {
 
     fs.writeFileSync(path, JSON.stringify(data, null, 2));
 
+    // save the book title ID to the downloadedBooks text list and then save the list to the downloaded_books.txt file
+    downloadedBooksList.push(data.readingJourney.title.titleId);
+    saveBookIdsToFile(downloadedBooksFile, downloadedBooksList); // I wish there were a way to save to disk less often
+
     if (logEachBook) {
         console.log(`Saved ${title}`);
     }
@@ -67,26 +143,19 @@ async function saveJson(data, folder = "books") {
         'DNT': '1',
     });
 
-    // let readingJourneyJsonUrl;  // Create a global variable to store the URL
-
-    // page.on('response', async (response) => {
-    //     const url = response.url();
-    //     if (response) console.log(response.status(), url);
-    //     if (url.includes('libbyjourney')) {
-    //         readingJourneyJsonUrl = url;
-    //     }
-    //     else {
-    //         console.log('Not a journey JSON URL: ' + url);
-    //     }
-    // });
-
     // Visit each book's reading journey URL and export the data
     for (let book of timelineJson.timeline) {
+        // Skip books that have already been downloaded
+        if (downloadedBooksList.includes(book.title.titleId)) {
+            console.log(`Skipping ${book.title.text} (${book.title.titleId}) because it has already been downloaded`);
+            continue;
+        }
+
         if (!book.reading_journey_url) {
             book.reading_journey_url = `${book.library.url}/similar-${book.title.titleId}/page-1/${book.title.titleId}/journey/${book.title.titleId}`;
         }
         const journeyUrl = book.reading_journey_url;
-        
+
         if (journeyUrl.includes('undefined')) {
             console.error(`In the book ${book.title.text} (${book.title.titleId}), the journeyUrl has undefined in it: ${journeyUrl}`);
             continue;
