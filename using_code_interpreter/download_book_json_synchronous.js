@@ -5,7 +5,7 @@ const { format } = require('date-fns');
 // Load the JSON data file
 const timelineJson = require('../libbytimeline-activities.json');
 
-const logEachBook = false; // set to true to log each book as it is saved
+const logEachBook = true; // set to true to log each book as it is saved
 async function saveJson(data, folder = "books") {
     if (!data) {
         console.error("No data to save");
@@ -49,7 +49,7 @@ async function saveJson(data, folder = "books") {
 // Start Puppeteer
 (async () => {
     const browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         defaultViewport: null,
         userDataDir: '/Users/michael/Library/Application Support/Google/Chrome/LibbyProfile',
         args: ['--disable-blink-features=AutomationControlled'] // hide the fact that this is an automated browser
