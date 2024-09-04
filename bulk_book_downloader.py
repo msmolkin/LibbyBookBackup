@@ -7,9 +7,14 @@ import logging
 from tqdm import tqdm
 
 API_URL = 'https://thunder.api.overdrive.com/v2/media/bulk?titleIds='
-HEADERS = {'x-client-id': 'dewey'}
+HEADERS = {
+    'x-client-id': 'dewey',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
 # This is close to the maximum number of titleIds that can be fetched in a single request from this thunder API. Experiment with this number to find the optimal value.
 CHUNK_SIZE = 200
+FIRST_CHUNK_START = 1
+TOTAL_NUMBER_OF_BOOKS = 11200000  # There are between 11.1 and 11.2 million books available on Overdrive
 OUTPUT_DIR = 'all_overdrive_books'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 LOG_FILE = os.path.join(OUTPUT_DIR, 'download_log.txt')
@@ -17,7 +22,7 @@ LOG_FILE = os.path.join(OUTPUT_DIR, 'download_log.txt')
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-async def fetch_book_data(session, title_ids, chunk_number):
+async def fetch_book_data(session, title_ids, chunk_number, retry_count=0):
     url = f"{API_URL}{','.join(map(str, title_ids))}"
     try:
         async with session.get(url, headers=HEADERS) as response:
@@ -28,14 +33,14 @@ async def fetch_book_data(session, title_ids, chunk_number):
                     json.dump(data, file, indent=2)
                 logging.info(f"Downloaded chunk {chunk_number}")
                 return len(data)
-            elif response.status == 429:
-                logging.warning(f"Rate limit hit for chunk {chunk_number}. Retrying after 60 seconds.")
-                await asyncio.sleep(60)
-                return await fetch_book_data(session, title_ids, chunk_number)
-            elif response.status == 404:
-                logging.error(f"Error {response.status} occurred in fetch_book_data while fetching chunk {chunk_number}. Continuing to next chunk.")
-                logging.error(f"URL: {url[:98] + '...' + url[-10:] if len(url) > 110 else url}") # Cleaning it up for my terminal width
-                return 0  # TODO: Handle the case where these specific books are no longer available, e.g. with book 1111
+            elif response.status in (429, 404):
+                if retry_count < 3:
+                    logging.warning(f"Error {response.status} occurred for chunk {chunk_number}. Retrying after 60 seconds. Attempt {retry_count + 1}")
+                    await asyncio.sleep(60)
+                    return await fetch_book_data(session, title_ids, chunk_number, retry_count + 1)
+                else:
+                    logging.error(f"Failed to fetch chunk {chunk_number} after 3 retries due to {response.status}.")
+                    return 0
             else:
                 logging.error(f"Error fetching chunk {chunk_number}: {response.status}")
                 return 0
@@ -44,16 +49,15 @@ async def fetch_book_data(session, title_ids, chunk_number):
         return 0
 
 async def download_all_books(title_ids, download_all=False):
-    # Total number of books in their library is 11200000
     total_books = 0
     chunk_number = 0
+    consecutive_not_found = 0  # Track consecutive 404 errors
 
     async with aiohttp.ClientSession() as session:
         tasks = []
-        chunk_start = 1
+        chunk_start = FIRST_CHUNK_START
         if download_all:
             # Parallel
-            # The issue was just that I was trying to download too many at once. Smaller chunks worked.
             while True:
                 chunk = list(range(chunk_start, chunk_start + CHUNK_SIZE))
                 chunk_number += 1
@@ -63,14 +67,18 @@ async def download_all_books(title_ids, download_all=False):
                 if len(tasks) >= 10:  # Process 10 chunks at a time
                     for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Downloading chunks"):
                         books_in_chunk = await task
-                        total_books += books_in_chunk
                         if books_in_chunk == 0:
-                            logging.info(f"No books found in chunk. This might indicate we've reached the end of available books.")
+                            consecutive_not_found += 1
+                        else:
+                            consecutive_not_found = 0  # Reset if a successful chunk is found
+                        total_books += books_in_chunk
+                        if consecutive_not_found >= 2:  # Stop if two consecutive chunks are "not found" (actually not found, not rate limited)
+                            logging.info("Consecutive chunks not found. Likely reached the end of available books.")
                             return total_books
                     tasks = []
             
             # Sequentially download all the books
-            # for chunk_start in tqdm(range(1, 11200000//CHUNK_SIZE + 1, CHUNK_SIZE), desc="Downloading chunks"):
+            # for chunk_start in tqdm(range(1, TOTAL_NUMBER_OF_BOOKS//CHUNK_SIZE + 1, CHUNK_SIZE), desc="Downloading chunks"):
             #     chunk = list(range(chunk_start, chunk_start + CHUNK_SIZE))
             #     chunk_number += 1
             #     books_in_chunk = await fetch_book_data(session, chunk, chunk_number)
@@ -88,9 +96,13 @@ async def download_all_books(title_ids, download_all=False):
 
             for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Downloading chunks"):
                 books_in_chunk = await task
-                total_books += books_in_chunk
                 if books_in_chunk == 0:
-                    logging.info(f"No books found in chunk. Reached the limit or encountered an error. Stopping download")
+                    consecutive_not_found += 1
+                else:
+                    consecutive_not_found = 0  # Reset if a successful chunk is found
+                total_books += books_in_chunk
+                if consecutive_not_found >= 2:  # Stop if two consecutive chunks are not found
+                    logging.info("Consecutive chunks not found. Likely reached the end of available books.")
                     break
 
     logging.info(f"Total books downloaded: {total_books}")
