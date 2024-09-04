@@ -8,7 +8,8 @@ from tqdm import tqdm
 
 API_URL = 'https://thunder.api.overdrive.com/v2/media/bulk?titleIds='
 HEADERS = {'x-client-id': 'dewey'}
-CHUNK_SIZE = 10000
+# This is close to the maximum number of titleIds that can be fetched in a single request from this thunder API. Experiment with this number to find the optimal value.
+CHUNK_SIZE = 100
 OUTPUT_DIR = 'all_overdrive_books'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 LOG_FILE = os.path.join(OUTPUT_DIR, 'download_log.txt')
@@ -31,6 +32,10 @@ async def fetch_book_data(session, title_ids, chunk_number):
                 logging.warning(f"Rate limit hit for chunk {chunk_number}. Retrying after 60 seconds.")
                 await asyncio.sleep(60)
                 return await fetch_book_data(session, title_ids, chunk_number)
+            elif response.status == 404:
+                logging.error(f"Error {response.status} occurred in fetch_book_data while fetching chunk {chunk_number}. Continuing to next chunk.")
+                logging.error(f"URL: {url[:98] + '...' + url[-10:] if len(url) > 110 else url}") # Cleaning it up for my terminal width
+                return 0  # TODO: Handle the case where these specific books are no longer available, e.g. with book 1111
             else:
                 logging.error(f"Error fetching chunk {chunk_number}: {response.status}")
                 return 0
@@ -38,13 +43,42 @@ async def fetch_book_data(session, title_ids, chunk_number):
         logging.error(f"Exception occurred while fetching chunk {chunk_number}: {str(e)}")
         return 0
 
-async def download_all_books(title_ids):
+async def download_all_books(title_ids, download_all=False):
     total_books = 0
     chunk_number = 0
 
     async with aiohttp.ClientSession() as session:
         tasks = []
-        for i in range(0, len(title_ids), CHUNK_SIZE):
+        chunk_start = 1
+        if download_all:
+            # TODO: download all books doesn't work asynchronously. Would have been faster to just do it sequentially.
+            # while True:
+            #     chunk = list(range(chunk_start, chunk_start + CHUNK_SIZE))
+            #     chunk_number += 1
+            #     task = asyncio.create_task(fetch_book_data(session, chunk, chunk_number))
+            #     tasks.append(task)
+            #     chunk_start += CHUNK_SIZE
+            #     if len(tasks) >= 10:  # Process 10 chunks at a time
+            #         for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Downloading chunks"):
+            #             books_in_chunk = await task
+            #             total_books += books_in_chunk
+            #             if books_in_chunk == 0:
+            #                 logging.info(f"No books found in chunk. This might indicate we've reached the end of available books.")
+            #                 return total_books
+            #         tasks = []
+            
+            # total number of books in their library is 11200000
+            for chunk_start in tqdm(range(1, 11200000//CHUNK_SIZE + 1, CHUNK_SIZE), desc="Downloading chunks"):
+                chunk = list(range(chunk_start, chunk_start + CHUNK_SIZE))
+                chunk_number += 1
+                books_in_chunk = await fetch_book_data(session, chunk, chunk_number)
+                total_books += books_in_chunk
+                if books_in_chunk == 0:
+                    logging.info(f"No books found in chunk. This might indicate we've reached the end of available books.")
+                    break
+                
+        else:
+            for i in range(0, len(title_ids), CHUNK_SIZE):
                 chunk = title_ids[i:i+CHUNK_SIZE]
                 chunk_number += 1
                 task = asyncio.create_task(fetch_book_data(session, chunk, chunk_number))
@@ -102,10 +136,9 @@ def download_books_i_have_read():
 
 def download_all_their_books():
     combined_file = os.path.join(OUTPUT_DIR, 'all_overdrive_books.json')
-    title_ids = list(range(0, float('inf')))
     
-    logging.info(f"Starting download of {len(title_ids)} books")
-    total_books = asyncio.run(download_all_books(title_ids))
+    logging.info(f"Starting download of all their books")
+    total_books = asyncio.run(download_all_books((), download_all=True))
     
     if total_books > 0:
         combine_files(combined_file)
