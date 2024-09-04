@@ -44,6 +44,7 @@ async def fetch_book_data(session, title_ids, chunk_number):
         return 0
 
 async def download_all_books(title_ids, download_all=False):
+    # Total number of books in their library is 11200000
     total_books = 0
     chunk_number = 0
 
@@ -51,31 +52,32 @@ async def download_all_books(title_ids, download_all=False):
         tasks = []
         chunk_start = 1
         if download_all:
-            # TODO: download all books doesn't work asynchronously. Would have been faster to just do it sequentially.
-            # while True:
-            #     chunk = list(range(chunk_start, chunk_start + CHUNK_SIZE))
-            #     chunk_number += 1
-            #     task = asyncio.create_task(fetch_book_data(session, chunk, chunk_number))
-            #     tasks.append(task)
-            #     chunk_start += CHUNK_SIZE
-            #     if len(tasks) >= 10:  # Process 10 chunks at a time
-            #         for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Downloading chunks"):
-            #             books_in_chunk = await task
-            #             total_books += books_in_chunk
-            #             if books_in_chunk == 0:
-            #                 logging.info(f"No books found in chunk. This might indicate we've reached the end of available books.")
-            #                 return total_books
-            #         tasks = []
-            
-            # total number of books in their library is 11200000
-            for chunk_start in tqdm(range(1, 11200000//CHUNK_SIZE + 1, CHUNK_SIZE), desc="Downloading chunks"):
+            # Parallel
+            # The issue was just that I was trying to download too many at once. Smaller chunks worked.
+            while True:
                 chunk = list(range(chunk_start, chunk_start + CHUNK_SIZE))
                 chunk_number += 1
-                books_in_chunk = await fetch_book_data(session, chunk, chunk_number)
-                total_books += books_in_chunk
-                if books_in_chunk == 0:
-                    logging.info(f"No books found in chunk. This might indicate we've reached the end of available books.")
-                    break
+                task = asyncio.create_task(fetch_book_data(session, chunk, chunk_number))
+                tasks.append(task)
+                chunk_start += CHUNK_SIZE
+                if len(tasks) >= 10:  # Process 10 chunks at a time
+                    for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Downloading chunks"):
+                        books_in_chunk = await task
+                        total_books += books_in_chunk
+                        if books_in_chunk == 0:
+                            logging.info(f"No books found in chunk. This might indicate we've reached the end of available books.")
+                            return total_books
+                    tasks = []
+            
+            # Sequentially download all the books
+            # for chunk_start in tqdm(range(1, 11200000//CHUNK_SIZE + 1, CHUNK_SIZE), desc="Downloading chunks"):
+            #     chunk = list(range(chunk_start, chunk_start + CHUNK_SIZE))
+            #     chunk_number += 1
+            #     books_in_chunk = await fetch_book_data(session, chunk, chunk_number)
+            #     total_books += books_in_chunk
+            #     if books_in_chunk == 0:
+            #         logging.info(f"No books found in chunk. This might indicate we've reached the end of available books.")
+            #         break
                 
         else:
             for i in range(0, len(title_ids), CHUNK_SIZE):
