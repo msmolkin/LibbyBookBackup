@@ -45,17 +45,17 @@ async def download_all_books(title_ids):
     async with aiohttp.ClientSession() as session:
         tasks = []
         for i in range(0, len(title_ids), CHUNK_SIZE):
-            chunk = title_ids[i:i+CHUNK_SIZE]
-            chunk_number += 1
-            task = asyncio.create_task(fetch_book_data(session, chunk, chunk_number))
-            tasks.append(task)
+                chunk = title_ids[i:i+CHUNK_SIZE]
+                chunk_number += 1
+                task = asyncio.create_task(fetch_book_data(session, chunk, chunk_number))
+                tasks.append(task)
 
-        for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Downloading chunks"):
-            books_in_chunk = await task
-            total_books += books_in_chunk
-            if books_in_chunk == 0:
-                logging.info(f"Reached the limit or encountered an error. Stopping download.")
-                break
+            for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Downloading chunks"):
+                books_in_chunk = await task
+                total_books += books_in_chunk
+                if books_in_chunk == 0:
+                    logging.info(f"No books found in chunk. Reached the limit or encountered an error. Stopping download")
+                    break
 
     logging.info(f"Total books downloaded: {total_books}")
     return total_books
