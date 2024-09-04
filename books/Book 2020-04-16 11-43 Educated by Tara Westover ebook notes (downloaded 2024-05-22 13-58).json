@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0111-1/{53CE19F3-B6BB-4E58-A388-2AA38813BC91}Img100.jpg",
+      "title": "Educated",
+      "color": "#F2EDDA",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Educated",
+      "url": "https://share.libbyapp.com/title/3441378",
+      "titleId": "3441378"
+    },
+    "author": "Tara Westover",
+    "publisher": "Random House Publishing Group",
+    "isbn": "9780399590511"
+  },
+  "circulation": [
+    {
+      "timestamp": 1587062618000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

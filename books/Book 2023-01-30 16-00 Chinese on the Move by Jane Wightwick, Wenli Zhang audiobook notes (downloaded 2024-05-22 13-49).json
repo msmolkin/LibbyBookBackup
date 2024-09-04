@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0018-1/{AA814BC5-7BB4-4B0C-8FF2-35B88AF72944}Img100.jpg",
+      "title": "Chinese on the Move",
+      "color": "#090708",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Chinese on the Move",
+      "url": "https://share.libbyapp.com/title/82588",
+      "titleId": "82588"
+    },
+    "author": "Jane Wightwick, Wenli Zhang",
+    "publisher": "McGraw-Hill",
+    "isbn": "9780071473705",
+    "percent": 0.00188884136104543
+  },
+  "circulation": [
+    {
+      "timestamp": 1675123213402,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1675123213000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

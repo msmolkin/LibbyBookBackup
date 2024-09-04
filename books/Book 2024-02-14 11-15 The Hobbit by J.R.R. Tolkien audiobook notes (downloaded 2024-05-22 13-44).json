@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0211-1/{1E05F0C5-28CE-433E-9332-027CE691E2C2}Img100.jpg",
+      "title": "The Hobbit",
+      "color": "#8A8991",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Hobbit",
+      "url": "https://share.libbyapp.com/title/150134",
+      "titleId": "150134"
+    },
+    "author": "J.R.R. Tolkien",
+    "publisher": "BBC Audio",
+    "isbn": "9781405629423",
+    "percent": 0.454117429219193
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1706125023000,
+      "percent": 0.0655319873878676,
+      "note": "What journey do they plan to embark on?"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1707938143000,
+      "activity": "Returned",
+      "details": "on due date",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1706123744335,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1706123743000,
+      "activity": "Borrowed",
+      "details": " 21 days ",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

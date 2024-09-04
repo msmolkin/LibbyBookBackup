@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0293-1/{C9B54C84-0369-49C5-A0B3-98E3353A2129}IMG100.JPG",
+      "title": "The Hobbit",
+      "color": "#010101",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Hobbit",
+      "url": "https://share.libbyapp.com/title/1044887",
+      "titleId": "1044887"
+    },
+    "author": "J.R.R. Tolkien",
+    "publisher": "HarperCollins",
+    "isbn": "9780547951973"
+  },
+  "circulation": [
+    {
+      "timestamp": 1707937566000,
+      "activity": "Returned",
+      "details": "on due date",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1706123232857,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1706123166323,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1706123166000,
+      "activity": "Borrowed",
+      "details": " 21 days ",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    }
+  ]
+}

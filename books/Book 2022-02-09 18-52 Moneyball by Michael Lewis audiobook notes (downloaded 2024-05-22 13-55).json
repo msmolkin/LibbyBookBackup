@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1191-1/{AD2E51EC-2A05-4595-BEF0-BB421543E147}Img100.jpg",
+      "title": "Moneyball",
+      "color": "#D6D8B0",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Moneyball",
+      "url": "https://share.libbyapp.com/title/138753",
+      "titleId": "138753"
+    },
+    "author": "Michael Lewis",
+    "publisher": "Books on Tape",
+    "isbn": "9780736698016",
+    "percent": 0
+  },
+  "circulation": [
+    {
+      "timestamp": 1644461540000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347766279,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347765000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

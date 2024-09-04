@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/2389-1/{A5EC263A-446E-4010-B9FB-8971A6C27F0E}Img100.jpg",
+      "title": "The Laws of Etiquette",
+      "color": "#000000",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Laws of Etiquette",
+      "url": "https://share.libbyapp.com/title/784997",
+      "titleId": "784997"
+    },
+    "author": "A. Gentleman",
+    "publisher": "Duke Classics",
+    "isbn": "9781620113943",
+    "percent": 0.152892396694215
+  },
+  "highlights": [
+    {
+      "timestamp": 1606205392000,
+      "chapter": "Chapter I - Good Breeding",
+      "percent": 0.132253553719008,
+      "color": "#FFB",
+      "quote": "error"
+    },
+    {
+      "timestamp": 1606205392000,
+      "chapter": "Chapter I - Good Breeding",
+      "percent": 0.132253553719008,
+      "color": "#FFB",
+      "quote": "consists in confounding together the gentleman and the man of fashion"
+    },
+    {
+      "timestamp": 1606205087000,
+      "chapter": "Chapter I - Good Breeding",
+      "percent": 0.123989090909091,
+      "color": "#DFC",
+      "quote": "and these customs have the force of laws—no one can dispense with them",
+      "note": "What to do and how to do it and these customs [minhagim] are observed with such strictness as laws. [no wonder Susan was drawn to Judaism]\n\nSuch structure! What else does that remind you of? [Torah]"
+    },
+    {
+      "timestamp": 1606205053000,
+      "chapter": "Chapter I - Good Breeding",
+      "percent": 0.115724628099174,
+      "color": "#DFC",
+      "quote": "The Chinese have an infinity of books upon such subjects; one of these treatises contains more than three thousand articles.— Everything is pointed out with the most minute detail",
+      "note": "I need to get me one of these books\n"
+    },
+    {
+      "timestamp": 1606204896000,
+      "chapter": "Chapter I - Good Breeding",
+      "percent": 0.106401773049645,
+      "color": "#FFE0EC",
+      "quote": "and to prevent too great familiarity"
+    },
+    {
+      "timestamp": 1606204678000,
+      "chapter": "Introduction",
+      "percent": 0.0993095035460993,
+      "color": "#FFB",
+      "quote": "Bread should always be broken, not cut"
+    },
+    {
+      "timestamp": 1606204546000,
+      "chapter": "Introduction",
+      "percent": 0.0851251063829787,
+      "color": "#FFE0EC",
+      "quote": "Abb",
+      "note": "What’s an Abb?"
+    },
+    {
+      "timestamp": 1604771202000,
+      "chapter": "Introduction",
+      "percent": 0.0780329078014184,
+      "color": "#FFB",
+      "quote": "which Cicero compares to the colour of the cheeks, which is"
+    },
+    {
+      "timestamp": 1604771202000,
+      "chapter": "Introduction",
+      "percent": 0.0780329078014184,
+      "color": "#FFB",
+      "quote": "acquired"
+    },
+    {
+      "timestamp": 1604771202000,
+      "chapter": "Introduction",
+      "percent": 0.0780329078014184,
+      "color": "#FFB",
+      "quote": "by continual walking in the sun"
+    },
+    {
+      "timestamp": 1604770790000,
+      "chapter": "Preface",
+      "percent": 0.0354798581560284,
+      "color": "#FFB",
+      "quote": "Lord Chesterfield"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1604770754000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1601880952000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1601880952000,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

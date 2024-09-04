@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1191-1/{B7EEEBA8-3247-401B-9D60-C14516BA5EAC}Img100.jpg",
+      "title": "Find Your Why",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Find Your Why",
+      "url": "https://share.libbyapp.com/title/2637701",
+      "titleId": "2637701"
+    },
+    "author": "Simon Sinek, David Mead, Peter Docker",
+    "publisher": "Books on Tape",
+    "isbn": "9781524703929",
+    "percent": 0.404171162088942
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1682731084000,
+      "percent": 0.359929347173305,
+      "note": "A why question can be rephrased with “what is it about”?"
+    },
+    {
+      "timestamp": 1682712241000,
+      "percent": 0.0322857487237831,
+      "note": "Who the fuck is this guy (narrator)? His voice is so much worse than Sinek’s."
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1682711835064,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1682711834000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    }
+  ]
+}

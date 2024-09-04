@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0128-1/{4F9DC343-334F-41BD-B980-BEFE510BBA44}Img100.jpg",
+      "title": "Hedge Fund Market Wizards",
+      "color": "#231F20",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Hedge Fund Market Wizards",
+      "url": "https://share.libbyapp.com/title/898979",
+      "titleId": "898979"
+    },
+    "author": "Jack D. Schwager",
+    "publisher": "Wiley",
+    "isbn": "9781118283615"
+  },
+  "circulation": [
+    {
+      "timestamp": 1652987943897,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1652987943000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

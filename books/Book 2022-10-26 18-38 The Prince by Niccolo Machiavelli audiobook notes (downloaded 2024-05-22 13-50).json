@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1219-1/{CEA83554-7001-438D-A853-1DF8EE1B3B22}Img100.jpg",
+      "title": "The Prince",
+      "color": "#1F2326",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Prince",
+      "url": "https://share.libbyapp.com/title/117981",
+      "titleId": "117981"
+    },
+    "author": "Niccolo Machiavelli",
+    "publisher": "Tantor Media, Inc.",
+    "isbn": "9781400178438",
+    "percent": 0.555160293444874
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1668635319000,
+      "percent": 0.541963848119097,
+      "note": "Using other people’s “arms” (weapons, money) bounds you and oppresses you to them."
+    },
+    {
+      "timestamp": 1668624472000,
+      "percent": 0.365646778743641,
+      "note": "Oliver Otto is the epitome of *the prince*. In his feigned return, he had his machinations (of murder and usurpation)  in mind, but he didn't make them known until the night of the banquet"
+    },
+    {
+      "timestamp": 1668196547000,
+      "percent": 0.188259265439113,
+      "note": "Errors: destroyed minor powers, increased strength of a greater power, brought in a foreign power, didn’t settle in the place (to rule), didn’t even send colonies. He shouldn’t have consented to the ruin of the small powers that were with him"
+    },
+    {
+      "timestamp": 1668194368000,
+      "percent": 0.0674989453603275,
+      "note": "You should read Machiavelli's discourse on the first decade of Titus Livius  concurrently with the prince"
+    },
+    {
+      "timestamp": 1668192979000,
+      "percent": 0.0172291386209035,
+      "note": "When ~~writing~~ communicating, don’t forget the compassion. “I've received your letter, which has given me the greatest pleasure, especially because you tell me you are restored in health, than which I could have no better news."
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1666834709000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1661527504914,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1661527504000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

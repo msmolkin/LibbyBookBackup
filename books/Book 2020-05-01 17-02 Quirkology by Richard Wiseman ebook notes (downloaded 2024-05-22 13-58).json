@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0017-1/{A84D685F-F43F-4F22-8AD0-CF35ACBD6A44}Img100.jpg",
+      "title": "Quirkology",
+      "color": "#B2DFF6",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Quirkology",
+      "url": "https://share.libbyapp.com/title/217066",
+      "titleId": "217066"
+    },
+    "author": "Richard Wiseman",
+    "publisher": "Basic Books",
+    "isbn": "9780465010295",
+    "percent": 0.167801976149915
+  },
+  "highlights": [
+    {
+      "timestamp": 1590013603000,
+      "chapter": "CHRONOPSYCHOLOGY AND THE GRIM REAPER",
+      "percent": 0.148215911413969,
+      "color": "#DFC",
+      "quote": "increase in the death rate just before a rise in the tax rate came into effect, and a decrease in the death rate just after a drop"
+    },
+    {
+      "timestamp": 1589956576000,
+      "chapter": "THE SCIENTIFIC STUDY OF TIME AND MIND",
+      "percent": 0.0971080749574106,
+      "color": "#FFB",
+      "quote": "1962, the French caver and geologist Michel Siffre"
+    },
+    {
+      "timestamp": 1589906072000,
+      "chapter": "TIME TWINS AND POGO THE CLOWN",
+      "percent": 0.0681479045996592,
+      "color": "#FFB",
+      "quote": "so many good ideas"
+    },
+    {
+      "timestamp": 1589906072000,
+      "chapter": "TIME TWINS AND POGO THE CLOWN",
+      "percent": 0.0681479045996592,
+      "color": "#FFB",
+      "quote": "very simple"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1588377728000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0887-1/{D9B8C360-953F-4BF1-8ABF-BC013C4A35D7}Img100.jpg",
+      "title": "Alice's Adventures in Wonderland",
+      "color": "#260003",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Alice's Adventures in Wonderland",
+      "url": "https://share.libbyapp.com/title/167183",
+      "titleId": "167183"
+    },
+    "author": "Lewis Carroll",
+    "publisher": "Blackstone Publishing",
+    "isbn": "9781481544597",
+    "percent": 0.999305138541374
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1648444919000,
+      "percent": 0.983940869543377,
+      "note": "I can imagine a wind picking up, tornado beginning, one that will culminate in a whirlwind of a story dreamt by Alice’s sister"
+    },
+    {
+      "timestamp": 1648444862000,
+      "percent": 0.981066894884268,
+      "note": "Beautiful. You can feel the next book coming to life"
+    },
+    {
+      "timestamp": 1648444615000,
+      "percent": 0.956118580351855,
+      "note": "Does the book have the pauses written in? “She doesn’t believe… there’s an atom of meaning… in it”? I.E. is this amazing narration mostly the narrator’s doing or the author’s?"
+    },
+    {
+      "timestamp": 1648444541000,
+      "percent": 0.946568144205837,
+      "note": "“…then stop”  "
+    },
+    {
+      "timestamp": 1648444401000,
+      "percent": 0.942560038672236,
+      "note": "How did he know there was no babe signed at the bottom? (Or was it visible to everyone and I just missed that part?)"
+    },
+    {
+      "timestamp": 1648444282000,
+      "percent": 0.932427591041109,
+      "note": "That’s what I was thinking lol"
+    },
+    {
+      "timestamp": 1648444140000,
+      "percent": 0.919642617886068,
+      "note": "POOR BILL! 藍 "
+    },
+    {
+      "timestamp": 1648444073000,
+      "percent": 0.912103707530783,
+      "note": "Well, I wasn’t surprised. I was pretty sure Alice would be called up next."
+    },
+    {
+      "timestamp": 1648443999000,
+      "percent": 0.904014269672868,
+      "note": "Beautiful, hilarious, well-read trial."
+    },
+    {
+      "timestamp": 1648443508000,
+      "percent": 0.874841529884534,
+      "note": "This is perfectly written for a movie or a play, where he takes a bite out of his teacup."
+    },
+    {
+      "timestamp": 1648442307000,
+      "percent": 0.839127904297891,
+      "note": "Good reading (the “beautiful soup”—that got so annoying lol). The credit has to go to the author, I’m sure, at least on this one.\n\nBy the way, as I started writing this comment, once I finally actually wrote down the words “beautiful soup,” I realized that the website data parsing library’s name (bs4, as of this comment)  is probably based on this line"
+    },
+    {
+      "timestamp": 1648434587000,
+      "percent": 0.613732304962698,
+      "note": "LOL!\n“Are their heads off?“\n“Their heads are *gone*, if it please your majesty.”\ni.e. we can’t find them lol. Not that we beheaded them, but it sounded like they were saying yes"
+    },
+    {
+      "timestamp": 1648434289000,
+      "percent": 0.572894572789331,
+      "note": "Little girl makes a promise, and immediately breaks it, forgetting the promise.\n\nWise men understand that girls can lie and there’s **nothing wrong with it**.\n[We should come to expect it.]"
+    },
+    {
+      "timestamp": 1648434091000,
+      "percent": 0.552375329398956,
+      "note": "LOL. Amazing narrator"
+    },
+    {
+      "timestamp": 1648433797000,
+      "percent": 0.523700142659585,
+      "note": "Lol. Ask a riddle. When they give up and ask for the answer, say, “I haven’t the slightest idea”"
+    },
+    {
+      "timestamp": 1648433111000,
+      "percent": 0.449483552139642,
+      "note": "Lol. “flinging the baby at her“"
+    },
+    {
+      "timestamp": 1648432783000,
+      "percent": 0.426047441585937,
+      "note": "He [footman] could have mentioned that the door is open."
+    },
+    {
+      "timestamp": 1648432741000,
+      "percent": 0.421418588656197,
+      "note": "This footman’s funny lol. Also does have a point, stating the obvious."
+    },
+    {
+      "timestamp": 1648431562000,
+      "percent": 0.330757277332408,
+      "note": "Lol"
+    },
+    {
+      "timestamp": 1648429797000,
+      "percent": 0.24692294923199,
+      "note": "Somewhere back a few chapters ago, Alice mentioned that the earth is about 4000 miles in diameter. Fun fact, nice to know."
+    },
+    {
+      "timestamp": 1648429746000,
+      "percent": 0.245596376936497,
+      "note": "“I do wish I hadn’t drunk quite so much“\nThink before you do something, not after. (“Measure twice, cut once”)"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1646631844000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1644461554000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347845176,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347844000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

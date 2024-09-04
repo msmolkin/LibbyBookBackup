@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/4575-1/{3BFF9B7E-FA8A-4A20-8E25-2E74577179BB}IMG100.JPG",
+      "title": "You've Been Played",
+      "color": "#02178A",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "You've Been Played",
+      "url": "https://share.libbyapp.com/title/8668027",
+      "titleId": "8668027"
+    },
+    "author": "Adrian Hon",
+    "publisher": "Hachette Audio",
+    "isbn": "9781668611760",
+    "percent": 1.00000031965353
+  },
+  "circulation": [
+    {
+      "timestamp": 1702540035000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1699152259866,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1699152259000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0293-1/{ED336696-01BB-4FA2-96A2-F9F3E8A7B5D0}Img100.jpg",
+      "title": "How to Destroy America in Three Easy Steps",
+      "color": "#1D2031",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "How to Destroy America in Three Easy Steps",
+      "url": "https://share.libbyapp.com/title/5217597",
+      "titleId": "5217597"
+    },
+    "author": "Ben Shapiro",
+    "publisher": "HarperAudio",
+    "isbn": "9780063001909",
+    "percent": 0.296451741111985
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1606037527000,
+      "percent": 0.237600689551346,
+      "note": "Define Blackballed"
+    },
+    {
+      "timestamp": 1605682686000,
+      "percent": 0.138287644410634
+    },
+    {
+      "timestamp": 1605679349000,
+      "percent": 0.0443452287782487,
+      "note": "“Diktats”"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1605514237000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1605514237000,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

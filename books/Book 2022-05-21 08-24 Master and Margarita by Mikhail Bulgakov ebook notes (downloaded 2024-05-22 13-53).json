@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/2617-1/{0D7142EE-D073-4AE8-84DD-7BF27F0582F0}Img100.jpg",
+      "title": "Master and Margarita",
+      "color": "#F3F7F8",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Master and Margarita",
+      "url": "https://share.libbyapp.com/title/647755",
+      "titleId": "647755"
+    },
+    "author": "Mikhail Bulgakov",
+    "publisher": "Prospekt LLC"
+  },
+  "circulation": [
+    {
+      "timestamp": 1653146666839,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1653146666000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

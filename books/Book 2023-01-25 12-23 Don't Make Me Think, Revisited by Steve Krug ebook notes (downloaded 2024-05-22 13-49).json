@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0447-1/{4F37335E-5E06-4B93-A361-68FA7EF3B122}IMG100.JPG",
+      "title": "Don't Make Me Think, Revisited",
+      "color": "#3B1419",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Don't Make Me Think, Revisited",
+      "url": "https://share.libbyapp.com/title/1515283",
+      "titleId": "1515283"
+    },
+    "author": "Steve Krug",
+    "publisher": "Pearson Education",
+    "isbn": "9780133597264"
+  },
+  "circulation": [
+    {
+      "timestamp": 1674678223317,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    }
+  ]
+}

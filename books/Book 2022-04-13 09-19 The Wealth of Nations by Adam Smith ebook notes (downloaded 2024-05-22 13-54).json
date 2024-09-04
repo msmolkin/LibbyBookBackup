@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0290-1/{1A2971E4-1A77-41CC-8DD2-8EC89310D61A}Img100.jpg",
+      "title": "The Wealth of Nations",
+      "color": "#B4ACC3",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Wealth of Nations",
+      "url": "https://share.libbyapp.com/title/189643",
+      "titleId": "189643"
+    },
+    "author": "Adam Smith",
+    "publisher": "Penguin Books Ltd",
+    "isbn": "9780141908199"
+  },
+  "circulation": [
+    {
+      "timestamp": 1649866782000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1646789451000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1644461511000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1642347666945,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1642347666000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

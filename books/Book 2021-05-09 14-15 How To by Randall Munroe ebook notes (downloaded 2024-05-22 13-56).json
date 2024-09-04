@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1523-1/{F87021A5-6C36-49A9-B7F8-8302177FB528}Img100.jpg",
+      "title": "How To",
+      "color": "#172029",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "How To",
+      "url": "https://share.libbyapp.com/title/4562535",
+      "titleId": "4562535"
+    },
+    "author": "Randall Munroe",
+    "publisher": "Penguin Publishing Group",
+    "isbn": "9780525537106",
+    "percent": 0.0102362204724409
+  },
+  "circulation": [
+    {
+      "timestamp": 1620594920000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1617606898290,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1617606668000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

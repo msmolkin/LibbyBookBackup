@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0111-1/{44E22A6F-26C8-4F03-AEAB-A54AC00947A2}Img100.jpg",
+      "title": "Dark Pools",
+      "color": "#EEF1C6",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Dark Pools",
+      "url": "https://share.libbyapp.com/title/705840",
+      "titleId": "705840"
+    },
+    "author": "Scott Patterson",
+    "publisher": "Crown",
+    "isbn": "9780307887191"
+  },
+  "circulation": [
+    {
+      "timestamp": 1633305922995,
+      "activity": "Tagged",
+      "details": "Audible 🎧",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1633305321754,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1633305321000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

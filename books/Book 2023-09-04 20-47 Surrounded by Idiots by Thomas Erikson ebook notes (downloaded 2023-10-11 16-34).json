@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/2390-1/{A5C5E898-9399-4DF3-8D29-53DA81D05FBA}IMG100.JPG",
+      "title": "Surrounded by Idiots",
+      "color": "#FDF7E9",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Surrounded by Idiots",
+      "url": "https://share.libbyapp.com/title/4347927",
+      "titleId": "4347927"
+    },
+    "author": "Thomas Erikson",
+    "publisher": "St. Martin's Publishing Group",
+    "isbn": "9781250179951"
+  },
+  "circulation": [
+    {
+      "timestamp": 1693885637533,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

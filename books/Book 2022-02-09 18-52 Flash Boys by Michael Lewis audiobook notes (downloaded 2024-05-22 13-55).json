@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/5054-1/{9079AF9E-6E2E-4257-9D9E-4152840F3EB2}Img100.jpg",
+      "title": "Flash Boys",
+      "color": "#EB0029",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Flash Boys",
+      "url": "https://share.libbyapp.com/title/1543402",
+      "titleId": "1543402"
+    },
+    "author": "Michael Lewis",
+    "publisher": "Simon & Schuster Audio",
+    "isbn": "9781442370289"
+  },
+  "circulation": [
+    {
+      "timestamp": 1644461547000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347778722,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347778000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

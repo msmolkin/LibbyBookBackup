@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1219-1/{FE266E1C-6942-494B-BEB2-1DBA9867C387}Img100.jpg",
+      "title": "The Immune System Recovery Plan",
+      "color": "#D91F24",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Immune System Recovery Plan",
+      "url": "https://share.libbyapp.com/title/1335161",
+      "titleId": "1335161"
+    },
+    "author": "Susan Blum, MD, MPH",
+    "publisher": "Tantor Media, Inc.",
+    "isbn": "9781452684499",
+    "percent": 0.346115268830193
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1677632331000,
+      "percent": 0.303239902483689,
+      "note": "SO THIS AREA IS THE MOST IMPORTANT. The area around this bookmark includes what foods to eat and/or not eat regarding sugar"
+    },
+    {
+      "timestamp": 1677631990000,
+      "percent": 0.298780469347894,
+      "note": "In terms of sweet food: avoid 15g+ foods per serving. Instead, she suggests low glycemic: raw agave syrup, brown rice syrup, and fruit sweetener. And stevia (advertisement?)"
+    },
+    {
+      "timestamp": 1677630776000,
+      "percent": 0.285633088596398,
+      "note": "At least one salad each day made of rock greens and vegetables (add protein and healthy fat to make it a complete meal)"
+    },
+    {
+      "timestamp": 1677159320000,
+      "percent": 0.256217024505342,
+      "note": "Note: soy sauce is made from wheat and beer is made from barley, so you have to remove those two as well in order to get rid of gluten"
+    },
+    {
+      "timestamp": 1676945227000,
+      "percent": 0.213999945717773,
+      "note": "Essential FAs:\nOmega-3: CPA? & DHA in fish oil\nOmega-6: GLA (found in black currant, primrose)\nFound in fish (wild salmon and sardines), nuts (almonds, walnuts), seeds (sunflower/pumpkin), leafy greens (kale and Swiss chard)"
+    },
+    {
+      "timestamp": 1676944979000,
+      "percent": 0.209631601271738,
+      "note": "Bad fats -> increase arachidonic? acid -> increase eicosanoids"
+    },
+    {
+      "timestamp": 1676944938000,
+      "percent": 0.208624376990893,
+      "note": "Remove *all* trans fats from your foods"
+    },
+    {
+      "timestamp": 1676944687000,
+      "percent": 0.204562174521546,
+      "note": "Eliminate any food made with white sugar or white flour (high glycemic carbs): bagels, bread, breakfast cereals, cakes, cookies, crackers, candy, and soft drinks. Also watch out for foods where sugar is hiding: commercial yogurts, commercial fruit smoothies, etc."
+    },
+    {
+      "timestamp": 1676944496000,
+      "percent": 0.201535467704799,
+      "note": "And here I was wondering how this helps her, thinking she was being altruistic. “At the very least, you need to buy my other book [to track this thing I’m telling you to do].” — Never mind. I take it back. I was a cynic, but she’s just saying to use a workbook. I don’t think she wrote the workbook"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1676941946000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1675125444071,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1675125443000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

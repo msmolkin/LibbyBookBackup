@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/6968-1/{B89FE7EE-3E33-4D69-B6C5-94D98B4BCC8A}Img100.jpg",
+      "title": "The Art of the Visit",
+      "color": "#01ACB6",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Art of the Visit",
+      "url": "https://share.libbyapp.com/title/914380",
+      "titleId": "914380"
+    },
+    "author": "Kathy Bertone",
+    "publisher": "Running Press",
+    "isbn": "9780762444939"
+  },
+  "circulation": [
+    {
+      "timestamp": 1654284273000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1650732316000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347534494,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347533000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

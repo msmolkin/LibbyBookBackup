@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1088-1/{7A4DA77E-61F1-444C-870A-AEB2C6482274}Img100.jpg",
+      "title": "The Dhandho Investor",
+      "color": "#000000",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Dhandho Investor",
+      "url": "https://share.libbyapp.com/title/4857121",
+      "titleId": "4857121"
+    },
+    "author": "Mohnish Pabrai",
+    "publisher": "Ascent Audio",
+    "isbn": "9781469075433",
+    "percent": 1.00000034459852
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1702918054000,
+      "percent": 0.9089541749073,
+      "note": "There are a lot of times that you could potentially bet. Why not wait until the odds are overwhelmingly in your favor? The market will always be there when you get back"
+    },
+    {
+      "timestamp": 1702747554000,
+      "percent": 0.815002760871373,
+      "note": "How can you make this assumption? Where will you get this data (for how much you’ll be able to sell the gas station in ten years) from?"
+    },
+    {
+      "timestamp": 1702516207000,
+      "percent": 0.822868215630715,
+      "note": "So I have two questions here: 1) what if you have to borrow to make this bet? You’re guaranteeing that you have to pay 10%/yr on the bet. 2) How can a normal person do this? That 5% of losing it all literally means you lose everything. And doesn’t that 5% increase dramatically if you have to pay that interest?"
+    },
+    {
+      "timestamp": 1702505789000,
+      "percent": 0.78938835393028,
+      "note": "So, basically, you *didn't* copy buffets strategy in terms of reporting. He reports annually, instead of quarterly, and you \"copied\" him so that you only have to report annually, yet you report quarterly…"
+    },
+    {
+      "timestamp": 1702505534000,
+      "percent": 0.783339049860082,
+      "note": "How did you calculate this? Did you split up the $10,000 across all high Price to book ratio stocks as of December 31, 1963? Did you evenly split it across all such stocks throughout the entire year? Is there a threshold above which you consider the Price/Book “high“?"
+    },
+    {
+      "timestamp": 1702505032000,
+      "percent": 0.775615407356115,
+      "note": "The laws of investing: a small team size, ideally a size of one (with may be another whom to bounce ideas off of)"
+    },
+    {
+      "timestamp": 1702410474000,
+      "percent": 0.70638696195556,
+      "note": "Again, he stole this directly from Buffett. Read voraciously and wait patiently is Buffett’s strategy"
+    },
+    {
+      "timestamp": 1702405519000,
+      "percent": 0.651213552756598,
+      "note": "Why haven’t you shown us any failures of your Dhandho investing?"
+    },
+    {
+      "timestamp": 1702405266000,
+      "percent": 0.646549426066014,
+      "note": "There's another thing to look for: if coupon percentage * most pessimistic outlook on how many years the company will be able to pay its interest >= bond value (e.g. 6% coupon * 3 years >= bonds trading at 18% value), buy. You’ll make your money back before bankruptcy #idea"
+    },
+    {
+      "timestamp": 1702404026000,
+      "percent": 0.620285215307676,
+      "note": "This is exactly what buffet says"
+    },
+    {
+      "timestamp": 1702403837000,
+      "percent": 0.611772862045948,
+      "note": "So, Vadik explained the California very well. Basically, it makes perfect sense, as long as you are constantly investing. If you're available bankroll is increasing, then you bet these percentages. At least, that's based on his rudimentary understanding after glancing at the Wikipedia page for all of two minutes"
+    },
+    {
+      "timestamp": 1702403393000,
+      "percent": 0.607546341553529,
+      "note": "Yes, but you'll be wiped out first. Buying equity isn't an option in this scenario. What am I missing here? Wouldn't you be completely wiped out before the price recovers if it goes into bankruptcy and has to sell off its assets? Debt holders would be repaid in full, if they held long enough, but stockholders would not… I'm misunderstanding how stocks work in bankruptcy, if what you’re suggesting here is true"
+    },
+    {
+      "timestamp": 1702314514000,
+      "percent": 0.575683698700431,
+      "note": "Yeah, this is something that Bob said. Uncertainty gets marked down. I think those were actually hit exact words, that the market \"hates uncertainty.\" And so that's how you profit, when things become uncertain"
+    },
+    {
+      "timestamp": 1702153144000,
+      "percent": 0.525929414334023,
+      "note": "So Buffett is the reason for Apple’s ecosystem?"
+    },
+    {
+      "timestamp": 1702146383000,
+      "percent": 0.489870948654919,
+      "note": "That right there. Run about 3–6 months ahead of big companies in introducing things, as they have far slower adoption."
+    },
+    {
+      "timestamp": 1702105322000,
+      "percent": 0.478761737266457,
+      "note": "#book *The Origin and Evolution of New Businesses* (also, first read *Origin of Species*)"
+    },
+    {
+      "timestamp": 1701886266000,
+      "percent": 0.505782426232822,
+      "note": "13 and 30% is 43%. What about the other >50% that are he’s glossing over? Who owns that? [Allianz?]"
+    },
+    {
+      "timestamp": 1701886114000,
+      "percent": 0.500757821230934,
+      "note": "I slept through part of this chapter"
+    },
+    {
+      "timestamp": 1701820466000,
+      "percent": 0.423724055606849,
+      "note": "Fuck Apple and their moat! I just realized why Apple Support always tells you to upgrade your operating system first. It has nothing to do with providing patches or security or “maybe they’ve already fixed it,” especially since they even force you to do this after you've told them that you've tried it on a device with everything updated and that it still doesn't work. The reason? Because updated operating systems patch any potential vulnerabilities that could help you with your problem. For example, iMazing software can access the phone’s file system; with every new patch and every new update, Apple does its best to prevent your accessing and using the system the way you want, if it goes against their policies or plans, or using your phone as it’s intended: as YOUR phone. You can only use it in the way that they want you to"
+    },
+    {
+      "timestamp": 1701813200000,
+      "percent": 0.407298556568317,
+      "note": "What's the point? If the game is stacked firmly in the house’s favor, then what's the point of optimizing your card play?"
+    },
+    {
+      "timestamp": 1701332938000,
+      "percent": 0.388435991720182,
+      "note": "So, while I would probably buy all of these books and read them, they are not the way to ~~growth, to solid profits.~~ becoming rich. The way to become rich is to start a business. Yes, investing Will earn me a lot of money. And, if I invest other people’s money, then the worst that can happen is that I can ruin my reputation if I lose the money. However, while additional capital gives us outsized leverage, which can potentially lead to outsized returns, the true way to become Rich and successful is to start a business selling things [things could mean tchotchkes, or items, or services, or even people if it's a recruiting business, which is still a service business]."
+    },
+    {
+      "timestamp": 1701332854000,
+      "percent": 0.388267264189434,
+      "note": "He suggests reading William Poundstone's #book fortune’s formula"
+    },
+    {
+      "timestamp": 1701276019000,
+      "percent": 0.285857765980616,
+      "note": "Yes, but this is the second path to wealth. This is what you do when you’ve already made a few million dollars. You might get a spectacular return on your investment, but if you're starting with two dollars, 200% return Will only leave you with six dollars"
+    },
+    {
+      "timestamp": 1701222029000,
+      "percent": 0.227712987124686,
+      "note": "If you want to win, do you have to watch and weight. Just keep waiting until you encounter wildly misplaced odds, in your favor, on a horse which you know a lot about. Only then do you bet"
+    },
+    {
+      "timestamp": 1701221909000,
+      "percent": 0.228367560043676,
+      "note": "Can you only bet on *that one horse*, in *that one race*. And then you stop betting "
+    },
+    {
+      "timestamp": 1701201789000,
+      "percent": 0.192303393369381,
+      "note": "“being 25 and single, I had available at least one risk-free bet.” Because you can declare bankruptcy and start over"
+    },
+    {
+      "timestamp": 1701193946000,
+      "percent": 0.182353621877876,
+      "note": "~~This is exactly what I heard how about buying a business. You buy it at three times net profit, so as to receive your investment within three years.~~ Actually, what I heard was three times net revenue. So here we have a different formula: invest only if you expect a 100% return in 3 years (i.e. 72/3=24%/yr) and with the initial investment retaining its value"
+    },
+    {
+      "timestamp": 1701021686000,
+      "percent": 0.160016903450741,
+      "note": "Ha! The heck did he do that?"
+    },
+    {
+      "timestamp": 1701021545000,
+      "percent": 0.154772097509602,
+      "note": "But how would he get the carrier like Sprint to take him on as an MVNO"
+    },
+    {
+      "timestamp": 1701021266000,
+      "percent": 0.141836703873152,
+      "note": "“a few small ads in the paper” so it requires, like everything, marketing  capital"
+    },
+    {
+      "timestamp": 1701021116000,
+      "percent": 0.139296417160237,
+      "note": "But this is a second company, after he already has a company making over $10 million a year. So I don’t know how applicable this story is. But maybe they’re doing this on purpose: first, they give the origin stories of Dhandho in Patel families, and then they give impossible/impractical, multi million dollar stories, and then he’s going to go on and make them more and more realistic."
+    },
+    {
+      "timestamp": 1700518172000,
+      "percent": 0.125641711419022,
+      "note": "Success is all about patience, only participating if you bet, big bets. Heads, I win; tails, I don't lose much"
+    },
+    {
+      "timestamp": 1698828258000,
+      "percent": 0.0600601487883001,
+      "note": "LOL"
+    },
+    {
+      "timestamp": 1698827916000,
+      "percent": 0.0481871684960374,
+      "note": "This  just explained exactly how the Patels went from zero to hero"
+    },
+    {
+      "timestamp": 1698652639000,
+      "percent": 0.0251765814738816,
+      "note": "I like this narrator. He knows how to properly pronounce Dhandho, and Bangladesh, and Pakistan"
+    },
+    {
+      "timestamp": 1698652445000,
+      "percent": 0.0163212366072522,
+      "note": "Patels make up 1/500 Americans. Yet they own >50% of motels in the US. Why? Because it’s low-risk, high-reward."
+    },
+    {
+      "timestamp": 1698652292000,
+      "percent": 0.0140127720930146,
+      "note": "Business (the street translation of the word “dhandho”), even though it what does involve risk, is a relatively very low risk, high reward endeavor"
+    },
+    {
+      "timestamp": 1698652203000,
+      "percent": 0.0116927959538722,
+      "note": "Dhandho = endeavors that create wealth (“dhan” = wealth)"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1700417141000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1698249422483,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1698249422000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    }
+  ]
+}

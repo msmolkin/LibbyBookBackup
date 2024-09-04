@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/5054-1/{75AEB20E-15CC-4B72-AC2E-1DAD48CA4986}IMG100.JPG",
+      "title": "CATCH-22",
+      "color": "#BDBEC3",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "CATCH-22",
+      "url": "https://share.libbyapp.com/title/3390661",
+      "titleId": "3390661"
+    },
+    "author": "Joseph Heller",
+    "publisher": "Simon & Schuster Audio",
+    "isbn": "9781508251521"
+  },
+  "circulation": [
+    {
+      "timestamp": 1684547657910,
+      "activity": "Hold expired",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1684054988477,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1675047685630,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1633383510000,
+      "activity": "Tagged",
+      "details": "OverDrive WL",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1633383506321,
+      "activity": "Tagged",
+      "details": "Audible 🎧",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

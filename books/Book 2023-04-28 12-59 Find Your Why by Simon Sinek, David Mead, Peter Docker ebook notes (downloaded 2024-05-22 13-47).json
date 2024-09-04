@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/1523-1/{C8A9D5A0-43C3-40DA-AE74-B3D629894375}Img100.jpg",
+      "title": "Find Your Why",
+      "color": "#2D96C3",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Find Your Why",
+      "url": "https://share.libbyapp.com/title/2637662",
+      "titleId": "2637662"
+    },
+    "author": "Simon Sinek, David Mead, Peter Docker",
+    "publisher": "Penguin Publishing Group",
+    "isbn": "9781101992982"
+  },
+  "circulation": [
+    {
+      "timestamp": 1682711965194,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1682711964000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/6578-1/{3B959EEA-CDDE-4169-B69D-38DC60490348}Img100.jpg",
+      "title": "Rich Dad Poor Dad for Teens",
+      "color": "#9B6392",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Rich Dad Poor Dad for Teens",
+      "url": "https://share.libbyapp.com/title/2995547",
+      "titleId": "2995547"
+    },
+    "author": "Robert T. Kiyosaki",
+    "publisher": "AB Publishing",
+    "isbn": "9781518934377",
+    "percent": 1.00000014567241
+  },
+  "circulation": [
+    {
+      "timestamp": 1588814894000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

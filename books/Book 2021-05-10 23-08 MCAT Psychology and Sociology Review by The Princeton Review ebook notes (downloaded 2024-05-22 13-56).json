@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0111-1/{59654865-85F8-443E-B813-F9DD2B207152}Img100.jpg",
+      "title": "MCAT Psychology and Sociology Review",
+      "color": "#FFF22A",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "MCAT Psychology and Sociology Review",
+      "url": "https://share.libbyapp.com/title/2053198",
+      "titleId": "2053198"
+    },
+    "author": "The Princeton Review",
+    "publisher": "Random House Children's Books"
+  },
+  "circulation": [
+    {
+      "timestamp": 1620713280171,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1620713279000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

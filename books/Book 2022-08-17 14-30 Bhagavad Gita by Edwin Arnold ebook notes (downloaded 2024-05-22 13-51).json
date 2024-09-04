@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/2389-1/{104A9DAF-FD6C-46F6-99BE-F63CE761CFE2}Img100.jpg",
+      "title": "Bhagavad Gita",
+      "color": "#000000",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Bhagavad Gita",
+      "url": "https://share.libbyapp.com/title/784418",
+      "titleId": "784418"
+    },
+    "author": "Edwin Arnold",
+    "publisher": "Duke Classics",
+    "isbn": "9781620114971",
+    "percent": 0.00342465753424658
+  },
+  "circulation": [
+    {
+      "timestamp": 1660771826721,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1660771826000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

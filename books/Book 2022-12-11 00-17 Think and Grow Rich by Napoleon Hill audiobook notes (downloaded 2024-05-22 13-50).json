@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/1088-1/{E7A2EF37-D7A3-4B30-B5D4-350E696F1F95}Img100.jpg",
+      "title": "Think and Grow Rich",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Think and Grow Rich",
+      "url": "https://share.libbyapp.com/title/192804",
+      "titleId": "192804"
+    },
+    "author": "Napoleon Hill",
+    "publisher": "Gildan Media Corp",
+    "percent": 0
+  },
+  "circulation": [
+    {
+      "timestamp": 1670746672236,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1670746671000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

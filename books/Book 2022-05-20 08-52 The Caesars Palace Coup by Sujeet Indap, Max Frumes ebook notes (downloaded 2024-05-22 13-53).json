@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/4209-1/{5FEF2EA3-D2EB-48AD-B5B7-FC039183AD14}IMG100.JPG",
+      "title": "The Caesars Palace Coup",
+      "color": "#1C1B17",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Caesars Palace Coup",
+      "url": "https://share.libbyapp.com/title/5627199",
+      "titleId": "5627199"
+    },
+    "author": "Sujeet Indap, Max Frumes",
+    "publisher": "Diversion Books",
+    "isbn": "9781635766769"
+  },
+  "circulation": [
+    {
+      "timestamp": 1653061925542,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1653061924000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

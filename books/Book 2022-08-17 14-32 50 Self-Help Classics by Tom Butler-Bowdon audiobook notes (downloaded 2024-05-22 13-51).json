@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1088-1/{CCFD244F-1C4E-4EAD-85AA-C330AA47E35C}Img100.jpg",
+      "title": "50 Self-Help Classics",
+      "color": "#FDF7F9",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "50 Self-Help Classics",
+      "url": "https://share.libbyapp.com/title/114283",
+      "titleId": "114283"
+    },
+    "author": "Tom Butler-Bowdon",
+    "publisher": "Ascent Audio",
+    "isbn": "9781469000442"
+  },
+  "circulation": [
+    {
+      "timestamp": 1660771926184,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1660771925000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

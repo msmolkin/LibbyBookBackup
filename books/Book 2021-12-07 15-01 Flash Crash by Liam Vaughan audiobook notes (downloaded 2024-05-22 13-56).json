@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1191-1/{67B37BB4-EFB7-4E7D-8505-11779F09D8D9}Img100.jpg",
+      "title": "Flash Crash",
+      "color": "#FFF100",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Flash Crash",
+      "url": "https://share.libbyapp.com/title/4896625",
+      "titleId": "4896625"
+    },
+    "author": "Liam Vaughan",
+    "publisher": "Books on Tape",
+    "isbn": "9780593169292",
+    "percent": 0.99999824372055
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1642080600000,
+      "percent": 0.996978665192567,
+      "note": "Prerequisites to this text: Michael Lewis’s Flash Boys, Scott Patterson’s Dark Pools & The Quants, John Sussex’s Day One Trader, & Edwin Lefèvre’s Reminiscences of a Stock Operator"
+    },
+    {
+      "timestamp": 1642051542000,
+      "percent": 0.888240030456437,
+      "note": "This is exactly how “traders” think, per Douglas’s TitZ book"
+    },
+    {
+      "timestamp": 1642051299000,
+      "percent": 0.879314319810735,
+      "note": "Front running is one thing.\nPlacing orders just below large sell orders (and above large buy ones) is called “leaning”"
+    },
+    {
+      "timestamp": 1641735448000,
+      "percent": 0.681090109903973,
+      "note": "Michael Lewis - The Big Short, Moneyball, Flash Boys"
+    },
+    {
+      "timestamp": 1641735298000,
+      "percent": 0.676967659065985,
+      "note": "Potential things to write on my website"
+    },
+    {
+      "timestamp": 1641732164000,
+      "percent": 0.596439832190959,
+      "note": "1. “I like the problem-solving aspect, looking at markets like a puzzle.”\n2. Eventually, he started out on his own, *renting a desk at various firms.*"
+    },
+    {
+      "timestamp": 1641704242000,
+      "percent": 0.495832452784257,
+      "note": "Note, a few tax-evasion-friendly countries: Isle of Man, N… (Navros?), BVI, Cayman Islands"
+    },
+    {
+      "timestamp": 1641665456000,
+      "percent": 0.462896537024496,
+      "note": "Registering code is too difficult (what about when you modify it? What about when you turn it off, because the price is not doing what you like? Reregistering the code would take too long. Further, and the first thing I thought of, it would breed corporate espionage and CFTC infiltration."
+    },
+    {
+      "timestamp": 1641587784000,
+      "percent": 0.336334456030528,
+      "note": "He saw the same thing I did. You can make more and faster on the way down than on the way up (much slower)."
+    },
+    {
+      "timestamp": 1641587407000,
+      "percent": 0.324185344415361,
+      "note": "This guy’s like me. Should I be like him b/c I think he’s right, or should I use him as a cautionary tale and get out of the way when authority pressures me?"
+    },
+    {
+      "timestamp": 1641587038000,
+      "percent": 0.310711142770811,
+      "note": "Is that still a thing? So if you add or subtract a lot to the same order, it gets sent to the back of the line? I guess that makes sense."
+    },
+    {
+      "timestamp": 1641578591000,
+      "percent": 0.283216887775823,
+      "note": "What’s TT (Trading Technologies)? Does E*Trade use it? How about Centerpoint?"
+    },
+    {
+      "timestamp": 1641487956000,
+      "percent": 0.267623033874661,
+      "note": "Sir Josiah Child 1st Baronet, MP, was an English economist, merchant and politician; governor of the East India Company. He used to buy by faking news and selling at market."
+    },
+    {
+      "timestamp": 1641445837000,
+      "percent": 0.175841510280475,
+      "note": "How Jerome Kerviel Lost $7.2 Billion - Business Insider\nMay 8, 2016 — Former Societe Generale junior trader Jerome Kerviel poses in a hotel ... 18 billion euros of Germany's DAX futures and 2 billion euros of …\n\nhttps://www.societegenerale.com/sites/default/files/12%20May%202008%20The%20report%20by%20the%20General%20Inspection%20of%20Societe%20Generale.pdf"
+    },
+    {
+      "timestamp": 1641445365000,
+      "percent": 0.168164911611211,
+      "note": "Be like NAV, not like Young. You see something that works? Do it. If another thing doesn’t work, don’t do that."
+    },
+    {
+      "timestamp": 1641409353000,
+      "percent": 0.12182510597916,
+      "note": "Just like me. He plays games or doing pull-ups when he needs to keep his mind occupied. And he plays there\n\n“If you don’t care about the money, it’s a lot easier. Look at it like a computer game. You’re playing to win, but it’s a bonus if you get paid.”"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1638918081000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1633305912750,
+      "activity": "Tagged",
+      "details": "Audible 🎧",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1633305262338,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1633305262000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

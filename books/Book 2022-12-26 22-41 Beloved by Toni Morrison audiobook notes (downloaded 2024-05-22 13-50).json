@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1191-1/{5AEF182E-5B3F-40C6-BAF4-80FF0A0C0BC8}Img100.jpg",
+      "title": "Beloved",
+      "color": "#090003",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Beloved",
+      "url": "https://share.libbyapp.com/title/109825",
+      "titleId": "109825"
+    },
+    "author": "Toni Morrison",
+    "publisher": "Books on Tape",
+    "isbn": "9780739342138"
+  },
+  "circulation": [
+    {
+      "timestamp": 1672123315298,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1672123314000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

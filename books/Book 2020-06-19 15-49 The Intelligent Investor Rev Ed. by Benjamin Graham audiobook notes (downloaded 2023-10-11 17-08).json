@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/293-1/{6E091C8E-25CD-4DEF-B382-898C78EDE92A}Img100.jpg",
+      "title": "The Intelligent Investor Rev Ed.",
+      "color": "#9E1D22",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Intelligent Investor Rev Ed.",
+      "url": "https://share.libbyapp.com/title/2248156",
+      "titleId": "2248156"
+    },
+    "author": "Benjamin Graham",
+    "publisher": "HarperAudio",
+    "isbn": "9780062417619",
+    "percent": 0.1703566669573
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1593989776000,
+      "percent": 0.129944239989178,
+      "note": "Penny Youngman Quote: “Americans are getting stronger”"
+    },
+    {
+      "timestamp": 1593031844000,
+      "percent": 0.0999288447762229,
+      "note": "January Effect: OTC stocks drop in December and therefore shoot up in January"
+    },
+    {
+      "timestamp": 1593030182000,
+      "percent": 0.0821619106103109,
+      "note": "Look up 1957 list of bargain issues in the stock market (share price < just the value of the assets alone)"
+    },
+    {
+      "timestamp": 1593029437000,
+      "percent": 0.0743917322540885,
+      "note": "2 my line of stock selectivity for profit: short team"
+    },
+    {
+      "timestamp": 1592929963000,
+      "percent": 0.0382700515923238,
+      "note": "Newton lost money in the market (+£7,000, -£20,000)"
+    },
+    {
+      "timestamp": 1592608119000,
+      "percent": 0.0129039982917162,
+      "note": "Santayana: “Those who forget the past are condemned to repeat it”"
+    },
+    {
+      "timestamp": 1592607891000,
+      "percent": 0.00757508318499434,
+      "note": "Graham started as a clerk"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1592606971000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

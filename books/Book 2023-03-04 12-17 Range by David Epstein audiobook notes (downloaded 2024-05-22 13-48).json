@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1191-1/{78E195FD-E494-4427-AEE3-AD4C41CD4192}Img100.jpg",
+      "title": "Range",
+      "color": "#95EBCE",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Range",
+      "url": "https://share.libbyapp.com/title/4265214",
+      "titleId": "4265214"
+    },
+    "author": "David Epstein",
+    "publisher": "Books on Tape",
+    "isbn": "9781984888433",
+    "percent": 1.00000007799185
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1677915251000,
+      "percent": 0.924878661584175,
+      "note": "So he’s like me!"
+    },
+    {
+      "timestamp": 1677915168000,
+      "percent": 0.923725803261541,
+      "note": "So basically, do things people don’t want. Then, eventually, you’ll be at the top. Something will get there"
+    },
+    {
+      "timestamp": 1677914439000,
+      "percent": 0.977220255313,
+      "note": "As far as I got"
+    },
+    {
+      "timestamp": 1677779455000,
+      "percent": 0.865224722945248,
+      "note": "This is proper executive decision-making. Like Dalio’s Bridgewater, you argue when the decision is being made but you stick together once the decision has been made. Further, he gets feedback from everyone in the organization."
+    },
+    {
+      "timestamp": 1677779337000,
+      "percent": 0.863223912994128,
+      "note": "Did he just say that the president made this guy the COO of NASA, the \"highest position that is not politically appointed\"? Lol. Oh, the president appointed the Administrator/CEO, and that guy appointed this guy as his second-in-command."
+    },
+    {
+      "timestamp": 1677177647000,
+      "percent": 0.364741570397261,
+      "note": "And that’s wrong. you want to use multiple analogies when coming up with a solution to a problem, and you want to use ones that are in different Fields, to give you the widest view and spur idea making"
+    },
+    {
+      "timestamp": 1677084989000,
+      "percent": 0.248411143221706,
+      "note": "Creative children’s parents didn’t proscribe problems. They would just let the kids know once they did something the parents didn’t like. This does seem in line with my own findings. When I was little, and I thought there were so many rules and that mom and dad were so strict, I wasn't very creative. Then, when the rules eased, I became far more creative"
+    },
+    {
+      "timestamp": 1677084694000,
+      "percent": 0.241707631707142,
+      "note": "Dive in, imitate, improvise first; learn the formal rules later"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1677961052000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1676140708220,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1676140707000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    }
+  ]
+}

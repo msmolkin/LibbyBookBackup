@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/1191-1/{38DDDC42-8411-4192-96F7-56BE613A6F27}Img100.jpg",
+      "title": "The Body",
+      "color": "#F4F3EE",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Body",
+      "url": "https://share.libbyapp.com/title/4528180",
+      "titleId": "4528180"
+    },
+    "author": "Bill Bryson",
+    "publisher": "Books on Tape",
+    "isbn": "9780147526922",
+    "percent": 0.372427908829117
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1593721273000,
+      "percent": 0.341126975472968,
+      "note": "Tell? giblid? Blood types"
+    },
+    {
+      "timestamp": 1592765441000,
+      "percent": 0.244474782277652,
+      "note": "“Your body is your long-suffering servant” original source? Where does he get the quote from?"
+    },
+    {
+      "timestamp": 1592619755000,
+      "percent": 0.195062965692166,
+      "note": "Broca’s brain was smaller than average"
+    },
+    {
+      "timestamp": 1592619542000,
+      "percent": 0.190058166988381,
+      "note": "1866 England John Langdon Haydn Down: “Observations on an Ethnic Classification of Idiots” Down syndrome = mongolism; people suffering from it = “mongoloid idiots”"
+    },
+    {
+      "timestamp": 1592526796000,
+      "percent": 0.174220377727563,
+      "note": "Lobotomy Doctor. Freeman or Friedman probably. Nobel laureate even though he had a terrible method"
+    },
+    {
+      "timestamp": 1592464935000,
+      "percent": 0.130996242671908,
+      "note": "Trillions of synaptic connections exist. The brain stores 1.2 TB of information per mm^3, or 1 exabyte per human brain"
+    },
+    {
+      "timestamp": 1592464806000,
+      "percent": 0.130098485274858,
+      "note": "86 billion neurons in the brain, not 100b. From 2015 study"
+    },
+    {
+      "timestamp": 1592464734000,
+      "percent": 0.128725696403964,
+      "note": "Try running your laptop on a as muffin and de how far you get"
+    },
+    {
+      "timestamp": 1592464491000,
+      "percent": 0.0256556062262152,
+      "note": "Funny quote"
+    },
+    {
+      "timestamp": 1592386148000,
+      "percent": 0.0547373739979558,
+      "note": "Bertionne used a fingerprint to catch a murderer via his system of catching récidivistes. He’s not first, but he gets the credit"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1592307209000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

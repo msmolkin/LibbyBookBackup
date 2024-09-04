@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1523-1/{EC436231-A009-4D0C-86EE-CC5200CEC586}Img100.jpg",
+      "title": "How to Get Rich",
+      "color": "#FFFFFF",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "How to Get Rich",
+      "url": "https://share.libbyapp.com/title/203650",
+      "titleId": "203650"
+    },
+    "author": "Felix Dennis",
+    "publisher": "Penguin Publishing Group",
+    "isbn": "9781440632464"
+  },
+  "circulation": [
+    {
+      "timestamp": 1692547458000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1691710776730,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1691710776000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

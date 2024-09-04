@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/1191-1/{87FFF3CD-FFBD-403D-8E48-EE0C20468818}Img100.jpg",
+      "title": "How To",
+      "color": "#18212A",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "How To",
+      "url": "https://share.libbyapp.com/title/4560150",
+      "titleId": "4560150"
+    },
+    "author": "Randall Munroe",
+    "publisher": "Books on Tape",
+    "isbn": "9780525635680",
+    "percent": 0.863937332750663
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1622476242000,
+      "percent": 0.856799439889718,
+      "note": "Ideas nearly everyone holds from the Roper(?) something at Cornell. Relisten  to it, as this may provide some conversation topics"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1620713396000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1617606898290,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1617606687000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

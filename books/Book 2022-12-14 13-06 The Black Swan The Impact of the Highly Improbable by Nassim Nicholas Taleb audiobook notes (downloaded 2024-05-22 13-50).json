@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1191-1/{E9E66BCF-E049-4AC3-9BDB-CA1BE771E433}Img100.jpg",
+      "title": "The Black Swan: The Impact of the Highly Improbable",
+      "color": "#C61F3B",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Black Swan: The Impact of the Highly Improbable",
+      "url": "https://share.libbyapp.com/title/3984174",
+      "titleId": "3984174"
+    },
+    "author": "Nassim Nicholas Taleb",
+    "publisher": "Books on Tape",
+    "isbn": "9781984841582"
+  },
+  "circulation": [
+    {
+      "timestamp": 1671051990645,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1671051990000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

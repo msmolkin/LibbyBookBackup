@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0111-1/{AD1BF924-B88E-41D6-AC23-8C3ECF9CF724}Img100.jpg",
+      "title": "A Short History of Nearly Everything",
+      "color": "#2F2D5E",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "A Short History of Nearly Everything",
+      "url": "https://share.libbyapp.com/title/35248",
+      "titleId": "35248"
+    },
+    "author": "Bill Bryson",
+    "publisher": "Crown",
+    "isbn": "9780767916417"
+  },
+  "circulation": [
+    {
+      "timestamp": 1652987953000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1651381838498,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1651381837000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

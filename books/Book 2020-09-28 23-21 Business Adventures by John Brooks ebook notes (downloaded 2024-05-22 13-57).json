@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/2363-1/{75AD00F8-D6B4-4ABE-8E16-16E3CF2BD242}IMG100.JPG",
+      "title": "Business Adventures",
+      "color": "#F40000",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Business Adventures",
+      "url": "https://share.libbyapp.com/title/1860332",
+      "titleId": "1860332"
+    },
+    "author": "John Brooks",
+    "publisher": "Open Road Media",
+    "isbn": "9781497638853",
+    "percent": 0.624559153936545
+  },
+  "highlights": [
+    {
+      "timestamp": 1602303270000,
+      "chapter": "9 A Second Sort of Life: DAVID E. LILIENTHAL, BUSINESSMAN",
+      "percent": 0.619274430082256,
+      "color": "#FFB",
+      "quote": "In “Big Business,” Lilienthal argues that"
+    },
+    {
+      "timestamp": 1602303270000,
+      "chapter": "9 A Second Sort of Life: DAVID E. LILIENTHAL, BUSINESSMAN",
+      "percent": 0.619274430082256,
+      "color": "#FFB",
+      "quote": "the productive"
+    },
+    {
+      "timestamp": 1602303270000,
+      "chapter": "9 A Second Sort of Life: DAVID E. LILIENTHAL, BUSINESSMAN",
+      "percent": 0.619274430082256,
+      "color": "#FFB",
+      "quote": "superiority of the United States"
+    },
+    {
+      "timestamp": 1602303270000,
+      "chapter": "9 A Second Sort of Life: DAVID E. LILIENTHAL, BUSINESSMAN",
+      "percent": 0.619274430082256,
+      "color": "#FFB",
+      "quote": "also its national security depends on industrial bigness"
+    },
+    {
+      "timestamp": 1602303270000,
+      "chapter": "9 A Second Sort of Life: DAVID E. LILIENTHAL, BUSINESSMAN",
+      "percent": 0.619274430082256,
+      "color": "#FFB",
+      "quote": "big business does not tend to destroy small business, as is often supposed, but, rather, tends to promote it"
+    },
+    {
+      "timestamp": 1602303241000,
+      "chapter": "9 A Second Sort of Life: DAVID E. LILIENTHAL, BUSINESSMAN",
+      "percent": 0.616924101057579,
+      "color": "#DFC",
+      "quote": "Development & Resources Corporation"
+    },
+    {
+      "timestamp": 1602303227000,
+      "chapter": "9 A Second Sort of Life: DAVID E. LILIENTHAL, BUSINESSMAN",
+      "percent": 0.615749271445358,
+      "color": "#DFC",
+      "quote": "Tennessee Valley Authority"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1601360463000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1601360463000,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

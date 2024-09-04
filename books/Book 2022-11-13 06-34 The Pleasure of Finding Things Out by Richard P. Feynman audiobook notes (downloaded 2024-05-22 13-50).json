@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0887-1/{00FC2332-C9AD-4F16-B4F6-122EFF58D580}Img100.jpg",
+      "title": "The Pleasure of Finding Things Out",
+      "color": "#CECECE",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Pleasure of Finding Things Out",
+      "url": "https://share.libbyapp.com/title/1258844",
+      "titleId": "1258844"
+    },
+    "author": "Richard P. Feynman",
+    "publisher": "Blackstone Publishing",
+    "isbn": "9781624609244"
+  },
+  "circulation": [
+    {
+      "timestamp": 1668350058278,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1668350057000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

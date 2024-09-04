@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/7552-1/{641BDA53-55EF-4042-9299-93E21FA49797}Img100.jpg",
+      "title": "Stan Lee",
+      "color": "#FFFEEC",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Stan Lee",
+      "url": "https://share.libbyapp.com/title/5384452",
+      "titleId": "5384452"
+    },
+    "author": "Liel Leibovitz",
+    "publisher": "Yale Press Audio",
+    "isbn": "9780300253528",
+    "percent": 0
+  },
+  "circulation": [
+    {
+      "timestamp": 1664464756897,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1664464756000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

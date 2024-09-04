@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1873-1/{0D5EAC7F-DE86-4AD1-BC37-819D30950C88}Img100.jpg",
+      "title": "475 Tax Deductions for Businesses and Self-Employed Individuals",
+      "color": "#137399",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "475 Tax Deductions for Businesses and Self-Employed Individuals",
+      "url": "https://share.libbyapp.com/title/3679732",
+      "titleId": "3679732"
+    },
+    "author": "Bernard B. Kamoroff",
+    "publisher": "Lyons Press",
+    "isbn": "9781493032198"
+  },
+  "circulation": [
+    {
+      "timestamp": 1665468052488,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1665468052000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

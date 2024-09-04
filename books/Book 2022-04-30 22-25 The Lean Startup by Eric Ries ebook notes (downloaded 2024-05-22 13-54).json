@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0111-1/{AC5E5596-0FED-4DF8-BA59-B1BCB1DF6D11}Img100.jpg",
+      "title": "The Lean Startup",
+      "color": "#007EC3",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Lean Startup",
+      "url": "https://share.libbyapp.com/title/543757",
+      "titleId": "543757"
+    },
+    "author": "Eric Ries",
+    "publisher": "Crown",
+    "isbn": "9780307887917"
+  },
+  "circulation": [
+    {
+      "timestamp": 1651382730204,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1651382729000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}
