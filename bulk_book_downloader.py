@@ -9,7 +9,7 @@ from tqdm import tqdm
 API_URL = 'https://thunder.api.overdrive.com/v2/media/bulk?titleIds='
 HEADERS = {'x-client-id': 'dewey'}
 # This is close to the maximum number of titleIds that can be fetched in a single request from this thunder API. Experiment with this number to find the optimal value.
-CHUNK_SIZE = 100
+CHUNK_SIZE = 200
 OUTPUT_DIR = 'all_overdrive_books'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 LOG_FILE = os.path.join(OUTPUT_DIR, 'download_log.txt')
@@ -150,7 +150,7 @@ def download_all_their_books():
 def main():
     try:
         # Delete any existing chunk files
-        [os.remove(os.path.join(OUTPUT_DIR, filename)) for filename in os.listdir(OUTPUT_DIR) if filename.startswith('chunk_')]
+        # [os.remove(os.path.join(OUTPUT_DIR, filename)) for filename in os.listdir(OUTPUT_DIR) if filename.startswith('chunk_')]
 
         # Eventually, ensure that only one of these functions can be run at a time
         # probably using a lockfile.lock. For now, just run one at a time.
@@ -161,7 +161,8 @@ def main():
         # b) To download all their books
         download_all_their_books()
         
-        [os.remove(os.path.join(OUTPUT_DIR, filename)) for filename in os.listdir(OUTPUT_DIR) if filename.startswith('chunk_')]  # Delete the chunk files
+        # [os.remove(os.path.join(OUTPUT_DIR, filename)) for filename in os.listdir(OUTPUT_DIR) if filename.startswith('chunk_')]  # Delete the chunk files
+        # Don't delete the chunk files, because I want to be able to resume if they reject requests.
     
     except KeyboardInterrupt:
         logging.info("Process interrupted by user. Exiting gracefully.")
