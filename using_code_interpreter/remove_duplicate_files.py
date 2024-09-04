@@ -61,8 +61,8 @@ deleted_files_count = 0
 # Check for duplicates and remove the newer files
 for files in file_contents.values():
     if len(files) > 1:
-        # Sort the filepaths by the download date and time in descending order
-        files.sort(key=lambda x: datetime.strptime(x.split(" ")[-2] + " " + x.split(" ")[-1].rstrip(").json"), "%Y-%m-%d %H-%M"), reverse=True)
+        # Sort the filepaths by the download date and time in ascending order to keep the oldest
+        files.sort(key=lambda x: datetime.strptime(x.split(" ")[-2] + " " + x.split(" ")[-1].rstrip(").json"), "%Y-%m-%d %H-%M"))
         
         # Remove all but the first (oldest) file
         for f in files[1:]:
