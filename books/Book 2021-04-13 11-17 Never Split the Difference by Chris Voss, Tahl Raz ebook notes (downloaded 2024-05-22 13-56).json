@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0293-1/{839E60F6-2C63-40EC-BABC-73045C11B819}Img100.jpg",
+      "title": "Never Split the Difference",
+      "color": "#FFFFFF",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Never Split the Difference",
+      "url": "https://share.libbyapp.com/title/2360580",
+      "titleId": "2360580"
+    },
+    "author": "Chris Voss, Tahl Raz",
+    "publisher": "HarperCollins",
+    "isbn": "9780062407818",
+    "percent": 0.731220375586854
+  },
+  "circulation": [
+    {
+      "timestamp": 1618337838200,
+      "activity": "Tagged",
+      "details": "🍰",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1617925405537,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1617925405000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0116-1/{50430149-CD08-4EAB-8C98-46DE8CEB7496}Img100.jpg",
+      "title": "The Selfish Gene",
+      "color": "#343432",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Selfish Gene",
+      "url": "https://share.libbyapp.com/title/4979572",
+      "titleId": "4979572"
+    },
+    "author": "Richard Dawkins",
+    "publisher": "OUP Oxford",
+    "isbn": "9780191093074"
+  },
+  "circulation": [
+    {
+      "timestamp": 1633305754682,
+      "activity": "Tagged",
+      "details": "Audible 🎧",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1623269884839,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1623269884000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

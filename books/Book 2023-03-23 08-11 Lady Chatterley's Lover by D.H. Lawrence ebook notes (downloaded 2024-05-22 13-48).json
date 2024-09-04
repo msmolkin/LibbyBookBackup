@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0111-1/{80CEF841-ECC1-4CD8-8231-89009062BE12}Img100.jpg",
+      "title": "Lady Chatterley's Lover",
+      "color": "#1A0600",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Lady Chatterley's Lover",
+      "url": "https://share.libbyapp.com/title/2372",
+      "titleId": "2372"
+    },
+    "author": "D.H. Lawrence",
+    "publisher": "Random House Publishing Group",
+    "isbn": "9780553903386"
+  },
+  "circulation": [
+    {
+      "timestamp": 1679584281000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1679584280280,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

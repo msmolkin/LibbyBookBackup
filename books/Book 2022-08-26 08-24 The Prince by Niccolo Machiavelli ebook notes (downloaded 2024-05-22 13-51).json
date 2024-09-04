@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/2389-1/{555B0140-169E-4FE4-9C25-A7FE5F80FC55}Img100.jpg",
+      "title": "The Prince",
+      "color": "#000000",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Prince",
+      "url": "https://share.libbyapp.com/title/785061",
+      "titleId": "785061"
+    },
+    "author": "Niccolo Machiavelli",
+    "publisher": "Duke Classics",
+    "isbn": "9781620116685"
+  },
+  "circulation": [
+    {
+      "timestamp": 1661527480000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1656535099000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1654965303735,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1654965303000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

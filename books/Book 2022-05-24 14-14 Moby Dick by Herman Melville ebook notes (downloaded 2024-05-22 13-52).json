@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/2389-1/{D9A6D76C-D2A8-458A-9B14-4E021A8C058D}Img100.jpg",
+      "title": "Moby Dick",
+      "color": "#000000",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Moby Dick",
+      "url": "https://share.libbyapp.com/title/784716",
+      "titleId": "784716"
+    },
+    "author": "Herman Melville",
+    "publisher": "Duke Classics",
+    "isbn": "9781620117002"
+  },
+  "circulation": [
+    {
+      "timestamp": 1653426843359,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1653426843000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

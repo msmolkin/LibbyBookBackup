@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/1694-1/{E769D9F9-02DE-4FEC-9620-09252BB86C68}IMG100.JPG",
+      "title": "A Random Walk Down Wall Street",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "A Random Walk Down Wall Street",
+      "url": "https://share.libbyapp.com/title/4547621",
+      "titleId": "4547621"
+    },
+    "author": "Burton G. Malkiel",
+    "publisher": "Recorded Books, Inc.",
+    "isbn": "9781980029557",
+    "percent": 0.000457542844793695
+  },
+  "circulation": [
+    {
+      "timestamp": 1705434638000,
+      "activity": "Borrowed",
+      "details": " 21 days ",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1700417130000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1698249317825,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1698249317000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

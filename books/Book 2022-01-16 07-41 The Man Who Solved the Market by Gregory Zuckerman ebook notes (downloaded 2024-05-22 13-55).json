@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1523-1/{43889551-DA41-4D5C-B093-471D75E5D14A}Img100.jpg",
+      "title": "The Man Who Solved the Market",
+      "color": "#1C1C1C",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Man Who Solved the Market",
+      "url": "https://share.libbyapp.com/title/4592227",
+      "titleId": "4592227"
+    },
+    "author": "Gregory Zuckerman",
+    "publisher": "Penguin Publishing Group",
+    "isbn": "9780735217997"
+  },
+  "circulation": [
+    {
+      "timestamp": 1642347662000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1634873091454,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1634873091000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

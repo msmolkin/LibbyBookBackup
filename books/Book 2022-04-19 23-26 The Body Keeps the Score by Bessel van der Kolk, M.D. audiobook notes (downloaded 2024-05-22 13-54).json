@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1191-1/{5E64E89A-354C-46F3-94F0-A98D5651D2B3}Img100.jpg",
+      "title": "The Body Keeps the Score",
+      "color": "#0862DA",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Body Keeps the Score",
+      "url": "https://share.libbyapp.com/title/6032452",
+      "titleId": "6032452"
+    },
+    "author": "Bessel van der Kolk, M.D.",
+    "publisher": "Books on Tape",
+    "isbn": "9780593412701",
+    "percent": 0.0617024284552485
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1650923428000,
+      "percent": 0.079826147868785,
+      "note": "Meyers and Seligman — Learned Helplessness"
+    },
+    {
+      "timestamp": 1650923299000,
+      "percent": 0.0781668538472858,
+      "note": "American College of Neuropsychopharmacology (ACNP)"
+    },
+    {
+      "timestamp": 1650908505000,
+      "percent": 0.0609676226080015,
+      "note": "Yes, well no shit. You made your net so wide, and I’m surprised you only caught 50%. I’d think that number would be higher. To me, this shows that very few people in therapy have received this kind of treatment"
+    },
+    {
+      "timestamp": 1650904281000,
+      "percent": 0.0064177847964686,
+      "note": "Why do traumatized people keep repeating the same mistakes, seemingly unable to learn from the failures? It’s due to physical, conformational changes in the brain that occurred as a result of the trauma"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1650435980158,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1650435979000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

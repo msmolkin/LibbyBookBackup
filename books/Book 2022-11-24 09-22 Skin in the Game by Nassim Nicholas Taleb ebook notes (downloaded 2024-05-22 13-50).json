@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0111-1/{62A1D07D-FD5E-4F27-AE3A-E2936EAB4ACD}Img100.jpg",
+      "title": "Skin in the Game",
+      "color": "#020202",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Skin in the Game",
+      "url": "https://share.libbyapp.com/title/3538569",
+      "titleId": "3538569"
+    },
+    "author": "Nassim Nicholas Taleb",
+    "publisher": "Random House Publishing Group",
+    "isbn": "9780425284636"
+  },
+  "circulation": [
+    {
+      "timestamp": 1669310534000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1668715028171,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1668715027000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0111-1/{A6037F70-B759-4C75-9E02-50C22305C30A}Img100.jpg",
+      "title": "Paris 1919",
+      "color": "#000000",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Paris 1919",
+      "url": "https://share.libbyapp.com/title/449966",
+      "titleId": "449966"
+    },
+    "author": "Margaret MacMillan",
+    "publisher": "Random House Publishing Group",
+    "isbn": "9780307432964"
+  },
+  "circulation": [
+    {
+      "timestamp": 1599678697000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

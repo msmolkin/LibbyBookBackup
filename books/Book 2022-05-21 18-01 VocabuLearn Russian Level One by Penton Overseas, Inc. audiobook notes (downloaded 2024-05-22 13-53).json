@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0556-1/{0FB0553D-D346-4F5C-B073-A2AE663280DE}Img100.jpg",
+      "title": "VocabuLearn Russian Level One",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "VocabuLearn Russian Level One",
+      "url": "https://share.libbyapp.com/title/74110",
+      "titleId": "74110"
+    },
+    "author": "Penton Overseas, Inc.",
+    "publisher": "Penton Overseas, Inc.",
+    "percent": 0.0975400131151747
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1653234371000,
+      "percent": 0.0140275627555179,
+      "note": "Lunch = “Второй завтрак”"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1653181269009,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1653181267000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

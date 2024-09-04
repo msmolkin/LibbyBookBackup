@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0128-1/{A8E975B8-ADC4-4F08-94CB-78E5A034820B}Img100.jpg",
+      "title": "The Dhandho Investor",
+      "color": "#271E0F",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Dhandho Investor",
+      "url": "https://share.libbyapp.com/title/131173",
+      "titleId": "131173"
+    },
+    "author": "Mohnish Pabrai",
+    "publisher": "Wiley",
+    "isbn": "9781118044681"
+  },
+  "circulation": [
+    {
+      "timestamp": 1700076342000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1698249408975,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1698249408000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

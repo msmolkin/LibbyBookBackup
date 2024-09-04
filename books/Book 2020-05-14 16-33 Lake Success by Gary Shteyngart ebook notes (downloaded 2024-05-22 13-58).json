@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0111-1/{959D69B1-1875-4952-B7C7-641750BD53F8}Img100.jpg",
+      "title": "Lake Success",
+      "color": "#FFFFFF",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Lake Success",
+      "url": "https://share.libbyapp.com/title/3878678",
+      "titleId": "3878678"
+    },
+    "author": "Gary Shteyngart",
+    "publisher": "Random House Publishing Group",
+    "isbn": "9780812997422",
+    "percent": 0.00115473441108545
+  },
+  "circulation": [
+    {
+      "timestamp": 1589499232000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1523-1/{D1643FF9-BF57-4025-9CF5-6C432A2F101A}IMG100.JPG",
+      "title": "The Body Keeps the Score",
+      "color": "#417DBB",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Body Keeps the Score",
+      "url": "https://share.libbyapp.com/title/1438715",
+      "titleId": "1438715"
+    },
+    "author": "Bessel van der Kolk, M.D.",
+    "publisher": "Penguin Publishing Group",
+    "isbn": "9781101608302"
+  },
+  "circulation": [
+    {
+      "timestamp": 1649059461018,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1649059460000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1627496101000,
+      "activity": "Tagged",
+      "details": "OverDrive WL",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

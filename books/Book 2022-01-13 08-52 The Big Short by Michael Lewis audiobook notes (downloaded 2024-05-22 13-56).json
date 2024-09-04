@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1294-1/{CCCADF80-EE13-46A7-B047-B1A533D408A8}Img100.jpg",
+      "title": "The Big Short",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Big Short",
+      "url": "https://share.libbyapp.com/title/2038087",
+      "titleId": "2038087"
+    },
+    "author": "Michael Lewis",
+    "publisher": "HighBridge, a division of Recorded Books",
+    "percent": 0.999999275890041
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1644218095000,
+      "percent": 0.989009422477179,
+      "note": "Glass-Steagall?"
+    },
+    {
+      "timestamp": 1644218026000,
+      "percent": 0.986399408359741,
+      "note": "Obama did fix the market. By printing money in order to get their ACA passed. And so they just keep giving the money to Wall St"
+    },
+    {
+      "timestamp": 1644217093000,
+      "percent": 0.947080120579961,
+      "note": "Investing = “gambling with the odds in your favor”"
+    },
+    {
+      "timestamp": 1644216820000,
+      "percent": 0.937817686330151,
+      "note": "“People who succeed too early in life”\nI.E. everyone has to succeed, but it has to come in its time."
+    },
+    {
+      "timestamp": 1644216183000,
+      "percent": 0.915379552072455,
+      "note": "This is roughly what I want. So what differentiated (initial, physician) Burry from me?\n1. He was a board-certified doctor.\n2. He recorded his ideas."
+    },
+    {
+      "timestamp": 1644216059000,
+      "percent": 0.91304625035859,
+      "note": "So if people don’t bother Burry after he’s right, and he sees record redemptions and no inflows, maybe I should ~~call~~ nay, email (since he responds to emails)  him now, when he was right again."
+    },
+    {
+      "timestamp": 1644212630000,
+      "percent": 0.857071614335935,
+      "note": "“Free tickets to Ali Frazier” lol"
+    },
+    {
+      "timestamp": 1644212450000,
+      "percent": 0.855400602607233,
+      "note": "NTS: Watch Steve Eismann grill and insult CEOs for the entertainment"
+    },
+    {
+      "timestamp": 1644212230000,
+      "percent": 0.851861270157475,
+      "note": "Eismann held Alan Greenspan in contempt. He thinks he not only (a) held rates too low for too long, but he also (b) didn’t care about the consumers’ “getting screwed,” because they were “not his problem”"
+    },
+    {
+      "timestamp": 1643869313000,
+      "percent": 0.784086245679816,
+      "note": "CUT YOUR LOSSES. Hubler and MS’s President (but CEO didn’t talk about it) decided not to realize $10m worth of losses, so it ended up costing them $6B worth of losses"
+    },
+    {
+      "timestamp": 1643866827000,
+      "percent": 0.753960404219244,
+      "note": "“Bespoke” in market parlance = arcane, obscure/opaque, and therefore insanely difficult for anyone but the originator to price"
+    },
+    {
+      "timestamp": 1643866431000,
+      "percent": 0.744749315948316,
+      "note": "And this is why the market is so quick to over correct on information now (in the aftermath of 2020), starting with the overcorrection to the downside at the beginning of the year 2020. It’s afraid of being massively wrong like it was in ‘08. Everyone knows this bill market can’t last, so they’re all ready to bail their leveraged longs and go full leveraged short. But no one wants to miss the music. Until the music stops, everyone is full leveraged long. Everyone but Michael Burry, that is. He zeroed out of nearly everything by September 2021, including his commodities-based inflation hedges and his stock-based bets on the market. "
+    },
+    {
+      "timestamp": 1643866248000,
+      "percent": 0.736966289543617,
+      "note": "“The moment Goldman” decides to get into a trade in a market is the moment the market flips"
+    },
+    {
+      "timestamp": 1643787472000,
+      "percent": 0.550810989622283,
+      "note": "This tells me that I simply don’t know enough. If I say the right thing, I should receive a $2.3 million bonus. Or clear a $15m investment within a week. And no one will miss the money (like in that infamous taxi scene where “I see nothing wrong with this”)"
+    },
+    {
+      "timestamp": 1643387354000,
+      "percent": 0.45486059797132,
+      "note": "\"They needed to be mistaken by the big Wall Street firms for investors who knew their way around a big wall street firm. As a private investor, you are a second-class citizen. The prices you get are worse, the service is worse, everything is worse."
+    },
+    {
+      "timestamp": 1643386504000,
+      "percent": 0.411297586979631,
+      "note": "Summer of 2006: home prices begin to fall, trend is starting. This is when a good trend follower should get in"
+    },
+    {
+      "timestamp": 1642700996000,
+      "percent": 0.182254995000094,
+      "note": "Incentives are more important than anything else"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1642092760672,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1642092760000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

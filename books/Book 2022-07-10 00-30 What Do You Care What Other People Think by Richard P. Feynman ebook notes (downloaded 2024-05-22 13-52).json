@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0044-1/{3A731E40-05AE-4A1E-9D63-E35AA0442722}Img100.jpg",
+      "title": "What Do You Care What Other People Think",
+      "color": "#0F0F11",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "What Do You Care What Other People Think",
+      "url": "https://share.libbyapp.com/title/2314137",
+      "titleId": "2314137"
+    },
+    "author": "Richard P. Feynman",
+    "publisher": "W. W. Norton & Company",
+    "isbn": "9780393079814"
+  },
+  "circulation": [
+    {
+      "timestamp": 1657438244580,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1657438244000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

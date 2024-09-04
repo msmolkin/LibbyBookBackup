@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0044-1/{C9FDE806-8584-4093-A643-3A3FDBEF241D}Img100.jpg",
+      "title": "Moneyball",
+      "color": "#DBDBDB",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Moneyball",
+      "url": "https://share.libbyapp.com/title/2307864",
+      "titleId": "2307864"
+    },
+    "author": "Michael Lewis",
+    "publisher": "W. W. Norton & Company",
+    "isbn": "9780393066234"
+  },
+  "circulation": [
+    {
+      "timestamp": 1644461521000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347701715,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347701000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

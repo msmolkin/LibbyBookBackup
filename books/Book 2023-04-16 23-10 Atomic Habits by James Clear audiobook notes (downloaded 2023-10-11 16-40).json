@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1191-1/{7AD5EDFA-C544-4B69-80A2-9356BB99E131}Img100.jpg",
+      "title": "Atomic Habits",
+      "color": "#F9F7EB",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Atomic Habits",
+      "url": "https://share.libbyapp.com/title/3994890",
+      "titleId": "3994890"
+    },
+    "author": "James Clear",
+    "publisher": "Books on Tape",
+    "isbn": "9781524779269"
+  },
+  "circulation": [
+    {
+      "timestamp": 1681711816580,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1627496318000,
+      "activity": "Tagged",
+      "details": "OverDrive WL",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

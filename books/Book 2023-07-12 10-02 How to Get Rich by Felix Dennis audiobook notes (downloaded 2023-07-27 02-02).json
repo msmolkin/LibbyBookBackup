@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1191-1/{D0F87EF3-B8A9-484E-8B94-EEE2C6317979}Img100.jpg",
+      "title": "How to Get Rich",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "How to Get Rich",
+      "url": "https://share.libbyapp.com/title/5459792",
+      "titleId": "5459792"
+    },
+    "author": "Felix Dennis",
+    "publisher": "Books on Tape",
+    "isbn": "9780593345528"
+  },
+  "circulation": [
+    {
+      "timestamp": 1689181324739,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1689181324000,
+      "activity": "Borrowed",
+      "details": " 21 days ",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    },
+    {
+      "timestamp": 1685046239207,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1685046221707,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "New York Public Library",
+        "url": "https://libbyapp.com/library/nypl",
+        "key": "nypl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/5054-1/{FFAD3FF8-B54C-408D-80E3-77A03956E315}Img100.jpg",
+      "title": "Principles",
+      "color": "#080808",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Principles",
+      "url": "https://share.libbyapp.com/title/3206017",
+      "titleId": "3206017"
+    },
+    "author": "Ray Dalio",
+    "publisher": "Simon & Schuster Audio",
+    "isbn": "9781508243250",
+    "percent": 1.00000050391175
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1662998837000,
+      "percent": 0.997893948094273,
+      "note": "You can't manage what you can't measure"
+    },
+    {
+      "timestamp": 1662997977000,
+      "percent": 0.983754833906517,
+      "note": "Either Dalio or his ghostwriter promoted the idea of upper- and lower-level You’s from the Tanya"
+    },
+    {
+      "timestamp": 1662996684000,
+      "percent": 0.981978940628908,
+      "note": "So he says that his goal with this book is to teach you to think in an idea meritocracy, based on believability weighting. I think whatever ghostwriter wrote this book came from a Chassidic background"
+    },
+    {
+      "timestamp": 1662910017000,
+      "percent": 0.96081493640784,
+      "note": "Bridgewater tapes all of their meetings. This would speed up my learning curve SO much. This is basically what I do/wanted to do from when I didn’t have the capability. Now I can. Record record record, and then I just have to do the busywork of transferring it onto OneDrive"
+    },
+    {
+      "timestamp": 1662909300000,
+      "percent": 0.94746917826628,
+      "note": "So Dalio puts the “Addon” amount at 50%, expecting that things will take 1.5x as long and cost 1.5x as much as planned [due to delays, mistakes, unexpected events]"
+    },
+    {
+      "timestamp": 1662909074000,
+      "percent": 0.943185214433039,
+      "note": "You want to pay wholesale, rather than retail, whenever possible"
+    },
+    {
+      "timestamp": 1662737902000,
+      "percent": 0.92938047742912,
+      "note": "Double “do” mission critical tasks so that multiple people do them, rather than just having one person do the work and double checking their work. If two separate people do the task, there’s less of a chance of error. Also, make sure that someone double checking the work or auditing anything in general is capable of doing the work"
+    },
+    {
+      "timestamp": 1662736768000,
+      "percent": 0.922982479880634,
+      "note": "“logical detective who doesn't mind probing people should be the diagnoser” so I should be the one test with diagnosing systemic problems in an organization?"
+    },
+    {
+      "timestamp": 1662732385000,
+      "percent": 0.884603194956297,
+      "note": "Think of a problem and it’s solution in a vertical hierarchy instead of horizontal: unacceptable problem unidentified = worst, identified with no planned solution = better but worse for morale, identified with a good planned solution or better, and solved problems are best. Know which category a problem belongs to. If metrics used are clear and intuitive, the category it falls into will be obvious"
+    },
+    {
+      "timestamp": 1662655814000,
+      "percent": 0.878084738760996,
+      "note": "If you're worried, you're protected. If you're not worried, you leave yourself potentially exposed"
+    },
+    {
+      "timestamp": 1662655753000,
+      "percent": 0.877252731681521,
+      "note": "Acknowledging our weaknesses isn’t the same the same as accepting it; it's a necessary first step to getting over (overcoming) it"
+    },
+    {
+      "timestamp": 1662655426000,
+      "percent": 0.87102763665618,
+      "note": "“escalate when you can’t adequately handle your responsibilities, when you don't believe that you can successfully handle a situation and that you’re passing a job to someone else (and make sure people working for you do the same). The person you escalate to will then decide how to handle it, be that coaching you or doing the job or whatever."
+    },
+    {
+      "timestamp": 1662569878000,
+      "percent": 0.835704735270966,
+      "note": "Beware of paying too much attention on individual tasks. Make sure to pay attention to building the entire machine"
+    },
+    {
+      "timestamp": 1662564758000,
+      "percent": 0.794197167944797,
+      "note": "He took this directly from Rosenberg’s NVC (or, more likely, he came up with it separately, on his own / they both took it from Chassidus or the Baghavad Gita). Don't conflate observations with implications"
+    },
+    {
+      "timestamp": 1662563631000,
+      "percent": 0.762699544995211,
+      "note": "#resume values: character, common sense, creativity. Need sense of community with people in organization and need to share mission"
+    },
+    {
+      "timestamp": 1662563329000,
+      "percent": 0.762189848519734,
+      "note": "For #resume, in order: values, abilities, and skills. Values = beliefs. Abilities e.g. great learner and fast processor, see things at higher level, focus on particulars, think creatively or logically."
+    },
+    {
+      "timestamp": 1662472522000,
+      "percent": 0.723340536648494,
+      "note": "Don’t ask questions to people who don’t know the right answer. … and: If someone asks you a question, think about whether you’re a good person to answer it (I do this second part anyway, so it’s not important for me)"
+    },
+    {
+      "timestamp": 1662391222000,
+      "percent": 0.720040870835141,
+      "note": "That’s a problem I have.\nThe event: I want to explain my (possibly wrong) view, and then find out why it’s wrong.\nThe issue:\nThis can waste valuable time.\nThe fix:\nListen to the teacher (more believable other)‘s view first. Once I learn what’s right, my case either (a) won’t matter or (b) will still be relevant. Then we can listen to my (potentially dumber) case and dissect it\nAnd, as per Dalio: doing it the other way puts the emphasis on (what is less important) what the student sees, rather than on (what is more important) what the teacher is trying to teach"
+    },
+    {
+      "timestamp": 1662160224000,
+      "percent": 0.739777220856016,
+      "note": "When you're part of a team, e.g. husband and wife or company, \"the group is more important than the individual.\" Once a path has been decided, you back each other up"
+    },
+    {
+      "timestamp": 1662159169000,
+      "percent": 0.714062199883072,
+      "note": "\"Opinions are like a**holes. Everyone has one, and they usually stink.\""
+    },
+    {
+      "timestamp": 1662064774000,
+      "percent": 0.672621680619991,
+      "note": "Don’t worry about looking good; worry about achieving your goals. Ryan told me this. And Feynman wrote a book about this. "
+    },
+    {
+      "timestamp": 1661956392000,
+      "percent": 0.653631369770717,
+      "note": "Volodya does this too. #Lesson: treat your company like extended family, and they’ll  want to help"
+    },
+    {
+      "timestamp": 1661785166000,
+      "percent": 0.646187843646273,
+      "note": "At a point where one might be tempted to lie, another approach is to do what I do. Omit the truth. Don’t say it. Possibly, instead, say why you’re so tempted, why you can’t be radically transparent about this"
+    },
+    {
+      "timestamp": 1661784638000,
+      "percent": 0.634837352311089,
+      "note": "Open-mindedly discussing and exploring what’s true with others will inevitably mean you find some decisions that you disagree with"
+    },
+    {
+      "timestamp": 1660677940000,
+      "percent": 0.462559270357222,
+      "note": "Oh, so calls “radical open mindedness” that idea from trading that “you can only know that you don’t know.” The market knows better, and you need to understand that and always allow the possibility that you’re wrong. "
+    },
+    {
+      "timestamp": 1660677399000,
+      "percent": 0.444949642086188,
+      "note": "Nice. Good that you have a “personal physician” and enough money to consult with 4 other doctors."
+    },
+    {
+      "timestamp": 1660358078000,
+      "percent": 0.488337990442626,
+      "note": "… Which is why, just as you buy the car rather than buying all the parts and assembling it yourself, you should buy software or hardware that helps you do what you need it to. That is, pay for goods and services which provide a benefit greater than or equal to what you spend on it. You just should spend on things whose benefit is also monetary, and, in this way, every one of your transactions will have a net value that is nonnegative, effectively increasing your value "
+    },
+    {
+      "timestamp": 1660317990000,
+      "percent": 0.472932230624303,
+      "note": "Learn psychology and neuroscience"
+    },
+    {
+      "timestamp": 1660317615000,
+      "percent": 0.466287135759892,
+      "note": "If applying to Bridgewater, for résumé: I am an “independent thinker who is creative, conceptual, and has a lot of common sense”"
+    },
+    {
+      "timestamp": 1660229273000,
+      "percent": 0.430756444072053,
+      "note": "Your ability to deal well with not knowing things is at least as important as what you know."
+    },
+    {
+      "timestamp": 1660229147000,
+      "percent": 0.429673300220742,
+      "note": "Replace your attachment to always being right with the joy of learning what’s true"
+    },
+    {
+      "timestamp": 1656862269000,
+      "percent": 0.383440121881606,
+      "note": "designing life well more important than working well"
+    },
+    {
+      "timestamp": 1656862083000,
+      "percent": 0.379491018585901,
+      "note": "“Extreme ownership”"
+    },
+    {
+      "timestamp": 1656860940000,
+      "percent": 0.365695983181225
+    },
+    {
+      "timestamp": 1654527780000,
+      "percent": 0.296408818607842,
+      "note": "So “a ton.” Which makes sense. Given an excellent education and excellent healthcare, you should be capable of doing the rest."
+    },
+    {
+      "timestamp": 1654454039000,
+      "percent": 0.276532796630621,
+      "note": "One contract (of the ES) from SPY 300 to SPY 450 would have made (4500-3000) times 50 equals 1500×50 = 15×5×1000 = 75,000.\n\nOr, if you were holding from the breakout at SPY 340, you would have been down $20 on the SPY = 200 points twice while holding. That means, at your lowest point, you would have been down 200×50 = 10,000, and you would have been up (470-340) times 10 equals 1300 points, 1300×50=65k at the top."
+    },
+    {
+      "timestamp": 1654452342000,
+      "percent": 0.273549468550558,
+      "note": "What ulterior motive Ray Dalio could have in writing this book: making money isn’t likely the primary focus or the ulterior motive; however, humanizing himself could be. He makes very high-level executive decisions, meeting with the head of the IMF, so his goal could have to do with making people think that he’s not some remote, lofty figure; he’s just a man who happens to know and have learned a lot of things, so he is among those best equipped to make these decisions"
+    },
+    {
+      "timestamp": 1651417696000,
+      "percent": 0.0187476327671678,
+      "note": "Interesting #Audiobook note: he said “decisions” rather than “choices,“ which means he’s reading the concept rather than the words"
+    },
+    {
+      "timestamp": 1651417128000,
+      "percent": 0.0178037293064009,
+      "note": "He skipped the word “still” (“I still have mixed feelings about telling my personal story“ became “I have mixed feelings…“), and he replaced “book“ with “audiobook.” So maybe he *is* reading this book, and maybe it has nothing to do with whether or not he wrote the actual book. They  person reading Uma Naidoo’s book also mentioned PDFs attached with an audiobook, rather than referring to appendices at the back of the book. Maybe Audible edits a book when it’s being read aloud, modifying it to fit the circumstances."
+    },
+    {
+      "timestamp": 1651389837000,
+      "percent": 0.0130217212743528,
+      "note": "How it seems: “This ducker’s literally reading the book for the first time”"
+    },
+    {
+      "timestamp": 1651388953000,
+      "percent": 0.00669695181124812,
+      "note": "This is similar to Rosenberg’s idea, and I think NVC explains this. The main thing is that the people who don’t have the same principles don’t understand each others’ needs, and so they’ll have constant miscommunication"
+    },
+    {
+      "timestamp": 1651388734000,
+      "percent": 0.00312293098588064,
+      "note": "He really seems to be reading this for the first time, as opposed to reading a book that he wrote"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1659980423000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1657558243000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1649866232000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1646245506721,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1644500963000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

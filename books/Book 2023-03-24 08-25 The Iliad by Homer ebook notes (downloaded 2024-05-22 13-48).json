@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/2389-1/{01C01016-B890-4DEC-A408-6834B3EAA2D9}Img100.jpg",
+      "title": "The Iliad",
+      "color": "#000000",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Iliad",
+      "url": "https://share.libbyapp.com/title/784978",
+      "titleId": "784978"
+    },
+    "author": "Homer",
+    "publisher": "Duke Classics",
+    "isbn": "9781620117453"
+  },
+  "circulation": [
+    {
+      "timestamp": 1679671514762,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1679671514000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

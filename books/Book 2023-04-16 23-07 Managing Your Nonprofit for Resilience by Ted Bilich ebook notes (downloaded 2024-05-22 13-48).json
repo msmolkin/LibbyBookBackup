@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0128-1/{72E23BE9-ABF7-4AE4-B44B-71739455E57E}IMG100.JPG",
+      "title": "Managing Your Nonprofit for Resilience",
+      "color": "#231D1F",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Managing Your Nonprofit for Resilience",
+      "url": "https://share.libbyapp.com/title/9510659",
+      "titleId": "9510659"
+    },
+    "author": "Ted Bilich",
+    "publisher": "Wiley",
+    "isbn": "9781394153831"
+  },
+  "circulation": [
+    {
+      "timestamp": 1681711665024,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Candid",
+        "url": "https://libbyapp.com/library/candid",
+        "key": "candid"
+      }
+    },
+    {
+      "timestamp": 1681711664000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Candid",
+        "url": "https://libbyapp.com/library/candid",
+        "key": "candid"
+      }
+    }
+  ]
+}

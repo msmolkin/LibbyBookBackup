@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0044-1/{C3CF7F42-3260-4EB7-A9FF-2026BF9CB507}Img100.jpg",
+      "title": "Liar's Poker",
+      "color": "#FFFFFF",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Liar's Poker",
+      "url": "https://share.libbyapp.com/title/2310676",
+      "titleId": "2310676"
+    },
+    "author": "Michael Lewis",
+    "publisher": "W. W. Norton & Company",
+    "isbn": "9780393066258"
+  },
+  "circulation": [
+    {
+      "timestamp": 1633399628617,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1633399628000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1633399584830,
+      "activity": "Tagged",
+      "details": "Trading 📚",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1191-1/{60CF3665-27DE-40E2-B882-6350F5DA31DB}Img100.jpg",
+      "title": "Real Magic",
+      "color": "#000000",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Real Magic",
+      "url": "https://share.libbyapp.com/title/3359904",
+      "titleId": "3359904"
+    },
+    "author": "Dean Radin PhD",
+    "publisher": "Books on Tape",
+    "isbn": "9780525589846"
+  },
+  "circulation": [
+    {
+      "timestamp": 1705895760917,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

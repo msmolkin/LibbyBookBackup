@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0018-1/{6BB9C0E0-8C1C-4C5B-9F60-A771B2CBE75A}IMG100.JPG",
+      "title": "Trade Like a Stock Market Wizard",
+      "color": "#1B507C",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Trade Like a Stock Market Wizard",
+      "url": "https://share.libbyapp.com/title/1473045",
+      "titleId": "1473045"
+    },
+    "author": "Mark Minervini",
+    "publisher": "McGraw Hill LLC",
+    "isbn": "9780071807234"
+  },
+  "circulation": [
+    {
+      "timestamp": 1651037483000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1640507299000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1634499823360,
+      "activity": "Tagged",
+      "details": "Trading 📚",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1634499751551,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1634499751000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

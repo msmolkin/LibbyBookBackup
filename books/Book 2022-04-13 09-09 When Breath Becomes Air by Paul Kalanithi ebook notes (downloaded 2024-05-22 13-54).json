@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0111-1/{3BF555E1-8C58-4685-8224-9C4BCD1270D0}Img100.jpg",
+      "title": "When Breath Becomes Air",
+      "color": "#FFF7F0",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "When Breath Becomes Air",
+      "url": "https://share.libbyapp.com/title/2302232",
+      "titleId": "2302232"
+    },
+    "author": "Paul Kalanithi",
+    "publisher": "Random House Publishing Group",
+    "isbn": "9780812988413"
+  },
+  "circulation": [
+    {
+      "timestamp": 1649866146000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1644560172989,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1644560171000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0293-1/{CDB3B23C-AB9A-498C-88F6-5A10EB57D49C}Img100.jpg",
+      "title": "The Intelligent Investor, Revised Edition",
+      "color": "#9D1C20",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Intelligent Investor, Revised Edition",
+      "url": "https://share.libbyapp.com/title/37031",
+      "titleId": "37031"
+    },
+    "author": "Benjamin Graham",
+    "publisher": "HarperCollins",
+    "isbn": "9780061745171",
+    "percent": 0.0968117729393468
+  },
+  "circulation": [
+    {
+      "timestamp": 1605745189000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1605745189000,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1592606977000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

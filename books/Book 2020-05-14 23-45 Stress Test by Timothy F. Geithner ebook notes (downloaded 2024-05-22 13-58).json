@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0111-1/{4224F4B5-84D5-4E61-AB79-9D528E39393F}Img100.jpg",
+      "title": "Stress Test",
+      "color": "#666F6E",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Stress Test",
+      "url": "https://share.libbyapp.com/title/1581622",
+      "titleId": "1581622"
+    },
+    "author": "Timothy F. Geithner",
+    "publisher": "Crown",
+    "isbn": "9780804138604"
+  },
+  "circulation": [
+    {
+      "timestamp": 1589525101000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

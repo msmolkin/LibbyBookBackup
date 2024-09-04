@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/6852-1/{B6B4CC0B-EE9A-4525-BACC-E42BE6D63D5D}IMG100.JPG",
+      "title": "Managing Your Nonprofit for Resilience",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Managing Your Nonprofit for Resilience",
+      "url": "https://share.libbyapp.com/title/9613478",
+      "titleId": "9613478"
+    },
+    "author": "Ted Bilich",
+    "publisher": "G&D Media",
+    "isbn": "9781722552084"
+  },
+  "circulation": [
+    {
+      "timestamp": 1681711682362,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Candid",
+        "url": "https://libbyapp.com/library/candid",
+        "key": "candid"
+      }
+    },
+    {
+      "timestamp": 1681711682000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Candid",
+        "url": "https://libbyapp.com/library/candid",
+        "key": "candid"
+      }
+    }
+  ]
+}

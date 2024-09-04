@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/1486-1/{40FACBE4-2EB7-46A9-8209-2579A785EDB4}Img100.jpg",
+      "title": "What I Learned Losing a Million Dollars",
+      "color": "#FDFCE7",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "What I Learned Losing a Million Dollars",
+      "url": "https://share.libbyapp.com/title/1275972",
+      "titleId": "1275972"
+    },
+    "author": "Jim Paul, Brendan Moynihan",
+    "publisher": "Columbia University Press"
+  },
+  "circulation": [
+    {
+      "timestamp": 1676209667979,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1676209667000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

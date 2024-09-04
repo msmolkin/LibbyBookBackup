@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0111-1/{CEDF8718-044D-4989-B5B1-011C4262C7CA}Img100.jpg",
+      "title": "The Pocket Butler",
+      "color": "#438993",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Pocket Butler",
+      "url": "https://share.libbyapp.com/title/2013297",
+      "titleId": "2013297"
+    },
+    "author": "Charles MacPherson",
+    "publisher": "Appetite by Random House",
+    "isbn": "9780449016817"
+  },
+  "circulation": [
+    {
+      "timestamp": 1653447797000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1648142283000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1644461398000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347435645,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347435000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0293-1/{C70FD0C9-EF7A-482B-8695-441C44CF4362}Img100.jpg",
+      "title": "Excuse Me, But I Was Next...",
+      "color": "#FEFFFF",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Excuse Me, But I Was Next...",
+      "url": "https://share.libbyapp.com/title/211206",
+      "titleId": "211206"
+    },
+    "author": "Peggy Post",
+    "publisher": "HarperCollins"
+  },
+  "circulation": [
+    {
+      "timestamp": 1653207989000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1651245139000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1646631723205,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1646631723000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

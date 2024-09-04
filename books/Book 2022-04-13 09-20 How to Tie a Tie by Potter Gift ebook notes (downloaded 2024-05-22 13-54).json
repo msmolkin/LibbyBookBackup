@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0111-1/{BEA86C81-BEA1-4725-9705-419106390D83}Img100.jpg",
+      "title": "How to Tie a Tie",
+      "color": "#444559",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "How to Tie a Tie",
+      "url": "https://share.libbyapp.com/title/1981150",
+      "titleId": "1981150"
+    },
+    "author": "Potter Gift",
+    "publisher": "Clarkson Potter/Ten Speed",
+    "isbn": "9780804186391"
+  },
+  "circulation": [
+    {
+      "timestamp": 1649866804000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1647096852597,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1647096852000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

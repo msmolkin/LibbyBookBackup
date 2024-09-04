@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/5131-1/{B22C99CD-A3F4-4C57-8416-8D34B788F841}Img100.jpg",
+      "title": "Горе от ума",
+      "color": "#5D3C19",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Горе от ума",
+      "url": "https://share.libbyapp.com/title/1626699",
+      "titleId": "1626699"
+    },
+    "author": "А. С. Грибоедов",
+    "publisher": "Aegitas",
+    "isbn": "9785000640661"
+  },
+  "circulation": [
+    {
+      "timestamp": 1651433380875,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1651433380000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

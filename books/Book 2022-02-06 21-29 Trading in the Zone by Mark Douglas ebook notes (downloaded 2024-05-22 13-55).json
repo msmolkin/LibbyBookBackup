@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1523-1/{4EB603A4-172D-45BB-9D42-877640B54196}Img100.jpg",
+      "title": "Trading in the Zone",
+      "color": "#74644A",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Trading in the Zone",
+      "url": "https://share.libbyapp.com/title/200625",
+      "titleId": "200625"
+    },
+    "author": "Mark Douglas",
+    "publisher": "Penguin Publishing Group",
+    "isbn": "9781440625411"
+  },
+  "circulation": [
+    {
+      "timestamp": 1644211747000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1638918046125,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1638918045000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

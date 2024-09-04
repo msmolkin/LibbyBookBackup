@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/1191-1/{D9065ABE-A818-48E6-ABE1-0F91127395D3}Img100.jpg",
+      "title": "Trading in the Zone",
+      "color": "#2B3654",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Trading in the Zone",
+      "url": "https://share.libbyapp.com/title/3742506",
+      "titleId": "3742506"
+    },
+    "author": "Mark Douglas",
+    "publisher": "Books on Tape",
+    "isbn": "9780525642312",
+    "percent": 1.00000008589514
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1641315474000,
+      "percent": 0.944984956363721,
+      "note": "For the reading exhibit, take a market where you can afford (the margin requirements) to trade 3 contracts/300 shares. And get out based on technical factors (NOT a dollar amount you’re willing to lose [we can align these later])"
+    },
+    {
+      "timestamp": 1641264913000,
+      "percent": 0.819181346024608,
+      "note": "If you believe that every moment is unique, then there’s no reason to be assuming anything whatsoever. So, it becomes very easy to think in probabilities, because you have no reason to know anything, aside from just knowing that one thing might be more likely than another."
+    },
+    {
+      "timestamp": 1641144760000,
+      "percent": 0.624350981387824,
+      "note": "Anything can happen.\nYou don’t need to know what’s going to happen next to make money.\nRandom distribution between wins and losses for any given set of variables that define an edge.\nEdge = higher probability of one thing happening than another [thing happening].\nAnything can happen."
+    },
+    {
+      "timestamp": 1641111121000,
+      "percent": 0.574230985534107,
+      "note": "This. And the counterpoint that was ignored because it’s what the whole section is about: this simply isn’t true. There is ALWAYS a chance that it will reverse."
+    },
+    {
+      "timestamp": 1641110895000,
+      "percent": 0.564296390869775,
+      "note": "If I put on a trade, I define my stop. And I have to believe that it’s possible that I’ll get stopped out. It IS possible."
+    },
+    {
+      "timestamp": 1640314274000,
+      "percent": 0.493617933895054,
+      "note": "You, however, should not act in a similar haphazard, or random, manner. Unfortunately, that is exactly what I have been doing. It’s time to change."
+    },
+    {
+      "timestamp": 1640227666000,
+      "percent": 0.658443198977098,
+      "note": "We can know that we have a plan to take profits if a trade works, or we can know what an edge looks/sounds/feels like, or we can know how much to risk. But we can’t think we *know* what the market is going to do."
+    },
+    {
+      "timestamp": 1640019366000,
+      "percent": 0.460265421767649,
+      "note": "Defines “the zone”: a strong, virtually unshakable belief that anything can happen"
+    },
+    {
+      "timestamp": 1639301117000,
+      "percent": 0.119059224683356,
+      "note": "RELISTEN to chapters one and two"
+    },
+    {
+      "timestamp": 1639248614000,
+      "percent": 0.0796444038615618,
+      "note": "I really should go on Mivsoyim for this very reason. Learn to accept risk and rejection and loss."
+    },
+    {
+      "timestamp": 1639248593000,
+      "percent": 0.0787680315375986,
+      "note": "Michael Yaroslavsky would make a great trader for this reason."
+    },
+    {
+      "timestamp": 1639248135000,
+      "percent": 0.0669404978004882,
+      "note": "Winners have developed a mindset, a set of attitudes, that allows them to remain calm, focused, confident, in spite of the adverse conditions"
+    },
+    {
+      "timestamp": 1639247914000,
+      "percent": 0.0584743122552538,
+      "note": "Good traders can find the money to take it at will. Kind of like Jim Rogers’s quote"
+    },
+    {
+      "timestamp": 1639247382000,
+      "percent": 0.0417491243556724,
+      "note": "Fundamental analysis doesn’t take emotions into account."
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1643387224000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1637952923468,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1637952923000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

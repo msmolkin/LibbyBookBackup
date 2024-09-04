@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/2281-1/{E72C07F0-249C-48BE-A31A-D3687FE27EA4}IMG100.JPG",
+      "title": "A Joosr Guide to... Business Adventures by John Brooks: Twelve Classic Tales from the World of Wall Street",
+      "color": "#05576F",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "A Joosr Guide to... Business Adventures by John Brooks: Twelve Classic Tales from the World of Wall Street",
+      "url": "https://share.libbyapp.com/title/2228984",
+      "titleId": "2228984"
+    },
+    "author": "",
+    "publisher": "Lasting Leaps Limited",
+    "isbn": "9781785670404",
+    "percent": 0.855263157894737
+  },
+  "highlights": [
+    {
+      "timestamp": 1601687504000,
+      "chapter": "People are emotional, and that can cause things to go crazy in seconds",
+      "percent": 0.684281052631579,
+      "color": "#FFE0EC",
+      "quote": "things rationally, it’s possible the market could have evened back out in a matter of hours",
+      "note": "So you’re saying that it was natural for the market to keep going up? But that makes sense. We’ve been developing things at an incredible rate compared to humanity for thousands of years. I don’t see any reason for this exponential growth in science (knowledge) and innovation to slow down before 2050"
+    },
+    {
+      "timestamp": 1601516165000,
+      "chapter": "Many businesses act unethically and make plans to get away with it",
+      "percent": 0.605333684210526,
+      "color": "#FFB",
+      "quote": "shining example in the business world",
+      "note": "E.G. six sigma"
+    },
+    {
+      "timestamp": 1601422698000,
+      "chapter": "Many businesses act unethically and make plans to get away with it",
+      "percent": 0.579017368421053,
+      "color": "#FFE0EC",
+      "quote": "Dishonest practices like this got many workers into trouble, even though they were simply following orders from their superiors",
+      "note": "So do you follow bad orders, or do you get fired?"
+    },
+    {
+      "timestamp": 1601400629000,
+      "chapter": "Sometimes businesses act for the greater good to fight greed",
+      "percent": 0.421122631578947,
+      "color": "#FFB",
+      "quote": "He became a corporate advisor and traded in stocks with great success",
+      "note": "I.E. he had the right connections to make prosperous options trades"
+    },
+    {
+      "timestamp": 1601400629000,
+      "chapter": "Sometimes businesses act for the greater good to fight greed",
+      "percent": 0.421122631578947,
+      "color": "#FFB",
+      "quote": "When he retired"
+    },
+    {
+      "timestamp": 1601182492000,
+      "chapter": "When greed goes too far, the law makes an example of the offenders",
+      "percent": 0.263227894736842,
+      "color": "#FFE0EC",
+      "quote": "your own company",
+      "note": "As long as the tippee knows that the information was obtained in breach of fiduciary duties, it’s insider trading even if done with another company’s stock"
+    },
+    {
+      "timestamp": 1601182428000,
+      "chapter": "When greed goes too far, the law makes an example of the offenders",
+      "percent": 0.236912368421053,
+      "color": "#FFB",
+      "quote": "Texas Gulf Sulphur (TGS)"
+    },
+    {
+      "timestamp": 1601182370000,
+      "chapter": "America’s unbalanced tax system allows greed to rule supreme",
+      "percent": 0.210596842105263,
+      "color": "#FFE0EC",
+      "quote": "well-intentioned",
+      "note": "*most well-intentioned"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1600153954000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1600153954000,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1589527530000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

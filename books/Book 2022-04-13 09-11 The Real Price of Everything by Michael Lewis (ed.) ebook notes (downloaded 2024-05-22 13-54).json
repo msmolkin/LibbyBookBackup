@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/2363-1/{15B8A7FA-444A-48DD-874B-3B61EDCC3C71}IMG100.JPG",
+      "title": "The Real Price of Everything",
+      "color": "#F6F6F6",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Real Price of Everything",
+      "url": "https://share.libbyapp.com/title/847984",
+      "titleId": "847984"
+    },
+    "author": "Michael Lewis (ed.)",
+    "publisher": "Union Square & Co.",
+    "isbn": "9781402792182",
+    "percent": 0.00013196093956189
+  },
+  "circulation": [
+    {
+      "timestamp": 1649866284000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1644461531000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347738904,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347738000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/6578-1/{3F9300E1-725F-4CDB-8775-8E60799513E4}Img100.jpg",
+      "title": "How to Stop Worrying and Start Living",
+      "color": "#DFDBDA",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "How to Stop Worrying and Start Living",
+      "url": "https://share.libbyapp.com/title/2995533",
+      "titleId": "2995533"
+    },
+    "author": "Dale Carnegie",
+    "publisher": "AB Publishing",
+    "isbn": "9781518934759"
+  },
+  "circulation": [
+    {
+      "timestamp": 1659807319982,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1659807319000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

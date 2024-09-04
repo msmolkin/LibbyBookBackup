@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0111-1/{73246FD4-A63B-44B6-A96E-71DE2CB370BF}Img100.jpg",
+      "title": "Man's Search for Meaning",
+      "color": "#72939C",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Man's Search for Meaning",
+      "url": "https://share.libbyapp.com/title/2408861",
+      "titleId": "2408861"
+    },
+    "author": "Viktor E. Frankl",
+    "publisher": "Beacon Press",
+    "isbn": "9780807060117"
+  },
+  "circulation": [
+    {
+      "timestamp": 1668617505309,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1668617504000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0556-1/{322CB974-6A65-42D7-B464-0B87ACA0E166}Img100.jpg",
+      "title": "Learn in Your Car Russian Complete",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Learn in Your Car Russian Complete",
+      "url": "https://share.libbyapp.com/title/63459",
+      "titleId": "63459"
+    },
+    "author": "Henry N. Raymond",
+    "publisher": "Penton Overseas, Inc."
+  },
+  "circulation": [
+    {
+      "timestamp": 1653146652696,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1653146652000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

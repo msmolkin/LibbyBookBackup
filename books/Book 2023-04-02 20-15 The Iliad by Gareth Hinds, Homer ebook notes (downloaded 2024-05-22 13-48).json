@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/6894-1/{E0B968B6-4F0E-4B11-91B6-F49E15BF7F47}Img100.jpg",
+      "title": "The Iliad",
+      "color": "#B9D4F2",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Iliad",
+      "url": "https://share.libbyapp.com/title/4588645",
+      "titleId": "4588645"
+    },
+    "author": "Gareth Hinds, Homer",
+    "publisher": "Gareth Hinds",
+    "isbn": "9781893131620"
+  },
+  "circulation": [
+    {
+      "timestamp": 1680491734751,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    },
+    {
+      "timestamp": 1680491734000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

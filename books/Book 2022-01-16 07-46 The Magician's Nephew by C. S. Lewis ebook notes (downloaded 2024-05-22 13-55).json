@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0293-1/{04E7F4B6-0439-4992-92F2-B3CE52FD2E74}Img100.jpg",
+      "title": "The Magician's Nephew",
+      "color": "#1B2A23",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Magician's Nephew",
+      "url": "https://share.libbyapp.com/title/191539",
+      "titleId": "191539"
+    },
+    "author": "C. S. Lewis",
+    "publisher": "HarperCollins",
+    "isbn": "9780061974168"
+  },
+  "circulation": [
+    {
+      "timestamp": 1642347968523,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1642347968000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

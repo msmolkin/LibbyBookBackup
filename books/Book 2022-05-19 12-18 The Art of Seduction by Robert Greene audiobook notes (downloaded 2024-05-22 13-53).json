@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/1294-1/{1B441658-AB15-4062-B199-87E4A702DAE7}Img100.jpg",
+      "title": "The Art of Seduction",
+      "color": "#FFFFFF",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Art of Seduction",
+      "url": "https://share.libbyapp.com/title/2201199",
+      "titleId": "2201199"
+    },
+    "author": "Robert Greene",
+    "publisher": "HighBridge",
+    "isbn": "9781622318667",
+    "percent": 0
+  },
+  "circulation": [
+    {
+      "timestamp": 1652987936000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1647978684764,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1647978684000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    }
+  ]
+}

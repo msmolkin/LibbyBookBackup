@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0128-1/{4F6AE596-797D-406A-BC19-FF1135F707C3}Img100.jpg",
+      "title": "Stock Market Wizards",
+      "color": "#000000",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Stock Market Wizards",
+      "url": "https://share.libbyapp.com/title/1130176",
+      "titleId": "1130176"
+    },
+    "author": "Jack D. Schwager",
+    "publisher": "Wiley"
+  },
+  "circulation": [
+    {
+      "timestamp": 1642135349000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1634499835565,
+      "activity": "Tagged",
+      "details": "Trading 📚",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1634499758138,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1634499757000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

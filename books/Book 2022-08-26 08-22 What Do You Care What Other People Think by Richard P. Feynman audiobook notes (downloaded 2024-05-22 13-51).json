@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/0887-1/{7D62BC4F-F4CE-4827-83AF-31BD6AEB99D7}Img100.jpg",
+      "title": "\"What Do You Care What Other People Think?\"",
+      "color": "#7C0003",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "\"What Do You Care What Other People Think?\"",
+      "url": "https://share.libbyapp.com/title/86234",
+      "titleId": "86234"
+    },
+    "author": "Richard P. Feynman",
+    "publisher": "Blackstone Publishing",
+    "isbn": "9781482171846",
+    "percent": 0.99999996649191
+  },
+  "bookmarks": [
+    {
+      "timestamp": 1669677771000,
+      "percent": 0.99445618142866,
+      "note": "This is the essential difference between Judaism is that we are going further away from the source, and evolution, which says that we are becoming more and more advanced. That's why Jewish thought is that the stages are wiser than we are, and science argues that we should follow the scientific method of curiosity before we make decisions"
+    },
+    {
+      "timestamp": 1669592626000,
+      "percent": 0.846648466375204,
+      "note": "This is something that I didn't understand either and I also hated [it, like Feynman did]. Everyone except scientists lies"
+    },
+    {
+      "timestamp": 1669591989000,
+      "percent": 0.840272323599242,
+      "note": "\"The people, in a big system like NASA, know what they have to do without being told.\" Basically, everyone must understand ~~the \"under-the-table\" talk~~ how to \"read between the lines,\" like Mom wanted me to learn. [But she didn't help push me towards learning, instead assuming that I would figure it out myself.]"
+    },
+    {
+      "timestamp": 1669586495000,
+      "percent": 0.750984164718846,
+      "note": "“There was no secretary, so I couldn’t work fast.” A wife/girlfriend/someone who can act as a secretary is vital."
+    },
+    {
+      "timestamp": 1669582539000,
+      "percent": 0.690629303433543,
+      "note": "“It won’t take so long. I’m always a bit slow at the beginning. It takes me a while to catch on. We’ll be able to go much faster near the end.“"
+    },
+    {
+      "timestamp": 1668114582000,
+      "percent": 0.337113680691413,
+      "note": "#Lesson: Take off your glove before offering your hand someone to shake"
+    },
+    {
+      "timestamp": 1668113250000,
+      "percent": 0.285539815471506,
+      "note": "Lol. Investigating. Figuring out who Herman is"
+    },
+    {
+      "timestamp": 1668112435000,
+      "percent": 0.252953242503884,
+      "note": "“I told him that betting on the horses was a bad idea, but he insisted it was the only way”"
+    },
+    {
+      "timestamp": 1668108809000,
+      "percent": 0.0503664123616706,
+      "note": "So what Feynman learned from his mom are the principles between male-female communication: make her laugh, and have compassion. [Not bad. Not much, but it’s sufficient.]"
+    }
+  ],
+  "circulation": [
+    {
+      "timestamp": 1661527326300,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1661527325000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

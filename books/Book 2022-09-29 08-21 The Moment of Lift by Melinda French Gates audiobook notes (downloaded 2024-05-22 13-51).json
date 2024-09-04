@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/1493-1/{2317B9BC-0975-4086-9B41-648C15D5B6AE}Img100.jpg",
+      "title": "The Moment of Lift",
+      "color": "#3D9EC9",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "The Moment of Lift",
+      "url": "https://share.libbyapp.com/title/4195377",
+      "titleId": "4195377"
+    },
+    "author": "Melinda French Gates",
+    "publisher": "Macmillan Audio",
+    "isbn": "9781250317049"
+  },
+  "circulation": [
+    {
+      "timestamp": 1664464905035,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Candid",
+        "url": "https://libbyapp.com/library/candid",
+        "key": "candid"
+      }
+    },
+    {
+      "timestamp": 1664464902000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Candid",
+        "url": "https://libbyapp.com/library/candid",
+        "key": "candid"
+      }
+    }
+  ]
+}

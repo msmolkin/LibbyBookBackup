@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0887-1/{AD890FD5-5A7E-4349-9CBD-CE847202741A}IMG100.JPG",
+      "title": "Moby Dick",
+      "color": "#32322A",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Moby Dick",
+      "url": "https://share.libbyapp.com/title/74599",
+      "titleId": "74599"
+    },
+    "author": "Herman Melville",
+    "publisher": "Blackstone Publishing",
+    "isbn": "9781483089744"
+  },
+  "circulation": [
+    {
+      "timestamp": 1653426817192,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1653426817000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

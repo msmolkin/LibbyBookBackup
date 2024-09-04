@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/1191-1/{B4F4ACDB-0F9F-4DC1-81C8-C2190EFEABA8}Img100.jpg",
+      "title": "Lake Success",
+      "color": "#DDDDDD",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Lake Success",
+      "url": "https://share.libbyapp.com/title/3531765",
+      "titleId": "3531765"
+    },
+    "author": "Gary Shteyngart",
+    "publisher": "Books on Tape",
+    "isbn": "9781101923139",
+    "percent": 0.222353231727427
+  },
+  "circulation": [
+    {
+      "timestamp": 1589499144000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Contra Costa County Library",
+        "url": "https://libbyapp.com/library/ccc",
+        "key": "ccc"
+      }
+    }
+  ]
+}

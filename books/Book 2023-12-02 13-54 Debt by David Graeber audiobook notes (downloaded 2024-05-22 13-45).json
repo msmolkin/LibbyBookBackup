@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img2.od-cdn.com/ImageType-100/0887-1/{4CB0B28E-1AA7-4D36-8FE8-5DE9230B6E08}Img100.jpg",
+      "title": "Debt",
+      "color": "#EE2D24",
+      "format": "audiobook"
+    },
+    "title": {
+      "text": "Debt",
+      "url": "https://share.libbyapp.com/title/720605",
+      "titleId": "720605"
+    },
+    "author": "David Graeber",
+    "publisher": "Gildan Media Corp"
+  },
+  "circulation": [
+    {
+      "timestamp": 1701554053347,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "Brooklyn Public Library",
+        "url": "https://libbyapp.com/library/brooklyn",
+        "key": "brooklyn"
+      }
+    },
+    {
+      "timestamp": 1701554047560,
+      "activity": "Placed on hold",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img3.od-cdn.com/ImageType-100/0128-1/{306A88B0-EF45-4B57-BD24-BC4611BDE6D6}Img100.jpg",
+      "title": "The Law of Tax-Exempt Organizations",
+      "color": "#231F20",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "The Law of Tax-Exempt Organizations",
+      "url": "https://share.libbyapp.com/title/4281139",
+      "titleId": "4281139"
+    },
+    "author": "Bruce R. Hopkins",
+    "publisher": "Wiley",
+    "isbn": "9781119538011"
+  },
+  "circulation": [
+    {
+      "timestamp": 1665468627454,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "Candid",
+        "url": "https://libbyapp.com/library/candid",
+        "key": "candid"
+      }
+    },
+    {
+      "timestamp": 1665468627000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "Candid",
+        "url": "https://libbyapp.com/library/candid",
+        "key": "candid"
+      }
+    }
+  ]
+}

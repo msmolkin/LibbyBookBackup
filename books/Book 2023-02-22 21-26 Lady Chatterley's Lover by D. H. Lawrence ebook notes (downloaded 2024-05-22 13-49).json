@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "readingJourney": {
+    "cover": {
+      "contentType": "image/jpeg",
+      "url": "https://img1.od-cdn.com/ImageType-100/2574-1/{388DCAE4-817B-4662-87B3-F1CE50D1C01D}IMG100.JPG",
+      "title": "Lady Chatterley's Lover",
+      "color": "#D5D4DA",
+      "format": "ebook"
+    },
+    "title": {
+      "text": "Lady Chatterley's Lover",
+      "url": "https://share.libbyapp.com/title/920211",
+      "titleId": "920211"
+    },
+    "author": "D. H. Lawrence",
+    "publisher": "Max Bollinger",
+    "isbn": "9781907832208"
+  },
+  "circulation": [
+    {
+      "timestamp": 1677129963790,
+      "activity": "Tagged",
+      "details": "🧾",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    },
+    {
+      "timestamp": 1677129963000,
+      "activity": "Borrowed",
+      "library": {
+        "text": "San Francisco Public Library",
+        "url": "https://libbyapp.com/library/sfpl",
+        "key": "sfpl"
+      }
+    }
+  ]
+}
